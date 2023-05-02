@@ -2446,7 +2446,6 @@
 		
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5"										"Blades of Unity"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5_Description"							"<h1>Passive: Guardian's Fury</h1>When you take damage, you gain a stack of Fury. Fury stacks increases your spell damage by %spell_amp_stacks%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of Fury and if you do not take damage for %buffer_duration% seconds, you start losing Fury stacks respectively.<br>All stacks are lost after %loss_timer% seconds.\n\n<h1>Passive: Shroud</h1> Restores mana equal to %mana_restore_pct%%% of incoming enemy spell damage.\n\n<h1>Passive: Combo Breaker</h1> When you take damage and your health falls below %health_threshold_pct%%%, a strong dispel is applied and you gain a %buff_duration% second buff that provides Spell Immunity and causes all damage you are dealt to be reduced to zero. Has a %cooldown_duration% internal cooldown.<br/><br/>Dispel Type: <span class=\'GameplayValues GameplayVariable\'>Strong Dispel</span>"
-		"DOTA_Tooltip_ability_item_kaya_and_sange_5_Description"							"<h1>Passive: Guardian's Fury</h1>When you take damage, you gain a stack of Fury. Fury stacks increases your spell damage by %spell_amp_stacks%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of Fury and if you do not take damage for %buffer_duration% seconds, you start losing Fury stacks respectively.<br>All stacks are lost after %loss_timer% seconds.\n\n<h1>Passive: Shroud</h1> Restores mana equal to %mana_restore_pct%%% of incoming enemy spell damage.\n\n<h1>Passive: Combo Breaker</h1> When you take damage and your health falls below %health_threshold_pct%%%, a strong dispel is applied and you gain a %buff_duration% second buff that provides Spell Immunity and causes all damage you are dealt to be reduced to zero. Has a %cooldown_duration% internal cooldown.<br/><br/>Dispel Type: <span class=\'GameplayValues GameplayVariable\'>Strong Dispel</span>"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5_Lore"									"Two of three known items of unimaginable power that many believe were crafted at the same enchanter's forge."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5_bonus_strength"							"+$str"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5_bonus_intellect"						"+$int"
@@ -2673,8 +2672,6 @@
 		"DOTA_Tooltip_ability_item_berserker_face_4_bonus_health_regen"						"+$hp_regen"
 		"DOTA_Tooltip_ability_item_berserker_face_4_bonus_armor"							"+$armor"
 		"DOTA_Tooltip_ability_item_berserker_face_4_bonus_attack_speed"						"+$attack"
-		
-		// ITEMS - Octarine Core
 		
 		// ITEMS - Octarine Core
 		"DOTA_Tooltip_ability_item_hourglass_shard"											"Hourglass Fragment"
