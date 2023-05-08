@@ -3221,12 +3221,12 @@
 		"DOTA_Tooltip_ability_spectre_ebf_haunt_duration"								"DURATION:"
 
 		"DOTA_Tooltip_ability_wisp_sacrifice"												"Sacrifice"
-		"DOTA_Tooltip_ability_wisp_sacrifice_Description"									"Wisp sacrifices his abilities and life force to make his allies invulnerable. Wisp is disarmed, silenced, muted and slowed, while losing a percentage of his maximum health over the duration and being prevented from healing.\nIf Wisp stays alive for the entire duration, his allies are restored to life."
+		"DOTA_Tooltip_ability_wisp_sacrifice_Description"									"Wisp sacrifices their life force to strengthen their allies. Wisp Tethers all their allies while losing a percentage of their maximum health and mana over the duration.\nFor the duration, their allies receive the health and mana lost by Wisp, increased by Tether's restoration bonus. If Wisp uses Overcharge during Sacrifice, all allies benefit from it."
 		"DOTA_Tooltip_ability_wisp_sacrifice_invul_duration"								"DURATION:"
 		"DOTA_Tooltip_ability_wisp_sacrifice_sacrifice_hp"									"%MAX HEALTH SACRIFICED:"
 		
 		"DOTA_Tooltip_modifier_wisp_sacrifice_invulnerability"								"Sacrifice - Buff"
-		"DOTA_Tooltip_modifier_wisp_sacrifice_invulnerability_Description"					"Spell Immune and taking no damage."
+		"DOTA_Tooltip_modifier_wisp_sacrifice_invulnerability_Description"					"Restoring health and mana thanks to Wisp."
 		
 		"DOTA_Tooltip_modifier_wisp_sacrifice_sacrifice"									"Sacrifice - Debuff"
 		"DOTA_Tooltip_modifier_wisp_sacrifice_sacrifice_Description"						"Losing health, slowed, muted, silenced, disarmed. Allies are resurrected if you survive."
@@ -3429,6 +3429,9 @@
 		"DOTA_Tooltip_ability_axe_berserkers_call_Description"					"Axe gains bonus armor for a duration, taunting enemy units that get close to him, forcing them to attack him. Does not prevent them from casting spells."
 		"DOTA_Tooltip_ability_axe_berserkers_call_abilitycooldown"				"COOLDOWN:"
 		
+		"DOTA_Tooltip_ability_axe_counter_helix_Description"					"After a set number of attacks, Axe will perform a helix counter attack, dealing pure damage to all nearby enemies.\nAttacks from hero-type units count as %hero_trigger% attacks."
+		"DOTA_Tooltip_ability_axe_counter_helix_shard_description"				"Counter Helix now applies a stacking debuff to enemies hit by it that causes them to deal less total attack damage to Axe. Counter Helix attacks to trigger reduced."
+		
 		"DOTA_Tooltip_ability_axe_culling_blade_Description"					"Axe spots a weakness and strikes, dealing pure damage. When an enemy hero is killed with Culling Blade or within %grace_period% of it landing, its cooldown is reduced by %hero_cd_reduction%%%, Axe gains bonus armor permanently and all nearby allied units gain bonus movement speed.\nCooldown is not reduced when a creep is killed."
 		
 		"DOTA_Tooltip_modifier_axe_culling_blade_kill"							"Culling Blade - Speed"
@@ -3440,6 +3443,8 @@
 		"DOTA_Tooltip_modifier_axe_culling_blade_grace_period"					"Culling Blade - Grace Period"
 		"DOTA_Tooltip_modifier_axe_culling_blade_grace_period_Description"		"Unit provides Culling Blade's benefits on death."
 		
+		"DOTA_Tooltip_ability_special_bonus_unique_axe_4"						"+{s:bonus_damage}% Counter Helix Damage"
+		
 		"DOTA_Tooltip_ability_phoenix_sun_ray_shard_description"				"Sun Ray slows for %shard_move_slow_pct%%% and all healing and damage is increased by %shard_move_slow_pct%%%"
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_pudge_7"						"+{s:bonus_damage}% Meat Hook Damage"
@@ -3450,7 +3455,7 @@
 		"DOTA_Tooltip_ability_pudge_rot_rot_str_damage"							"%STRENGTH TO BONUS DAMAGE:"
 		"DOTA_Tooltip_ability_pudge_rot_scepter_bonus_enemy_damage"				"%INCREASED ENEMY DAMAGE:"
 		
-		"DOTA_Tooltip_ability_pudge_flesh_heap_Description"						"Gives Pudge a guaranteed damage block against all types of damage. Passively grants bonus strength that increases each time Pudge kills an enemy unit or it dies in his vicinity.\nFlesh Heap's stacks increase by %hero_stacks% when a creep-hero is killed and by %creep_stacks% otherwise.\nFlesh Heap is retroactive, meaning it can gain charges before it is skilled, which then become active."
+		"DOTA_Tooltip_ability_pudge_flesh_heap_Description"						"Gives Pudge a guaranteed damage block against all types of damage. Passively grants bonus strength that increases each time Pudge kills an enemy unit or it dies in his vicinity.\nFlesh Heap's stacks increase by %hero_stacks% when a creep-hero is killed and by %creep_stacks% otherwise.\nSummoned units, such as Illusions and units created by abilities, give temporary stacks of Flesh Heap, which disappear after %temporary_duration% seconds.\nFlesh Heap is retroactive, meaning it can gain charges before it is skilled, which then become active."
 		"DOTA_Tooltip_ability_pudge_flesh_heap_Note0"							"Flesh Heap's damage block is applied after all forms of reduction, including other sources of damage block."
 		"DOTA_Tooltip_modifier_pudge_flesh_heap_kills"							"Flesh Heap - Kills"
 		"DOTA_Tooltip_modifier_pudge_flesh_heap_kills_Description"				"Gaining %fMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% strength."
@@ -3637,6 +3642,10 @@
 		"DOTA_Tooltip_modifier_doom_bringer_devour_eating"						"Devour - Eating"
 		"DOTA_Tooltip_modifier_doom_bringer_devour_eating_Description"			"Gaining armor while digesting and bonus gold when this expires successfully."
 		
+		"DOTA_Tooltip_ability_doom_bringer_infernal_blade_shard_description"	"Infernal Blade now affects all enemies in a %shard_radius% radius."
+		"DOTA_Tooltip_ability_doom_bringer_infernal_blade_shard_radius"			"SHARD EFFECT RADIUS:"
+		"DOTA_Tooltip_ability_doom_bringer_infernal_blade_Note1"				"The maximum health damage is not affected by spell amplification."
+		
 		"DOTA_Tooltip_ability_necrolyte_death_pulse_damage"						"DAMAGE:"
 		"DOTA_Tooltip_modifier_necrolyte_death_seeker_debuff"					"Death Seeker"
 		"DOTA_Tooltip_modifier_necrolyte_death_seeker_debuff_Description"		"Disarmed and taking more magic damage"
@@ -3717,8 +3726,59 @@
 		"DOTA_Tooltip_ability_special_bonus_unique_snapfire_mortimer_kisses_impact_damage"	"+{s:bonus_damage_per_impact}% Mortimer Kisses Damage"
 		"DOTA_Tooltip_ability_special_bonus_unique_snapfire_lil_shredder_damage"	"+{s:bonus_damage}% Lil' Shredder Damage"
 		
-		
 		"DOTA_Tooltip_ability_techies_suicide_abilitycastpoint"					"CAST POINT:"
+		
+		"DOTA_Tooltip_modifier_ogre_magi_bloodlust_buff"						"Bloodlust - Buff"
+		"DOTA_Tooltip_modifier_ogre_magi_bloodlust_buff_Description"			"Attack speed increased by %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT% and movement speed increased by %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%"
+		
+		"DOTA_Tooltip_modifier_ogre_magi_smash_shield"							"Fire Shield"
+		"DOTA_Tooltip_modifier_ogre_magi_smash_shield_Description"				"Taking reduced physical damage, fireballs are sent to your attackers."
+		
+		"DOTA_Tooltip_ability_ogre_magi_dumb_luck_description"					"Ogre Magi's max Intelligence is 0. He receives mana, mana regeneration and spell amplification from Strength. Increases Multicast chance by %multicast_per_str%%% diminishingly for every %str_for_benefit% Strength Ogre Magi has."
+		"DOTA_Tooltip_ability_ogre_magi_dumb_luck_mana_per_str"					"MAX MANA PER STRENGTH:"
+		"DOTA_Tooltip_ability_ogre_magi_dumb_luck_mana_regen_per_str"			"MANA REGENERATION PER STRENGTH:"
+		"DOTA_Tooltip_ability_ogre_magi_dumb_luck_spell_amp_per_str"			"%SPELL AMPLIFICATION PER STRENGTH:"
+		
+		"DOTA_Tooltip_ability_ogre_magi_multicast_Note1"						"Abilities will be cast multiple times on random targets. The Multicast targeting targets the same team as the original target. Can hit the same target multiple times."
+		"DOTA_Tooltip_ability_ogre_magi_multicast_multicast_delay"				"MULTICAST DELAY:"
+		"DOTA_Tooltip_ability_ogre_magi_multicast_multicast_buffer_range"		"MULTICAST BONUS SEARCH RANGE:"
+		
+		"DOTA_Tooltip_ability_special_bonus_unique_ogre_magi_2"					"+{s:value}% Fireblast Damage"
+		
+		"DOTA_Tooltip_ability_omniknight_purification_damage"					"DAMAGE:"
+		"DOTA_Tooltip_ability_omniknight_purification_heal"						"HEAL"
+		"DOTA_Tooltip_ability_special_bonus_unique_omniknight_1"				"+{s:value}% Purification Damage/Heal"
+		
+		"DOTA_Tooltip_ability_visage_soul_assumption_Description"				"Visage gathers charges of soul essence every time he attacks %attacks_per_stack% times or casts one of his spells. When the essence is released, it deals base damage as well as damage for each gathered soul charge."
+		"DOTA_Tooltip_ability_special_bonus_unique_visage_4"					"+{s:value}% Soul Assumption Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_visage_3"					"Soul Assumption Hits +{s:bonus_targets} Targets"
+		
+		"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_handle"				"Gravekeeper's Cloak"
+		"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_handle_Description"	"Taking %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%% less damage from all sources"
+		
+		"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_aura"					"Gravekeeper's Cloak"
+		"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_aura_Description"		"Taking %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%% less damage from all sources"
+		
+		"DOTA_Tooltip_ability_special_bonus_unique_bounty_hunter_2"				"+{s:bonus_bonus_damage}% Shuriken Toss Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_bounty_hunter_4"				"+{s:bonus_bonus_damage}% Jinada Damage"
+		
+		"DOTA_Tooltip_ability_silencer_glaives_of_wisdom_Description"			"Silencer enchants his glaives with his wisdom, dealing additional damage based on his Intelligence. Silencer temporarily gain Intelligence with each hit. If Silencer kills an enemy hero, he permanently gains Intelligence."
+		"DOTA_Tooltip_ability_silencer_glaives_of_wisdom_shard_description"		"Every %stacks_for_silence% attacks, Glaives silence the enemy hit for %silence_duration% seconds. Additionally, it increases the Intelligence stolen per attack and per kill."
+		"DOTA_Tooltip_ability_silencer_glaives_of_wisdom_int_steal"				"INTELLIGENCE/ATTACK:"
+		"DOTA_Tooltip_ability_silencer_glaives_of_wisdom_permanent_int_steal_amount"	"INTELLIGENCE/KILL:"
+		
+		"DOTA_Tooltip_modifier_silencer_glaives_of_wisdom_autocast"				"Glaives of Wisdom - Permanent Intelligence"
+		"DOTA_Tooltip_modifier_silencer_glaives_of_wisdom_autocast_Description"	"Gaining %dMODIFIER_PROPERTY_STATS_INTELLECT_BONUS% permanent Intelligence."
+		"DOTA_Tooltip_modifier_silencer_glaives_of_wisdom_shard"				"Glaives of Wisdom - Attacks For Silence"
+		"DOTA_Tooltip_modifier_silencer_glaives_of_wisdom_shard_Description"	"Silenced after a number of attacks."
+		"DOTA_Tooltip_modifier_silencer_glaives_of_wisdom_intellect_bonus"				"Glaives of Wisdom - Temporary Intelligence"
+		"DOTA_Tooltip_modifier_silencer_glaives_of_wisdom_intellect_bonus_Description"	"Gaining %dMODIFIER_PROPERTY_STATS_INTELLECT_BONUS% temporary Intelligence."
+		
+		"DOTA_Tooltip_ability_lone_druid_synergy"								"Synergy"
+		"DOTA_Tooltip_ability_lone_druid_synergy_Description"					"Lone Druid and his Spirit Bear gain bonus health and attack damage.\nAdditionally, the Spirit Bear benefits from Lone Druid's attributes as if they were his own.\nLastly, this ability can be toggled. While Lone Druid and his Spirit Bear are both alive, they share damage taken with each other. The damage taken is relative to the maximum health pools. Whoever's maximum health is higher takes the most relative damage."
+		"DOTA_Tooltip_ability_lone_druid_synergy_bonus_attack_damage"			"BONUS ATTACK DAMAGE:"
+		"DOTA_Tooltip_ability_lone_druid_synergy_bonus_max_health"				"BONUS MAX HEALTH:"
+		"DOTA_Tooltip_ability_lone_druid_synergy_stat_share_pct"				"%STAT SHARE:"
 		
 		// NEUTRALS
 		"DOTA_Tooltip_Ability_item_eye_of_the_vizier_mana_reduction_pct"		"%+Max Mana"
