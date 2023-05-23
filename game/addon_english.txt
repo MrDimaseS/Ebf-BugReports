@@ -613,7 +613,7 @@
 		"npc_dota_boss_axe_minion"														"Crimson Gremlin"
 		
 		"DOTA_Tooltip_ability_boss_axe_berserkers_call"									"Berserker's Call"
-		"DOTA_Tooltip_ability_boss_axe_berserkers_call_Description"						"boss_axe taunts nearby enemy units, forcing them to attack him, while he gains bonus armor during the duration."
+		"DOTA_Tooltip_ability_boss_axe_berserkers_call_Description"						"The Crimson Reaver shouts a crippling roar, affecting all units with Battle Hunger for a shorter duration."
 		"DOTA_Tooltip_ability_boss_axe_berserkers_call_scepter_description"  			"Berserker's Call applies Battle Hunger to affected units. Reduces Berserker's Call cooldown."
 		"DOTA_Tooltip_ability_boss_axe_berserkers_call_Lore"							"Mogul Khan's warcry taunts opponents into engaging in an unconquerable battle with the boss_axe."
 		"DOTA_Tooltip_ability_boss_axe_berserkers_call_radius"							"RADIUS:"
@@ -622,7 +622,7 @@
 		"DOTA_Tooltip_ability_boss_axe_berserkers_call_scepter_cooldown_reduction"		"COOLDOWN REDUCTION:"
 		
 		"DOTA_Tooltip_ability_boss_axe_battle_hunger"									"Battle Hunger"
-		"DOTA_Tooltip_ability_boss_axe_battle_hunger_Description"						"Enrages an enemy unit, causing it to be slowed, lose armor and take damage over time until it the duration ends. The damage is increased by a factor of boss_axe's armor. Mogul Khan gains movement speed and armor for each unit affected."
+		"DOTA_Tooltip_ability_boss_axe_battle_hunger_Description"						"Enrages an enemy unit, causing it to be slowed, lose armor and take damage over time until it the duration ends. The damage is increased by a factor of the Crimson Reaver's armor. Crimson Reaver gains movement speed and armor for each unit affected."
 		"DOTA_Tooltip_ability_boss_axe_battle_hunger_Note0"								"Destroying buildings will also remove the debuff."
 		"DOTA_Tooltip_ability_boss_axe_battle_hunger_Lore"								"Ordinary heroes cannot withstand Mogul Khan's rage for battle, such that it injures them until it is satisfied."
 		"DOTA_Tooltip_ability_boss_axe_battle_hunger_duration"							"DURATION:"
@@ -640,7 +640,7 @@
 		"DOTA_Tooltip_modifier_boss_axe_battle_hunger_Description"						"Taking damage, losing armor, slowed."
 		
 		"DOTA_Tooltip_ability_boss_axe_counter_helix"									"Counter Helix"
-		"DOTA_Tooltip_ability_boss_axe_counter_helix_Description"						"After a set number of attacks, boss_axe will perform a helix counter attack, dealing pure damage to all nearby enemies."
+		"DOTA_Tooltip_ability_boss_axe_counter_helix_Description"						"After a set number of attacks, Crimson Reaver will perform a helix counter attack, dealing pure damage to all nearby enemies.\nIllusions and creeps count for less."
 		"DOTA_Tooltip_ability_boss_axe_counter_helix_shard_description"					"Counter Helix now applies a stacking debuff to enemies hit by it that causes them to deal less total attack damage to boss_axe. Counter Helix no longer has a cooldown."
 		"DOTA_Tooltip_ability_boss_axe_counter_helix_shard_debuff_duration"				"DEBUFF DURATION:"
 		"DOTA_Tooltip_ability_boss_axe_counter_helix_shard_damage_reduction"			"%ATTACK REDUCTION:"
@@ -650,6 +650,9 @@
 		"DOTA_Tooltip_ability_boss_axe_counter_helix_damage"							"DAMAGE:"
 		"DOTA_Tooltip_ability_boss_axe_counter_helix_radius"							"RADIUS:"
 		"DOTA_Tooltip_ability_boss_axe_counter_helix_trigger_attacks"					"ATTACKS TO HELIX:"
+		
+		"DOTA_Tooltip_modifier_boss_axe_counter_helix_damage_reduction"					"Counter Helix - Debuff"
+		"DOTA_Tooltip_modifier_boss_axe_counter_helix_damage_reduction_Description"		"Damage dealt to Crimson Reaver reduced."
 		
 		"DOTA_Tooltip_ability_boss_axe_culling_blade"									"Culling Blade"
 		"DOTA_Tooltip_ability_boss_axe_culling_blade_Description"						"boss_axe spots a weakness and strikes, dealing pure damage. When an enemy hero is killed with Culling Blade, its cooldown is reset, boss_axe gains bonus armor permanently and all nearby allied units gain bonus movement speed. "
@@ -1281,35 +1284,16 @@
 		"DOTA_Tooltip_ability_item_helm_of_mithril_will_Lore"                                                   "A helm used in war, it is said to be infused with magical powers which protect the owner."
 		"DOTA_Tooltip_ability_item_helm_of_mithril_will_bonus_armor"                                            "+$armor"
 		"DOTA_Tooltip_ability_item_helm_of_mithril_will_bonus_regen"                                            "+$hp_regen"
-
 		
-		
-		"DOTA_Tooltip_ability_item_soul"                                               "Power Soul"
-		"DOTA_Tooltip_ability_item_soul_Lore"                          "This soul was the property of a poor mortal."
-		"DOTA_Tooltip_ability_item_soul_Description"                           "Power Soul gives bonus attack range"    
-		"DOTA_Tooltip_ability_item_soul_bonus_range"            "Attack range: +"
-
-		//TIER 3 STUFF ========================================
-
-		"DOTA_Tooltip_ability_item_demonsoul"                                               "Dark Soul"
-		"DOTA_Tooltip_ability_item_demonsoul_Lore"                          "The soul of an elder demon..."
-		"DOTA_Tooltip_ability_item_demonsoul_Description"                           "Grants damage and attack range."    
-		"DOTA_Tooltip_ability_item_demonsoul_bonus_damage"                          "+$damage"
-		"DOTA_Tooltip_ability_item_demonsoul_bonus_range"            "Attack range: +"
-		
-		"DOTA_Tooltip_ability_item_zero"                                         "Sub Zero"
-		"DOTA_Tooltip_ability_item_zero_Description"                             "Slows attack speed, movement speed and deals damage over time."
-		"DOTA_Tooltip_ability_item_zero_Lore"                            "Anyone hurt by this weapon is freezed for eternity."
-		"DOTA_Tooltip_ability_item_zero_bonus_all"											"+$all"
-		"DOTA_Tooltip_ability_item_zero_bonus_mana_regen"									"+$mana_regen"
-		"DOTA_Tooltip_ability_item_zero_bonus_mana"											"+$mana"
-		"DOTA_Tooltip_ability_item_zero_bonus_health"										"+$health"
-		"DOTA_Tooltip_ability_item_zero_slow_percentage"									"%MOVEMENT SLOW:"
-		"DOTA_Tooltip_ability_item_zero_attack_speed_slow"									"ATTACK SLOW:"
-		"DOTA_Tooltip_ability_item_zero_damage_per_second"									"AURA DAMAGE:"
-		"DOTA_Tooltip_ability_item_zero_miss_percent"										"%AURA MISS CHANCE:"
-		"DOTA_Tooltip_ability_item_zero_miss_percent"										"%+$evasion"
-		"DOTA_Tooltip_ability_item_zero_damage"                                           	"+$damage"
+		// RADIANCE
+		"DOTA_Tooltip_ability_item_zero"										"Sub Zero"
+		"DOTA_Tooltip_ability_item_zero_Description"							"<h1>Aura: Sub-Zero</h1> Deals %aura_damage% damage per second, slows movement speed by %aura_movespeed%%% and attack speed by %aura_attackspeed%, causes enemies to miss %aura_miss_pct%%% of their attacks and reduces all healing they receive by %aura_heal_reduction%%.<br><br>Illusions deal %aura_damage_illusions% damage instead.<br><br>Radius: %aura_radius%"
+		"DOTA_Tooltip_ability_item_zero_Lore"									"Anyone hurt by this weapon is freezed for eternity."
+		"DOTA_Tooltip_ability_item_zero_bonus_all"								"+$all"
+		"DOTA_Tooltip_ability_item_zero_bonus_mana"								"+$mana"
+		"DOTA_Tooltip_ability_item_zero_bonus_health"							"+$health"
+		"DOTA_Tooltip_ability_item_zero_bonus_evasion"							"%+$evasion"
+		"DOTA_Tooltip_ability_item_zero_bonus_damage"							"+$damage"
 
 		"DOTA_Tooltip_item_zero_debuff"                                                       "Sub Zero Aura"
 		"DOTA_Tooltip_item_zero_debuff_Description"                                           "Reduces attack and movement speed, deals damage every second."
@@ -2179,7 +2163,7 @@
 		
 		// ITEMS - Blade Mail
 		"DOTA_Tooltip_ability_item_blade_mail2"												"Chains of Rage"
-		"DOTA_Tooltip_ability_item_blade_mail2_Description"									"<h1>Active: Demand Retribution</h1>For %duration% seconds, all units are taunted to you and the damage returned from all sources is increased by %active_reflection_pct%%%.\n<h1>Passive: Damage Return</h1>Everytime you are attacked, you return %passive_reflection_constant% damage plus %passive_reflection_pct%%% of the attack damage dealt to you."
+		"DOTA_Tooltip_ability_item_blade_mail2_Description"									"<h1>Active: Demand Retribution</h1>For %duration% seconds, all units within %radius% units of you are taunted to you and the damage returned from all sources is increased by %active_reflection_pct%%%.\n<h1>Passive: Damage Return</h1>Everytime you are attacked, you return %passive_reflection_constant% damage plus %passive_reflection_pct%%% of the attack damage dealt to you."
 		"DOTA_Tooltip_ability_item_blade_mail2_Note0"										"Damage Return is calculated before any kind of reduction."
 		"DOTA_Tooltip_ability_item_blade_mail2_Note1"										"Damage Return doesn't reflect damage from other forms of Blade Mail."
 		"DOTA_Tooltip_ability_item_blade_mail2_Note2"										"Returned damage type is the same as it was received."
@@ -2189,7 +2173,7 @@
 		"DOTA_Tooltip_ability_item_blade_mail2_health_regen"								"+$hp_regen"
 
 		"DOTA_Tooltip_ability_item_blade_mail3"												"Coercer's Mail"
-		"DOTA_Tooltip_ability_item_blade_mail3_Description"									"<h1>Active: Demand Retribution</h1>For %duration% seconds, all units are taunted to you and the damage returned from all sources is increased by %active_reflection_pct%%%.\n<h1>Passive: Damage Return</h1>Everytime you are attacked, you return %passive_reflection_constant% damage plus %passive_reflection_pct%%% of the attack damage dealt to you."
+		"DOTA_Tooltip_ability_item_blade_mail3_Description"									"<h1>Active: Demand Retribution</h1>For %duration% seconds, all units within %radius% units of you are taunted to you and the damage returned from all sources is increased by %active_reflection_pct%%%.\n<h1>Passive: Damage Return</h1>Everytime you are attacked, you return %passive_reflection_constant% damage plus %passive_reflection_pct%%% of the attack damage dealt to you."
 		"DOTA_Tooltip_ability_item_blade_mail3_Note0"										"Damage Return is calculated before any kind of reduction."
 		"DOTA_Tooltip_ability_item_blade_mail3_Note1"										"Damage Return doesn't reflect damage from other forms of Blade Mail."
 		"DOTA_Tooltip_ability_item_blade_mail3_Note2"										"Returned damage type is the same as it was received."
@@ -2199,7 +2183,7 @@
 		"DOTA_Tooltip_ability_item_blade_mail3_health_regen"								"+$hp_regen"
 	
 		"DOTA_Tooltip_ability_item_blade_mail4"												"Aggressor's Bindings"
-		"DOTA_Tooltip_ability_item_blade_mail4_Description"									"<h1>Active: Demand Retribution</h1>For %duration% seconds, all units are taunted to you and the damage returned from all sources is increased by %active_reflection_pct%%%.\n<h1>Passive: Damage Return</h1>Everytime you are attacked, you return %passive_reflection_constant% damage plus %passive_reflection_pct%%% of the attack damage dealt to you.\n<h1>Aura: Burn</h1> Scorches enemies for %aura_damage% magical damage per second and causes them to miss %blind_pct%%% of their attacks. Damage is increased to %active_aura_damage% while Demand Retribution is active.<br><br>Radius: %aura_radius%"
+		"DOTA_Tooltip_ability_item_blade_mail4_Description"									"<h1>Active: Demand Retribution</h1>For %duration% seconds, all units within %radius% units of you are taunted to you and the damage returned from all sources is increased by %active_reflection_pct%%%.\n<h1>Passive: Damage Return</h1>Everytime you are attacked, you return %passive_reflection_constant% damage plus %passive_reflection_pct%%% of the attack damage dealt to you.\n<h1>Aura: Burn</h1> Scorches enemies for %aura_damage% magical damage per second and causes them to miss %blind_pct%%% of their attacks. Damage is increased to %active_aura_damage% while Demand Retribution is active.<br><br>Illusions deal %aura_damage_illusions% damage.<br><br>Radius: %aura_radius%"
 		"DOTA_Tooltip_ability_item_blade_mail4_Note0"										"Damage Return is calculated before any kind of reduction."
 		"DOTA_Tooltip_ability_item_blade_mail4_Note1"										"Damage Return doesn't reflect damage from other forms of Blade Mail."
 		"DOTA_Tooltip_ability_item_blade_mail4_Note2"										"Returned damage type is the same as it was received."
@@ -2213,7 +2197,7 @@
 		"DOTA_Tooltip_modifier_item_blade_mail4_burn_Description"							"Taking damage every second, and missing %dMODIFIER_PROPERTY_MISS_PERCENTAGE%%% of attacks."
 		
 		"DOTA_Tooltip_ability_item_blade_mail5"												"War God's Shield"
-		"DOTA_Tooltip_ability_item_blade_mail5_Description"									"<h1>Active: Demand Retribution</h1>For %duration% seconds, all units are taunted to you and the damage returned from all sources is increased by %active_reflection_pct%%%.\n<h1>Passive: Damage Return</h1>Everytime you are attacked, you return %passive_reflection_constant% damage plus %passive_reflection_pct%%% of the attack damage dealt to you.\n<h1>Aura: Burn</h1> Scorches enemies for %aura_damage% magical damage per second and causes them to miss %blind_pct%%% of their attacks. Damage is increased to %active_aura_damage% while Demand Retribution is active.<br><br>Radius: %aura_radius%"
+		"DOTA_Tooltip_ability_item_blade_mail5_Description"									"<h1>Active: Demand Retribution</h1>For %duration% seconds, all units are taunted to you and the damage returned from all sources is increased by %active_reflection_pct%%%.\n<h1>Passive: Damage Return</h1>Everytime you are attacked, you return %passive_reflection_constant% damage plus %passive_reflection_pct%%% of the attack damage dealt to you.\n<h1>Aura: Burn</h1> Scorches enemies for %aura_damage% magical damage per second and causes them to miss %blind_pct%%% of their attacks. Damage is increased to %active_aura_damage% while Demand Retribution is active.<br><br>Illusions deal %aura_damage_illusions% damage.<br><br>Radius: %aura_radius%"
 		"DOTA_Tooltip_ability_item_blade_mail5_Note0"										"Damage Return is calculated before any kind of reduction."
 		"DOTA_Tooltip_ability_item_blade_mail5_Note1"										"Damage Return doesn't reflect damage from other forms of Blade Mail."
 		"DOTA_Tooltip_ability_item_blade_mail5_Note2"										"Returned damage type is the same as it was received."
@@ -2338,7 +2322,7 @@
 		"DOTA_Tooltip_ability_item_sange_and_yasha_4_health_per_str"									"+Health Per Strength"
 		
 		"DOTA_Tooltip_ability_item_sange_and_yasha_5"													"Blood-cursed Blades"
-		"DOTA_Tooltip_ability_item_sange_and_yasha_5_Description"										"<h1>Passive: Wait and See</h1>When a unit attemps to attack you, you gain a stack of Vengeance. Vengeance stacks increases your total attack damage by %attacked_buff%%% for each stack.<br><br>When you attack, you gain a stack of Patience. Patience stacks increase your evasion by %attack_buff%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of both Vengeance and Patience and if you are not attacked or attack for %buffer_duration% seconds, you start losing Vengeance and Patience stacks respectively.<br>All stacks are lost after %loss_timer% seconds.\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a %radius% radius.\n<h1>Aura: Sub-Zero</h1> Deals %aura_damage% damage per second, slows movement speed by %aura_movespeed%%% and attack speed by %aura_attackspeed%, causes enemies to miss %aura_miss_pct%%% of their attacks and reduces all healing they receive by %aura_heal_reduction%%%.<br>Radius: %aura_radius%"
+		"DOTA_Tooltip_ability_item_sange_and_yasha_5_Description"										"<h1>Passive: Wait and See</h1>When a unit attemps to attack you, you gain a stack of Vengeance. Vengeance stacks increases your total attack damage by %attacked_buff%%% for each stack.<br><br>When you attack, you gain a stack of Patience. Patience stacks increase your evasion by %attack_buff%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of both Vengeance and Patience and if you are not attacked or attack for %buffer_duration% seconds, you start losing Vengeance and Patience stacks respectively.<br>All stacks are lost after %loss_timer% seconds.\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a %radius% radius.\n<h1>Aura: Sub-Zero</h1> Deals %aura_damage% damage per second, slows movement speed by %aura_movespeed%%% and attack speed by %aura_attackspeed%, causes enemies to miss %aura_miss_pct%%% of their attacks and reduces all healing they receive by %aura_heal_reduction%%%.<br><br>Illusions deal %aura_damage_illusions% damage instead.<br>Radius: %aura_radius%"
 		"DOTA_Tooltip_ability_item_sange_and_yasha_5_Note0"												"Yasha-based movement speed bonuses from multiple items do not stack."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_5_Lore"												"Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_5_bonus_strength"									"+$str"
@@ -2424,7 +2408,7 @@
 		"DOTA_Tooltip_ability_item_kaya_and_sange_2_spell_lifesteal"						"%+$spell_lifesteal"
 		
 		"DOTA_Tooltip_ability_item_kaya_and_sange_3"										"Belial's Bargain"
-		"DOTA_Tooltip_ability_item_kaya_and_sange_3_Description"							"<h1>Passive: Guardian's Shroud</h1>When you take damage, you restores mana equal to %mana_restore_pct%%% of incoming enemy spell damage and gain a stack of Fury. Fury stacks increases your spell damage by %spell_amp_stacks%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of Fury and if you do not take damage for %buffer_duration% seconds, you start losing Fury stacks respectively.<br>All stacks are lost after %loss_timer% seconds."
+		"DOTA_Tooltip_ability_item_kaya_and_sange_3_Description"							"<h1>Passive: Guardian's Shroud</h1>When you take damage, you restore mana equal to %mana_restore_pct%%% of incoming enemy spell damage and gain a stack of Fury. Fury stacks increases your spell damage by %spell_amp_stacks%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of Fury and if you do not take damage for %buffer_duration% seconds, you start losing Fury stacks respectively.<br>All stacks are lost after %loss_timer% seconds."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_3_Lore"									"Two of three known items of unimaginable power that many believe were crafted at the same enchanter's forge."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_3_bonus_strength"							"+$str"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_3_bonus_intellect"						"+$int"
@@ -2436,7 +2420,7 @@
 		"DOTA_Tooltip_ability_item_kaya_and_sange_3_spell_lifesteal"						"%+$spell_lifesteal"
 		
 		"DOTA_Tooltip_ability_item_kaya_and_sange_4"										"Heartwood Cutters"
-		"DOTA_Tooltip_ability_item_kaya_and_sange_4_Description"							"<h1>Passive: Guardian's Shroud</h1>When you take damage, you restores mana equal to %mana_restore_pct%%% of incoming enemy spell damage and gain a stack of Fury. Fury stacks increases your spell damage by %spell_amp_stacks%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of Fury and if you do not take damage for %buffer_duration% seconds, you start losing Fury stacks respectively.<br>All stacks are lost after %loss_timer% seconds."
+		"DOTA_Tooltip_ability_item_kaya_and_sange_4_Description"							"<h1>Passive: Guardian's Shroud</h1>When you take damage, you restore mana equal to %mana_restore_pct%%% of incoming enemy spell damage and gain a stack of Fury. Fury stacks increases your spell damage by %spell_amp_stacks%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of Fury and if you do not take damage for %buffer_duration% seconds, you start losing Fury stacks respectively.<br>All stacks are lost after %loss_timer% seconds."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_4_Lore"									"Two of three known items of unimaginable power that many believe were crafted at the same enchanter's forge."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_4_bonus_strength"							"+$str"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_4_bonus_intellect"						"+$int"
@@ -2451,7 +2435,7 @@
 		"DOTA_Tooltip_ability_item_kaya_and_sange_4_spell_lifesteal"						"%+$spell_lifesteal"
 		
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5"										"Blades of Unity"
-		"DOTA_Tooltip_ability_item_kaya_and_sange_5_Description"							"<h1>Passive: Guardian's Shroud</h1>When you take damage, you restores mana equal to %mana_restore_pct%%% of incoming enemy spell damage and gain a stack of Fury. Fury stacks increases your spell damage by %spell_amp_stacks%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of Fury and if you do not take damage for %buffer_duration% seconds, you start losing Fury stacks respectively.<br>All stacks are lost after %loss_timer% seconds.\n\n<h1>Passive: Combo Breaker</h1> When you take damage and your health falls below %health_threshold_pct%%%, a strong dispel is applied and you gain a %buff_duration% second buff that provides Spell Immunity and causes all damage you are dealt to be reduced to zero. Has a %cooldown_duration% internal cooldown.<br/><br/>Dispel Type: <span class=\'GameplayValues GameplayVariable\'>Strong Dispel</span>"
+		"DOTA_Tooltip_ability_item_kaya_and_sange_5_Description"							"<h1>Passive: Guardian's Shroud</h1>When you take damage, you restore mana equal to %mana_restore_pct%%% of incoming enemy spell damage and gain a stack of Fury. Fury stacks increases your spell damage by %spell_amp_stacks%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of Fury and if you do not take damage for %buffer_duration% seconds, you start losing Fury stacks respectively.<br>All stacks are lost after %loss_timer% seconds.\n\n<h1>Passive: Combo Breaker</h1> When you take damage and your health falls below %health_threshold_pct%%%, a strong dispel is applied and you gain a %buff_duration% second buff that provides Spell Immunity and causes all damage you are dealt to be reduced to zero. Has a %cooldown_duration% internal cooldown.<br/><br/>Dispel Type: <span class=\'GameplayValues GameplayVariable\'>Strong Dispel</span>"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5_Lore"									"Two of three known items of unimaginable power that many believe were crafted at the same enchanter's forge."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5_bonus_strength"							"+$str"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5_bonus_intellect"						"+$int"
@@ -3228,7 +3212,7 @@
 		
 		// ITEMS - Hand of Midas
 		"DOTA_Tooltip_ability_item_hand_of_midas_ebf"											"Hand of Midas"
-		"DOTA_Tooltip_ability_item_hand_of_midas_ebf_Description"								"<h1>Passive: Overflowing Coffers</h1>Every time you earn gold from killing units or ending the round, the gold gain is increased by %bonus_gold%%%"
+		"DOTA_Tooltip_ability_item_hand_of_midas_ebf_Description"								"<h1>Active: Overflowing Coffers</h1>Every time you earn gold from killing units or ending the round, the gold gain is increased by %bonus_gold%%%"
 		"DOTA_Tooltip_ability_item_hand_of_midas_ebf_Lore"										"Preserved through unknown magical means, the Hand of Midas is a weapon of greed, sacrificing animals to line the owner's pockets."
 		"DOTA_Tooltip_ability_item_hand_of_midas_ebf_bonus_attack_speed"						"+$attack"
 				
