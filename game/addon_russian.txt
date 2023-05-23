@@ -613,7 +613,7 @@
 		"npc_dota_boss_axe_minion"														"Crimson Gremlin"
 		
 		"DOTA_Tooltip_ability_boss_axe_berserkers_call"									"Berserker's Call"
-		"DOTA_Tooltip_ability_boss_axe_berserkers_call_Description"						"boss_axe насмехается над ближайшими вражескими отрядами, заставляя их атаковать его, при этом он получает бонусную броню на время действия."
+		"DOTA_Tooltip_ability_boss_axe_berserkers_call_Description"						"The Crimson Reaver издает калечащий рев, воздействуя на всех юнитов с Battle Hunger в течение короткого времени."
 		"DOTA_Tooltip_ability_boss_axe_berserkers_call_scepter_description"  			"Berserker's Call applies Battle Hunger to affected units. Reduces Berserker's Call cooldown."
 		"DOTA_Tooltip_ability_boss_axe_berserkers_call_Lore"							"Mogul Khan's warcry taunts opponents into engaging in an unconquerable battle with the boss_axe."
 		"DOTA_Tooltip_ability_boss_axe_berserkers_call_radius"							"RADIUS:"
@@ -622,7 +622,7 @@
 		"DOTA_Tooltip_ability_boss_axe_berserkers_call_scepter_cooldown_reduction"		"COOLDOWN REDUCTION:"
 		
 		"DOTA_Tooltip_ability_boss_axe_battle_hunger"									"Battle Hunger"
-		"DOTA_Tooltip_ability_boss_axe_battle_hunger_Description"						"Раздражает вражеского юнита, заставляя его замедляться, терять броню и получать урон до тех пор, пока не закончится время действия. Урон увеличивается на коэффициент брони boss_axe. Mogul Khan увеличивает скорость передвижения и броню за каждого пораженного юнита."
+		"DOTA_Tooltip_ability_boss_axe_battle_hunger_Description"						"Разъяряет врагов, заставляя их замедляться, терять броню и получать урон до тех пор, пока не закончится время действия. Урон увеличивается на коэффициент брони Crimson Reaver's. Crimson Reaver увеличивает скорость передвижения и броню за каждого пораженного юнита."
 		"DOTA_Tooltip_ability_boss_axe_battle_hunger_Note0"								"Destroying buildings will also remove the debuff."
 		"DOTA_Tooltip_ability_boss_axe_battle_hunger_Lore"								"Ordinary heroes cannot withstand Mogul Khan's rage for battle, such that it injures them until it is satisfied."
 		"DOTA_Tooltip_ability_boss_axe_battle_hunger_duration"							"DURATION:"
@@ -640,7 +640,7 @@
 		"DOTA_Tooltip_modifier_boss_axe_battle_hunger_Description"						"Получает урон, теряет броню, замедлен."
 		
 		"DOTA_Tooltip_ability_boss_axe_counter_helix"									"Counter Helix"
-		"DOTA_Tooltip_ability_boss_axe_counter_helix_Description"						"После определенного количества атак boss_axe проведет контратаку по кругу, нанося чистый урон всем ближайшим врагам."
+		"DOTA_Tooltip_ability_boss_axe_counter_helix_Description"						"После определенного количества атак Crimson Reaver проведет контратаку по кругу, нанося чистый урон всем ближайшим врагам.\nИллюзии и крипы считаются за меньшее."
 		"DOTA_Tooltip_ability_boss_axe_counter_helix_shard_description"					"Counter Helix теперь накладывает на пораженных им врагов стакающийся дебафф, который заставляет их наносить меньше общего урона атаки по boss_axe. У Counter Helix больше нет перезарядки."
 		"DOTA_Tooltip_ability_boss_axe_counter_helix_shard_debuff_duration"				"DEBUFF DURATION:"
 		"DOTA_Tooltip_ability_boss_axe_counter_helix_shard_damage_reduction"			"%ATTACK REDUCTION:"
@@ -650,6 +650,8 @@
 		"DOTA_Tooltip_ability_boss_axe_counter_helix_damage"							"DAMAGE:"
 		"DOTA_Tooltip_ability_boss_axe_counter_helix_radius"							"RADIUS:"
 		"DOTA_Tooltip_ability_boss_axe_counter_helix_trigger_attacks"					"ATTACKS TO HELIX:"
+		"DOTA_Tooltip_modifier_boss_axe_counter_helix_damage_reduction"					"Counter Helix - Debuff"
+		"DOTA_Tooltip_modifier_boss_axe_counter_helix_damage_reduction_Description"		"Уменьшен урон, наносимый Crimson Reaver."
 		
 		"DOTA_Tooltip_ability_boss_axe_culling_blade"									"Culling Blade"
 		"DOTA_Tooltip_ability_boss_axe_culling_blade_Description"						"boss_axe замечает слабое место и наносит удар, нанося чистый урон. Когда вражеский герой убит с помощью Culling Blade, его время действия сбрасывается, boss_axe постоянно получает бонусную броню, а все союзные юниты поблизости получают бонусную скорость передвижения."
@@ -1282,34 +1284,15 @@
 		"DOTA_Tooltip_ability_item_helm_of_mithril_will_bonus_armor"                                            "+$armor"
 		"DOTA_Tooltip_ability_item_helm_of_mithril_will_bonus_regen"                                            "+$hp_regen"
 
-		
-		
-		"DOTA_Tooltip_ability_item_soul"                                               "Power Soul"
-		"DOTA_Tooltip_ability_item_soul_Lore"                          "This soul was the property of a poor mortal."
-		"DOTA_Tooltip_ability_item_soul_Description"                           "Power Soul gives bonus attack range"    
-		"DOTA_Tooltip_ability_item_soul_bonus_range"            "Attack range: +"
-
-		//TIER 3 STUFF ========================================
-
-		"DOTA_Tooltip_ability_item_demonsoul"                                               "Dark Soul"
-		"DOTA_Tooltip_ability_item_demonsoul_Lore"                          "The soul of an elder demon..."
-		"DOTA_Tooltip_ability_item_demonsoul_Description"                           "Увеличивает урон и дальность атаки."    
-		"DOTA_Tooltip_ability_item_demonsoul_bonus_damage"                          "+$damage"
-		"DOTA_Tooltip_ability_item_demonsoul_bonus_range"            "Attack range: +"
-		
-		"DOTA_Tooltip_ability_item_zero"                                         "Sub Zero"
-		"DOTA_Tooltip_ability_item_zero_Description"                             "Замедляет скорость атаки, скорость передвижения и наносит урон с течением времени."
-		"DOTA_Tooltip_ability_item_zero_Lore"                            "Anyone hurt by this weapon is freezed for eternity."
-		"DOTA_Tooltip_ability_item_zero_bonus_all"											"+$all"
-		"DOTA_Tooltip_ability_item_zero_bonus_mana_regen"									"+$mana_regen"
-		"DOTA_Tooltip_ability_item_zero_bonus_mana"											"+$mana"
-		"DOTA_Tooltip_ability_item_zero_bonus_health"										"+$health"
-		"DOTA_Tooltip_ability_item_zero_slow_percentage"									"%MOVEMENT SLOW:"
-		"DOTA_Tooltip_ability_item_zero_attack_speed_slow"									"ATTACK SLOW:"
-		"DOTA_Tooltip_ability_item_zero_damage_per_second"									"AURA DAMAGE:"
-		"DOTA_Tooltip_ability_item_zero_miss_percent"										"%AURA MISS CHANCE:"
-		"DOTA_Tooltip_ability_item_zero_miss_percent"										"%+$evasion"
-		"DOTA_Tooltip_ability_item_zero_damage"                                           	"+$damage"
+		// RADIANCE
+		"DOTA_Tooltip_ability_item_zero"										"Sub Zero"
+		"DOTA_Tooltip_ability_item_zero_Description"							"<h1>Аура: Sub-Zero</h1>Наносит %aura_damage% урона в секунду, замедляет скорость передвижения на %aura_movespeed%%% и скорость атаки на %aura_attackspeed%, заставляет врагов пропускать %aura_miss_pct%%% своих атак и уменьшает все получаемое ими исцеление на %aura_heal_reduction%%.<br><br>Иллюзии вместо этого наносят %aura_damage_illusions% урона.<br><br>Радиус: %aura_radius%"
+		"DOTA_Tooltip_ability_item_zero_Lore"									"Anyone hurt by this weapon is freezed for eternity."
+		"DOTA_Tooltip_ability_item_zero_bonus_all"								"+$all"
+		"DOTA_Tooltip_ability_item_zero_bonus_mana"								"+$mana"
+		"DOTA_Tooltip_ability_item_zero_bonus_health"							"+$health"
+		"DOTA_Tooltip_ability_item_zero_bonus_evasion"							"%+$evasion"
+		"DOTA_Tooltip_ability_item_zero_bonus_damage"							"+$damage"
 
 		"DOTA_Tooltip_item_zero_debuff"                                                       "Sub Zero Aura"
 		"DOTA_Tooltip_item_zero_debuff_Description"                                           "Снижает скорость атаки и передвижения, наносит урон каждую секунду."
@@ -2178,7 +2161,7 @@
 		
 		// ITEMS - Blade Mail
 		"DOTA_Tooltip_ability_item_blade_mail2"												"Chains of Rage"
-		"DOTA_Tooltip_ability_item_blade_mail2_Description"									"<h1>Активный: Demand Retribution</h1>На %duration% секунд все существа притягиваются к вам, а возвращаемый урон от всех источников увеличивается на %active_reflection_pct%%%.\n<h1>Пассивный: Damage Returnа</h1>Каждый раз, когда вас атакуют, вы возвращаете %passive_reflection_constant% урона плюс %passive_reflection_pct%% от нанесенного вам урона."
+		"DOTA_Tooltip_ability_item_blade_mail2_Description"									"<h1>Активный: Demand Retribution</h1>На %duration% секунд все юниты в радиусе %radius% от вас притягиваются к вам, а возвращаемый урон от всех источников увеличивается на %active_reflection_pct%%%.\n<h1>Пассивный: Damage Return</h1>Каждый раз, когда вас атакуют, вы возвращаете %passive_reflection_constant% урона плюс %passive_reflection_pct%%%  от нанесенного вам урона."
 		"DOTA_Tooltip_ability_item_blade_mail2_Note0"										"Damage Return is calculated before any kind of reduction."
 		"DOTA_Tooltip_ability_item_blade_mail2_Note1"										"Damage Return doesn't reflect damage from other forms of Blade Mail."
 		"DOTA_Tooltip_ability_item_blade_mail2_Note2"										"Returned damage type is the same as it was received."
@@ -2188,7 +2171,7 @@
 		"DOTA_Tooltip_ability_item_blade_mail2_health_regen"								"+$hp_regen"
 
 		"DOTA_Tooltip_ability_item_blade_mail3"												"Coercer's Mail"
-		"DOTA_Tooltip_ability_item_blade_mail3_Description"									"<h1>Активный: Demand Retribution</h1>На %duration% секунд все существа притягиваются к вам, а возвращаемый урон от всех источников увеличивается на %active_reflection_pct%%%.\n<h1>Пассивный: Damage Return</h1>Каждый раз, когда вас атакуют, вы возвращаете %passive_reflection_constant% урона плюс %passive_reflection_pct%% от нанесенного вам урона."
+		"DOTA_Tooltip_ability_item_blade_mail3_Description"									"<h1>Активный: Demand Retribution</h1>На %duration% секунд все юниты в радиусе %radius% от вас притягиваются к вам, а возвращаемый урон от всех источников увеличивается на %active_reflection_pct%%%.\n<h1>Пассивный: Damage Return</h1>Каждый раз, когда вас атакуют, вы возвращаете %passive_reflection_constant% урона плюс %passive_reflection_pct%%%  от нанесенного вам урона."
 		"DOTA_Tooltip_ability_item_blade_mail3_Note0"										"Damage Return is calculated before any kind of reduction."
 		"DOTA_Tooltip_ability_item_blade_mail3_Note1"										"Damage Return doesn't reflect damage from other forms of Blade Mail."
 		"DOTA_Tooltip_ability_item_blade_mail3_Note2"										"Returned damage type is the same as it was received."
@@ -2198,7 +2181,7 @@
 		"DOTA_Tooltip_ability_item_blade_mail3_health_regen"								"+$hp_regen"
 	
 		"DOTA_Tooltip_ability_item_blade_mail4"												"Aggressor's Bindings"
-		"DOTA_Tooltip_ability_item_blade_mail4_Description"									"<h1>Активный: Demand Retribution</h1>На %duration% секунд все существа притягиваются к вам, а возвращаемый урон от всех источников увеличивается на %active_reflection_pct%%%.\n<h1>Пассивный: Damage Return</h1>Каждый раз, когда вас атакуют, вы возвращаете %passive_reflection_constant% урона плюс %passive_reflection_pct%% от нанесенного вам урона.\n<h1>Аура: Burn</h1> Опаляет врагов на %aura_damage% магического урона в секунду и заставляет их пропускать %blind_pct%%% своих атак. Урон увеличивается до %active_aura_damage%, пока активен Demand Retribution.<br><br>Радиус: %aura_radius%"
+		"DOTA_Tooltip_ability_item_blade_mail4_Description"									"<h1>Активный: Demand Retribution</h1>На %duration% секунд все юниты в радиусе %radius% от вас притягиваются к вам, а возвращаемый урон от всех источников увеличивается на %active_reflection_pct%%%.\n<h1>Пассивный: Damage Return</h1>Каждый раз, когда вас атакуют, вы возвращаете %passive_reflection_constant% урона плюс %passive_reflection_pct%%%  от нанесенного вам урона.\n<h1>Аура: Burn</h1>Опаляет врагов на %aura_damage% магического урона в секунду и заставляет их пропускать %blind_pct%%%  своих атак. Урон увеличивается до %active_aura_damage%, пока активен Demand Retribution.<br><br>Иллюзии наносят %aura_damage_illusions% урона.<br><br>Радиус: %aura_radius%"
 		"DOTA_Tooltip_ability_item_blade_mail4_Note0"										"Damage Return is calculated before any kind of reduction."
 		"DOTA_Tooltip_ability_item_blade_mail4_Note1"										"Damage Return doesn't reflect damage from other forms of Blade Mail."
 		"DOTA_Tooltip_ability_item_blade_mail4_Note2"										"Returned damage type is the same as it was received."
@@ -2212,7 +2195,7 @@
 		"DOTA_Tooltip_modifier_item_blade_mail4_burn_Description"							"Получает урон каждую секунду и пропускает %dMODIFIER_PROPERTY_MISS_PERCENTAGE%%% атак."
 		
 		"DOTA_Tooltip_ability_item_blade_mail5"												"War God's Shield"
-		"DOTA_Tooltip_ability_item_blade_mail5_Description"									"<h1>Активный: Demand Retribution</h1>На %duration% секунд все существа притягиваются к вам, а возвращаемый урон от всех источников увеличивается на %active_reflection_pct%%%.\n<h1>Пассивный: Damage Return</h1>Каждый раз, когда вас атакуют, вы возвращаете %passive_reflection_constant% урона плюс %passive_reflection_pct%% от нанесенного вам урона.\n<h1>Аура: Burn</h1> Опаляет врагов на %aura_damage% магического урона в секунду и заставляет их пропускать %blind_pct%%% своих атак. Урон увеличивается до %active_aura_damage%, пока активен Demand Retribution.<br><br>Радиус: %aura_radius%"
+		"DOTA_Tooltip_ability_item_blade_mail5_Description"									"<h1>Активный: Demand Retribution</h1>На %duration% секунд все существа притягиваются к вам, а возвращаемый урон от всех источников увеличивается на %active_reflection_pct%%%.\n<h1>Пассивный: Damage Return</h1>Каждый раз, когда вас атакуют, вы возвращаете %passive_reflection_constant% урона плюс %passive_reflection_pct%%%  от нанесенного вам урона.\n<h1>Аура: Burn</h1>Опаляет врагов на %aura_damage% магического урона в секунду и заставляет их пропускать %blind_pct%%%  своих атак. Урон увеличивается до %active_aura_damage%, пока активен Demand Retribution.<br><br>Иллюзии наносят %aura_damage_illusions% урона.<br><br>Радиус: %aura_radius%"
 		"DOTA_Tooltip_ability_item_blade_mail5_Note0"										"Damage Return is calculated before any kind of reduction."
 		"DOTA_Tooltip_ability_item_blade_mail5_Note1"										"Damage Return doesn't reflect damage from other forms of Blade Mail."
 		"DOTA_Tooltip_ability_item_blade_mail5_Note2"										"Returned damage type is the same as it was received."
@@ -2338,7 +2321,7 @@
 		"DOTA_Tooltip_ability_item_sange_and_yasha_4_health_per_str"									"+Health Per Strength"
 		
 		"DOTA_Tooltip_ability_item_sange_and_yasha_5"													"Blood-cursed Blades"
-		"DOTA_Tooltip_ability_item_sange_and_yasha_5_Description"										"<h1>Пассивный: Wait and See</h1>Когда юнит пытается атаковать вас, вы получаете стаки Vengeance. Стаки Vengeance увеличивают ваш общий урон от атаки на %attacked_buff%%% за каждый стак.<br><br>Когда вы атакуете, вы получаете стаки Patience. Стаки Patience увеличивают ваше уклонение на %attack_buff%%% за каждый стак.<br><br>Вы можете получить максимум %max_stacks% стаков Vengeance и Patience, и если вас не атакуют или не атакуют в течение %buffer_duration% секунд, вы начинаете терять стаки Vengeance и Patience соответственно.<br>Все стаки теряются через %loss_timer% секунд.\n<h1>Пассивный: Splash</h1> Наносит %splash_damage%%% (%splash_damage_ranged%%% для героев дальнего боя) урона от атаки в виде физического урона в радиусе %radius%.\n<h1>Аура: Sub-Zero</h1> Наносит %aura_damage% урона в секунду, замедляет скорость передвижения на %aura_movespeed%%% и скорость атаки на %aura_attackspeed%, заставляет врагов пропускать %aura_miss_pct%% своих атак и уменьшает все получаемое ими исцеление на %aura_heal_reduction%%%.<br>Радиус: %aura_radius%"
+		"DOTA_Tooltip_ability_item_sange_and_yasha_5_Description"										"<h1>Пассивный: Wait and See</h1>Когда юнит пытается атаковать вас, вы получаете стак Vengeance. Стаки Vengeance увеличивают ваш общий урон от атаки на %attacked_buff%%%  за каждый стак.<br><br>Когда вы атакуете, вы получаете стак Patience. Стаки Patience увеличивают ваше уклонение на %attack_buff%%%  за каждый стак.<br><br>Вы можете получить максимум %max_stacks% стаков Vengeance и Patience, и если вас не атакуют в течение %buffer_duration% секунд, вы начинаете терять стаки Vengeance и Patience.<br>Все стаки теряются через %loss_timer% секунд.\n<h1>Пассивный: Splash</h1>Наносит %splash_damage%%% (%splash_damage_ranged%%%  для героев дальнего боя) урона от атаки в виде физического урона в радиусе %radius%.\n<h1>Аура: Sub-Zero</h1>Наносит %aura_damage% урона в секунду, замедляет скорость передвижения на %aura_movespeed%%%  и скорость атаки на %aura_attackspeed%, заставляет врагов пропускать %aura_miss_pct%%%  своих атак и уменьшает все получаемое ими исцеление на %aura_heal_reduction%%%.<br><br>Иллюзии вместо этого наносят %aura_damage_illusions% урона.<br>Радиус: %aura_radius%"
 		"DOTA_Tooltip_ability_item_sange_and_yasha_5_Note0"												"Yasha-based movement speed bonuses from multiple items do not stack."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_5_Lore"												"Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_5_bonus_strength"									"+$str"
