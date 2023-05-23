@@ -3228,7 +3228,7 @@
 		
 		// ITEMS - Hand of Midas
 		"DOTA_Tooltip_ability_item_hand_of_midas_ebf"											"Hand of Midas"
-		"DOTA_Tooltip_ability_item_hand_of_midas_ebf_Description"								"<h1>Active: Overflowing Coffers</h1>Every time you earn gold from killing units or ending the round, the gold gain is increased by %bonus_gold%%%"
+		"DOTA_Tooltip_ability_item_hand_of_midas_ebf_Description"								"<h1>Passive: Overflowing Coffers</h1>Every time you earn gold from killing units or ending the round, the gold gain is increased by %bonus_gold%%%"
 		"DOTA_Tooltip_ability_item_hand_of_midas_ebf_Lore"										"Preserved through unknown magical means, the Hand of Midas is a weapon of greed, sacrificing animals to line the owner's pockets."
 		"DOTA_Tooltip_ability_item_hand_of_midas_ebf_bonus_attack_speed"						"+$attack"
 				

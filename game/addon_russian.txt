@@ -615,7 +615,6 @@
 		"DOTA_Tooltip_ability_boss_axe_berserkers_call"									"Berserker's Call"
 		"DOTA_Tooltip_ability_boss_axe_berserkers_call_Description"						"boss_axe насмехается над ближайшими вражескими отрядами, заставляя их атаковать его, при этом он получает бонусную броню на время действия."
 		"DOTA_Tooltip_ability_boss_axe_berserkers_call_scepter_description"  			"Berserker's Call applies Battle Hunger to affected units. Reduces Berserker's Call cooldown."
-		"DOTA_Tooltip_ability_boss_axe_berserkers_call_abilitydraft_note"  			    "<span class=\"ADWarning\">Must draft <b>Battle Hunger</b> for Scepter upgrade to work.</span>"
 		"DOTA_Tooltip_ability_boss_axe_berserkers_call_Lore"							"Mogul Khan's warcry taunts opponents into engaging in an unconquerable battle with the boss_axe."
 		"DOTA_Tooltip_ability_boss_axe_berserkers_call_radius"							"RADIUS:"
 		"DOTA_Tooltip_ability_boss_axe_berserkers_call_bonus_armor"						"BONUS ARMOR:"
@@ -1334,79 +1333,6 @@
 		"DOTA_Tooltip_modifier_item_radiance_3_burn"							"Burn Damage"
 		"DOTA_Tooltip_modifier_item_radiance_3_burn_Description"				"Taking damage every second, and missing %dMODIFIER_PROPERTY_MISS_PERCENTAGE%%% of attacks."
 
-
-		"DOTA_Tooltip_ability_item_midas_2"                                         "Midas hammer"
-		"DOTA_Tooltip_ability_item_midas_2_Description"                             "<h1>Пассивный: Gold Fury</h1> Каждый удар приносит вашей команде немного золота в зависимости от нанесенного урона.\nВы можете заработать максимум 150 золота за каждый раунд, проведенный с этим предметом, этот максимум делится на всех.\nМолот Мидаса полностью делится."
-
-		"DOTA_Tooltip_ability_item_midas_3"                                         "Shoemoney's Hammer"
-		"DOTA_Tooltip_ability_item_midas_3_Description"                             "<h1>Пассивный: Gold Fury</h1> Каждый удар приносит вашей команде немного золота в зависимости от нанесенного урона.\nВы можете заработать максимум 300 золотых за каждый раунд, проведенный с этим предметом, этот максимум делится на всех.\n Молот Мидаса полностью делится на всех."
-
-		"DOTA_Tooltip_moon_crest_effect"                                                  "Desolate"
-		"DOTA_Tooltip_moon_crest_effect_Description"                                      "Снижает физическую броню на 120"
-
-		"DOTA_Tooltip_ability_item_moon_crest"                                            "Moon Crest"
-		"DOTA_Tooltip_ability_item_moon_crest_Description"                                "Активное: Moon Armor - снижает физическую броню как владельца, так и у жертвы на 25%%."
-		"DOTA_Tooltip_ability_item_moon_crest_Note0"                                      ""
-		"DOTA_Tooltip_ability_item_moon_crest_Lore"                                       ""
-		"DOTA_Tooltip_ability_item_moon_crest_bonus_damage"                               "BONUS DAMAGE:"
-		"DOTA_Tooltip_ability_item_moon_crest_armor_reduction"                            "ARMOR REDUCTION:"
-		"DOTA_Tooltip_ability_item_moon_crest_duration"                                   "DURATION:"
-		"DOTA_Tooltip_ability_item_moon_crest_bonus_armor"                                "BONUS ARMOR:"
-		"DOTA_Tooltip_ability_item_moon_crest_bonus_evasion"                              "%+$evasion"
-		"DOTA_Tooltip_ability_item_moon_crest_bonus_all"                                  "+$all"
-		"DOTA_Tooltip_ability_item_moon_crest_bonus_mana_regen"                           "+$mana_regen"
-		"DOTA_Tooltip_ability_item_moon_crest_active_armor_percent"						"%MOON ARMOR ARMOR REDUCTION:"
-		"DOTA_Tooltip_ability_item_moon_crest_active_duration"							"MOON ARMOR DURATION:"
-
-		"DOTA_Tooltip_lunar_crest_effect"                                                  "Desolate"
-		"DOTA_Tooltip_lunar_crest_effect_Description"                                      "Уменьшает физическую броню на 400"
-
-		"DOTA_Tooltip_ability_item_lunar_crest"                                           "Lunar Crest"
-		"DOTA_Tooltip_ability_item_lunar_crest_Description"                                "Активное: Moon Armor - снижает физическую броню как владельца, так и у жертвы на 20%%."
-		"DOTA_Tooltip_ability_item_lunar_crest_Note0"                                      ""
-		"DOTA_Tooltip_ability_item_lunar_crest_Lore"                                       ""
-		"DOTA_Tooltip_ability_item_lunar_crest_bonus_damage"                               "BONUS DAMAGE:"
-		"DOTA_Tooltip_ability_item_lunar_crest_armor_reduction"                            "ARMOR REDUCTION:"
-		"DOTA_Tooltip_ability_item_lunar_crest_duration"                                   "DURATION:"
-		"DOTA_Tooltip_ability_item_lunar_crest_bonus_armor"                                "BONUS ARMOR:"
-		"DOTA_Tooltip_ability_item_lunar_crest_bonus_evasion"                              "%+$evasion"
-		"DOTA_Tooltip_ability_item_lunar_crest_bonus_all"                                  "+$all"
-		"DOTA_Tooltip_ability_item_lunar_crest_bonus_mana_regen"                           "+$mana_regen"
-		"DOTA_Tooltip_ability_item_lunar_crest_active_armor_percent"                       "%MOON ARMOR ARMOR REDUCTION:"
-		"DOTA_Tooltip_ability_item_lunar_crest_active_duration"                            "MOON ARMOR DURATION:"
-
-		"DOTA_Tooltip_ability_item_divinesoul"                                               "Divine Soul"
-		"DOTA_Tooltip_ability_item_divinesoul_Lore"                          "Soul origin seams to be an old banished god, the godly power of this souls, allow you to hit part of reality you never heard about."
-		"DOTA_Tooltip_ability_item_divinesoul_Description"                           "Увеличивает дальность атаки, урон и здоровье."    
-		"DOTA_Tooltip_ability_item_divinesoul_bonus_damage"                          "+$damage"
-		"DOTA_Tooltip_ability_item_divinesoul_bonus_range"            "Attack range: +"
-		"DOTA_Tooltip_ability_item_divinesoul_bonus_strength"                                 "+$all"
-		"DOTA_Tooltip_ability_item_divinesoul_bonus_allstats_tooltip"                                 "+$str"
-		"DOTA_Tooltip_ability_item_divinesoul_bonus_health_max"                               "+$health"
-		"DOTA_Tooltip_ability_item_divinesoul_health_regen_percent"           "% Health regen per second"
-		
-		"DOTA_Tooltip_ability_item_melee_fury"                                            "Melee Fury"
-		"DOTA_Tooltip_ability_item_melee_fury_Description"                                "Пассивный: Pure Cleave - Часть вашего урона устанавливается на <font color='#FF1010'>ЧИСТЫЙ</font> и задевает ближайших врагов. Рассечение действует только на юнитов ближнего боя"
-		"DOTA_Tooltip_ability_item_melee_fury_bonus_damage"                               "+$damage"
-		"DOTA_Tooltip_ability_item_melee_fury_bonus_all"                               "+$all"
-		"DOTA_Tooltip_ability_item_melee_fury_bonus_health_regen"                         "BONUS HEALTH REGEN:"
-		"DOTA_Tooltip_ability_item_melee_fury_bonus_mana_regen"                           "BONUS MANA REGEN:"
-		"DOTA_Tooltip_ability_item_melee_fury_radius"                                     "RADIUS:"
-		"DOTA_Tooltip_ability_item_melee_fury_splash_damage"                              "Bonus Damage: %"
-		"DOTA_Tooltip_ability_item_melee_fury_base_attack_time"                           "BASE ATTACK TIME:"
-
-
-
-		"DOTA_Tooltip_Ability_item_hyper_clarity_salve"                                         "Elixir"
-		"DOTA_Tooltip_Ability_item_hyper_clarity_salve_Description"                                             "Использование: Регенерация - восстанавливает здоровье и ману с течением времени.  Если герой начнет атаковать, эффект пропадает."
-		"DOTA_Tooltip_Ability_item_hyper_clarity_salve_Lore"                                                            "A magical elixir that can save warriors from the worst of wounds."
-		"DOTA_Tooltip_Ability_item_hyper_clarity_salve_Note0"                                                           "Flask is shareable."
-		"DOTA_Tooltip_Ability_item_hyper_clarity_salve_total_health"                                                    "Health restored:"
-		"DOTA_Tooltip_Ability_item_hyper_clarity_salve_total_mana"                                                      "Mana restored:"
-		"DOTA_Tooltip_Ability_item_hyper_clarity_salve_buff_duration"                                           "DURATION:"
-		"DOTA_Tooltip_modifier_item_hyper_clarity_salve"                                                "Elixir"
-		"DOTA_Tooltip_modifier_item_hyper_clarity_salve_Description"                    "Получает 500 здоровья и 100 маны в секунду."
-
 		"DOTA_Tooltip_slow_eidolon"                                                 "Eidolon slow"
 		"DOTA_Tooltip_slow_eidolon_Description"                                     "Вы замедляетесь на 20%%"
 
@@ -1418,80 +1344,12 @@
 
 		"DOTA_Tooltip_bahamutarmordebuff"                                                 "Bahamut's Armor Debuff"
 		"DOTA_Tooltip_bahamutarmordebuff_Description"                                     ""
-
-		"DOTA_Tooltip_ability_item_ares_shard"                                            "Ares' Shard"
-		"DOTA_Tooltip_ability_item_ares_shard_Description"                                "Заставляет врагов атаковать вас"
-		"DOTA_Tooltip_ability_item_ares_shard_Note0"                                      ""
-		"DOTA_Tooltip_ability_item_ares_shard_Lore"                                       ""
-		"DOTA_Tooltip_ability_item_ares_shard_debuff_duration"                            "DURATION:"
-		"DOTA_Tooltip_ability_item_ares_shard_Radius"                                     "RADIUS:"
-
-
-		"DOTA_Tooltip_ability_item_midas_greave"                                          "Midas Greaves"
-		"DOTA_Tooltip_ability_item_midas_greave_Description"                              "Каждый удар дает вам бонусное золото в зависимости от нанесенного урона (0,25 сек. время ожидания)."
-		"DOTA_Tooltip_ability_item_midas_greave_Note0"                                    "\nThere is a gold limit on every round: round number * 300 (limit is teamwise)"
-		"DOTA_Tooltip_ability_item_midas_greave_Lore"                                     ""
-		"DOTA_Tooltip_ability_item_midas_greave_bonus_all"                                "+$all"
-		"DOTA_Tooltip_ability_item_midas_greave_bonus_speed"                              "BONUS SPEED:"
-
-		"DOTA_Tooltip_ability_item_heart_boots"                                           "Protective Boots"
-		"DOTA_Tooltip_ability_item_heart_boots_Description"                               "Дает большое восстановление здоровья"
-		"DOTA_Tooltip_ability_item_heart_boots_Note0"                                     ""
-		"DOTA_Tooltip_ability_item_heart_boots_Lore"                                      ""
-		"DOTA_Tooltip_ability_item_heart_boots_health_regen_percent"                      "% HEALTH REGEN:"
-		"DOTA_Tooltip_ability_item_heart_boots_bonus_strength"                            "+$str"
-		"DOTA_Tooltip_ability_item_heart_boots_bonus_health_max"                          "BONUS HEALTH MAX:"
-		"DOTA_Tooltip_ability_item_heart_boots_bonus_all"                                 "+$all"
-		"DOTA_Tooltip_ability_item_heart_boots_bonus_speed"                               "BONUS SPEED:"
-		"DOTA_Tooltip_ability_item_heart_boots_bonus_armor"                               "BONUS ARMOR:"
-
-		"DOTA_Tooltip_ability_item_sheepstick_2"                                          "Scythe of Madness"
-		"DOTA_Tooltip_ability_item_sheepstick_2_Description"                               "Активный: Super Hex - превращает цель в безвредную овцу \n<font color='#70EAFF'>Игнорирует сопротивление боссов</font> \n<font color='#EA52FF'>Tinker не может обновить Scythe of Madness</font>"
-		"DOTA_Tooltip_ability_item_sheepstick_2_health_regen_percent"                      "% HEALTH REGEN:"
-		"DOTA_Tooltip_ability_item_sheepstick_2_bonus_str"                            "+$str"
-		"DOTA_Tooltip_ability_item_sheepstick_2_bonus_int"                          "+$int"
-		"DOTA_Tooltip_ability_item_sheepstick_2_bonus_agi"                                 "+$agi"
-		"DOTA_Tooltip_ability_item_sheepstick_2_duration"                               "Hex Duration:"
-		"DOTA_Tooltip_ability_item_sheepstick_2_regen_mana"                               "%+Mana Regen:"
-
-		"DOTA_Tooltip_ability_item_gauntlet_cursed"                                          "Cursed Gauntlet"
-		"DOTA_Tooltip_ability_item_gauntlet_cursed_Description"                               "Пассивное: Проклятое пламя - дает шанс отключить регенерацию здоровья у цели."
-		"DOTA_Tooltip_ability_item_gauntlet_cursed_lore"                      "Mystic gauntlet said to be weard by some god's champion to destroy Oni."
-		"DOTA_Tooltip_ability_item_gauntlet_cursed_bonus_damage"                            "+$damage"
-		"DOTA_Tooltip_ability_item_gauntlet_cursed_bonus_all"                            "+$all"
-		"DOTA_Tooltip_ability_item_gauntlet_cursed_cursed_duration"                            "Cursed Flame Duration:"
-		"DOTA_Tooltip_ability_item_gauntlet_cursed_cursed_chance"                            "%Cursed Flame Chance:"
-
-		"DOTA_Tooltip_cursed_effect"                                                        "Cursed Flame"
-		"DOTA_Tooltip_cursed_effect_Description"                                            "Предотвращает регенерацию здоровья."
-
-		"DOTA_Tooltip_ability_item_blink_boots"														"Blink Boots"
-		"DOTA_Tooltip_ability_item_blink_boots_Description"											"<h1>Активный: Blink</h1>Телепортируйтесь к цели на расстояние до %blink_range% единиц.  Сапоги могут хранить до 3 зарядов. Заряд обновляется каждые 8 секунд."
-		"DOTA_Tooltip_ability_item_blink_boots_lore"												"Nobody can't go faster than the one who wear those boots !"
-		"DOTA_Tooltip_ability_item_blink_boots_bonus_all"											"+$all"
-		"DOTA_Tooltip_ability_item_blink_boots_bonus_movement"										"+$move"
-		"DOTA_Tooltip_ability_item_blink_boots_bonus_attack_speed"									"+$attack"
-		
-		"DOTA_Tooltip_ability_item_blink_boots2"													"Golden Teleporters"
-		"DOTA_Tooltip_ability_item_blink_boots2_Description"										"<h1>Активный: Blink</h1>Телепортируйтесь к цели на расстояние до %blink_range% единиц.  Сапоги могут хранить до 3 зарядов. Заряд обновляется каждые 8 секунд.\n<h1>Пассивный: Midas Touch</h1> Каждый удар приносит вашей команде немного золота в зависимости от нанесенного урона.\nВы можете заработать максимум 300 золота за каждый раунд, завершенный с этим предметом."
-		"DOTA_Tooltip_ability_item_blink_boots2_lore"												"Nobody can't go faster than the one who wear those boots !"
-		"DOTA_Tooltip_ability_item_blink_boots2_bonus_all"											"+$all"
-		"DOTA_Tooltip_ability_item_blink_boots2_bonus_movement"										"+$move"
-		"DOTA_Tooltip_ability_item_blink_boots2_bonus_attack_speed"									"+$attack"
-		
-		"DOTA_Tooltip_ability_item_blink_boots3"													"Greedy Translocators"
-		"DOTA_Tooltip_ability_item_blink_boots3_Description"										"<h1>Активный: Blink</h1>Телепортируйтесь к цели на расстояние до %blink_range% единиц.  Сапоги могут хранить до 3 зарядов. Заряд обновляется каждые 8 секунд.\n<h1>Пассивное: Gold Fury</h1> Каждый удар приносит вашей команде немного золота в зависимости от нанесенного урона.\nВы можете заработать максимум 450 золота за каждый раунд, завершенный с этим предметом."
-		"DOTA_Tooltip_ability_item_blink_boots3_lore"												"Nobody can't go faster than the one who wear those boots !"
-		"DOTA_Tooltip_ability_item_blink_boots3_bonus_all"											"+$all"
-		"DOTA_Tooltip_ability_item_blink_boots3_bonus_movement"										"+$move"
-		"DOTA_Tooltip_ability_item_blink_boots3_bonus_attack_speed"									"+$attack"
 		
 		"DOTA_Tooltip_ability_item_bottle_Description"												"<h1>Активный: Регенерация</h1>Использует заряд для восстановления %health_restore% + %health_restore_pct%%  здоровья и %mana_restore% + %mana_restore_pct%%  маны в течение %restore_time% секунд. Если герой атакован вражеским героем, эффект пропадает.<br><br>Бутылка автоматически наполняется на фонтане.<br><br>Удерживайте CTRL, чтобы использовать его на союзном герое.<br><br>Дальность: %abilitycastrange%\n\n<h1>Пассивный:  Хранить руну</h1>Руны можно сохранить в бутылке для последующего использования, щелкнув по ним правой кнопкой мыши. Неиспользованные руны автоматически активируются через 90 секунд.<br><br>Использование сохраненной руны полностью пополняет бутылку."
 		
 		// ITEMS - Aether Lens
 		"DOTA_Tooltip_ability_item_orichalcum_lens"													"Orichalcum Lens"
-		"DOTA_Tooltip_ability_item_orichalcum_lens_Description"										"<h1>Пассивный: Orichalcum Focus</h1>Увеличивает дальность действия заклинаний и предметов.\nУсиление заклинаний не суммируется."
-		"DOTA_Tooltip_ability_item_orichalcum_lens_Note0"											"Passive does not stack."
+		"DOTA_Tooltip_ability_item_orichalcum_lens_Description"										"<h1>Пассивный: Orichalcum Focus</h1> Увеличивает дальность действия заклинаний и предметов."
 		"DOTA_Tooltip_ability_item_orichalcum_lens_bonus_intelligence"								"+$int"
 		"DOTA_Tooltip_ability_item_orichalcum_lens_bonus_agi_str"									"+Other Attributes"
 		"DOTA_Tooltip_ability_item_orichalcum_lens_bonus_mana"										"+$mana" 
@@ -1503,34 +1361,31 @@
 		"DOTA_Tooltip_ability_item_orichalcum_lens_Lore"											"Polished with the incantation of his final breath, the gift of a dying mage to his sickly son."
 		
 		"DOTA_Tooltip_ability_item_redium_lens"														"Redium Lens"
-		"DOTA_Tooltip_ability_item_redium_lens_Description"                					     "<h1>Пассивный: Redium Focus</h1>Увеличивает дальность действия заклинаний и предметов.\nУсиление заклинаний не суммируется."
-		"DOTA_Tooltip_ability_item_redium_lens_Note0"                        					   "Passive does not stack."
+		"DOTA_Tooltip_ability_item_redium_lens_Description"                					     	"<h1>Пассивный: Redium Focus</h1>Увеличивает дальность действия заклинаний и предметов."
 		"DOTA_Tooltip_ability_item_redium_lens_bonus_intelligence"									"+$int"
 		"DOTA_Tooltip_ability_item_redium_lens_bonus_agi_str"										"+Other Attributes"
-		"DOTA_Tooltip_ability_item_redium_lens_bonus_mana"                					      "+$mana"
-		"DOTA_Tooltip_ability_item_redium_lens_bonus_mana_regen"          					      "+$mana_regen"
-		"DOTA_Tooltip_ability_item_redium_lens_cast_range_bonus"          					      "+$cast_range"	              
+		"DOTA_Tooltip_ability_item_redium_lens_bonus_mana"											"+$mana"
+		"DOTA_Tooltip_ability_item_redium_lens_bonus_mana_regen"									"+$mana_regen"
+		"DOTA_Tooltip_ability_item_redium_lens_cast_range_bonus"									"+$cast_range"	              
 		"DOTA_Tooltip_ability_item_redium_lens_spell_amp"											"%+$spell_amp"
 		"DOTA_Tooltip_ability_item_redium_lens_mana_regen_multiplier"								"%+Mana Regen Amplification"
 		"DOTA_Tooltip_ability_item_redium_lens_spell_lifesteal_amp"									"%+Spell Lifesteal Amplification"       
-		"DOTA_Tooltip_ability_item_redium_lens_Lore"                      					      "Polished with the incantation of his final breath, the gift of a dying mage to his sickly son."
+		"DOTA_Tooltip_ability_item_redium_lens_Lore"												"Polished with the incantation of his final breath, the gift of a dying mage to his sickly son."
 		
 		"DOTA_Tooltip_ability_item_sunium_lens"														"Sunium Lens"
-		"DOTA_Tooltip_ability_item_sunium_lens_Description"                  					   "<h1>Пассивный: Sunium Focus</h1>Увеличивает дальность действия заклинаний и предметов.\nУсиление заклинаний не суммируется."
-		"DOTA_Tooltip_ability_item_sunium_lens_Note0"                       					    "Passive does not stack."
+		"DOTA_Tooltip_ability_item_sunium_lens_Description"											"<h1>Пассивный: Sunium Focus</h1>Увеличивает дальность действия заклинаний и предметов."
 		"DOTA_Tooltip_ability_item_sunium_lens_bonus_intelligence"									"+$int"
 		"DOTA_Tooltip_ability_item_sunium_lens_bonus_agi_str"										"+Other Attributes"
 		"DOTA_Tooltip_ability_item_sunium_lens_bonus_mana"                  					    "+$mana"
 		"DOTA_Tooltip_ability_item_sunium_lens_bonus_mana_regen"            					    "+$mana_regen"
-		"DOTA_Tooltip_ability_item_sunium_lens_cast_range_bonus"           					     "+$cast_range"	              
+		"DOTA_Tooltip_ability_item_sunium_lens_cast_range_bonus"           					     	"+$cast_range"	              
 		"DOTA_Tooltip_ability_item_sunium_lens_spell_amp"											"%+$spell_amp"
 		"DOTA_Tooltip_ability_item_sunium_lens_mana_regen_multiplier"								"%+Mana Regen Amplification"
 		"DOTA_Tooltip_ability_item_sunium_lens_spell_lifesteal_amp"									"%+Spell Lifesteal Amplification"   
 		"DOTA_Tooltip_ability_item_sunium_lens_Lore"                        					    "Polished with the incantation of his final breath, the gift of a dying mage to his sickly son."
 		
 		"DOTA_Tooltip_ability_item_omni_lens"														"Unobtanium Lens"
-		"DOTA_Tooltip_ability_item_omni_lens_Description"											"<h1>Пассивный: Unobtanium Focus</h1>Увеличивает дальность действия заклинаний и предметов.\nУсиление заклинаний не суммируется."
-		"DOTA_Tooltip_ability_item_omni_lens_Note0"													"Passive does not stack."
+		"DOTA_Tooltip_ability_item_omni_lens_Description"											"<h1>Пассивный: Unobtanium Focus</h1>Увеличивает дальность действия заклинаний и предметов."
 		"DOTA_Tooltip_ability_item_omni_lens_bonus_intelligence"									"+$int"
 		"DOTA_Tooltip_ability_item_omni_lens_bonus_agi_str"											"+Other Attributes"
 		"DOTA_Tooltip_ability_item_omni_lens_bonus_mana"											"+$mana"
@@ -1554,6 +1409,136 @@
 		"DOTA_Tooltip_ability_item_asura_lens_mana_regen_multiplier"								"%+Mana Regen Amplification"
 		"DOTA_Tooltip_ability_item_asura_lens_spell_lifesteal_amp"									"%+Spell Lifesteal Amplification"                
 		"DOTA_Tooltip_ability_item_asura_lens_Lore"													"Polished with the incantation of his final breath, the gift of a dying mage to his sickly son."
+
+		// ITEMS - Force Boots
+		"DOTA_Tooltip_ability_item_force_boots"													"Force Boots"
+		"DOTA_Tooltip_ability_item_force_boots_Description"										"<h1>Активный: Kinetic Jaunt</h1>Развеивает владельца и толкает его на %push_length% единиц в направлении, в которое смотрит.<br><br>После этого дает пользователю %phase_movement_speed%%%  повышенную скорость передвижения (%phase_movement_speed_range%%%  для героев дальнего боя) и позволяет перемещаться сквозь отряды на %phase_duration% секунд."
+		"DOTA_Tooltip_ability_item_force_boots_Lore"											"Elusive marvels never successfully studied for proper classification in the archives."
+		"DOTA_Tooltip_ability_item_force_boots_bonus_intellect"									"+$int"
+		"DOTA_Tooltip_ability_item_force_boots_bonus_health"									"+$health"
+		"DOTA_Tooltip_ability_item_force_boots_bonus_movement_speed"							"+$move_speed"
+		"DOTA_Tooltip_ability_item_force_boots_bonus_damage_melee"								"+Damage (MELEE)"
+		"DOTA_Tooltip_ability_item_force_boots_bonus_damage_range"								"+Damage (RANGED)"
+		"DOTA_Tooltip_ability_item_force_boots_bonus_armor"										"+$armor"
+		
+		"DOTA_Tooltip_ability_item_force_boots_2"												"Spiritsteppers"
+		"DOTA_Tooltip_ability_item_force_boots_2_Description"									"<h1>Активный: Kinetic Jaunt</h1>Развеивает владельца и толкает его на %push_length% единиц в направлении, в которое смотрит.<br><br>После этого дает пользователю %phase_movement_speed%%%  повышенную скорость передвижения (%phase_movement_speed_range%%%  для героев дальнего боя) и позволяет перемещаться сквозь отряды на %phase_duration% секунд."
+		"DOTA_Tooltip_ability_item_force_boots_2_Lore"											"Elusive marvels never successfully studied for proper classification in the archives."
+		"DOTA_Tooltip_ability_item_force_boots_2_bonus_intellect"								"+$int"
+		"DOTA_Tooltip_ability_item_force_boots_2_bonus_health"									"+$health"
+		"DOTA_Tooltip_ability_item_force_boots_2_bonus_movement_speed"							"+$move_speed"
+		"DOTA_Tooltip_ability_item_force_boots_2_bonus_damage_melee"							"+Damage (MELEE)"
+		"DOTA_Tooltip_ability_item_force_boots_2_bonus_damage_range"							"+Damage (RANGED)"
+		"DOTA_Tooltip_ability_item_force_boots_2_bonus_armor"									"+$armor"
+		
+		"DOTA_Tooltip_ability_item_force_boots_3"												"Boots of Limbo"
+		"DOTA_Tooltip_ability_item_force_boots_3_Description"									"<h1>Активный: Kinetic Jaunt</h1>Развеивает владельца и толкает его на %push_length% единиц в направлении, в которое смотрит.<br><br>После этого дает пользователю %phase_movement_speed%%%  повышенную скорость передвижения (%phase_movement_speed_range%%%  для героев дальнего боя) и позволяет перемещаться сквозь отряды на %phase_duration% секунд."
+		"DOTA_Tooltip_ability_item_force_boots_3_Lore"											"Elusive marvels never successfully studied for proper classification in the archives."
+		"DOTA_Tooltip_ability_item_force_boots_3_bonus_intellect"								"+$int"
+		"DOTA_Tooltip_ability_item_force_boots_3_bonus_health"									"+$health"
+		"DOTA_Tooltip_ability_item_force_boots_3_bonus_movement_speed"							"+$move_speed"
+		"DOTA_Tooltip_ability_item_force_boots_3_bonus_damage_melee"							"+Damage (MELEE)"
+		"DOTA_Tooltip_ability_item_force_boots_3_bonus_damage_range"							"+Damage (RANGED)"
+		"DOTA_Tooltip_ability_item_force_boots_3_bonus_armor"									"+$armor"
+		
+		"DOTA_Tooltip_ability_item_force_boots_4"												"Boots of Rapture"
+		"DOTA_Tooltip_ability_item_force_boots_4_Description"									"<h1>Активный: Kinetic Jaunt</h1>Развеивает владельца и толкает его на %push_length% единиц в направлении, в которое смотрит.<br><br>После этого дает пользователю %phase_movement_speed%%%  повышенную скорость передвижения (%phase_movement_speed_range%%%  для героев дальнего боя) и позволяет перемещаться сквозь отряды на %phase_duration% секунд."
+		"DOTA_Tooltip_ability_item_force_boots_4_Lore"											"Elusive marvels never successfully studied for proper classification in the archives."
+		"DOTA_Tooltip_ability_item_force_boots_4_bonus_intellect"								"+$int"
+		"DOTA_Tooltip_ability_item_force_boots_4_bonus_health"									"+$health"
+		"DOTA_Tooltip_ability_item_force_boots_4_bonus_movement_speed"							"+$move_speed"
+		"DOTA_Tooltip_ability_item_force_boots_4_bonus_damage_melee"							"+Damage (MELEE)"
+		"DOTA_Tooltip_ability_item_force_boots_4_bonus_damage_range"							"+Damage (RANGED)"
+		"DOTA_Tooltip_ability_item_force_boots_4_bonus_armor"									"+$armor"
+		
+		"DOTA_Tooltip_ability_item_force_boots_5"												"Boots of Nothing"
+		"DOTA_Tooltip_ability_item_force_boots_5_Description"									"<h1>Активный: Kinetic Jaunt</h1>Развеивает владельца и толкает его на %push_length% единиц в направлении, в которое смотрит.<br><br>После этого дает пользователю %phase_movement_speed%%%  повышенную скорость передвижения (%phase_movement_speed_range%%%  для героев дальнего боя) и позволяет перемещаться сквозь отряды на %phase_duration% секунд."
+		"DOTA_Tooltip_ability_item_force_boots_5_Lore"											"Elusive marvels never successfully studied for proper classification in the archives."
+		"DOTA_Tooltip_ability_item_force_boots_5_bonus_intellect"								"+$int"
+		"DOTA_Tooltip_ability_item_force_boots_5_bonus_health"									"+$health"
+		"DOTA_Tooltip_ability_item_force_boots_5_bonus_movement_speed"							"+$move_speed"
+		"DOTA_Tooltip_ability_item_force_boots_5_bonus_damage_melee"							"+Damage (MELEE)"
+		"DOTA_Tooltip_ability_item_force_boots_5_bonus_damage_range"							"+Damage (RANGED)"
+		"DOTA_Tooltip_ability_item_force_boots_5_bonus_armor"									"+$armor"
+		
+		// BOOTS - Boots of Bearing
+		"DOTA_Tooltip_ability_item_boots_of_bearing_2"											"Empty Soles"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_2_Description"								"<h1>Активный: Giant's Endurance</h1>Дает +%bonus_attack_speed_pct% скорости атаки, +%bonus_movement_speed_pct%%% скорости передвижения и увеличивает все типы восстановления на %restoration_amp%%% ближайшим союзникам на %duration% секунд.<br><br>В течение первых %bonus_ms_duration% секунд союзников нельзя замедлить.<br><br>Радиус: %radius%\n\n<h1>Пассивный: Swiftness Aura</h1>Дает %aura_movement_speed% скорости передвижения союзникам.<br><br>Радиус: %radius%"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_2_Lore"										"Resplendent footwear fashioned for the ancient herald that first dared spread the glory of Stonehall beyond the original borders of its nascent claim."
+		"DOTA_Tooltip_ability_item_boots_of_bearing_2_bonus_str"								"+$str"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_2_bonus_int"								"+$int"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_2_bonus_movement_speed"						"+$move_speed"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_2_health_regen_pct"							"%+Max Health Regen"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_2_bonus_health"								"+$health"
+		
+		"DOTA_Tooltip_ability_item_boots_of_bearing_3"											"Abyssal Striders"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_3_Description"								"<h1>Активный: Giant's Endurance</h1>Дает +%bonus_attack_speed_pct% скорости атаки, +%bonus_movement_speed_pct%%% скорости передвижения и увеличивает все типы восстановления на %restoration_amp%%% ближайшим союзникам на %duration% секунд.<br><br>В течение первых %bonus_ms_duration% секунд союзников нельзя замедлить.<br><br>Радиус: %radius%\n\n<h1>Пассивный: Swiftness Aura</h1>Дает %aura_movement_speed% скорости передвижения союзникам.<br><br>Радиус: %radius%"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_3_Lore"										"Resplendent footwear fashioned for the ancient herald that first dared spread the glory of Stonehall beyond the original borders of its nascent claim."
+		"DOTA_Tooltip_ability_item_boots_of_bearing_3_bonus_str"								"+$str"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_3_bonus_int"								"+$int"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_3_bonus_movement_speed"						"+$move_speed"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_3_health_regen_pct"							"%+Max Health Regen"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_3_bonus_health"								"+$health"
+		
+		"DOTA_Tooltip_ability_item_boots_of_bearing_4"											"Olympian Sandals"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_4_Description"								"<h1>Активный: Giant's Endurance</h1>Дает +%bonus_attack_speed_pct% скорости атаки, +%bonus_movement_speed_pct%%% скорости передвижения и увеличивает все типы восстановления на %restoration_amp%%% ближайшим союзникам на %duration% секунд.<br><br>В течение первых %bonus_ms_duration% секунд союзников нельзя замедлить.<br><br>Радиус: %radius%\n\n<h1>Пассивный: Swiftness Aura</h1>Дает %aura_movement_speed% скорости передвижения союзникам.<br><br>Радиус: %radius%"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_4_Lore"										"Resplendent footwear fashioned for the ancient herald that first dared spread the glory of Stonehall beyond the original borders of its nascent claim."
+		"DOTA_Tooltip_ability_item_boots_of_bearing_4_bonus_str"								"+$str"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_4_bonus_int"								"+$int"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_4_bonus_movement_speed"						"+$move_speed"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_4_health_regen_pct"							"%+Max Health Regen"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_4_bonus_health"								"+$health"
+		
+		"DOTA_Tooltip_ability_item_boots_of_bearing_5"											"Off-worlders"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_5_Description"								"<h1>Активный: Giant's Endurance</h1>Дает +%bonus_attack_speed_pct% скорости атаки, +%bonus_movement_speed_pct%%% скорости передвижения и увеличивает все типы восстановления на %restoration_amp%%% ближайшим союзникам на %duration% секунд.<br><br>В течение первых %bonus_ms_duration% секунд союзников нельзя замедлить.<br><br>Радиус: %radius%\n\n<h1>Пассивный: Swiftness Aura</h1>Дает %aura_movement_speed% скорости передвижения союзникам.<br><br>Радиус: %radius%"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_5_Lore"										"Resplendent footwear fashioned for the ancient herald that first dared spread the glory of Stonehall beyond the original borders of its nascent claim."
+		"DOTA_Tooltip_ability_item_boots_of_bearing_5_bonus_str"								"+$str"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_5_bonus_int"								"+$int"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_5_bonus_movement_speed"						"+$move_speed"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_5_health_regen_pct"							"%+Max Health Regen"
+		"DOTA_Tooltip_ability_item_boots_of_bearing_5_bonus_health"								"+$health"
+		
+		// ITEMS - Blink Treads
+		"DOTA_Tooltip_Ability_item_blink_treads"													"Blink Treads"
+		"DOTA_Tooltip_Ability_item_blink_treads_Description"										"<h1>Активный: Flowing Blink</h1>Мгновенно перемещает к указанной точке на расстоянии до %blink_range%.<br><br>Когда вы применяете на себя, меняете атрибут.<br><br>Flowing Blink нельзя использовать в течение %blink_damage_cooldown% секунд после получения урона от вражеского героя.\n\n<h1>Пассивный: Overwhelming Stance</h1>Выбранный атрибут становится Силой, все враги в радиусе %radius% получают %movement_slow%%%  замедление скорости передвижения и %attack_slow% замедление скорости атаки на %duration% секунд и получают урон, равный %base_damage% + %damage_pct%%%  вашей силы.\n\n<h1>Пассивный: Swift Stance</h1>Выбранный атрибут становится Ловкостью, вы получаете %bonus_movement%%% скорости передвижения и +%bonus_agi_active%% ловкости на %duration% секунд.\n\n<h1>Пассивный: Arcane Stance</h1>Выбранный атрибут становится Интеллектом, время перезарядки предмета сокращается до %arcane_blink_cd% секунд."
+		"DOTA_Tooltip_ability_item_blink_treads_bonus_movement_speed_ranged"						"+Move Speed (Ranged Heroes)"
+		"DOTA_Tooltip_ability_item_blink_treads_bonus_movement_speed_melee"							"+Move Speed (Melee Heroes)"
+		"DOTA_Tooltip_ability_item_blink_treads_bonus_stat"											"+$selected_attrib"
+		"DOTA_Tooltip_ability_item_blink_treads_bonus_other"										"+$other_attr"
+		"DOTA_Tooltip_ability_item_blink_treads_bonus_attack_speed"									"+$attack"
+		
+		"DOTA_Tooltip_Ability_item_blink_treads2"													"Darkfoot's Treads"
+		"DOTA_Tooltip_Ability_item_blink_treads2_Description"										"<h1>Активный: Flowing Blink</h1>Мгновенно перемещает к указанной точке на расстоянии до %blink_range%.<br><br>Когда вы применяете на себя, меняете атрибут.<br><br>Flowing Blink нельзя использовать в течение %blink_damage_cooldown% секунд после получения урона от вражеского героя.\n\n<h1>Пассивный: Overwhelming Stance</h1>Выбранный атрибут становится Силой, все враги в радиусе %radius% получают %movement_slow%%%  замедление скорости передвижения и %attack_slow% замедление скорости атаки на %duration% секунд и получают урон, равный %base_damage% + %damage_pct%%%  вашей силы.\n\n<h1>Пассивный: Swift Stance</h1>Выбранный атрибут становится Ловкостью, вы получаете %bonus_movement%%% скорости передвижения и +%bonus_agi_active%% ловкости на %duration% секунд.\n\n<h1>Пассивный: Arcane Stance</h1>Выбранный атрибут становится Интеллектом, время перезарядки предмета сокращается до %arcane_blink_cd% секунд."
+		"DOTA_Tooltip_ability_item_blink_treads2_bonus_movement_speed_ranged"						"+Move Speed (Ranged Heroes)"
+		"DOTA_Tooltip_ability_item_blink_treads2_bonus_movement_speed_melee"							"+Move Speed (Melee Heroes)"
+		"DOTA_Tooltip_ability_item_blink_treads2_bonus_stat"											"+$selected_attrib"
+		"DOTA_Tooltip_ability_item_blink_treads2_bonus_other"										"+$other_attr"
+		"DOTA_Tooltip_ability_item_blink_treads2_bonus_attack_speed"									"+$attack"
+		
+		"DOTA_Tooltip_Ability_item_blink_treads3"													"Helldiver's Treads"
+		"DOTA_Tooltip_Ability_item_blink_treads3_Description"										"<h1>Активный: Flowing Blink</h1>Мгновенно перемещает к указанной точке на расстоянии до %blink_range%.<br><br>Когда вы применяете на себя, меняете атрибут.<br><br>Flowing Blink нельзя использовать в течение %blink_damage_cooldown% секунд после получения урона от вражеского героя.\n\n<h1>Пассивный: Overwhelming Stance</h1>Выбранный атрибут становится Силой, все враги в радиусе %radius% получают %movement_slow%%%  замедление скорости передвижения и %attack_slow% замедление скорости атаки на %duration% секунд и получают урон, равный %base_damage% + %damage_pct%%%  вашей силы.\n\n<h1>Пассивный: Swift Stance</h1>Выбранный атрибут становится Ловкостью, вы получаете %bonus_movement%%% скорости передвижения и +%bonus_agi_active%% ловкости на %duration% секунд.\n\n<h1>Пассивный: Arcane Stance</h1>Выбранный атрибут становится Интеллектом, время перезарядки предмета сокращается до %arcane_blink_cd% секунд."
+		"DOTA_Tooltip_ability_item_blink_treads3_bonus_movement_speed_ranged"						"+Move Speed (Ranged Heroes)"
+		"DOTA_Tooltip_ability_item_blink_treads3_bonus_movement_speed_melee"							"+Move Speed (Melee Heroes)"
+		"DOTA_Tooltip_ability_item_blink_treads3_bonus_stat"											"+$selected_attrib"
+		"DOTA_Tooltip_ability_item_blink_treads3_bonus_other"										"+$other_attr"
+		"DOTA_Tooltip_ability_item_blink_treads3_bonus_attack_speed"									"+$attack"
+		
+		"DOTA_Tooltip_Ability_item_blink_treads4"													"Skywalker's Treads"
+		"DOTA_Tooltip_Ability_item_blink_treads4_Description"										"<h1>Активный: Flowing Blink</h1>Мгновенно перемещает к указанной точке на расстоянии до %blink_range%.<br><br>Когда вы применяете на себя, меняете атрибут.<br><br>Flowing Blink нельзя использовать в течение %blink_damage_cooldown% секунд после получения урона от вражеского героя.\n\n<h1>Пассивный: Overwhelming Stance</h1>Выбранный атрибут становится Силой, все враги в радиусе %radius% получают %movement_slow%%%  замедление скорости передвижения и %attack_slow% замедление скорости атаки на %duration% секунд и получают урон, равный %base_damage% + %damage_pct%%%  вашей силы.\n\n<h1>Пассивный: Swift Stance</h1>Выбранный атрибут становится Ловкостью, вы получаете %bonus_movement%%% скорости передвижения и +%bonus_agi_active%% ловкости на %duration% секунд.\n\n<h1>Пассивный: Arcane Stance</h1>Выбранный атрибут становится Интеллектом, время перезарядки предмета сокращается до %arcane_blink_cd% секунд."
+		"DOTA_Tooltip_ability_item_blink_treads4_bonus_movement_speed_ranged"						"+Move Speed (Ranged Heroes)"
+		"DOTA_Tooltip_ability_item_blink_treads4_bonus_movement_speed_melee"							"+Move Speed (Melee Heroes)"
+		"DOTA_Tooltip_ability_item_blink_treads4_bonus_stat"											"+$selected_attrib"
+		"DOTA_Tooltip_ability_item_blink_treads4_bonus_other"										"+$other_attr"
+		"DOTA_Tooltip_ability_item_blink_treads4_bonus_attack_speed"									"+$attack"
+		
+		"DOTA_Tooltip_Ability_item_blink_treads5"													"Outergod's Treads"
+		"DOTA_Tooltip_Ability_item_blink_treads5_Description"										"<h1>Активный: Flowing Blink</h1>Мгновенно перемещает к указанной точке на расстоянии до %blink_range%.<br><br>Когда вы применяете на себя, меняете атрибут.<br><br>Flowing Blink нельзя использовать в течение %blink_damage_cooldown% секунд после получения урона от вражеского героя.\n\n<h1>Пассивный: Overwhelming Stance</h1>Выбранный атрибут становится Силой, все враги в радиусе %radius% получают %movement_slow%%%  замедление скорости передвижения и %attack_slow% замедление скорости атаки на %duration% секунд и получают урон, равный %base_damage% + %damage_pct%%%  вашей силы.\n\n<h1>Пассивный: Swift Stance</h1>Выбранный атрибут становится Ловкостью, вы получаете %bonus_movement%%% скорости передвижения и +%bonus_agi_active%% ловкости на %duration% секунд.\n\n<h1>Пассивный: Arcane Stance</h1>Выбранный атрибут становится Интеллектом, время перезарядки предмета сокращается до %arcane_blink_cd% секунд."
+		"DOTA_Tooltip_ability_item_blink_treads5_bonus_movement_speed_ranged"						"+Move Speed (Ranged Heroes)"
+		"DOTA_Tooltip_ability_item_blink_treads5_bonus_movement_speed_melee"							"+Move Speed (Melee Heroes)"
+		"DOTA_Tooltip_ability_item_blink_treads5_bonus_stat"											"+$selected_attrib"
+		"DOTA_Tooltip_ability_item_blink_treads5_bonus_other"										"+$other_attr"
+		"DOTA_Tooltip_ability_item_blink_treads5_bonus_attack_speed"									"+$attack"
+		
 		
 		// ITEMS - Void's Reach
 		"DOTA_Tooltip_Ability_item_void_reach"														"Void's Reach"
@@ -1896,8 +1881,7 @@
 		"DOTA_Tooltip_ability_item_storm_fury_bonus_attack_speed"							"+$attack"
 		
 		"DOTA_Tooltip_ability_item_midas_fury"												"Midas Fury"
-		"DOTA_Tooltip_ability_item_midas_fury_Description"									"<h1>Пассивный: Splash</h1> Наносит %splash_damage%%% (%splash_damage_ranged%%% для героев дальнего боя) урона от атаки в виде физического урона в радиусе %radius%.\n<h1>Пассивный: Gold Fury</h1> Каждый удар приносит вашей команде немного золота в зависимости от нанесенного урона.\nВы можете заработать максимум 300 золота за каждый раунд, завершенный с этим предметом, этот максимум делится на всех."                                     
-		"DOTA_Tooltip_ability_item_midas_fury_Lore"											"Used in war to destroy waves of enemies."
+		"DOTA_Tooltip_ability_item_midas_fury_Description"									"<h1>Пассивный: Splash</h1>Наносит %splash_damage%%% (%splash_damage_ranged%%% для героев дальнего боя) урона от атаки в виде физического урона в радиусе %radius%."		"DOTA_Tooltip_ability_item_midas_fury_Lore"											"Used in war to destroy waves of enemies."
 		"DOTA_Tooltip_ability_item_midas_fury_bonus_damage"									"+$damage"
 		"DOTA_Tooltip_ability_item_midas_fury_bonus_health_regen"							"+$hp_regen"
 		"DOTA_Tooltip_ability_item_midas_fury_bonus_mana_regen"								"+$mana_regen"
@@ -1933,7 +1917,7 @@
 		"DOTA_Tooltip_ability_item_gungifier_4_bonus_regen"									"+$hp_regen"
 		
 		"DOTA_Tooltip_ability_item_gungnir_4"												"Wicked Fury"
-		"DOTA_Tooltip_ability_item_gungnir_4_Description"									"<h1>Пассивный: Gold Fury</h1> Каждый удар приносит вашей команде немного золота в зависимости от нанесенного урона.\nВы можете заработать максимум 450 золотых за каждый раунд, завершенный с помощью этого предмета, этот максимум делится на всех.\n<h1>Пассивный: Piercing Splash</h1>Наносит %splash_damage%%% (%splash_damage_ranged%%% для дальнобойных героев) урона от атаки в виде физического урона в радиусе %radius%. %bonus_attack_damage%%% этого урона от брызг наносится как чистый урон.\n<h1>Пассивный: Pierce</h1>Ваши атаки обладают истинным ударом и наносят дополнительный %bonus_chance_damage% + %bonus_attack_damage%% от общего урона атаки в виде чистого урона."
+		"DOTA_Tooltip_ability_item_gungnir_4_Description"									"<h1>Пассивный: Piercing Splash</h1>Наносит %splash_damage%%% (%splash_damage_ranged%%% для героев дальнего боя) урона от атаки в виде физического урона в радиусе %radius%. %bonus_attack_damage%%% этого урона от сплеша наносится как чистый урон.\n<h1>Пассивный: Pierce</h1>Ваши атаки обладают true-strike и наносят дополнительный %bonus_chance_damage% + %bonus_attack_damage%%% от общего урона атаки в виде чистого урона."
 		"DOTA_Tooltip_ability_item_gungnir_4_Lore"											"Greed is the most powerful sin."
 		"DOTA_Tooltip_ability_item_gungnir_4_bonus_damage"									"+$damage"
 		"DOTA_Tooltip_ability_item_gungnir_4_bonus_health_regen"							"+$hp_regen"
@@ -2046,19 +2030,19 @@
 		
 		// ITEMS - Upgrade Orbs
 		"DOTA_Tooltip_ability_item_orb_1"													"Orb of Shadows"
-		"DOTA_Tooltip_ability_item_orb_1_Lore"                         						"Before it fell into the hands of a wizard, this orb belonged to Foulfell's overwatcher."
+		"DOTA_Tooltip_ability_item_orb_1_Lore"                         						"Before it fell into the hands of a wizard, this orb belonged to Foulfell's watcher."
 		"DOTA_Tooltip_ability_item_orb_1_bonus_all"											"+$all"
 		
-		"DOTA_Tooltip_ability_item_orb_2"                                   	    	  	"Divine Orb"
-		"DOTA_Tooltip_ability_item_orb_2_Lore"                            					"Countain a slight part of god's power, Used to bless powerfull items"
+		"DOTA_Tooltip_ability_item_orb_2"                                   	    	  	"Demonic Orb"
+		"DOTA_Tooltip_ability_item_orb_2_Lore"                            					"The dark essence of the Seven Hells, condensed."
 		"DOTA_Tooltip_ability_item_orb_2_bonus_all_stats_tooltip"							"+$all"
 		
-		"DOTA_Tooltip_ability_item_orb_3"													"Great Divine Orb"
-		"DOTA_Tooltip_ability_item_orb_3_Lore"												"Countain an even greater part of gods' power, Items blessed with this will definelty become part of legends"
+		"DOTA_Tooltip_ability_item_orb_3"													"Divine Orb"
+		"DOTA_Tooltip_ability_item_orb_3_Lore"												"The concentrated remains of a Fundamental"
 		"DOTA_Tooltip_ability_item_orb_3_bonus_all_stats_tooltip"							"+$all"
 		
 		"DOTA_Tooltip_ability_item_orb_4"													"Bahamut's Power Shard"
-		"DOTA_Tooltip_ability_item_orb_4_Lore"												"Countain a immensively small part of bahamut's original power, can be used to corrupt divine object."
+		"DOTA_Tooltip_ability_item_orb_4_Lore"												"Dreadful power condensed from an Old One."
 		"DOTA_Tooltip_ability_item_orb_4_bonus_all_stats_tooltip"							"+$all"
 		
 		"DOTA_Tooltip_ability_item_orb_5"													"Asura's Shard"
@@ -2066,6 +2050,53 @@
 		"DOTA_Tooltip_ability_item_orb_5_Lore"												"The burning soul shard of a powerful demon."
 		"DOTA_Tooltip_ability_item_orb_5_bonus_all_stats_tooltip"							"+$all"
 		
+		"DOTA_Tooltip_Ability_item_reaver_2"													"Dark Reaver"
+		"DOTA_Tooltip_ability_item_reaver_2_Lore"												"A massive axe capable of tearing whole mountains down."
+		"DOTA_Tooltip_ability_item_reaver_2_bonus_strength"										"+$str"
+		
+		"DOTA_Tooltip_Ability_item_mystic_staff_2"												"Fell Staff"
+		"DOTA_Tooltip_ability_item_mystic_staff_2_Lore"											"Enigmatic staff made of only the most expensive crystals."
+		"DOTA_Tooltip_ability_item_mystic_staff_2_bonus_intellect"								"+$int"
+			
+		"DOTA_Tooltip_Ability_item_eagle_2"														"Shadowsong"
+		"DOTA_Tooltip_ability_item_eagle_2_Lore"												"Capturing the dark call of the abyss, this mystical horn brings limitless dexterity to those who hear it."
+		"DOTA_Tooltip_ability_item_eagle_2_bonus_agility"										"+$agi"
+		
+		"DOTA_Tooltip_Ability_item_reaver_3"													"Fiendish Reaver"
+		"DOTA_Tooltip_ability_item_reaver_3_Lore"												"A massive axe capable of tearing whole mountains down."
+		"DOTA_Tooltip_ability_item_reaver_3_bonus_strength"										"+$str"
+		
+		"DOTA_Tooltip_Ability_item_mystic_staff_3"												"Hell Staff"
+		"DOTA_Tooltip_ability_item_mystic_staff_3_Lore"											"Enigmatic staff made of only the most expensive crystals."
+		"DOTA_Tooltip_ability_item_mystic_staff_3_bonus_intellect"								"+$int"
+			
+		"DOTA_Tooltip_Ability_item_eagle_3"														"Demonsong"
+		"DOTA_Tooltip_ability_item_eagle_3_Lore"												"Capturing the demonic call of hell, this mystical horn brings limitless dexterity to those who hear it."
+		"DOTA_Tooltip_ability_item_eagle_3_bonus_agility"										"+$agi"
+	
+		"DOTA_Tooltip_Ability_item_reaver_4"													"Celestial Reaver"
+		"DOTA_Tooltip_ability_item_reaver_4_Lore"												"A massive axe said capable of tearing down heaven."
+		"DOTA_Tooltip_ability_item_reaver_4_bonus_strength"										"+$str"
+		
+		"DOTA_Tooltip_Ability_item_mystic_staff_4"												"Heavenly Staff"
+		"DOTA_Tooltip_ability_item_mystic_staff_4_Lore"											"Enigmatic staff made of only the most expensive crystals."
+		"DOTA_Tooltip_ability_item_mystic_staff_4_bonus_intellect"								"+$int"
+			
+		"DOTA_Tooltip_Ability_item_eagle_4"														"Angelsong"
+		"DOTA_Tooltip_ability_item_eagle_4_Lore"												"Capturing the majestic call of the heavens, this mystical horn brings limitless dexterity to those who hear it."
+		"DOTA_Tooltip_ability_item_eagle_4_bonus_agility"										"+$agi"
+
+		"DOTA_Tooltip_Ability_item_reaver_5"													"Elder Reaver"
+		"DOTA_Tooltip_ability_item_reaver_5_Lore"												"A massive axe capable of tearing whole mountains down."
+		"DOTA_Tooltip_ability_item_reaver_5_bonus_strength"										"+$str"
+		
+		"DOTA_Tooltip_Ability_item_mystic_staff_5"												"Elder Staff"
+		"DOTA_Tooltip_ability_item_mystic_staff_5_Lore"											"Enigmatic staff made of only the most expensive crystals."
+		"DOTA_Tooltip_ability_item_mystic_staff_5_bonus_intellect"								"+$int"
+			
+		"DOTA_Tooltip_Ability_item_eagle_5"														"Elder's Song"
+		"DOTA_Tooltip_ability_item_eagle_5_Lore"												"Capturing the majestic call of the elders, this mystical horn brings limitless dexterity to those who hear it."
+		"DOTA_Tooltip_ability_item_eagle_5_bonus_agility"										"+$agi"
 		
 		// ITEMS - Revenant Brooch
 		"DOTA_Tooltip_ability_item_revenants_brooch_2"										"Nightwalker's Brooch"
@@ -2241,7 +2272,7 @@
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_4_lifesteal_percent"									"+$lifesteal"
 		
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_5"													"Edge of Annihilation"
-		"DOTA_Tooltip_ability_item_yasha_and_kaya_5_Description"										"<h1>Активный: Wild Static</h1>На %berserk_duration% секунд вы входите в состояние Wild Magic, дающее вам %berserk_bonus_attack_speed% скорости атаки, %berserk_bonus_movement_speed% скорости передвижения, заставляющее вашу Void's Lightning поражать до %static_strikes% юнитов в пределах %static_primary_radius% от цели атаки и увеличивающее урон вашей Void's Lightning до %static_damage%, одновременно снижая вашу броню на %berserk_armor_reduction%. И, наконец, ваша сила жизни восстанавливает ману в размере %berserk_mana_steal%%%.\n\n<h1>Пассивный: Spellsword</h1>Когда вы атакуете юнитов, вы получаете стаки Archon. У следующего произнесенного вами заклинания время выдержки уменьшается на %cooldown_stacks%%%, а время наложения - на %casttime_stacks%%% за каждый стак, максимум до %max_stacks% стаков. Стаки начинают исчезать после отсутствия атаки в течение %buffer_duration% секунд, и все стаки теряются через %loss_timer% секунд.<br><br>Произнесение заклинания увеличивает скорость вашей атаки на %attack_speed_buff% на %buff_duration% секунд.\n\n<h1>Пассивный: Void's Lightning</h1>Дает %crit_chance%%% шанс при атаке выпустить болт электричества, который проскакивает между %chain_strikes% целями в радиусе %chain_radius%, нанося %chain_damage% магического урона каждой из них. Молния пробивает уклонение.<br><br>Также увеличивает дальность атаки героев дальнего боя на %base_attack_range%, герои ближнего боя получают %melee_pct%% от дальности атаки. Также увеличивает дальность применения заклинаний и предметов на %cast_range_bonus%."
+		"DOTA_Tooltip_ability_item_yasha_and_kaya_5_Description"										"<h1>Активный: Wild Static</h1>На %berserk_duration% секунд вы входите в состояние Wild Magic, дающее вам %berserk_bonus_attack_speed% скорости атаки, %berserk_bonus_movement_speed% скорости передвижения, заставляющее вашу Void's Lightning поражать до %static_strikes% юнитов в пределах %static_primary_radius% от цели атаки и увеличивающее урон вашей Void's Lightning до %static_damage%, одновременно снижая вашу броню на %berserk_armor_reduction%. Ваши атаки восстанавливают ману в размере %berserk_mana_steal%%%.\n\n<h1>Пассивный: Thunder's Spellsword</h1>Ваши атаки дают стаки <b>Archon</b> и имеют %crit_chance%%% шанс пробить уклонение и выпустить болт электричества, который проскакивает между %chain_strikes% целей в радиусе %chain_radius%, нанося %chain_damage% магического урона каждой.<br><br>Время действия следующего заклинания, которое вы произнесете, будет уменьшено на %cooldown_stacks%%%, а время действия - на %casttime_stacks%%% за каждый стак Archon, до максимального количества %max_stacks% стаков. Стаки начинают исчезать после того, как вы не наносите атаки в течение %buffer_duration% секунд, и все стаки теряются через %loss_timer% секунд.<br><br>Произнесение заклинания увеличивает скорость вашей атаки на %attack_speed_buff% на %buff_duration% секунд.<br><br>Наконец, дальность атаки героев дальнего боя увеличивается на %base_attack_range% (герои ближнего боя получают %melee_pct%%% от дальности атаки), а дальность использования заклинаний и предметов увеличивается на %cast_range_bonus%."
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_5_Note0"												"Yasha-based movement speed bonuses from multiple items do not stack."
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_5_Lore"												"Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination."
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_5_bonus_intellect"									"+$int"
@@ -2370,12 +2401,12 @@
 		
 		// ITEMS - Eternal Shroud
 		"DOTA_Tooltip_ability_item_eternal_shroud"    										"Eternal Shroud"
-		"DOTA_Tooltip_ability_item_eternal_shroud_Description"    							"<h1>Активный: Shroud</h1> Создает магический щит, поглощающий до %barrier_block% магического урона, преобразуя %barrier_to_mana%%% полученного урона в ману. Действует %barrier_duration% секунд."
+		"DOTA_Tooltip_ability_item_eternal_shroud_Description"    							"<h1>Пассивный: Shroud</h1>Восстанавливает ману в размере %mana_restore_pct%%% от входящего урона от заклинаний противника."
 		"DOTA_Tooltip_ability_item_eternal_shroud_Lore"										"A pristine hood that feeds upon strife to empower its owner."
 		"DOTA_Tooltip_ability_item_eternal_shroud_bonus_regen"								"+$hp_regen"
 
 		"DOTA_Tooltip_ability_item_eternal_shroud_2"    									"Unholy Shroud"
-		"DOTA_Tooltip_ability_item_eternal_shroud_2_Description"    						"<h1>Активный: Shroud</h1> Создает магический щит, поглощающий до %barrier_block% магического урона, преобразуя %barrier_to_mana%%% полученного урона в ману. Действует %barrier_duration% секунд."
+		"DOTA_Tooltip_ability_item_eternal_shroud_2_Description"    						"<h1>Пассивный: Shroud</h1>Восстанавливает ману в размере %mana_restore_pct%%% от входящего урона от заклинаний противника."
 		"DOTA_Tooltip_ability_item_eternal_shroud_2_Lore"									"A pristine hood that feeds upon strife to empower its owner."
 		"DOTA_Tooltip_ability_item_eternal_shroud_2_bonus_spell_resist"						"%+$spell_resist"
 		"DOTA_Tooltip_ability_item_eternal_shroud_2_bonus_strength"							"+$str"
@@ -2392,9 +2423,10 @@
 		"DOTA_Tooltip_ability_item_kaya_and_sange_2_bonus_regen"							"+$hp_regen"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_2_status_resistance"						"%+Status Resistance"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_2_spell_amp"								"%+Spell and Restoration Amplification"
+		"DOTA_Tooltip_ability_item_kaya_and_sange_2_spell_lifesteal"						"%+$spell_lifesteal"
 		
 		"DOTA_Tooltip_ability_item_kaya_and_sange_3"										"Belial's Bargain"
-		"DOTA_Tooltip_ability_item_kaya_and_sange_3_Description"							"<h1>Пассивный: Guardian's Fury</h1>Когда вы получаете урон, вы получаете стак Fury. Стаки Fury увеличивают урон от заклинаний на %spell_amp_stacks%% за каждый стак.<br><br>Вы можете получить максимум %max_stacks% стаков Fury, и если вы не получаете урона в течение %buffer_duration% секунд, вы начинаете терять стаки Fury соответственно.<br>Все стаки теряются через %loss_timer% секунд.\n\n<h1>Пассивный: Shroud</h1>Восстанавливает ману в размере %mana_restore_pct%%%  от входящего урона от заклинаний противника."
+		"DOTA_Tooltip_ability_item_kaya_and_sange_3_Description"							"<h1>Пассивный: Guardian's Shroud</h1>Когда вы получаете урон, вы восстанавливаете ману в размере %mana_restore_pct%%% от входящего урона от заклинаний противника и получаете стак Fury. Стаки Fury увеличивают урон от заклинаний на %spell_amp_stacks%%% за каждый стак.<br><br>Вы можете получить максимум %max_stacks% стаков Fury, и если вы не получаете урона в течение %buffer_duration% секунд, вы начинаете терять стаки Fury.<br>Все стаки теряются через %loss_timer% секунд."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_3_Lore"									"Two of three known items of unimaginable power that many believe were crafted at the same enchanter's forge."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_3_bonus_strength"							"+$str"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_3_bonus_intellect"						"+$int"
@@ -2406,7 +2438,7 @@
 		"DOTA_Tooltip_ability_item_kaya_and_sange_3_spell_lifesteal"						"%+$spell_lifesteal"
 		
 		"DOTA_Tooltip_ability_item_kaya_and_sange_4"										"Heartwood Cutters"
-		"DOTA_Tooltip_ability_item_kaya_and_sange_4_Description"							"<h1>Пассивный: Guardian's Fury</h1>Когда вы получаете урон, вы получаете стак Fury. Стаки Fury увеличивают урон от заклинаний на %spell_amp_stacks%% за каждый стак.<br><br>Вы можете получить максимум %max_stacks% стаков Fury, и если вы не получаете урона в течение %buffer_duration% секунд, вы начинаете терять стаки Fury соответственно.<br>Все стаки теряются через %loss_timer% секунд.\n\n<h1>Пассивный: Shroud</h1>Восстанавливает ману в размере %mana_restore_pct%%%  от входящего урона от заклинаний противника."
+		"DOTA_Tooltip_ability_item_kaya_and_sange_4_Description"							"<h1>Пассивный: Guardian's Shroud</h1>Когда вы получаете урон, вы восстанавливаете ману в размере %mana_restore_pct%%% от входящего урона от заклинаний противника и получаете стак Fury. Стаки Fury увеличивают урон от заклинаний на %spell_amp_stacks%%% за каждый стак.<br><br>Вы можете получить максимум %max_stacks% стаков Fury, и если вы не получаете урона в течение %buffer_duration% секунд, вы начинаете терять стаки Fury.<br>Все стаки теряются через %loss_timer% секунд."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_4_Lore"									"Two of three known items of unimaginable power that many believe were crafted at the same enchanter's forge."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_4_bonus_strength"							"+$str"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_4_bonus_intellect"						"+$int"
@@ -2421,8 +2453,7 @@
 		"DOTA_Tooltip_ability_item_kaya_and_sange_4_spell_lifesteal"						"%+$spell_lifesteal"
 		
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5"										"Blades of Unity"
-		"DOTA_Tooltip_ability_item_kaya_and_sange_5_Description"							"<h1>Пассивный: Guardian's Fury</h1>Когда вы получаете урон, вы получаете стак Fury. Стаки Fury увеличивают урон от заклинаний на %spell_amp_stacks%%%  за каждый стак.<br><br>Вы можете получить максимум %max_stacks% стаков Fury, и если вы не получаете урона в течение %buffer_duration% секунд, вы начинаете терять стаки Fury соответственно.<br>Все стаки теряются через %loss_timer% секунд.\n\n<h1>Пассивный: Shroud</h1>Восстанавливает ману в размере %mana_restore_pct%%%  от входящего урона от заклинаний противника.\n\n<h1>Пассивный: Combo Breaker</h1>Когда вы получаете урон и ваше здоровье падает ниже %health_threshold_pct%%% , накладывается сильное развеивание и вы получаете секундный бафф %buff_duration%, который дает невосприимчивость к заклинаниям и снижает весь наносимый вам урон до нуля. Имеет %cooldown_duration% внутреннего времени действия.<br/><br/>Тип развеивания: <span class=\'GameplayValues GameplayVariable\'>Сильное</span>"
-
+		"DOTA_Tooltip_ability_item_kaya_and_sange_5_Description"							"<h1>Пассивный: Guardian's Shroud</h1>Когда вы получаете урон, вы восстанавливаете ману в размере %mana_restore_pct%%% от входящего урона от заклинаний противника и получаете стак Fury. Стаки Fury увеличивают урон от заклинаний на %spell_amp_stacks%%% за каждый стак.<br><br>Вы можете получить максимум %max_stacks% стаков Fury, и если вы не получаете урона в течение %buffer_duration% секунд, вы начинаете терять стаки Fury.<br>Все стаки теряются через %loss_timer% секунд.\n\n<h1>Пассивный: Combo Breaker</h1>Когда вы получаете урон и ваше здоровье падает ниже %health_threshold_pct%%%, накладывается сильное развеивание и вы получаете секундный бафф %buff_duration%, который дает невосприимчивость к заклинаниям и снижает весь наносимый вам урон до нуля. Имеет %cooldown_duration%  временя действия.<br/><br/>Тип развеивания: <span class=\'GameplayValues GameplayVariable\'>Сильное</span>"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5_Lore"									"Two of three known items of unimaginable power that many believe were crafted at the same enchanter's forge."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5_bonus_strength"							"+$str"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5_bonus_intellect"						"+$int"
@@ -2948,7 +2979,7 @@
 		
 		// ITEMS - Greaves
 		"DOTA_Tooltip_ability_item_guardian_greaves_2"										"Phantom's Greaves"
-		"DOTA_Tooltip_ability_item_guardian_greaves_2_Description"							"<h1>Активный: Mend</h1>Восстанавливает здоровье в размере %replenish_health% + %hp_per_charge% за заряд и ману в размере %replenish_mana% + %mp_per_charge% ближайшим союзникам, а также развеивает владельца.<br><br>Радиус: %replenish_radius%<br>Максимальное количество %max_charges% зарядов. Автоматически получает заряд каждые %charge_gain_timer% секунд и каждый раз, когда видимый враг в пределах ауры использует способность.<br>Тип развеивания: <span class=\"GameplayValues GameplayVariable\">Базовое</span>\n\n<h1>Пассивный: Guardian Aura</h1>Дает %aura_health_regen% восстановления здоровья и %aura_armor% брони союзным юнитам. Если здоровье союзного героя падает ниже %aura_bonus_threshold%%% , это значение увеличивается до %aura_health_regen_bonus% восстановления здоровья и %aura_armor_bonus% брони.<br><br>Радиус: %aura_radius% \nБонусы к скорости передвижения от нескольких ботинок не суммируются."
+		"DOTA_Tooltip_ability_item_guardian_greaves_2_Description"							"<h1>Активный: Mend</h1>Восстанавливает здоровье в размере %replenish_health% + %hp_per_charge% за заряд и ману в размере %replenish_mana% + %mp_per_charge% ближайшим союзникам, а также развеивает владельца.<br><br>Радиус: %replenish_radius%<br>Максимальное количество %max_charges% зарядов. Автоматически получает заряд каждые %charge_gain_timer% секунд и каждый раз, когда видимый враг в пределах ауры использует способность.<br>Тип развеивания: <span class=\'GameplayValues GameplayVariable\'>Базовое</span>\n\n<h1>Пассивный: Guardian Aura</h1>Дает %aura_health_regen% восстановления здоровья и %aura_armor% брони союзным юнитам. Если здоровье союзного героя падает ниже %aura_bonus_threshold%%% , это значение увеличивается до %aura_health_regen_bonus% восстановления здоровья и %aura_armor_bonus% брони.<br><br>Радиус: %aura_radius% \nБонусы к скорости передвижения от нескольких ботинок не суммируются."
 		"DOTA_Tooltip_ability_item_guardian_greaves_2_bonus_movement"						"+$move_speed"
 		"DOTA_Tooltip_ability_item_guardian_greaves_2_bonus_health"							"+$health"
 		"DOTA_Tooltip_ability_item_guardian_greaves_2_bonus_mana"							"+$mana"
@@ -2957,7 +2988,7 @@
 		"DOTA_Tooltip_ability_item_guardian_greaves_2_heal_increase"						"%+$heal_amp"
 		
 		"DOTA_Tooltip_ability_item_guardian_greaves_3"										"Pactmaker's Greaves"
-		"DOTA_Tooltip_ability_item_guardian_greaves_3_Description"							"<h1>Активный: Mend</h1>Восстанавливает здоровье в размере %replenish_health% + %hp_per_charge% за заряд и ману в размере %replenish_mana% + %mp_per_charge% ближайшим союзникам, а также развеивает владельца.<br><br>Радиус: %replenish_radius%<br>Максимальное количество %max_charges% зарядов. Автоматически получает заряд каждые %charge_gain_timer% секунд и каждый раз, когда видимый враг в пределах ауры использует способность.<br>Тип развеивания: <span class=\"GameplayValues GameplayVariable\">Базовое</span>\n\n<h1>Пассивный: Guardian Aura</h1>Дает %aura_health_regen% восстановления здоровья и %aura_armor% брони союзным юнитам. Если здоровье союзного героя падает ниже %aura_bonus_threshold%%% , это значение увеличивается до %aura_health_regen_bonus% восстановления здоровья и %aura_armor_bonus% брони.<br><br>Радиус: %aura_radius% \nБонусы к скорости передвижения от нескольких ботинок не суммируются."
+		"DOTA_Tooltip_ability_item_guardian_greaves_3_Description"							"<h1>Активный: Mend</h1>Восстанавливает здоровье в размере %replenish_health% + %hp_per_charge% за заряд и ману в размере %replenish_mana% + %mp_per_charge% ближайшим союзникам, а также развеивает владельца.<br><br>Радиус: %replenish_radius%<br>Максимальное количество %max_charges% зарядов. Автоматически получает заряд каждые %charge_gain_timer% секунд и каждый раз, когда видимый враг в пределах ауры использует способность.<br>Тип развеивания: <span class=\'GameplayValues GameplayVariable\'>Базовое</span>\n\n<h1>Пассивный: Guardian Aura</h1>Дает %aura_health_regen% восстановления здоровья и %aura_armor% брони союзным юнитам. Если здоровье союзного героя падает ниже %aura_bonus_threshold%%% , это значение увеличивается до %aura_health_regen_bonus% восстановления здоровья и %aura_armor_bonus% брони.<br><br>Радиус: %aura_radius% \nБонусы к скорости передвижения от нескольких ботинок не суммируются."
 		"DOTA_Tooltip_ability_item_guardian_greaves_3_bonus_movement"						"+$move_speed"
 		"DOTA_Tooltip_ability_item_guardian_greaves_3_bonus_health"							"+$health"
 		"DOTA_Tooltip_ability_item_guardian_greaves_3_bonus_mana"							"+$mana"
@@ -2966,7 +2997,7 @@
 		"DOTA_Tooltip_ability_item_guardian_greaves_3_heal_increase"						"%+$heal_amp"
 		
 		"DOTA_Tooltip_ability_item_guardian_greaves_4"										"Chosen's Greaves"
-		"DOTA_Tooltip_ability_item_guardian_greaves_4_Description"							"<h1>Активный: Divine Mend</h1>Вы развеиваете себя, становитесь невосприимчивым к дебаффам и получаете %magic_resist%%% магического сопротивления. Затем вы восстанавливаете здоровье в размере %replenish_health% + %hp_per_charge% за заряд и ману в размере %replenish_mana% + %mp_per_charge% ближайшим союзникам.<br><br>Радиус: %replenish_radius%<br>Максимальное количество зарядов %max_charges%. Автоматически получает заряд каждые %charge_gain_timer% секунд и каждый раз, когда видимый враг в пределах ауры использует способность.<br>Тип развеивания: <span class=\"GameplayValues GameplayVariable\">Базовое</span>\n\n<h1>Пассивный: Guardian Aura</h1>Дает %aura_health_regen% восстановления здоровья и %aura_armor% брони союзным юнитам. Если здоровье союзного героя падает ниже %aura_bonus_threshold%%%, это значение увеличивается до %aura_health_regen_bonus% восстановления здоровья и %aura_armor_bonus% брони.<br><br>Радиус: %aura_radius% \nБонусы к скорости передвижения от нескольких ботинок не суммируются."
+		"DOTA_Tooltip_ability_item_guardian_greaves_4_Description"							"<h1>Активный: Divine Mend</h1>Вы развеиваете себя, становитесь невосприимчивым к дебаффам и получаете %magic_resist%%% магического сопротивления. Затем вы восстанавливаете здоровье в размере %replenish_health% + %hp_per_charge% за заряд и ману в размере %replenish_mana% + %mp_per_charge% ближайшим союзникам.<br><br>Радиус: %replenish_radius%<br>Максимальное количество зарядов %max_charges%. Автоматически получает заряд каждые %charge_gain_timer% секунд и каждый раз, когда видимый враг в пределах ауры использует способность.<br>Тип развеивания: <span class=\'GameplayValues GameplayVariable\'>Базовое</span>\n\n<h1>Пассивный: Guardian Aura</h1>Дает %aura_health_regen% восстановления здоровья и %aura_armor% брони союзным юнитам. Если здоровье союзного героя падает ниже %aura_bonus_threshold%%%, это значение увеличивается до %aura_health_regen_bonus% восстановления здоровья и %aura_armor_bonus% брони.<br><br>Радиус: %aura_radius% \nБонусы к скорости передвижения от нескольких ботинок не суммируются."
 		"DOTA_Tooltip_ability_item_guardian_greaves_4_bonus_movement"						"+$move_speed"
 		"DOTA_Tooltip_ability_item_guardian_greaves_4_bonus_health"							"+$health"
 		"DOTA_Tooltip_ability_item_guardian_greaves_4_bonus_mana"							"+$mana"
@@ -2975,7 +3006,7 @@
 		"DOTA_Tooltip_ability_item_guardian_greaves_4_heal_increase"						"%+$heal_amp"
 		
 		"DOTA_Tooltip_ability_item_guardian_greaves_5"										"Forgotten's Greaves"
-		"DOTA_Tooltip_ability_item_guardian_greaves_5_Description"							"<h1>Активный: Divine Mend</h1>Вы развеиваете себя, становитесь невосприимчивым к дебаффам и получаете %magic_resist%%% магического сопротивления. Затем вы восстанавливаете здоровье в размере %replenish_health% + %hp_per_charge% за заряд и ману в размере %replenish_mana% + %mp_per_charge% ближайшим союзникам.<br><br>Радиус: %replenish_radius%<br>Максимальное количество зарядов %max_charges%. Автоматически получает заряд каждые %charge_gain_timer% секунд и каждый раз, когда видимый враг в пределах ауры использует способность.<br>Тип развеивания: <span class=\"GameplayValues GameplayVariable\">Базовое</span>\n\n<h1>Пассивный: Guardian Aura</h1>Дает %aura_health_regen% восстановления здоровья и %aura_armor% брони союзным юнитам. Если здоровье союзного героя падает ниже %aura_bonus_threshold%%%, это значение увеличивается до %aura_health_regen_bonus% восстановления здоровья и %aura_armor_bonus% брони.<br><br>Радиус: %aura_radius% \nБонусы к скорости передвижения от нескольких ботинок не суммируются."
+		"DOTA_Tooltip_ability_item_guardian_greaves_5_Description"							"<h1>Активный: Divine Mend</h1>Вы развеиваете себя, становитесь невосприимчивым к дебаффам и получаете %magic_resist%%% магического сопротивления. Затем вы восстанавливаете здоровье в размере %replenish_health% + %hp_per_charge% за заряд и ману в размере %replenish_mana% + %mp_per_charge% ближайшим союзникам.<br><br>Радиус: %replenish_radius%<br>Максимальное количество зарядов %max_charges%. Автоматически получает заряд каждые %charge_gain_timer% секунд и каждый раз, когда видимый враг в пределах ауры использует способность.<br>Тип развеивания: <span class=\'GameplayValues GameplayVariable\'>Базовое</span>\n\n<h1>Пассивный: Guardian Aura</h1>Дает %aura_health_regen% восстановления здоровья и %aura_armor% брони союзным юнитам. Если здоровье союзного героя падает ниже %aura_bonus_threshold%%%, это значение увеличивается до %aura_health_regen_bonus% восстановления здоровья и %aura_armor_bonus% брони.<br><br>Радиус: %aura_radius% \nБонусы к скорости передвижения от нескольких ботинок не суммируются."
 		"DOTA_Tooltip_ability_item_guardian_greaves_5_bonus_movement"						"+$move_speed"
 		"DOTA_Tooltip_ability_item_guardian_greaves_5_bonus_health"							"+$health"
 		"DOTA_Tooltip_ability_item_guardian_greaves_5_bonus_mana"							"+$mana"
@@ -3194,26 +3225,15 @@
 		"DOTA_Tooltip_modifier_item_aeon_disk_cooldown"										"Combo Breaker - Cooldown"
 		"DOTA_Tooltip_modifier_item_aeon_disk_cooldown_Description"							"Невозможно воспользоваться эффектом Combo Breaker."
 		
-		
-		///////////////////////////////////////////////////////////////////////////////////
-		// RANDOM STUFF
-		"DOTA_Tooltip_ability_item_upgraded_mortar"                                             "Upgraded Mortar"
-		"DOTA_Tooltip_ability_item_upgraded_mortar_Description"                 "Применяет постоянное улучшение урона к башне."
-		"DOTA_Tooltip_ability_item_upgraded_mortar_bonus_per_upgrade"   "BONUS DAMAGE:"
-		"DOTA_Tooltip_ability_item_upgraded_barricade"                                  "Upgraded Barricade"
-		"DOTA_Tooltip_ability_item_upgraded_barricade_Description"                      "Применяет постоянное улучшение брони и здоровья к башне."
-		"DOTA_Tooltip_ability_item_upgraded_barricade_hp_bonus_per_upgrade"             "BONUS HP:"
-		"DOTA_Tooltip_ability_item_upgraded_barricade_armor_bonus_per_upgrade"  "BONUS ARMOR:"
-		"DOTA_Tooltip_ability_item_book_of_intelligence"                                        "Scroll of Intelligence"
-		"DOTA_Tooltip_ability_item_book_of_intelligence_Description"            "Дает постоянное повышение интеллекта на 5."
-		"DOTA_Tooltip_ability_item_book_of_strength"                                            "Scroll of Strength"
-		"DOTA_Tooltip_ability_item_book_of_strength_Description"                        "Дает постоянный прирост силы на 5."
-		"DOTA_Tooltip_ability_item_book_of_agility"                                                     "Scroll of Agility"
-		"DOTA_Tooltip_ability_item_book_of_agility_Description"                  "Дает постоянное повышение ловкости на 5."
-
-		//Ability==============================================================================================================================
-		//Ability==============================================================================================================================
-		//Ability==============================================================================================================================
+		// ITEMS - Hand of Midas
+		"DOTA_Tooltip_ability_item_hand_of_midas_ebf"											"Hand of Midas"
+		"DOTA_Tooltip_ability_item_hand_of_midas_ebf_Description"								"<h1>Пассивный: Overflowing Coffers</h1>Каждый раз, когда вы зарабатываете золото, убивая юнитов или завершая раунд, его количество увеличивается на %bonus_gold%%%."
+		"DOTA_Tooltip_ability_item_hand_of_midas_ebf_Lore"										"Preserved through unknown magical means, the Hand of Midas is a weapon of greed, sacrificing animals to line the owner's pockets."
+		"DOTA_Tooltip_ability_item_hand_of_midas_ebf_bonus_attack_speed"						"+$attack"
+				
+		//	Ability==============================================================================================================================
+		//	Ability==============================================================================================================================
+		//	Ability==============================================================================================================================
 
 		"DOTA_Tooltip_ability_spectre_ebf_haunt"										"Trauma"
 		"DOTA_Tooltip_ability_spectre_ebf_haunt_lore"                                   "Spectre's attacks are eternally remembered her victims."
@@ -3320,39 +3340,39 @@
 		"DOTA_Tooltip_ability_item_asura_staff_damage_per_int"                            "Burts Damage per int :"
 		"DOTA_Tooltip_ability_item_asura_staff_range_tooltip"                             "Range :"
 
-		"DOTA_Tooltip_ability_special_bonus_unique_spectre_4"	"+{s:value} Trauma Armor Reduction"
-		"DOTA_Tooltip_ability_special_bonus_unique_terrorblade_2"	"+16 Demon Frenzy Attack Speed"
-		"DOTA_Tooltip_ability_special_bonus_unique_terrorblade_6"	"+5% Demon Frenzy Evasion"
-		"DOTA_Tooltip_ability_special_bonus_unique_lina_6"			"-{s:bonus_AbilityCooldown}% Laguna Blade Cooldown"
+		"DOTA_Tooltip_ability_special_bonus_unique_spectre_4"						"+{s:value} Trauma Armor Reduction"
+		"DOTA_Tooltip_ability_special_bonus_unique_terrorblade_2"					"+16 Demon Frenzy Attack Speed"
+		"DOTA_Tooltip_ability_special_bonus_unique_terrorblade_6"					"+5% Demon Frenzy Evasion"
+		"DOTA_Tooltip_ability_special_bonus_unique_lina_6"							"-{s:bonus_AbilityCooldown}% Laguna Blade Cooldown"
 		"DOTA_Tooltip_ability_special_bonus_unique_puck_orb_damage"					"+{s:bonus_damage}% Illusory Orb Damage"
 		"DOTA_Tooltip_ability_special_bonus_unique_vengeful_spirit_swap_damage"		"+{s:bonus_damage}% Nether Swap Enemy Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_boss_troll_warlord_3"					"+{s:bonus_axe_damage}% Whirling Axes Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_troll_warlord_3"					"+{s:bonus_axe_damage}% Whirling Axes Damage"
 		"DOTA_Tooltip_ability_special_bonus_unique_winter_wyvern_5"					"+{s:bonus_heal_additive}% Cold Embrace Base Heal"
 		
-		"DOTA_Tooltip_ability_void_spirit_aether_remnant_shard_Description"		"Время действия Aether Remnant уменьшается, и он атакует врагов с задержкой."
+		"DOTA_Tooltip_ability_void_spirit_aether_remnant_shard_Description"			"Время действия Aether Remnant уменьшается, и он атакует врагов с задержкой."
 		"DOTA_Tooltip_ability_void_spirit_aether_remnant_shard_attack_rate_multiplier"		"REMNANT ATTACK RATE MULTIPLIER."
-		"DOTA_Tooltip_modifier_void_spirit_resonant_pulse_shield"				"Resonant Pulse"
-		"DOTA_Tooltip_modifier_void_spirit_resonant_pulse_shield_Description"	"Блокирование %dMODIFIER_PROPERTY_TOOLTIP% физического урона."
-		"DOTA_Tooltip_ability_special_bonus_unique_void_spirit_2"	"+{s:bonus_impact_damage}% Aether Remnant Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_void_spirit_3"				"Resonant Pulse Attacks Enemies"
-		"DOTA_Tooltip_ability_special_bonus_unique_void_spirit_7"	"+{s:value} Astral Step Charges"
-		"DOTA_Tooltip_ability_special_bonus_unique_marci_grapple_damage"	"+{s:bonus_impact_damage}% Dispose Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_treant_8" "+{s:bonus_heal_per_second}% Living Armor Heal Per Second"
-		"DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_3"	"-{s:bonus_AbilityCooldown}% Ice Vortex Cooldown"
-		"DOTA_Tooltip_ability_special_bonus_unique_undying_2"				"-{s:bonus_AbilityCooldown}% Decay Cooldown"
+		"DOTA_Tooltip_modifier_void_spirit_resonant_pulse_shield"					"Resonant Pulse"
+		"DOTA_Tooltip_modifier_void_spirit_resonant_pulse_shield_Description"		"Блокирование %dMODIFIER_PROPERTY_TOOLTIP% физического урона."
+		"DOTA_Tooltip_ability_special_bonus_unique_void_spirit_aether_remnant_damage"	"+{s:bonus_impact_damage}% Aether Remnant Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_void_spirit_3"					"Resonant Pulse Attacks Enemies"
+		"DOTA_Tooltip_ability_special_bonus_unique_void_spirit_7"					"+{s:value} Astral Step Charges"
+		"DOTA_Tooltip_ability_special_bonus_unique_marci_grapple_damage"			"+{s:bonus_impact_damage}% Dispose Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_treant_8" 						"+{s:bonus_heal_per_second}% Living Armor Heal Per Second"
+		"DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_3"			"-{s:bonus_AbilityCooldown}% Ice Vortex Cooldown"
+		"DOTA_Tooltip_ability_special_bonus_unique_undying_2"						"-{s:bonus_AbilityCooldown}% Decay Cooldown"
 		
-		"DOTA_Tooltip_ability_primal_beast_uproar_Description"					"Primal Beast пассивно обеспечивает бонусный урон. Кроме того, когда Primal Beast получает урон в размере %damage_limit%%% от своего максимального здоровья или больше, он накапливает стаки Uproar.\n\nПри активации Primal Beast издает рев, который замедляет окружающих врагов и дает зверю дополнительный урон от атак и броню на %roar_duration% секунд в зависимости от текущих стаков Uproar."
-		"DOTA_Tooltip_modifier_primal_beast_uproar_ebf"											"UPROAR"
-		"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_Description"								"Primal Beast наносит повышенный урон и замедляет противника"
-		"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_debuff"									"UPROAR"
-		"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_debuff_Description"						"Замедлен Primal Beast"
+		"DOTA_Tooltip_ability_primal_beast_uproar_Description"						"Primal Beast пассивно обеспечивает бонусный урон. Кроме того, когда Primal Beast получает урон в размере %damage_limit%%% от своего максимального здоровья или больше, он накапливает стаки Uproar.\n\nПри активации Primal Beast издает рев, который замедляет окружающих врагов и дает зверю дополнительный урон от атак и броню на %roar_duration% секунд в зависимости от текущих стаков Uproar."
+		"DOTA_Tooltip_modifier_primal_beast_uproar_ebf"								"UPROAR"
+		"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_Description"					"Primal Beast наносит повышенный урон и замедляет противника"
+		"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_debuff"						"UPROAR"
+		"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_debuff_Description"			"Замедлен Primal Beast"
 		"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_buff"						"ROARED"
-		"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_buff_Description"						"Получение бонусного урона от атаки и брони"
+		"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_buff_Description"			"Получение бонусного урона от атаки и брони"
 		
 		"DOTA_Tooltip_Ability_special_bonus_unique_primal_beast_roar_dispells"				"Uproar Spell Immunity"
 		"DOTA_Tooltip_Ability_special_bonus_unique_primal_beast_roar_dispells_Description"	"Длительность иммунитета к заклинаниям равна стакам на использование."
 		
-		"DOTA_Tooltip_Ability_mars_spear_units_hit"								"UNITS IMPALED:"
+		"DOTA_Tooltip_Ability_mars_spear_units_hit"						"UNITS IMPALED:"
 		
 		"DOTA_Tooltip_ability_undying_decay"							"Decay"
 		"DOTA_Tooltip_ability_undying_decay_Description"				"Undying крадет силу у всех вражеских крип-героев в области, нанося базовый урон по мере того, как он забирает силу врага себе."
@@ -3780,8 +3800,20 @@
 		"DOTA_Tooltip_ability_lone_druid_synergy_bonus_attack_damage"			"BONUS ATTACK DAMAGE:"
 		"DOTA_Tooltip_ability_lone_druid_synergy_bonus_max_health"				"BONUS MAX HEALTH:"
 		"DOTA_Tooltip_ability_lone_druid_synergy_stat_share_pct"				"%STAT SHARE:"
+
+		"DOTA_Tooltip_ability_special_bonus_unique_earth_spirit_6"						"+{s:bonus_rock_damage}% Boulder Smash Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_windranger_windrun_undispellable"	"+{s:bonus_powershot_damage}% Powershot Damage"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_zeus_4"						"+{s:bonus_damage}% Thundergod's Wrath Damage"
+		"DOTA_Tooltip_modifier_witch_doctor_voodoo_restoration_aura"				"Voodoo Restoration"
+		"DOTA_Tooltip_modifier_witch_doctor_voodoo_restoration_aura_Description"	"Affected by Witch Doctor's Voodoo Restoration."
+		"DOTA_Tooltip_ability_special_bonus_unique_witch_doctor_2"					"+{s:bonus_heal_pct}%/{s:bonus_dmg_pct}% Max Health Voodoo Heal/Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_witch_doctor_5"					"+{s:value}% Death Ward Damage"
+		
+		"DOTA_Tooltip_ability_dark_seer_normal_punch_Description"					"Пассивная способность. Причиняет следующей атаке Dark Seer'а True Strike, нанося урон и оглушая их."
+		"DOTA_Tooltip_ability_dark_seer_normal_punch_max_stun"						"STUN DURATION:"
+		"DOTA_Tooltip_ability_dark_seer_normal_punch_knockback_distance"			"KNOCKBACK DISTANCE:"
+		"DOTA_Tooltip_ability_dark_seer_normal_punch_illusion_duration"				"ILLUSION DURATION:"
+		"DOTA_Tooltip_ability_dark_seer_normal_punch_max_damage"					"DAMAGE:"
 		
 		// NEUTRALS
 		"DOTA_Tooltip_Ability_item_eye_of_the_vizier_mana_reduction_pct"		"%+Max Mana"
