@@ -2161,7 +2161,34 @@
 		"DOTA_Tooltip_modifier_item_bloodstone_drained"										"Drained"
 		"DOTA_Tooltip_modifier_item_bloodstone_drained_Description"							"Bloodpact's Bonuses will not apply to a unit that's drained."
 		
+		// ITEMS - Phylactery
+		"DOTA_Tooltip_Ability_item_phylactery_2"											"Dark Phylactery"
+		"DOTA_Tooltip_Ability_item_phylactery_2_Description"								"<h1>Passive: Empower Spell</h1> The next Unit Target spell you cast on an enemy deals a separate %bonus_spell_damage% bonus damage to the target and all enemies within %bonus_damage_radius% units of it, slowing them by %slow%%% for %slow_duration%s."
+		"DOTA_Tooltip_Ability_item_phylactery_2_bonus_health"								"+$health"
+		"DOTA_Tooltip_Ability_item_phylactery_2_bonus_mana"									"+$mana"
+		"DOTA_Tooltip_ability_item_phylactery_2_bonus_all_stats"							"+$all"
+		
+		"DOTA_Tooltip_Ability_item_phylactery_3"											"Demon's Phylactery"
+		"DOTA_Tooltip_Ability_item_phylactery_3_Description"								"<h1>Passive: Empower Spell</h1> The next Unit Target spell you cast on an enemy deals a separate %bonus_spell_damage% bonus damage to the target and all enemies within %bonus_damage_radius% units of it, slowing them by %slow%%% for %slow_duration%s."
+		"DOTA_Tooltip_Ability_item_phylactery_3_bonus_health"								"+$health"
+		"DOTA_Tooltip_Ability_item_phylactery_3_bonus_mana"									"+$mana"
+		"DOTA_Tooltip_ability_item_phylactery_3_bonus_all_stats"							"+$all"
+		
+		"DOTA_Tooltip_Ability_item_phylactery_4"											"Angelic Phylactery"
+		"DOTA_Tooltip_Ability_item_phylactery_4_Description"								"<h1>Passive: Empower Spell</h1> The next Unit Target spell you cast on an enemy deals a separate %bonus_spell_damage% bonus damage to the target and all enemies within %bonus_damage_radius% units of it, slowing them by %slow%%% for %slow_duration%s."
+		"DOTA_Tooltip_Ability_item_phylactery_4_bonus_health"								"+$health"
+		"DOTA_Tooltip_Ability_item_phylactery_4_bonus_mana"									"+$mana"
+		"DOTA_Tooltip_ability_item_phylactery_4_bonus_all_stats"							"+$all"
+		
+		"DOTA_Tooltip_Ability_item_phylactery_5"											"Unmeasurable Phylactery"
+		"DOTA_Tooltip_Ability_item_phylactery_5_Description"								"<h1>Passive: Empower Spell</h1> The next Unit Target spell you cast on an enemy deals a separate %bonus_spell_damage% bonus damage to the target and all enemies within %bonus_damage_radius% units of it, slowing them by %slow%%% for %slow_duration%s."
+		"DOTA_Tooltip_Ability_item_phylactery_5_bonus_health"								"+$health"
+		"DOTA_Tooltip_Ability_item_phylactery_5_bonus_mana"									"+$mana"
+		"DOTA_Tooltip_ability_item_phylactery_5_bonus_all_stats"							"+$all"
+		
 		// ITEMS - Blade Mail
+		"DOTA_Tooltip_ability_item_blade_mail_Description"									"<h1>Active: Demand Retribution</h1>For %duration% seconds, all units within %radius% units of you are taunted to you and the damage returned from all sources is increased by %active_reflection_pct%%%.\n<h1>Passive: Damage Return</h1>Everytime you are attacked, you return %passive_reflection_constant% damage plus %passive_reflection_pct%%% of the attack damage dealt to you."
+		
 		"DOTA_Tooltip_ability_item_blade_mail2"												"Chains of Rage"
 		"DOTA_Tooltip_ability_item_blade_mail2_Description"									"<h1>Active: Demand Retribution</h1>For %duration% seconds, all units within %radius% units of you are taunted to you and the damage returned from all sources is increased by %active_reflection_pct%%%.\n<h1>Passive: Damage Return</h1>Everytime you are attacked, you return %passive_reflection_constant% damage plus %passive_reflection_pct%%% of the attack damage dealt to you."
 		"DOTA_Tooltip_ability_item_blade_mail2_Note0"										"Damage Return is calculated before any kind of reduction."
