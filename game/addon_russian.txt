@@ -2158,8 +2158,35 @@
 
 		"DOTA_Tooltip_modifier_item_bloodstone_drained"										"Drained"
 		"DOTA_Tooltip_modifier_item_bloodstone_drained_Description"							"Bloodpact's Бонусы не будут применяться к юниту, который истощен."
+
+		// ITEMS - Phylactery
+		"DOTA_Tooltip_Ability_item_phylactery_2"											"Dark Phylactery"
+		"DOTA_Tooltip_Ability_item_phylactery_2_Description"								"<h1>Пассивный: Empower Spell</h1>Следующее заклинание, которое вы произносите на врага, наносит %bonus_spell_damage% бонусного урона цели и всем врагам в радиусе %bonus_damage_radius% от нее, замедляя их на %slow%%% на %slow_duration%с."
+		"DOTA_Tooltip_Ability_item_phylactery_2_bonus_health"								"+$health"
+		"DOTA_Tooltip_Ability_item_phylactery_2_bonus_mana"									"+$mana"
+		"DOTA_Tooltip_ability_item_phylactery_2_bonus_all_stats"							"+$all"
+		
+		"DOTA_Tooltip_Ability_item_phylactery_3"											"Demon's Phylactery"
+		"DOTA_Tooltip_Ability_item_phylactery_3_Description"								"<h1>Пассивный: Empower Spell</h1>Следующее заклинание, которое вы произносите на врага, наносит %bonus_spell_damage% бонусного урона цели и всем врагам в радиусе %bonus_damage_radius% от нее, замедляя их на %slow%%% на %slow_duration%с."
+		"DOTA_Tooltip_Ability_item_phylactery_3_bonus_health"								"+$health"
+		"DOTA_Tooltip_Ability_item_phylactery_3_bonus_mana"									"+$mana"
+		"DOTA_Tooltip_ability_item_phylactery_3_bonus_all_stats"							"+$all"
+		
+		"DOTA_Tooltip_Ability_item_phylactery_4"											"Angelic Phylactery"
+		"DOTA_Tooltip_Ability_item_phylactery_4_Description"								"<h1>Пассивный: Empower Spell</h1>Следующее заклинание, которое вы произносите на врага, наносит %bonus_spell_damage% бонусного урона цели и всем врагам в радиусе %bonus_damage_radius% от нее, замедляя их на %slow%%% на %slow_duration%с."
+		"DOTA_Tooltip_Ability_item_phylactery_4_bonus_health"								"+$health"
+		"DOTA_Tooltip_Ability_item_phylactery_4_bonus_mana"									"+$mana"
+		"DOTA_Tooltip_ability_item_phylactery_4_bonus_all_stats"							"+$all"
+		
+		"DOTA_Tooltip_Ability_item_phylactery_5"											"Unmeasurable Phylactery"
+		"DOTA_Tooltip_Ability_item_phylactery_5_Description"								"<h1>Пассивный: Empower Spell</h1>Следующее заклинание, которое вы произносите на врага, наносит %bonus_spell_damage% бонусного урона цели и всем врагам в радиусе %bonus_damage_radius% от нее, замедляя их на %slow%%% на %slow_duration%с."
+		"DOTA_Tooltip_Ability_item_phylactery_5_bonus_health"								"+$health"
+		"DOTA_Tooltip_Ability_item_phylactery_5_bonus_mana"									"+$mana"
+		"DOTA_Tooltip_ability_item_phylactery_5_bonus_all_stats"							"+$all"
 		
 		// ITEMS - Blade Mail
+		"DOTA_Tooltip_ability_item_blade_mail_Description"									"<h1>Активный: Demand Retribution</h1>На %duration% секунд все юниты в радиусе %radius% от вас притягиваются к вам, а возвращаемый урон от всех источников увеличивается на %active_reflection_pct%%%.\n<h1>Пассивный: Damage Return</h1>Каждый раз, когда вас атакуют, вы возвращаете %passive_reflection_constant% урона плюс %passive_reflection_pct%%%  от нанесенного вам урона."
+
 		"DOTA_Tooltip_ability_item_blade_mail2"												"Chains of Rage"
 		"DOTA_Tooltip_ability_item_blade_mail2_Description"									"<h1>Активный: Demand Retribution</h1>На %duration% секунд все юниты в радиусе %radius% от вас притягиваются к вам, а возвращаемый урон от всех источников увеличивается на %active_reflection_pct%%%.\n<h1>Пассивный: Damage Return</h1>Каждый раз, когда вас атакуют, вы возвращаете %passive_reflection_constant% урона плюс %passive_reflection_pct%%%  от нанесенного вам урона."
 		"DOTA_Tooltip_ability_item_blade_mail2_Note0"										"Damage Return is calculated before any kind of reduction."
