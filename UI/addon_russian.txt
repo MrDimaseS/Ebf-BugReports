@@ -3,7 +3,7 @@
 {
 	//HUD
 	"HUD_Level"				"Уровень"
-	"HUD_Retries"			"Retries"
+	"HUD_Retries"			"Попытки"
 	"vote_status_label"		"Необходимо"
 	"Round_skipper"			"Авто пропуск голосования"
 	"Round_skip_btn"		"Пропустить"
