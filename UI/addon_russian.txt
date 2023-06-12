@@ -60,6 +60,8 @@
 	"lb_wins"				"Побед"
 	'lb_loss"				"Поражений"
 	"lb_winrate"			"Доля побед"
+	"upd_msg"				"Таблицы обновляются каждые 24 часа."
+	"lb_text"				"Таблицы лидеров"
 
 	//Flyout scoreboard
 	"Score_Teamname"		"Убийцы боссов"

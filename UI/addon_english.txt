@@ -60,6 +60,8 @@
 	"lb_wins"				"Wins"
 	'lb_loss"				"Losses"
 	"lb_winrate"			"Winrate"
+	"upd_msg"				"Leaderboards are updated each 24 hours."
+	"lb_text"				"Leaderboards"
 
 	//Flyout scoreboard
 	"Score_Teamname"		"BOSS SLAYERS"
