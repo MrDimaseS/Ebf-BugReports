@@ -2,7 +2,7 @@
 
 {
 //平视显示器
-"HUD_Level"					"水平"
+"HUD_Level"					"等级"
 "HUD_Retries" 				"重试"
 "vote_status_label"			"需要"
 "Round_skipper"				"自动跳过投票"
@@ -17,7 +17,7 @@
 //轮廓
 "leadbrd_total"				"游戏总数"
 "leadbrd_win"				"获胜"
-"leadbrd_loss"				"损失"
+"leadbrd_loss"				"失败"
 "leadbrd_wr"				"胜率"
 
 //NG+投票
@@ -34,10 +34,10 @@
 
 //快速统计
 "quick_stats"				"快速统计"
-"dealt"						"成交"
-"taken"						"采取"
-"healed"					"痊愈"
-"total_dps"					"总 DPS"
+"dealt"						"输出"
+"taken"						"伤害吸收"
+"healed"					"治愈"
+"total_dps"					"总输出"
 "target_dps"				"目标 DPS"
 
 //顶部按钮
@@ -45,7 +45,7 @@
 "patch_button"				"补丁说明"
 "pat_button"				"Patreon"
 "bst_button"				"助推器"
-"bug_button"				"错误跟踪器"
+"bug_button"				"错误回报"
 "profile_button"			"个人资料"
 "leaderboard_button"		"排行榜"
 "information_button"		"游戏信息"
@@ -54,11 +54,11 @@
 "top_mmr"					"最高匹配分数"
 "top_winrate"				"最高胜率"
 "lb_rank"					"排名"
-"lb_boss_slayer"			"老板杀手"
+"lb_boss_slayer"			"魔王杀手"
 "lb_mmr"					"MMR"
-"lb_plays"					"播放"
+"lb_plays"					"遊玩次數"
 "lb_wins"					"胜"
-'lb_loss"					"损失"
+'lb_loss"					"失败"
 "lb_winrate"				"胜率"
 
 //弹出记分牌
