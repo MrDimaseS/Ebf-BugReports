@@ -51,7 +51,7 @@
 "information_button"		"游戏信息"
 
 //排行榜
-"top_mmr"					"最高匹配分数"
+"top_mmr"					"最高天梯分数"
 "top_winrate"				"最高胜率"
 "lb_rank"					"排名"
 "lb_boss_slayer"			"魔王杀手"
