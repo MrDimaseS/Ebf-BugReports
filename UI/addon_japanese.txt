@@ -1,0 +1,86 @@
+"addon"
+
+{		
+	//HUD	
+	"HUD_Level"				"レベル"
+	"HUD_Retries"			"再試行"
+	"vote_status_label"		"必要です"
+	"Round_skipper"			"自動スキップ投票"
+	"Round_skip_btn"		"スキップ"
+		
+	//Options	
+	"wave_UI"				"波UIを無効にします"
+	"minimap_hide"			"ミニマップを非表示にします"
+	"hide_top_UI"			"トップUIを非表示にします"
+	"options"				"オプション"
+		
+	//Profile	
+	"leadbrd_total"			"合計ゲーム"
+	"leadbrd_win"			"勝ちます"
+	"leadbrd_loss"			"損失"
+	"leadbrd_wr"			"勝率"
+		
+	//NG+ voting	
+	"NGplus_query"			"新しいゲーム+に入りたいですか？"
+	"NGplus_note1"			"ノーを選択した場合 - ゲームは勝利で終了します。"
+	"NGplus_note2"			"少なくとも1人のプレイヤーが投票した場合はい-NG+が開始されます"
+	"NGplus_note3"			"NG+はリーダーボードにカウントされません。"
+	"NGplus_note4"			"このゲームは安全に去ることができます"
+	"NGplus_yes_btn"		"はい"
+	"NGplus_no_btn"			"いいえ"
+		
+	//Boss info	
+	"next_wave"				"次の波"
+		
+	//Quick Stats	
+	"quick_stats"			"クイック統計"
+	"dealt"					" 扱いました"
+	"taken"					" 取った"
+	"healed"				" 癒された"
+	"total_dps"				" 合計DPS"
+	"target_dps"			" ターゲットDPS"
+		
+	//Top buttons	
+	"discord_button"		"EBFの不一致"
+	"patch_button"			"パッチノート"
+	"pat_button"			"パトレオン"
+	"bst_button"			"ブースト"
+	"bug_button"			"バグトラッカー"
+	"profile_button"		"プロフィール"
+	"leaderboard_button"	"リーダーボード"
+	"information_button"	"ゲーム情報"
+		
+	//Leaderboards	
+	"top_mmr"				"トップMMR"
+	"top_winrate"			"トップウィンレート"
+	"lb_rank"				"ランク"
+	"lb_boss_slayer"		"ボス・スレイヤー"
+	"lb_mmr"				"MMR"
+	"lb_plays"				"演劇"
+	"lb_wins"				"勝ちます"
+	'lb_loss"				"損失"
+	"lb_winrate"			"勝率"
+	"upd_msg"				"リーダーボードは24時間ごとに更新されます。"
+	"lb_text"				"リーダーボード"
+		
+	//Flyout scoreboard	
+	"Score_Teamname"		"ボスの殺人"
+	"Score_Commands"		"コマンド"
+	"Score_Gold"			"金"
+	"Score_Damage_Dealt"	"ダメージが与えられました"
+	"Score_Damage_Taken"	"被害"
+	"Score_Healed_HP"		"治癒したHP"
+	"Score_MMR"				"MMR w/l"
+	"Score_RANK"			"ランク"
+	"Score_Badge"			"バッジ"
+	"Scoreboard_MuteVoice"	"このプレーヤーの声をミュートします。"
+	"Scoreboard_MuteText"	"このプレーヤーからのミュートチャット。"
+	"Scoreboard_DisableHelp"	"プレーヤーのヘルプを無効にします。"
+		
+	//Badge tiers	
+	"discord_sup"			"コミュニティバッジ"
+	"supporter_1"			"サポーターIバッジ"
+	"supporter_2"			"サポーターIIバッジ"
+	"supporter_3"			"サポーターIIIバッジ"
+	"dev"	"EBF開発者"
+}		

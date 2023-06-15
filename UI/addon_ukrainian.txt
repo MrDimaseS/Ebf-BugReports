@@ -1,84 +1,86 @@
 "addon"
 
 {
-	//HUD
-	"HUD_Level"				"Level"
-	"HUD_Retries"			"Retries"
-	"vote_status_label"		"Needed"
-	"Round_skipper"			"Auto skip vote"
-	"Round_skip_btn"		"Skip"
+//HUD
+"HUD_Level"				"Уровень"
+"HUD_Retries"			"Попытки"
+"vote_status_label"		"Необходимо"
+"Round_skipper"			"Авто пропуск голосування"
+"Round_skip_btn"		"Пропустити"
 
-	//Options
-	"wave_UI"				"Disable wave UI"
-	"minimap_hide"			"Hide the minimap"
-	"hide_top_UI"			"Hide the Top UI"
-	"options"				"Options"
+//Параметри
+"wave_UI"				"Відключити показ хвилі"
+"minimap_hide"			"Скрити мінікарту"
+"hide_top_UI"			"Приховати верхній інтерфейс користувача"
+"options"				"Опції"
 
-	//Profile
-	"leadbrd_total"			"Total games"
-	"leadbrd_win"			"Wins"
-	"leadbrd_loss"			"Losses"
-	"leadbrd_wr"			"Win rate"
+//Профіль
+"leadbrd_total"			"Всего ігор"
+"leadbrd_win"			"Победа"
+"leadbrd_loss"			"Поражений"
+"leadbrd_wr"			"Доля перемог"
 
-	//NG+ voting
-	"NGplus_query"			"Do you wish to enter NewGame+?"
-	"NGplus_note1"			"If you choose NO - the game will end in Victory."
-	"NGplus_note2"			"IF at least one players votes Yes - NG+ will start"
-	"NGplus_note3"			"NG+ is not counted towards the leaderboards."
-	"NGplus_note4"			"This game is safe to leave"
-	"NGplus_yes_btn"		"Yes"
-	"NGplus_no_btn"			"No"
+//NG+ голосування
+"NGplus_query"			"Хочеш начати NewGame+?"
+"NGplus_note1"			"Якщо ви виберете НЕТ - гра закончиться перемогою."
+"NGplus_note2"			"ЕСЛИ хоча б один гравець проголосує ДА - начнеться NG+"
+"NGplus_note3"			"NG+ не враховується в таблиці лідерів."
+"NGplus_note4"			"Ету гру можна спокійно покинути"
+"NGplus_yes_btn"		"Да"
+"NGplus_no_btn"			"Нет"
 
-	//Boss info
-	"next_wave"				"Next Wave"
+//Інформація про начальника
+"next_wave"				"Следующая волна"
 
-	//Quick Stats
-	"quick_stats"			"Quick Stats"
-	"dealt"					" Dealt"
-	"taken"					" Taken"
-	"healed"				" Healed"
-	"total_dps"				" Total DPS"
-	"target_dps" 			" Target DPS"
+//Швидка статистика
+"quick_stats"			"Краткая статистика"
+"dealt"					"Нанесено"
+"taken"					" Получено"
+"healed"				" Исцелено"
+"total_dps"				"Загальний DPS"
+"target_dps"			" Цільовий DPS"
 
-	//Top buttons
-	"discord_button"		"EBF Discord"
-	"patch_button"			"patchnotes"
-	"pat_button"			"Patreon"
-	"bst_button"			"Boosty"
-	"bug_button"			"Bug tracker"
-	"profile_button"		"Profile"
-	"leaderboard_button"	"Leaderboards"
-	"information_button"	"Game Information"
+//Верхні кнопки
+"discord_button"		"EBF Discord"
+"patch_button"			"Оновлення"
+"pat_button"			"Patreon"
+"bst_button"			"Boosty"
+"bug_button"			"Відстеження помилок"
+"profile_button"		"Профіль"
+"leaderboard_button"	"Таблиця лідерів"
+"information_button"	"Інформація про ігри"
 
-	//Leaderboards
-	"top_mmr"				"Top MMR"
-	"top_winrate"			"Top Winrate"
-	"lb_rank"				"Rank"
-	"lb_boss_slayer"		"Boss Slayer"
-	"lb_mmr"				"MMR"
-	"lb_plays"				"Plays"
-	"lb_wins"				"Wins"
-	'lb_loss"				"Losses"
-	"lb_winrate"			"Winrate"
+//Таблиці лідерів
+"top_mmr"				"Топ MMR"
+"top_winrate"			"Найвищий Winrate"
+"lb_rank"				"Ранг"
+"lb_boss_slayer"		"Убийца боссов"
+"lb_mmr"				"MMR"
+"lb_plays"				"Ігр"
+"lb_wins"				"Победа"
+'lb_loss"				"Поражений"
+"lb_winrate"			"Доля перемоги"
+"upd_msg"				"Таблиці оновлюються каждые 24 години."
+"lb_text"				"Таблиці лідерів"
 
-	//Flyout scoreboard
-	"Score_Teamname"		"BOSS SLAYERS"
-	"Score_Commands"		"Commands"
-	"Score_Gold"			"Gold"
-	"Score_Damage_Dealt"	"Damage Dealt"
-	"Score_Damage_Taken"	"Damage Taken"
-	"Score_Healed_HP"		"Healed HP"
-	"Score_MMR"				"MMR W/L"
-	"Score_RANK"			"RANK"
-	"Score_Badge"			"Badge"
-	"Scoreboard_MuteVoice"	"Mute this player's Voice."
-	"Scoreboard_MuteText"	"Mute chat from this player."
-	"Scoreboard_DisableHelp" "Disable Help from player."
+//Випадаюче табло
+"Score_Teamname"		"Убийцы боссов"
+"Score_Commands"		"Команди"
+"Score_Gold"			"Золото"
+"Score_Damage_Dealt"	"Нанесений урон"
+"Score_Damage_Taken"	"Получено урона"
+"Score_Healed_HP"		"Исцеленное здоровье"
+"Score_MMR"				"MMR W/L"
+"Score_RANK"			"Ранг"
+"Score_Badge"			"Значок"
+"Scoreboard_MuteVoice"	"Відключити голос цього гравця."
+"Scoreboard_MuteText"	"Відключити чат цього гравця."
+"Scoreboard_DisableHelp"	"Відключити допомогу від гравця."
 
-	//Badge tiers
-	"discord_sup"			"Community Badge"
-	"supporter_1"			"Supporter I Badge"
-	"supporter_2"			"Supporter II Badge"
-	"supporter_3"			"Supporter III Badge"
-	"dev"					"EBF Developer"
+//Рівні значків
+"discord_sup"			"Значок Сообщества"
+"supporter_1"			"Меценат I"
+"supporter_2"			"Меценат II"
+"supporter_3"			"Меценат III"
+"dev"					"Розробник EBF"
 }

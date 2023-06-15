@@ -78,9 +78,9 @@
 	"Scoreboard_DisableHelp" "Отключить помощь от игрока."
 
 	//Badge tiers
-	"discord_sup"			"Community Badge"
-	"supporter_1"			"Supporter I Badge"
-	"supporter_2"			"Supporter II Badge"
-	"supporter_3"			"Supporter III Badge"
-	"dev"					"EBF Developer"
+	"discord_sup"			"Значок Сообщества"
+	"supporter_1"			"Меценат I"
+	"supporter_2"			"Меценат II"
+	"supporter_3"			"Меценат III"
+	"dev"					"Разработчик EBF"
 }
