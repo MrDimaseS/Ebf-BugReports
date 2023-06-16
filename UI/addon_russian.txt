@@ -6,7 +6,7 @@
 	"HUD_Retries"			"Попытки"
 	"vote_status_label"		"Необходимо"
 	"Round_skipper"			"Авто пропуск голосования"
-	"Round_skip_btn"		"Пропустить"
+	"Round_skip_btn"		"пропуск"
 
 	//Options
 	"wave_UI"				"Отключить показ волн"
@@ -33,7 +33,7 @@
 	"next_wave"				"Следующая волна"
 
 	//Quick Stats
-	"quick_stats"			"Краткая статистика"
+	"quick_stats"			"Краткая стата"
 	"dealt"					" Нанесено"
 	"taken"					" Получено"
 	"healed"				" Исцелено"
@@ -45,23 +45,26 @@
 	"patch_button"			"Обновления"
 	"pat_button"			"Patreon"
 	"bst_button"			"Boosty"
-	"bug_button"			"Bug tracker"
+	"bug_button"			"Баг трекер"
 	"profile_button"		"Профиль"
 	"leaderboard_button"	"Таблица лидеров"
 	"information_button"	"Информация об игре"
 
 	//Leaderboards
-	"top_mmr"				"Top MMR"
-	"top_winrate"			"Top Winrate"
+	"tab_leaderboard"		"Топ MMR"
+	"tab_leaderboard_wr"	"Топ Winrate"
 	"lb_rank"				"Ранг"
 	"lb_boss_slayer"		"Убийца боссов"
 	"lb_mmr"				"MMR"
 	"lb_plays"				"Игр"
 	"lb_wins"				"Побед"
-	'lb_loss"				"Поражений"
+	"lb_loss"				"Поражений"
 	"lb_winrate"			"Доля побед"
-	"upd_msg"				"Таблицы обновляются каждые 24 часа."
 	"lb_text"				"Таблицы лидеров"
+	"lb_info"				"Таблицы обновляются каждые 24 часа.<br><br> Миниманильый порог для Топ Рейтинга - от 5240 MMR. <br><br> Миниманильый порог для Топ WinRate - от 50 побед." 
+	"stat"					"Статистика"
+	"lb_rat"				"Текущий Рейтинг"
+	"lb_nx"					"Вас нет в таблице лидеров"
 
 	//Flyout scoreboard
 	"Score_Teamname"		"Убийцы боссов"

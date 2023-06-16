@@ -51,18 +51,21 @@
 	"information_button"	"Game Information"
 
 	//Leaderboards
-	"top_mmr"				"Top MMR"
-	"top_winrate"			"Top Winrate"
+	"tab_leaderboard"		"Top MMR"
+	"tab_leaderboard_wr"	"Top Winrate"
 	"lb_rank"				"Rank"
 	"lb_boss_slayer"		"Boss Slayer"
 	"lb_mmr"				"MMR"
 	"lb_plays"				"Plays"
 	"lb_wins"				"Wins"
-	'lb_loss"				"Losses"
+	"lb_loss"				"Losses"
 	"lb_winrate"			"Winrate"
-	"upd_msg"				"Leaderboards are updated each 24 hours."
 	"lb_text"				"Leaderboards"
-
+	"lb_info"				"Leaderboards are updated each 24 hours.<br><br> Top MMR eligibility starts from 5240 MMR. <br><br> Top WinRate eligibility starts from 50 victories." 
+	"stat"					"Statistics"
+	"lb_rat"				"Current Rating"
+	"lb_nx"					"You are not in the Leaderboards"
+	
 	//Flyout scoreboard
 	"Score_Teamname"		"BOSS SLAYERS"
 	"Score_Commands"		"Commands"

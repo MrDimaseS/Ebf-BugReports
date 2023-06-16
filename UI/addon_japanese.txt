@@ -51,17 +51,20 @@
 	"information_button"	"ゲーム情報"
 		
 	//Leaderboards	
-	"top_mmr"				"トップMMR"
-	"top_winrate"			"トップウィンレート"
+	"tab_leaderboard"		"トップMMR"
+	"tab_leaderboard_wr"	"トップウィンレート"
 	"lb_rank"				"ランク"
 	"lb_boss_slayer"		"ボス・スレイヤー"
 	"lb_mmr"				"MMR"
 	"lb_plays"				"演劇"
 	"lb_wins"				"勝ちます"
-	'lb_loss"				"損失"
-	"lb_winrate"			"勝率"
-	"upd_msg"				"リーダーボードは24時間ごとに更新されます。"
-	"lb_text"				"リーダーボード"
+	"lb_loss" 				"損失"
+	"lb_winrate" 			"勝率"
+	"lb_text" 				"リーダーボード"
+	"lb_info" 				"リーダーボードは 24 時間ごとに更新されます。<br><br> トップ MMR の資格は 5240 MMR から始まります。<br><br> トップ WinRate の資格は 50 勝利から始まります。"
+	"stat"					"統計"
+	"lb_rat"				"現在の定格"
+	"lb_nx"					"あなたはリーダーボードにいません"
 		
 	//Flyout scoreboard	
 	"Score_Teamname"		"ボスの殺人"

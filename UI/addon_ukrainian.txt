@@ -51,17 +51,20 @@
 "information_button"	"Інформація про ігри"
 
 //Таблиці лідерів
-"top_mmr"				"Топ MMR"
-"top_winrate"			"Найвищий Winrate"
+"tab_leaderboard"		"Топ MMR"
+"tab_leaderboard_wr"	"Найвищий Winrate"
 "lb_rank"				"Ранг"
 "lb_boss_slayer"		"Убийца боссов"
 "lb_mmr"				"MMR"
 "lb_plays"				"Ігр"
-"lb_wins"				"Победа"
-'lb_loss"				"Поражений"
-"lb_winrate"			"Доля перемоги"
-"upd_msg"				"Таблиці оновлюються каждые 24 години."
+"lb_wins"				"Перемог"
+"lb_loss"				"Поразок"
+"lb_winrate"			"Доля перемог"
 "lb_text"				"Таблиці лідерів"
+"lb_info"				"Таблиці оновлюються кожні 24 години. <br><br> Мінімалійний поріг для Топ Рейтингу - від 5240 MMR. <br><br> Мінімалійний поріг для Топ WinRate - від 50 перемог.
+"stat"					"Статистика"
+"lb_rat"				"Поточний рейтинг"
+"lb_nx"					"Вас немає в таблиці лідерів"
 
 //Випадаюче табло
 "Score_Teamname"		"Убийцы боссов"
