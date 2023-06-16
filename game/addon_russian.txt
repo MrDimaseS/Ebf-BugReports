@@ -3450,16 +3450,17 @@
 		"DOTA_Tooltip_ability_special_bonus_unique_marci_grapple_damage"			"+{s:bonus_impact_damage}% Dispose Damage"
 		"DOTA_Tooltip_ability_special_bonus_unique_marci_lunge_damage"				"+{s:value}% Rebound Damage"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_treant_8" 						"+{s:bonus_heal_per_second}% Living Armor Heal Per Second""DOTA_Tooltip_ability_special_bonus_unique_treant_9"				   "+{s:value}% Nature's Grasp Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_treant_2" 						"+{s:value}% Leech Seed Damage/Heal"
+		"DOTA_Tooltip_ability_special_bonus_unique_treant_8" 						"+{s:bonus_heal_per_second}% к лечению в сек. от Living Armor"
+		"DOTA_Tooltip_ability_special_bonus_unique_treant_9"				   		"+{s:value}% к урону от Nature's Grasp"
+		"DOTA_Tooltip_ability_special_bonus_unique_treant_2" 						"+{s:value}% к урону/лечению от Leech Seed"
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_3"			"-{s:bonus_AbilityCooldown}% Ice Vortex Cooldown"
 		"DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_8"			"+{s:bonus_damage}% Cold Feet Damage Per Second"
 		"DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_2"			"+{s:bonus_damage}% Chilling Touch Damage"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_undying_2"						"-{s:bonus_AbilityCooldown}% Decay Cooldown"
-		"DOTA_Tooltip_ability_special_bonus_unique_undying_8"						"+{s:bonus_decay_damage}% Decay Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_undying_6"						"+{s:value}% Soul Rip Damage/Heal"
+		"DOTA_Tooltip_ability_special_bonus_unique_undying_2"						"-{s:bonus_AbilityCooldown}% перезарядки Decay"
+		"DOTA_Tooltip_ability_special_bonus_unique_undying_8"						"+{s:bonus_decay_damage}% к урону от Decay"
+		"DOTA_Tooltip_ability_special_bonus_unique_undying_6"						"+{s:value}% к урону/лечению от Soul Rip"
 		
 		"DOTA_Tooltip_ability_primal_beast_uproar_Description"						"Primal Beast пассивно обеспечивает бонусный урон. Кроме того, когда Primal Beast получает урон в размере %damage_limit%%% от своего максимального здоровья или больше, он накапливает стаки Uproar.\n\nПри активации Primal Beast издает рев, который замедляет окружающих врагов и дает зверю дополнительный урон от атак и броню на %roar_duration% секунд в зависимости от текущих стаков Uproar."
 		"DOTA_Tooltip_modifier_primal_beast_uproar_ebf"								"UPROAR"
@@ -3469,12 +3470,12 @@
 		"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_buff"						"ROARED"
 		"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_buff_Description"			"Получение бонусного урона от атаки и брони"
 		
-		"DOTA_Tooltip_Ability_special_bonus_unique_primal_beast_roar_dispells"				"Uproar Spell Immunity"
+		"DOTA_Tooltip_Ability_special_bonus_unique_primal_beast_roar_dispells"				"Иммунитет к заклинаниям от Uproar"
 		"DOTA_Tooltip_Ability_special_bonus_unique_primal_beast_roar_dispells_Description"	"Длительность иммунитета к заклинаниям равна стакам на использование."
 		
 		"DOTA_Tooltip_Ability_mars_spear_units_hit"									"UNITS IMPALED:"
 
-		"DOTA_Tooltip_ability_special_bonus_unique_mars_spear_bonus_damage"			"+{s:value}% Spear Of Mars Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_mars_spear_bonus_damage"			"+{s:value}% к урону от Spear Of Mars"
 		
 		"DOTA_Tooltip_ability_undying_decay"							"Decay"
 		"DOTA_Tooltip_ability_undying_decay_Description"				"Undying крадет силу у всех вражеских крип-героев в области, нанося базовый урон по мере того, как он забирает силу врага себе."
@@ -3521,8 +3522,8 @@
 		"DOTA_Tooltip_ability_legion_commander_duel_Lore"						"To face a soldier of Stonehall in single combat is a challenge few can resist."
 		"DOTA_Tooltip_ability_legion_commander_duel_AbilityCooldown"				"COOLDOWN:"
 		"DOTA_Tooltip_ability_legion_commander_duel_scepter_damage_reduction_pct"		"%LEGION DAMAGE REDUCTION:"
-		"DOTA_Tooltip_ability_special_bonus_unique_legion_commander"			"+{s:value}% Duel Bonus Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_legion_commander_4"			"+{s:bonus_damage_per_hero}% Overwhelming Odds Damage per Hero"
+		"DOTA_Tooltip_ability_special_bonus_unique_legion_commander"			"+{s:value}% к бонусному урону от Duel"
+		"DOTA_Tooltip_ability_special_bonus_unique_legion_commander_4"			"+{s:bonus_damage_per_hero}% к урону за героя Overwhelming Odds"
 		
 		"DOTA_Tooltip_modifier_legion_commander_duel_wins"						"Duel Victory Damage"
 		"DOTA_Tooltip_modifier_legion_commander_duel_wins_Description"			"Получение %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% урона."
@@ -3575,15 +3576,15 @@
 		"DOTA_Tooltip_ability_phoenix_sun_ray_shard_description"				"Sun Ray замедляет на %shard_move_slow_pct%%% и все исцеление и урон увеличиваются на %shard_move_slow_pct%%%."
 		"DOTA_Tooltip_ability_special_bonus_unique_phoenix_3"					"+{s:value}% Fire Spirits Damage Per Second"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_spirit_breaker_nether_strike_cd"		"+{s:value}% Nether Strike cooldown"
+		"DOTA_Tooltip_ability_special_bonus_unique_spirit_breaker_nether_strike_cd"		"-{s:value}% перезарядки Nether Strike"
 		
 		"DOTA_Tooltip_ability_pudge_rot_Description"							"Ядовитое облако наносит сильный урон и замедляет передвижение, нанося вред не только врагам, но и самому Pudge.\nPudge не подвержен замедлению передвижения и не получает бонусный урон, основанный на его силе."
 		"DOTA_Tooltip_ability_pudge_rot_scepter_description"					"Увеличивает радиус действия Rot, враги получают повышенный урон от Rot и у них снижается регенерация здоровья."
 		"DOTA_Tooltip_ability_pudge_rot_rot_str_damage"							"%STRENGTH TO BONUS DAMAGE:"
 		"DOTA_Tooltip_ability_pudge_rot_scepter_bonus_enemy_damage"				"%INCREASED ENEMY DAMAGE:"
 
-		"DOTA_Tooltip_ability_special_bonus_unique_pudge_7"						"+{s:bonus_damage}% Meat Hook Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_pudge_2"						"+{s:value}% Rot Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_pudge_7"						"+{s:bonus_damage}% к урону от Meat Hook"
+		"DOTA_Tooltip_ability_special_bonus_unique_pudge_2"						"+{s:value}% к урону от Rot"
 		
 		
 		"DOTA_Tooltip_ability_pudge_flesh_heap_Description"						"Дает Pudge гарантированный блок урона против всех типов урона. Пассивно дает бонусную силу, которая увеличивается каждый раз, когда Pudge убивает вражеского юнита или тот умирает в непосредственной близости от него.\nСтаки Flesh Heap увеличиваются на %hero_stacks%, когда убит крип-герой, и на %creep_stacks% в противном случае.\nПризванные существа, такие как иллюзии и существа, созданные способностями, дают временные стаки Flesh Heap, которые исчезают через %temporary_duration% секунд.\nFlesh Heap имеет обратную силу, то есть он может набирать заряды до применения умения, которые затем становятся активными."
@@ -3614,7 +3615,7 @@
 		"DOTA_Tooltip_ability_special_bonus_unique_luna_1"						"+{s:bonus_beam_damage}% Lucent Beam Damage"
 		"DOTA_Tooltip_ability_special_bonus_unique_luna_3"						"+{s:bonus_bonus_damage}% Lunar Blessing Damage"
 
-		"DOTA_Tooltip_ability_special_bonus_unique_primal_beast_onslaught_damage"	"+{s:bonus_knockback_damage}% Onslaught Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_primal_beast_onslaught_damage"	"+{s:bonus_knockback_damage}% к урону от Onslaught"
 
 		"DOTA_Tooltip_ability_special_bonus_unique_puck_orb_damage"				"+{s:bonus_damage}% Illusory Orb Damage"
 		"DOTA_Tooltip_ability_special_bonus_unique_puck_6"						"+{s:bonus_damage}% Waning Rift Damage"
@@ -3713,28 +3714,28 @@
 		"DOTA_Tooltip_ability_bristleback_bristleback_min_damage_reduction"		"%MIN DAMAGE REDUCTION:"
 		"DOTA_Tooltip_ability_bristleback_bristleback_max_damage_reduction"		"%MAX DAMAGE REDUCTION:"
 		"DOTA_Tooltip_ability_bristleback_bristleback_quill_release_threshold"	"%CURRENT HEALTH THRESHOLD:"
-		"DOTA_Tooltip_ability_special_bonus_unique_bristleback_2"				"+{s:value}% Quill Stack Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_bristleback_6"	"+{s:bonus_max_damage_reduction}%/{s:bonus_min_damage_reduction}% Bristleback Max/Min Damage Reduction"
-		"DOTA_Tooltip_ability_special_bonus_unique_bristleback_3"				"+{s:value}% Warpath Damage Per Stack"
+		"DOTA_Tooltip_ability_special_bonus_unique_bristleback_2"				"+{s:value}% к урону за стак Quill"
+		"DOTA_Tooltip_ability_special_bonus_unique_bristleback_6"	"+{s:bonus_max_damage_reduction}%/{s:bonus_min_damage_reduction}% к снижению урона макс./мин. от Bristleback"
+		"DOTA_Tooltip_ability_special_bonus_unique_bristleback_3"				"+{s:value}% к урону за стак Warpath"
 		
 		"DOTA_Tooltip_ability_centaur_double_edge_Description"					"Кентавр наносит мощный удар в ближнем бою, повреждая себя и небольшую область вокруг цели.\nCentaur не может умереть от Double Edge и получает уменьшенный урон от Double Edge. Centaur получает %self_damage%%% урона за единицу, пораженную Двойной гранью, до максимального %max_self_damage%%%."
 		"DOTA_Tooltip_ability_centaur_double_edge_shard_description"            "Вызывает Double Edge, замедляющую врагов и увеличивающую силу Centaur за каждое попадание героя на короткое время. Длительность обновляется за стак, максимум %shard_max_stacks% стаков."
 		"DOTA_Tooltip_ability_centaur_double_edge_Note0"						"Double Edge deals magic type damage to both the targets and himself."
-		"DOTA_Tooltip_ability_special_bonus_unique_centaur_4"					"+{s:bonus_edge_damage}% Double Edge Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_centaur_4"					"+{s:bonus_edge_damage}% к урону от Double Edge"
 		
 		"DOTA_Tooltip_ability_centaur_return_Description"						"Centaur отражает все атаки, нанося урон обратно атакующему.\nТакже дает ему бонус к броне, равный %bonus_armor_str%%% от его силы."
 		"DOTA_Tooltip_modifier_centaur_return_return"							"Retaliate"
 		"DOTA_Tooltip_modifier_centaur_return_return_Description"				"Получение %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% бонусной брони и контратаки."
-		"DOTA_Tooltip_ability_special_bonus_unique_centaur_3"					"+{s:bonus_return_damage}% Retaliate Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_centaur_3"					"+{s:bonus_return_damage}% к урону от Retaliate"
 
 		"DOTA_Tooltip_ability_centaur_stampede_Description"						"Centaur ведет всех союзников в злобную атаку, заставляя их двигаться сквозь отряды с максимальной скоростью и замедлять всех врагов, которых они топчут. Затоптанные враги получают фиксированное количество урона. Каждый враг может быть растоптан один раз."
-		"DOTA_Tooltip_ability_centaur_stampede_base_damage"						"STAMPEDE DAMAGE:"
+		"DOTA_Tooltip_ability_centaur_stampede_base_damage"						"Урон:"
 		
 		"DOTA_Tooltip_ability_tidehunter_kraken_shell_Description"				"Когда Tidehunter получает урон, пока эта способность находится в состоянии ожидания, его бездонная сущность очищает его от всех негативных эффектов и отменяет полученный урон. Эффект, который делает его невосприимчивым к урону и очищает его, сохраняется в течение %linger_duration% секунд.\n\nТип развеивания: Сильное"
 		"DOTA_Tooltip_modifier_tidehunter_kraken_shell_effect"					"Kraken Shell"
 		"DOTA_Tooltip_modifier_tidehunter_kraken_shell_effect_Description"		"Постоянно очищать себя и не получать урона."
 		"DOTA_Tooltip_ability_special_bonus_unique_tidehunter_4"				"Kraken Shell Ravages Attackers"
-		"DOTA_Tooltip_ability_special_bonus_unique_tidehunter_9"				"+{s:bonus_attack_damage}% Anchor Smash Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_tidehunter_9"				"+{s:bonus_attack_damage}% к доп. урону от Anchor Smash"
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_monkey_king_12"				"Jingu Mastery Works Against Creeps"
 		"DOTA_Tooltip_ability_special_bonus_unique_monkey_king_2"				"+{s:value}% Jingu Mastery Damage"
@@ -3806,8 +3807,8 @@
 		
 		"DOTA_Tooltip_ability_night_stalker_hunter_in_the_night_Description"	"Ночной сталкер получает скорость атаки и скорость передвижения.\n В дневное время бонусы снижаются до %daytime_pct%%%."
 
-		"DOTA_Tooltip_ability_special_bonus_unique_night_stalker_3"				"+{s:bonus_bonus_damage} Dark Ascension Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_night_stalker_4"				"+{s:bonus_damage}% Void Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_night_stalker_3"				"+{s:bonus_bonus_damage} к доп. урону от Dark Ascension"
+		"DOTA_Tooltip_ability_special_bonus_unique_night_stalker_4"				"+{s:bonus_damage}% к урону от Void"
 		
 		"DOTA_Tooltip_ability_doom_bringer_devour_Description"					"Пытается поглотить цель. Крип будет мгновенно уничтожен, а герой получит урон, равный %hero_damage%%% от силы Doom'а.\n\nЕсли Doom поглощает нейтрального крипа, он получает все специальные способности, которыми тот обладал, и усиливает их урон. Если автокаст деактивирован, Дум не получит способности крипа.\n\n\nВ любом случае, он начинает потреблять эссенцию, которую поглотил, временно получая броню. Продолжительность всегда составляет %duration% секунд."
 		"DOTA_Tooltip_ability_doom_bringer_devour_creep_damage_multiplier"		"NEUTRAL SPELL DAMAGE MULTIPLIER:"
@@ -3882,7 +3883,7 @@
 		"DOTA_Tooltip_ability_life_stealer_feast_Description"					"Атаки Lifestealer наносят бонусный урон и исцеляют его при каждом попадании."
 		"DOTA_Tooltip_ability_life_stealer_feast_leech"							"HEAL ON ATTACK:"
 		"DOTA_Tooltip_ability_life_stealer_feast_damage"						"BONUS DAMAGE:"
-		"DOTA_Tooltip_ability_special_bonus_unique_lifestealer_3"				"+{s:value}% Feast Heal"
+		"DOTA_Tooltip_ability_special_bonus_unique_lifestealer_3"				"+{s:value}% к лечению от Feast"
 
 		"DOTA_Tooltip_ability_antimage_counterspell_Description"				"Пассивно дает сопротивление магии. Counterspell может быть активировано, чтобы создать антимагический барьер вокруг Anti-mage, который блокирует урон от заклинаний и делает его невосприимчивым к дебаффам на время действия.\nБарьер разрушается через %duration% секунд, с каждой секундой теряя все больше защитного барьера.\nДлится %max_duration% секунд."
 		"DOTA_Tooltip_ability_antimage_counterspell_Note0"						"The speed of barrier loss is not reset when the buff is refreshed, but the barrier is added to the total."
@@ -3935,11 +3936,11 @@
 		"DOTA_Tooltip_ability_ogre_magi_multicast_multicast_delay"				"MULTICAST DELAY:"
 		"DOTA_Tooltip_ability_ogre_magi_multicast_multicast_buffer_range"		"MULTICAST BONUS SEARCH RANGE:"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_ogre_magi_2"					"+{s:value}% Fireblast Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_ogre_magi_2"					"+{s:value}% к урону от Fireblast"
 		
 		"DOTA_Tooltip_ability_omniknight_purification_damage"					"DAMAGE:"
 		"DOTA_Tooltip_ability_omniknight_purification_heal"						"HEAL"
-		"DOTA_Tooltip_ability_special_bonus_unique_omniknight_1"				"+{s:value}% Purification Damage/Heal"
+		"DOTA_Tooltip_ability_special_bonus_unique_omniknight_1"				"+{s:value}% к урону/исцелению от Purification"
 		
 		"DOTA_Tooltip_ability_visage_soul_assumption_Description"				"Визаж собирает заряды сущности души каждый раз, когда атакует %attacks_per_stack% раз или произносит одно из своих заклинаний. Когда эссенция высвобождается, она наносит базовый урон, а также урон за каждый собранный заряд души."
 		"DOTA_Tooltip_ability_special_bonus_unique_visage_4"					"+{s:value}% Soul Assumption Damage"
@@ -3973,8 +3974,8 @@
 		"DOTA_Tooltip_ability_lone_druid_synergy_bonus_max_health"				"BONUS MAX HEALTH:"
 		"DOTA_Tooltip_ability_lone_druid_synergy_stat_share_pct"				"%STAT SHARE:"
 
-		"DOTA_Tooltip_ability_special_bonus_unique_earth_spirit_6"				"+{s:bonus_rock_damage}% Boulder Smash Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_earth_spirit"				"+{s:value}% Rolling Boulder Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_earth_spirit_6"				"+{s:bonus_rock_damage}% к урону от Boulder Smash"
+		"DOTA_Tooltip_ability_special_bonus_unique_earth_spirit"				"+{s:value}% к урону от Rolling Boulder"
 
 		"DOTA_Tooltip_ability_special_bonus_unique_windranger_windrun_undispellable"	"+{s:bonus_powershot_damage}% Powershot Damage"
 		
@@ -4000,10 +4001,10 @@
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_storm_spirit_5"					"+{s:value}% Static Remnant Damage"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_tiny"							"+{s:value}% Avalanche Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_tiny"							"+{s:value}% к урону от Avalanche"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_tusk_2"							"+{s:value}% Snowball Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_tusk_3"							"+{s:bonus_bonus_damage}% Tag Team Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_tusk_2"							"+{s:value}% к урону от Snowball"
+		"DOTA_Tooltip_ability_special_bonus_unique_tusk_3"							"+{s:bonus_bonus_damage}% к доп. урону от Tag Team"
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_viper_1"							"+{s:bonus_damage}% Corrosive Skin Damage Per Second"
 		"DOTA_Tooltip_ability_special_bonus_unique_viper_2"							"+{s:bonus_damage}% Viper Strike DPS"
@@ -4020,7 +4021,7 @@
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_dark_willow_4"					"+{s:value}% Bedlam Damage"
 		
-		"DOTA_Tooltip_Ability_special_bonus_unique_dawnbreaker_fire_wreath_swipe"	"+{s:bonus_swipe_damage}% Starbreaker Swipe/Smash Damage"
+		"DOTA_Tooltip_Ability_special_bonus_unique_dawnbreaker_fire_wreath_swipe"	"+{s:bonus_swipe_damage}% к урону от Starbreaker Swipe/Smash"
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_dazzle_3"						"+{s:bonus_damage}% Poison Touch DPS"
 		"DOTA_Tooltip_ability_special_bonus_unique_dazzle_2"						"+{s:value}% Shadow Wave Heal / Damage"
@@ -4029,8 +4030,8 @@
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_drow_ranger_2"					"+{s:bonus_damage}% Frost Arrow Damage"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_earthshaker_2" 					"+{s:value}% Echo Slam Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_earthshaker_4" 					"+{s:value}% Fissure Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_earthshaker_2" 					"+{s:value}% к урону от Echo Slam"
+		"DOTA_Tooltip_ability_special_bonus_unique_earthshaker_4" 					"+{s:value}% к урону от Fissure"
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_elder_titan_2"					"+{s:bonus_stomp_damage}% Echo Stomp Damage"
 		
@@ -4079,8 +4080,8 @@
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_shadow_demon_1"					"+{s:value}% Demonic Purge/Cleanse Damage/Heal"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_slardar"							"+{s:value}% Slithereen Crush Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_slardar_2"						"+{s:value}% Bash of the Deep Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_slardar"							"+{s:value}% к урону от Slithereen Crush"
+		"DOTA_Tooltip_ability_special_bonus_unique_slardar_2"						"+{s:value}% к доп. урону от Bash of the Deep"
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_sniper_1"						"+{s:value}% Shrapnel DPS"
 		"DOTA_Tooltip_ability_special_bonus_unique_sniper_headshot_damage"			"+{s:bonus_damage}% Headshot Damage"
