@@ -83,9 +83,9 @@
 	//Badge tiers
 	"reg_pl"				"Regular Player"
 	"discord_sup"			"Community Badge"
-	"supporter_1"			"Supporter I Badge"
-	"supporter_2"			"Supporter II Badge"
-	"supporter_3"			"Supporter III Badge"
+	"supporter_1"			"Supporter I"
+	"supporter_2"			"Supporter II"
+	"supporter_3"			"Supporter III"
 	"trs"					"EBF Translator"
 	"dev"					"EBF Developer"
 
