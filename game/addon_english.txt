@@ -214,6 +214,14 @@
 		
 		"npc_dota_boss_lifestealer"														"Life Eater"
 		
+		"DOTA_Tooltip_ability_boss_lifestealer_rage"									"Rage"
+		"DOTA_Tooltip_ability_boss_lifestealer_rage_Description"						"Launch into a maddened rage, becoming Debuff Immune, increasing magic resistance by 80%%, and gaining increased movement speed.\n\nDISPEL TYPE: Basic Dispel"
+		"DOTA_Tooltip_ability_boss_lifestealer_rage_Lore"								"The madness and brutality of N'aix makes him a vicious and unrelenting foe in combat."
+		"DOTA_Tooltip_ability_boss_lifestealer_rage_Note0"								"Upon casting, many buffs and debuffs will be removed."
+		"DOTA_Tooltip_ability_boss_lifestealer_rage_movement_speed_bonus"				"%MOVE SPEED BONUS:"
+		"DOTA_Tooltip_ability_boss_lifestealer_rage_bonus_armor"						"BONUS ARMOR:"
+		"DOTA_Tooltip_ability_boss_lifestealer_rage_duration"							"DURATION:"
+		
 		"DOTA_Tooltip_ability_boss_lifestealer_feast"									"Feast"
 		"DOTA_Tooltip_ability_boss_lifestealer_feast_Description"						"Lifestealer's attacks deal damage and provide heal for a percentage of his target's max health."		
 		"DOTA_Tooltip_ability_boss_lifestealer_feast_Lore"								"After escaping from his cell in Devarque, N'aix subsisted on flesh and bones of those unfortunate to cross his path." 
@@ -222,6 +230,12 @@
 		"DOTA_Tooltip_ability_boss_lifestealer_feast_Note2"								"Stacks additively with other sources of Lifesteal."
 		"DOTA_Tooltip_ability_boss_lifestealer_feast_hp_leech_percent"					"%MAX HEALTH LIFE STEAL:"
 		"DOTA_Tooltip_ability_boss_lifestealer_feast_hp_damage_percent"					"%MAX HEALTH DAMAGE:"
+		
+		"DOTA_Tooltip_ability_boss_lifestealer_ghoul_frenzy"							"Ghoul Frenzy"
+		"DOTA_Tooltip_ability_boss_lifestealer_ghoul_frenzy_Description"				"Passively causes Lifestealer's attacks to significantly slow enemy movement speed for %duration% seconds. Grants you Attack Speed."
+		"DOTA_Tooltip_ability_boss_lifestealer_ghoul_frenzy_movement_slow"				"%MOVEMENT SLOW:"
+		"DOTA_Tooltip_ability_boss_lifestealer_ghoul_frenzy_duration"					"DURATION:"
+		"DOTA_Tooltip_ability_boss_lifestealer_ghoul_frenzy_attack_speed_bonus"			"BONUS ATTACK SPEED:"
 		
 		"DOTA_Tooltip_ability_boss_lifestealer_open_wounds"								"Open Wounds"
 		"DOTA_Tooltip_ability_boss_lifestealer_open_wounds_Description"					"Lifestealer rends an enemy unit, slowing the victim's movement speed and allowing all allies to regain health for a percentage of the damage they deal to that unit. All damage dealt will steal life, including damage from spells. The victim recovers movement speed over the duration. Deals 2% of the target's max health per attack on the target from real heroes. After receiving %damage_threshold% damage, the Open Wounds fester and spread to a non-infected random enemy within %spread_radius% radius."
@@ -1294,21 +1308,6 @@
 
 		"DOTA_Tooltip_divinearmordebuff"                                                  "Divine aura"
 		"DOTA_Tooltip_divinearmordebuff_Description"                                      "Reduces armor by 85"
-
-		"DOTA_Tooltip_Desolation5_effect"                                                 "Corruption 5"
-		"DOTA_Tooltip_Desolation5_effect_Description"                                     "Reduces armor by 1000"
-
-		"DOTA_Tooltip_item_bloody_halberd_disarm"                                         "Bloody Halberd Disarm"
-		"DOTA_Tooltip_item_bloody_halberd_disarm_Description"                             ""
-
-		"DOTA_Tooltip_item_bloody_halberd_debuff"                                         "Bloody Halberd Debuff"
-		"DOTA_Tooltip_item_bloody_halberd_debuff_Description"                             ""
-
-		"DOTA_Tooltip_item_sange_and_yasha_2_2_debuff"                                      "Sange And Yasha 2 Debuff"
-		"DOTA_Tooltip_item_sange_and_yasha_2_2_debuff_Description"                          ""
-
-		"DOTA_Tooltip_item_sange_and_yasha_2_2_disarm"                                      "Sange And Yasha 2 Disarm"
-		"DOTA_Tooltip_item_sange_and_yasha_2_2_disarm_Description"                          ""
 		
 		"DOTA_Tooltip_ability_item_ressurection_stone"                                    "Resurrection Stone"
 		"DOTA_Tooltip_ability_item_ressurection_stone_Description"                        "Resurrection: You respawn with full HP and Mana after 2 seconds. The item is consumed upon respawning. \n<font color='#70EAFF'>60 second cooldown</font> \n<font color='#EA52FF'>Octarine core and upgrades don't reduce cooldown.\nTinker can't refresh Ressurection Stone</font>"
@@ -2361,7 +2360,7 @@
 		"DOTA_Tooltip_modifier_item_yasha_and_kaya_2_archon_as_Description"								"Attack speed increased."
 		
 		"DOTA_Tooltip_ability_item_sange_and_yasha_2"													"Blades of Balance"
-		"DOTA_Tooltip_ability_item_sange_and_yasha_2_Description"										"<h1>Passive: Wait and See</h1>When a unit attemps to attack you, you gain a stack of Vengeance. Vengeance stacks increases your total attack damage by %attacked_buff%%% for each stack.<br><br>When you attack, you gain a stack of Patience. Patience stacks increase your evasion by %attack_buff%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of both Vengeance and Patience and if you are not attacked or attack for %buffer_duration% seconds, you start losing Vengeance and Patience stacks respectively.<br>All stacks are lost after %loss_timer% seconds."
+		"DOTA_Tooltip_ability_item_sange_and_yasha_2_Description"										"<h1>Passive: Wait and See</h1>When a unit attemps to attack you, you gain a stack of Vengeance. Vengeance stacks increases your total attack damage by %attacked_buff%%% for each stack.<br><br>When you attack, you gain a stack of Patience. Patience stacks increase your evasion by %attack_buff%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of both Vengeance and Patience and if you are not attacked or attack for %buffer_duration% seconds, you start losing Vengeance and Patience stacks respectively, losing all stacks after %loss_timer% seconds."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_2_Note0"												"Yasha-based movement speed bonuses from multiple items do not stack."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_2_Lore"												"Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_2_bonus_strength"									"+$str"
@@ -2373,7 +2372,7 @@
 		"DOTA_Tooltip_ability_item_sange_and_yasha_2_hp_regen_amp"										"%+Health Regen and Lifesteal Amp"
 		
 		"DOTA_Tooltip_ability_item_sange_and_yasha_3"													"Hellraisers"
-		"DOTA_Tooltip_ability_item_sange_and_yasha_3_Description"										"<h1>Passive: Wait and See</h1>When a unit attemps to attack you, you gain a stack of Vengeance. Vengeance stacks increases your total attack damage by %attacked_buff%%% for each stack.<br><br>When you attack, you gain a stack of Patience. Patience stacks increase your evasion by %attack_buff%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of both Vengeance and Patience and if you are not attacked or attack for %buffer_duration% seconds, you start losing Vengeance and Patience stacks respectively.<br>All stacks are lost after %loss_timer% seconds.\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% around the target."
+		"DOTA_Tooltip_ability_item_sange_and_yasha_3_Description"										"<h1>Passive: Wait and See</h1>When a unit attemps to attack you, you gain a stack of Vengeance. Vengeance stacks increases your total attack damage by %attacked_buff%%% for each stack.<br><br>When you attack, you gain a stack of Patience. Patience stacks increase your evasion by %attack_buff%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of both Vengeance and Patience and if you are not attacked or attack for %buffer_duration% seconds, you start losing Vengeance and Patience stacks respectively, losing all stacks after %loss_timer% seconds.\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% around the target."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_3_Note0"												"Yasha-based movement speed bonuses from multiple items do not stack."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_3_Lore"												"Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_3_bonus_strength"									"+$str"
@@ -2387,7 +2386,7 @@
 		"DOTA_Tooltip_ability_item_sange_and_yasha_3_hp_regen_amp"										"%+Health Regen and Lifesteal Amp"
 		
 		"DOTA_Tooltip_ability_item_sange_and_yasha_4"													"Blades of Mayhem"
-		"DOTA_Tooltip_ability_item_sange_and_yasha_4_Description"										"<h1>Passive: Wait and See</h1>When a unit attemps to attack you, you gain a stack of Vengeance. Vengeance stacks increases your total attack damage by %attacked_buff%%% for each stack.<br><br>When you attack, you gain a stack of Patience. Patience stacks increase your evasion by %attack_buff%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of both Vengeance and Patience and if you are not attacked or attack for %buffer_duration% seconds, you start losing Vengeance and Patience stacks respectively.<br>All stacks are lost after %loss_timer% seconds.\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% around the target."
+		"DOTA_Tooltip_ability_item_sange_and_yasha_4_Description"										"<h1>Passive: Wait and See</h1>When a unit attemps to attack you, you gain a stack of Vengeance. Vengeance stacks increases your total attack damage by %attacked_buff%%% for each stack.<br><br>When you attack, you gain a stack of Patience. Patience stacks increase your evasion by %attack_buff%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of both Vengeance and Patience and if you are not attacked or attack for %buffer_duration% seconds, you start losing Vengeance and Patience stacks respectively, losing all stacks after %loss_timer% seconds.\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% around the target."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_4_Note0"												"Yasha-based movement speed bonuses from multiple items do not stack."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_4_Lore"												"Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_4_bonus_strength"									"+$str"
@@ -2404,7 +2403,7 @@
 		"DOTA_Tooltip_ability_item_sange_and_yasha_4_health_per_str"									"+Health Per Strength"
 		
 		"DOTA_Tooltip_ability_item_sange_and_yasha_5"													"Blood-cursed Blades"
-		"DOTA_Tooltip_ability_item_sange_and_yasha_5_Description"										"<h1>Passive: Wait and See</h1>When a unit attemps to attack you, you gain a stack of Vengeance. Vengeance stacks increases your total attack damage by %attacked_buff%%% for each stack.<br><br>When you attack, you gain a stack of Patience. Patience stacks increase your evasion by %attack_buff%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of both Vengeance and Patience and if you are not attacked or attack for %buffer_duration% seconds, you start losing Vengeance and Patience stacks respectively.<br>All stacks are lost after %loss_timer% seconds.\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% around the target.\n<h1>Aura: Sub-Zero</h1> Deals %aura_damage% damage per second, slows movement speed by %aura_movespeed%%% and attack speed by %aura_attackspeed%, causes enemies to miss %aura_miss_pct%%% of their attacks and reduces all healing they receive by %aura_heal_reduction%%%.<br><br>Illusions deal %aura_damage_illusions% damage instead.<br>Radius: %aura_radius%"
+		"DOTA_Tooltip_ability_item_sange_and_yasha_5_Description"										"<h1>Passive: Wait and See</h1>When a unit attemps to attack you, you gain a stack of Vengeance. Vengeance stacks increases your total attack damage by %attacked_buff%%% for each stack.<br><br>When you attack, you gain a stack of Patience. Patience stacks increase your evasion by %attack_buff%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of both Vengeance and Patience and if you are not attacked or attack for %buffer_duration% seconds, you start losing Vengeance and Patience stacks respectively, losing all stacks after %loss_timer% seconds.\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% around the target."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_5_Note0"												"Yasha-based movement speed bonuses from multiple items do not stack."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_5_Lore"												"Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_5_bonus_strength"									"+$str"
@@ -2470,16 +2469,53 @@
 		"DOTA_Tooltip_ability_item_eternal_shroud_bonus_regen"								"+$hp_regen"
 		
 		"DOTA_Tooltip_ability_item_eternal_shroud_2"    									"Unholy Shroud"
-		"DOTA_Tooltip_ability_item_eternal_shroud_2_Description"    						"<h1>Passive: Shroud</h1> Restores mana equal to %mana_restore_pct%%% of spell damage taken."
+		"DOTA_Tooltip_ability_item_eternal_shroud_2_Description"    						"<h1>Active: Arctic Blast</h1> Emits a freezing wave that deals %blast_damage% magical damage to enemies and slows their movement by %blast_movement_speed%%% for %blast_debuff_duration% seconds.<br><br>Radius: %blast_radius%\n\n<h1>Passive: Freezing Shroud</h1>Taking spell damage restores mana equal to %mana_restore_pct%%% of the damage taken.<br><br>Additionally, reduces the attack speed of all enemies by %aura_attack_speed% and all heals, regeneration and lifesteal by %hp_regen_degen_aura%%%.<br><br>Radius: %aura_radius%."
 		"DOTA_Tooltip_ability_item_eternal_shroud_2_Lore"									"A pristine hood that feeds upon strife to empower its owner."
 		"DOTA_Tooltip_ability_item_eternal_shroud_2_bonus_spell_resist"						"%+$spell_resist"
-		"DOTA_Tooltip_ability_item_eternal_shroud_2_bonus_strength"							"+$str"
 		"DOTA_Tooltip_ability_item_eternal_shroud_2_bonus_armor"							"+$armor"
 		"DOTA_Tooltip_ability_item_eternal_shroud_2_bonus_health_regen"						"+$hp_regen"
+		"DOTA_Tooltip_ability_item_eternal_shroud_2_bonus_strength"							"+$str"
+		"DOTA_Tooltip_ability_item_eternal_shroud_2_bonus_intellect"						"+$int"
+		
+		"DOTA_Tooltip_ability_item_eternal_shroud_3"    									"Shroud of Baal"
+		"DOTA_Tooltip_ability_item_eternal_shroud_3_Description"    						"<h1>Active: Demonic Blast</h1> Emits a freezing wave that deals %blast_damage% magical damage to enemies and slows their movement by %blast_movement_speed%%% for %blast_debuff_duration% seconds and restores mana equal to %dmg_to_mana%%% of the damage dealt for each enemy hit.<br><br>Radius: %blast_radius%\n\n<h1>Passive: Freezing Shroud</h1>Taking spell damage restores mana equal to %mana_restore_pct%%% of the damage taken.<br><br>Additionally, reduces the attack speed of all enemies by %aura_attack_speed% and all heals, regeneration and lifesteal by %hp_regen_degen_aura%%%.<br><br>Radius: %aura_radius%."
+		"DOTA_Tooltip_ability_item_eternal_shroud_3_Lore"									"A pristine hood that feeds upon strife to empower its owner."
+		"DOTA_Tooltip_ability_item_eternal_shroud_3_bonus_spell_resist"						"%+$spell_resist"
+		"DOTA_Tooltip_ability_item_eternal_shroud_3_bonus_armor"							"+$armor"
+		"DOTA_Tooltip_ability_item_eternal_shroud_3_bonus_health_regen"						"+$hp_regen"
+		"DOTA_Tooltip_ability_item_eternal_shroud_3_bonus_strength"							"+$str"
+		"DOTA_Tooltip_ability_item_eternal_shroud_3_bonus_intellect"						"+$int"
+		"DOTA_Tooltip_ability_item_eternal_shroud_3_bonus_agility"							"+$agi"
+		
+		"DOTA_Tooltip_ability_item_eternal_shroud_4"    									"Shroud of Gabriel"
+		"DOTA_Tooltip_ability_item_eternal_shroud_4_Description"    						"<h1>Active: Radiant Blast</h1> Emits a freezing wave that deals %blast_damage% magical damage to enemies and slows their movement by %blast_movement_speed%%% for %blast_debuff_duration% seconds and restores mana equal to %dmg_to_mana%%% of the damage dealt for each enemy hit.<br><br>Radius: %blast_radius%\n\n<h1>Passive: Freezing Shroud</h1>Taking spell damage restores mana equal to %mana_restore_pct%%% of the damage taken.<br><br>Additionally, reduces the attack speed of all enemies by %aura_attack_speed% and all heals, regeneration and lifesteal by %hp_regen_degen_aura%%%.<br><br>Freezing Shroud is %blast_aura_bonus%%% more effective against units affected by Radiant Blast<br><br>Radius: %aura_radius%."
+		"DOTA_Tooltip_ability_item_eternal_shroud_4_Lore"									"A pristine hood that feeds upon strife to empower its owner."
+		"DOTA_Tooltip_ability_item_eternal_shroud_4_bonus_spell_resist"						"%+$spell_resist"
+		"DOTA_Tooltip_ability_item_eternal_shroud_4_bonus_armor"							"+$armor"
+		"DOTA_Tooltip_ability_item_eternal_shroud_4_bonus_health_regen"						"+$hp_regen"
+		"DOTA_Tooltip_ability_item_eternal_shroud_4_bonus_strength"							"+$str"
+		"DOTA_Tooltip_ability_item_eternal_shroud_4_bonus_intellect"						"+$int"
+		"DOTA_Tooltip_ability_item_eternal_shroud_4_bonus_agility"							"+$agi"
+		
+		"DOTA_Tooltip_ability_item_eternal_shroud_5"    									"Shroud of Eternity"
+		"DOTA_Tooltip_ability_item_eternal_shroud_5_Description"    						"<h1>Active: Eternal Blast</h1> Emits a freezing wave that deals %blast_damage% magical damage to enemies and slows their movement by %blast_movement_speed%%% for %blast_debuff_duration% seconds and restores mana equal to %dmg_to_mana%%% of the damage dealt for each enemy hit.<br><br>Radius: %blast_radius%\n\n<h1>Passive: Sub-Zero Shroud</h1>Taking spell damage restores mana equal to %mana_restore_pct%%% of the damage taken.<br><br>Additionally, reduces the attack speed of all enemies by %aura_attack_speed%, movement speed by %aura_movespeed%%%, causes all enemies to miss %aura_miss_pct%%% of their attacks and all sources of healing, regeneration and lifesteal are reduced by %hp_regen_degen_aura%%% while dealing %aura_damage% damage per second.<br><br>Sub-Zero Shroud is %blast_aura_bonus%%% more effective against units affected by Radiant Blast<br><br>Illusions deal %aura_damage_illusions% damage instead.<br><br>Radius: %aura_radius%"
+		"DOTA_Tooltip_ability_item_eternal_shroud_5_Lore"									"A pristine hood that feeds upon strife to empower its owner."
+		"DOTA_Tooltip_ability_item_eternal_shroud_5_bonus_spell_resist"						"%+$spell_resist"
+		"DOTA_Tooltip_ability_item_eternal_shroud_5_bonus_armor"							"+$armor"
+		"DOTA_Tooltip_ability_item_eternal_shroud_5_bonus_health_regen"						"+$hp_regen"
+		"DOTA_Tooltip_ability_item_eternal_shroud_5_bonus_mana"								"+$mana"
+		"DOTA_Tooltip_ability_item_eternal_shroud_5_bonus_evasion"							"+$evasion"
+		"DOTA_Tooltip_ability_item_eternal_shroud_5_bonus_damage"							"+$damage"
+		"DOTA_Tooltip_ability_item_eternal_shroud_5_bonus_strength"							"+$str"
+		"DOTA_Tooltip_ability_item_eternal_shroud_5_bonus_intellect"						"+$int"
+		"DOTA_Tooltip_ability_item_eternal_shroud_5_bonus_agility"							"+$agi"
+		
+		"DOTA_Tooltip_modifier_eternal_shroud_burn"											"Freezing Aura"
+		"DOTA_Tooltip_modifier_eternal_shroud_burn_Description"								"Reduced attack speed and healing."
 		
 		// ITEMS - Kaya and Sange
 		"DOTA_Tooltip_ability_item_kaya_and_sange_2"										"Blades of Prejudice"
-		"DOTA_Tooltip_ability_item_kaya_and_sange_2_Description"							"<h1>Passive: Guardian's Fury</h1>When you take damage, you gain a stack of Fury. Fury stacks increases your spell damage by %spell_amp_stacks%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of Fury and if you do not take damage for %buffer_duration% seconds, you start losing Fury stacks respectively.<br>All stacks are lost after %loss_timer% seconds."
+		"DOTA_Tooltip_ability_item_kaya_and_sange_2_Description"							"<h1>Passive: Guardian's Fury</h1>When you take damage, you gain a stack of Fury. Fury stacks increases your spell damage by %spell_amp_stacks%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of Fury and if you do not take damage for %buffer_duration% seconds, you start losing Fury stacks, losing all stacks after %loss_timer% seconds."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_2_Lore"									"Two of three known items of unimaginable power that many believe were crafted at the same enchanter's forge."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_2_bonus_strength"							"+$str"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_2_bonus_intellect"						"+$int"	
@@ -2491,8 +2527,9 @@
 		"DOTA_Tooltip_ability_item_kaya_and_sange_2_spell_lifesteal"						"%+$spell_lifesteal"
 		
 		"DOTA_Tooltip_ability_item_kaya_and_sange_3"										"Belial's Bargain"
-		"DOTA_Tooltip_ability_item_kaya_and_sange_3_Description"							"<h1>Passive: Guardian's Shroud</h1>When you take damage, you restore mana equal to %mana_restore_pct%%% of spell damage taken and gain a stack of Fury. Fury stacks increases your spell damage by %spell_amp_stacks%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of Fury and if you do not take damage for %buffer_duration% seconds, you start losing Fury stacks respectively.<br>All stacks are lost after %loss_timer% seconds."
+		"DOTA_Tooltip_ability_item_kaya_and_sange_3_Description"							"<h1>Passive: Guardian's Rampart</h1>When you take damage, you gain a stack of Fury. Fury stacks increases your spell damage by %spell_amp_stacks%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of Fury and if you do not take damage for %buffer_duration% seconds, you start losing Fury stacks, losing all stacks after %loss_timer% seconds.<br><br>When you spend mana while you have stacks of Fury, you gain barrier, blocking all forms of damage, equal to %mana_to_barrier%x the mana spent."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_3_Lore"									"Two of three known items of unimaginable power that many believe were crafted at the same enchanter's forge."
+		"DOTA_Tooltip_ability_item_kaya_and_sange_3_Note0"									"The barrier stacks, but is lost propertionally to the stacks of Fury lost."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_3_bonus_strength"							"+$str"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_3_bonus_intellect"						"+$int"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_3_bonus_armor"							"+$armor"
@@ -2504,8 +2541,9 @@
 		"DOTA_Tooltip_ability_item_kaya_and_sange_3_spell_lifesteal"						"%+$spell_lifesteal"
 		
 		"DOTA_Tooltip_ability_item_kaya_and_sange_4"										"Heartwood Cutters"
-		"DOTA_Tooltip_ability_item_kaya_and_sange_4_Description"							"<h1>Passive: Guardian's Shroud</h1>When you take damage, you restore mana equal to %mana_restore_pct%%% of spell damage taken and gain a stack of Fury. Fury stacks increases your spell damage by %spell_amp_stacks%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of Fury and if you do not take damage for %buffer_duration% seconds, you start losing Fury stacks respectively.<br>All stacks are lost after %loss_timer% seconds."
+		"DOTA_Tooltip_ability_item_kaya_and_sange_4_Description"							"<h1>Passive: Guardian's Shroud</h1>When you take damage, you gain a stack of Fury. Fury stacks increases your spell damage by %spell_amp_stacks%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of Fury and if you do not take damage for %buffer_duration% seconds, you start losing Fury stacks, losing all stacks after %loss_timer% seconds.<br><br>When you spend mana while you have stacks of Fury, you gain barrier, blocking all forms of damage, equal to %mana_to_barrier%x the mana spent."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_4_Lore"									"Two of three known items of unimaginable power that many believe were crafted at the same enchanter's forge."
+		"DOTA_Tooltip_ability_item_kaya_and_sange_4_Note0"									"The barrier stacks, but is lost propertionally to the stacks of Fury lost."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_4_bonus_strength"							"+$str"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_4_bonus_intellect"						"+$int"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_4_bonus_health"							"+$health"
@@ -2520,8 +2558,9 @@
 		"DOTA_Tooltip_ability_item_kaya_and_sange_4_spell_lifesteal"						"%+$spell_lifesteal"
 		
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5"										"Blades of Unity"
-		"DOTA_Tooltip_ability_item_kaya_and_sange_5_Description"							"<h1>Passive: Guardian's Shroud</h1>When you take damage, you restore mana equal to %mana_restore_pct%%% of spell damage taken and gain a stack of Fury. Fury stacks increases your spell damage by %spell_amp_stacks%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of Fury and if you do not take damage for %buffer_duration% seconds, you start losing Fury stacks respectively.<br>All stacks are lost after %loss_timer% seconds.\n\n<h1>Passive: Combo Breaker</h1> When you take damage and your health falls below %health_threshold_pct%%%, a strong dispel is applied and you gain a %buff_duration% second buff that provides Spell Immunity and causes all damage you are dealt to be reduced to zero. Has a %cooldown_duration% internal cooldown.<br/><br/>Dispel Type: <span class=\'GameplayValues GameplayVariable\'>Strong Dispel</span>"
+		"DOTA_Tooltip_ability_item_kaya_and_sange_5_Description"							"<h1>Passive: Guardian's Shroud</h1>When you take damage, you gain a stack of Fury. Fury stacks increases your spell damage by %spell_amp_stacks%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of Fury and if you do not take damage for %buffer_duration% seconds, you start losing Fury stacks, losing all stacks after %loss_timer% seconds.<br><br>When you spend mana while you have stacks of Fury, you gain barrier, blocking all forms of damage, equal to %mana_to_barrier%x the mana spent.\n\n<h1>Passive: Combo Breaker</h1> When you take damage and your health falls below %health_threshold_pct%%%, a strong dispel is applied and you gain a %buff_duration% second buff that provides Spell Immunity and causes all damage you are dealt to be reduced to zero. Has a %cooldown_duration% internal cooldown.<br/><br/>Dispel Type: <span class=\'GameplayValues GameplayVariable\'>Strong Dispel</span>"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5_Lore"									"Two of three known items of unimaginable power that many believe were crafted at the same enchanter's forge."
+		"DOTA_Tooltip_ability_item_kaya_and_sange_5_Note0"									"The barrier stacks, but is lost propertionally to the stacks of Fury lost."
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5_bonus_strength"							"+$str"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5_bonus_intellect"						"+$int"
 		"DOTA_Tooltip_ability_item_kaya_and_sange_5_bonus_health"							"+$health"
@@ -2571,33 +2610,38 @@
 		"DOTA_Tooltip_modifier_item_nullifier_dispel_Description" 							"The target is being constantly dispelled."
 		
 		// ITEMS - Skadi
+		"DOTA_Tooltip_ability_item_skadi_Description"										"<h1>Passive: Cold Attack</h1>Attacks apply a debuff that deals %cold_damage_per_second% damage, lowers enemy movement and attack speed and reduces heals, health regeneration, lifesteal and spell lifesteal by %heal_reduction%%% for %cold_duration% seconds. Slows enemy ranged units by %cold_slow_ranged%%% movement speed and by %cold_attack_slow_ranged% attack speed. Slows enemy melee units by %cold_slow_melee%%% movement speed and by %cold_attack_slow_melee% attack speed. "
+		
 		"DOTA_Tooltip_Ability_item_skadi2"													"Evil Eye"
-		"DOTA_Tooltip_ability_item_skadi2_Description"										"<h1>Passive: Cold Attack</h1> Attacks lower enemy movement and attack speed and reduces heals, health regeneration, lifesteal and spell lifesteal by %heal_reduction%%% for %cold_duration% seconds. Slows enemy ranged units by %cold_slow_ranged%%% movement speed and by %cold_attack_slow_ranged% attack speed. Slows enemy melee units by %cold_slow_melee%%% movement speed and by %cold_attack_slow_melee% attack speed. "
+		"DOTA_Tooltip_ability_item_skadi2_Description"										"<h1>Passive: Cold Attack</h1>Attacks apply a debuff that deals %cold_damage_per_second% damage, lowers enemy movement and attack speed and reduces heals, health regeneration, lifesteal and spell lifesteal by %heal_reduction%%% for %cold_duration% seconds. Slows enemy ranged units by %cold_slow_ranged%%% movement speed and by %cold_attack_slow_ranged% attack speed. Slows enemy melee units by %cold_slow_melee%%% movement speed and by %cold_attack_slow_melee% attack speed. "
 		"DOTA_Tooltip_ability_item_skadi2_Lore"												"Extremely rare artifact, guarded by the azure dragons."
 		"DOTA_Tooltip_ability_item_skadi2_bonus_all_stats"									"+$all"
 		"DOTA_Tooltip_ability_item_skadi2_bonus_health"										"+$health"
 		"DOTA_Tooltip_ability_item_skadi2_bonus_mana"										"+$mana"
 		
 		"DOTA_Tooltip_Ability_item_skadi3"													"Fiend's Eye"
-		"DOTA_Tooltip_ability_item_skadi3_Description"										"<h1>Passive: Cold Attack</h1> Attacks lower enemy movement and attack speed and reduces heals, health regeneration, lifesteal and spell lifesteal by %heal_reduction%%% for %cold_duration% seconds. Slows enemy ranged units by %cold_slow_ranged%%% movement speed and by %cold_attack_slow_ranged% attack speed. Slows enemy melee units by %cold_slow_melee%%% movement speed and by %cold_attack_slow_melee% attack speed. "
+		"DOTA_Tooltip_ability_item_skadi3_Description"										"<h1>Passive: Cold Attack</h1>Attacks apply a debuff that deals %cold_damage_per_second% damage, lowers enemy movement and attack speed and reduces heals, health regeneration, lifesteal and spell lifesteal by %heal_reduction%%% for %cold_duration% seconds. Slows enemy ranged units by %cold_slow_ranged%%% movement speed and by %cold_attack_slow_ranged% attack speed. Slows enemy melee units by %cold_slow_melee%%% movement speed and by %cold_attack_slow_melee% attack speed. "
 		"DOTA_Tooltip_ability_item_skadi3_Lore"												"Extremely rare artifact, guarded by the azure dragons."
 		"DOTA_Tooltip_ability_item_skadi3_bonus_all_stats"									"+$all"
 		"DOTA_Tooltip_ability_item_skadi3_bonus_health"										"+$health"
 		"DOTA_Tooltip_ability_item_skadi3_bonus_mana"										"+$mana"
 		
 		"DOTA_Tooltip_Ability_item_skadi4"													"Divine Eye"
-		"DOTA_Tooltip_ability_item_skadi4_Description"										"<h1>Passive: Cold Attack</h1> Attacks lower enemy movement and attack speed and reduces heals, health regeneration, lifesteal and spell lifesteal by %heal_reduction%%% for %cold_duration% seconds. Slows enemy ranged units by %cold_slow_ranged%%% movement speed and by %cold_attack_slow_ranged% attack speed. Slows enemy melee units by %cold_slow_melee%%% movement speed and by %cold_attack_slow_melee% attack speed. "
+		"DOTA_Tooltip_ability_item_skadi4_Description"										"<h1>Passive: Cold Attack</h1>Attacks apply a debuff that deals %cold_damage_per_second% damage, lowers enemy movement and attack speed and reduces heals, health regeneration, lifesteal and spell lifesteal by %heal_reduction%%% for %cold_duration% seconds. Slows enemy ranged units by %cold_slow_ranged%%% movement speed and by %cold_attack_slow_ranged% attack speed. Slows enemy melee units by %cold_slow_melee%%% movement speed and by %cold_attack_slow_melee% attack speed. "
 		"DOTA_Tooltip_ability_item_skadi4_Lore"												"Extremely rare artifact, guarded by the azure dragons."
 		"DOTA_Tooltip_ability_item_skadi4_bonus_all_stats"									"+$all"
 		"DOTA_Tooltip_ability_item_skadi4_bonus_health"										"+$health"
 		"DOTA_Tooltip_ability_item_skadi4_bonus_mana"										"+$mana"
 		
 		"DOTA_Tooltip_Ability_item_skadi5"													"Eye of Bahamut"
-		"DOTA_Tooltip_ability_item_skadi5_Description"										"<h1>Passive: Cold Attack</h1> Attacks lower enemy movement and attack speed and reduces heals, health regeneration, lifesteal and spell lifesteal by %heal_reduction%%% for %cold_duration% seconds. Slows enemy ranged units by %cold_slow_ranged%%% movement speed and by %cold_attack_slow_ranged% attack speed. Slows enemy melee units by %cold_slow_melee%%% movement speed and by %cold_attack_slow_melee% attack speed. "
+		"DOTA_Tooltip_ability_item_skadi5_Description"										"<h1>Passive: Cold Attack</h1>Attacks apply a debuff that deals %cold_damage_per_second% damage, lowers enemy movement and attack speed and reduces heals, health regeneration, lifesteal and spell lifesteal by %heal_reduction%%% for %cold_duration% seconds. Slows enemy ranged units by %cold_slow_ranged%%% movement speed and by %cold_attack_slow_ranged% attack speed. Slows enemy melee units by %cold_slow_melee%%% movement speed and by %cold_attack_slow_melee% attack speed. "
 		"DOTA_Tooltip_ability_item_skadi5_Lore"												"Extremely rare artifact, guarded by the azure dragons."
 		"DOTA_Tooltip_ability_item_skadi5_bonus_all_stats"									"+$all"
 		"DOTA_Tooltip_ability_item_skadi5_bonus_health"										"+$health"
 		"DOTA_Tooltip_ability_item_skadi5_bonus_mana"										"+$mana"
+		
+		"DOTA_Tooltip_modifier_item_skadi_debuff"											"Eye of Skadi - Debuff"
+		"DOTA_Tooltip_modifier_item_skadi_debuff_Description"								"Slowed and healing reduced."
 		
 		// ITEMS - Dagon
 		
@@ -2767,43 +2811,47 @@
 		
 		// ITEMS - Octarine Core
 		"DOTA_Tooltip_ability_item_hourglass_shard"											"Hourglass Fragment"
-		"DOTA_Tooltip_ability_item_hourglass_shard_Description"								"<h1>Passive: Cooldown Reduction</h1>Reduces the cooldown and cast time of all spells and items by %bonus_cooldown%%%."
+		"DOTA_Tooltip_ability_item_hourglass_shard_bonus_cooldown"							"%+$cooldown_reduction"
 		"DOTA_Tooltip_ability_item_hourglass_shard_Lore"									"A shard from a mystical timekeeping piece."
 		
+		"DOTA_Tooltip_ability_item_octarine_core_Description"								""
+		"DOTA_Tooltip_ability_item_octarine_core_bonus_health_regen"						"+$hp_regen"
+		
 		"DOTA_Tooltip_ability_item_octarine_core2"											"Spiritual Core"
-		"DOTA_Tooltip_ability_item_octarine_core2_Description"								"<h1>Passive: Cooldown Reduction</h1>Reduces the cooldown and cast time of all spells and items by %bonus_cooldown%%%."
 		"DOTA_Tooltip_ability_item_octarine_core2_bonus_health"								"+$health"
 		"DOTA_Tooltip_ability_item_octarine_core2_bonus_health_regen"						"+$hp_regen"
 		"DOTA_Tooltip_ability_item_octarine_core2_bonus_mana"								"+$mana"
 		"DOTA_Tooltip_ability_item_octarine_core2_bonus_mana_regen"           			    "+$mana_regen"
+		"DOTA_Tooltip_ability_item_octarine_core2_bonus_cooldown"							"%+$cooldown_reduction"
 		"DOTA_Tooltip_ability_item_octarine_core2_Lore"										"This used to be the core of a mysterious planet."
 		
 		"DOTA_Tooltip_ability_item_octarine_core3"											"Ethereal Core"
-		"DOTA_Tooltip_ability_item_octarine_core3_Description"								"<h1>Passive: Cooldown Reduction</h1>Reduces the cooldown and cast time of all spells and items by %bonus_cooldown%%%."
 		"DOTA_Tooltip_ability_item_octarine_core3_bonus_health"								"+$health"
 		"DOTA_Tooltip_ability_item_octarine_core3_bonus_health_regen"						"+$hp_regen"
 		"DOTA_Tooltip_ability_item_octarine_core3_bonus_mana"								"+$mana"
 		"DOTA_Tooltip_ability_item_octarine_core3_bonus_mana_regen"           			    "+$mana_regen"
+		"DOTA_Tooltip_ability_item_octarine_core3_bonus_cooldown"							"%+$cooldown_reduction"
 		"DOTA_Tooltip_ability_item_octarine_core3_Lore"										"This used to be the core of a mysterious planet."
 		
 		"DOTA_Tooltip_ability_item_octarine_core4"											"Celestial Core"
-		"DOTA_Tooltip_ability_item_octarine_core4_Description"								"<h1>Passive: Cooldown Reduction</h1>Reduces the cooldown and cast time of all spells and items by %bonus_cooldown%%%."	
 		"DOTA_Tooltip_ability_item_octarine_core4_bonus_health"								"+$health"
 		"DOTA_Tooltip_ability_item_octarine_core4_bonus_health_regen"						"+$hp_regen"
 		"DOTA_Tooltip_ability_item_octarine_core4_bonus_mana"								"+$mana"
 		"DOTA_Tooltip_ability_item_octarine_core4_bonus_mana_regen"           			    "+$mana_regen"
+		"DOTA_Tooltip_ability_item_octarine_core4_bonus_cooldown"							"%+$cooldown_reduction"
 		"DOTA_Tooltip_ability_item_octarine_core4_Lore"										"This used to be the core of a mysterious planet."
 		
 		"DOTA_Tooltip_ability_item_octarine_core5"											"Otherworldly Core"
-		"DOTA_Tooltip_ability_item_octarine_core5_Description"								"<h1>Active: Reset</h1>Resets the cooldowns of all your items and abilities.\n<h1>Passive: Cooldown Reduction</h1>Reduces the cooldown and cast time of all spells and items by %bonus_cooldown%%%."
+		"DOTA_Tooltip_ability_item_octarine_core5_Description"								"<h1>Active: Reset</h1>Resets the cooldowns of all your items and abilities."
 		"DOTA_Tooltip_ability_item_octarine_core5_bonus_health"								"+$health"
 		"DOTA_Tooltip_ability_item_octarine_core5_bonus_health_regen"						"+$hp_regen"
 		"DOTA_Tooltip_ability_item_octarine_core5_bonus_mana"								"+$mana"
 		"DOTA_Tooltip_ability_item_octarine_core5_bonus_mana_regen"           			    "+$mana_regen"
+		"DOTA_Tooltip_ability_item_octarine_core5_bonus_cooldown"							"%+$cooldown_reduction"
 		"DOTA_Tooltip_ability_item_octarine_core5_Lore"										"This used to be the core of a mysterious planet."
 		
 		"DOTA_Tooltip_ability_item_asura_core"												"Asura Core"
-		"DOTA_Tooltip_ability_item_octarine_core5_Description"								"<h1>Active: Reset</h1>Resets the cooldowns of all your items and abilities.\n<h1>Passive: Cooldown Reduction</h1>Reduces the cooldown and cast time of all spells and items by %bonus_cooldown%%%.\n<h1>Passive - Asura's Strength</h1>Every round, the health bonus from this item increases by %bonus_health_pr%, the mana bonus increases by %bonus_mana_pr%, the health regeneration bonus increases by %bonus_health_regen_pr% and the mana regeneration bonus increases by %bonus_mana_regen_pr%."
+		"DOTA_Tooltip_ability_item_asura_core_Description"									"<h1>Active: Reset</h1>Resets the cooldowns of all your items and abilities.\n<h1>Passive: Cooldown Reduction</h1>Reduces the cooldown and cast time of all spells and items by %bonus_cooldown%%%.\n<h1>Passive - Asura's Strength</h1>Every round, the health bonus from this item increases by %bonus_health_pr%, the mana bonus increases by %bonus_mana_pr%, the health regeneration bonus increases by %bonus_health_regen_pr% and the mana regeneration bonus increases by %bonus_mana_regen_pr%."
 		"DOTA_Tooltip_ability_item_asura_core_bonus_health"									"+$health"
 		"DOTA_Tooltip_ability_item_asura_core_bonus_health_regen"							"+$hp_regen"
 		"DOTA_Tooltip_ability_item_asura_core_bonus_mana"									"+$mana"
@@ -2993,7 +3041,7 @@
 		
 		// ITEMS - Signet of Destiny
 		"DOTA_Tooltip_ability_item_signet_of_destiny"										"Signet of Destiny"
-		"DOTA_Tooltip_ability_item_signet_of_destiny_Description"							"<h1>Active: Energy Burst</h1>Targets an allied or enemy unit. The target instantly restores health equal to %base_damage% + %hp_per_charge% per charge and mana equal to %mp_per_charge% per charge if they're an ally or takes magical damage and loses mana equal to those if they're an enemy.<br><br>When used against enemies, it reduces health by %enemy_hp_drain%%% of current health per second, and reduces HP regeneration, healing, lifesteal and spell lifesteal by %hp_regen_reduction_enemy%%%, while dealing %soul_damage_amount% damage per second. Allied units instead have their HP regeneration, healing, lifesteal and spell lifesteal increased by that amount while healing for the damage + %enemy_hp_drain%%% of their missing health per second.<br><br>Lasts %duration% seconds.<br>Max %max_charges% charges. Automatically gains a charge every %charge_gain_timer% seconds, whenever a visible enemy within %charge_radius% range uses an ability and gains %charge_gain_kill% charges whenever any unit dies (%charge_gain_hero% for heroes)."
+		"DOTA_Tooltip_ability_item_signet_of_destiny_Description"							"<h1>Active: Energy Burst</h1>Targets an allied or enemy unit. The target instantly restores health equal to %hp_per_charge% per charge and mana equal to %mp_per_charge% per charge if they're an ally or takes magical damage and loses mana equal to those if they're an enemy.<br><br>When used against enemies, it reduces health by %enemy_hp_drain%%% of current health per second, and reduces HP regeneration, healing, lifesteal and spell lifesteal by %hp_regen_reduction_enemy%%%, while dealing %soul_damage_amount% damage per second. Allied units instead have their HP regeneration, healing, lifesteal and spell lifesteal increased by that amount while healing for the damage + %enemy_hp_drain%%% of their missing health per second.<br><br>Lasts %duration% seconds.<br>Max %max_charges% charges. Automatically gains a charge every %charge_gain_timer% seconds, whenever a visible enemy within %charge_radius% range uses an ability and gains %charge_gain_kill% charges whenever any unit dies (%charge_gain_hero% for heroes)."
 		"DOTA_Tooltip_ability_item_signet_of_destiny_Lore"									"A ring with the power to warp the fate of others, bringing woe or weal."
 		"DOTA_Tooltip_ability_item_signet_of_destiny_Note0"									"Instantly kills summoned units."
 		"DOTA_Tooltip_ability_item_signet_of_destiny_bonus_intellect"						"+$int"
@@ -3004,10 +3052,9 @@
 		"DOTA_Tooltip_ability_item_signet_of_destiny_bonus_mana_regen"						"+$mana_regen"
 		"DOTA_Tooltip_ability_item_signet_of_destiny_heal_increase"							"%+$heal_amp"
 		"DOTA_Tooltip_ability_item_signet_of_destiny_spell_amp"								"%+$spell_amp"
-		"DOTA_Tooltip_ability_item_signet_of_destiny_passive_spell_lifesteal"				"%+$spell_lifesteal"
 		
 		"DOTA_Tooltip_ability_item_signet_of_destiny_2"										"Signet of Shrouded Destiny"
-		"DOTA_Tooltip_ability_item_signet_of_destiny_2_Description"							"<h1>Active: Energy Burst</h1>Targets an allied or enemy unit. The target instantly restores health equal to %base_damage% + %hp_per_charge% per charge and mana equal to %mp_per_charge% per charge if they're an ally or takes magical damage and loses mana equal to those if they're an enemy.<br><br>When used against enemies, it reduces health by %enemy_hp_drain%%% of current health per second, and reduces HP regeneration, healing, lifesteal and spell lifesteal by %hp_regen_reduction_enemy%%%, while dealing %soul_damage_amount% damage per second. Allied units instead have their HP regeneration, healing, lifesteal and spell lifesteal increased by that amount while healing for the damage + %enemy_hp_drain%%% of their missing health per second.<br><br>Lasts %duration% seconds.<br>Max %max_charges% charges. Automatically gains a charge every %charge_gain_timer% seconds, whenever a visible enemy within %charge_radius% range uses an ability and gains %charge_gain_kill% charges whenever any unit dies (%charge_gain_hero% for heroes)."
+		"DOTA_Tooltip_ability_item_signet_of_destiny_2_Description"							"<h1>Active: Energy Burst</h1>Targets an allied or enemy unit. The target instantly restores health equal to %hp_per_charge% per charge and mana equal to %mp_per_charge% per charge if they're an ally or takes magical damage and loses mana equal to those if they're an enemy.<br><br>When used against enemies, it reduces health by %enemy_hp_drain%%% of current health per second, and reduces HP regeneration, healing, lifesteal and spell lifesteal by %hp_regen_reduction_enemy%%%, while dealing %soul_damage_amount% damage per second. Allied units instead have their HP regeneration, healing, lifesteal and spell lifesteal increased by that amount while healing for the damage + %enemy_hp_drain%%% of their missing health per second.<br><br>Lasts %duration% seconds.<br>Max %max_charges% charges. Automatically gains a charge every %charge_gain_timer% seconds, whenever a visible enemy within %charge_radius% range uses an ability and gains %charge_gain_kill% charges whenever any unit dies (%charge_gain_hero% for heroes)."
 		"DOTA_Tooltip_ability_item_signet_of_destiny_2_Lore"								"A ring with the power to warp the fate of others, bringing woe or weal."
 		"DOTA_Tooltip_ability_item_signet_of_destiny_2_Note0"								"Instantly kills summoned units."
 		"DOTA_Tooltip_ability_item_signet_of_destiny_2_bonus_intellect"						"+$int"
@@ -3018,10 +3065,9 @@
 		"DOTA_Tooltip_ability_item_signet_of_destiny_2_bonus_mana_regen"					"+$mana_regen"
 		"DOTA_Tooltip_ability_item_signet_of_destiny_2_heal_increase"						"%+$heal_amp"
 		"DOTA_Tooltip_ability_item_signet_of_destiny_2_spell_amp"							"%+$spell_amp"
-		"DOTA_Tooltip_ability_item_signet_of_destiny_2_passive_spell_lifesteal"				"%+$spell_lifesteal"
 
 		"DOTA_Tooltip_ability_item_signet_of_destiny_3"										"Signet of Infernal Destiny"
-		"DOTA_Tooltip_ability_item_signet_of_destiny_3_Description"							"<h1>Active: Energy Burst</h1>Targets an allied or enemy unit. The target instantly restores health equal to %base_damage% + %hp_per_charge% per charge and mana equal to %mp_per_charge% per charge if they're an ally or takes magical damage and loses mana equal to those if they're an enemy.<br><br>When used against enemies, it reduces health by %enemy_hp_drain%%% of current health per second, and reduces HP regeneration, healing, lifesteal and spell lifesteal by %hp_regen_reduction_enemy%%%, while dealing %soul_damage_amount% damage per second. Allied units instead have their HP regeneration, healing, lifesteal and spell lifesteal increased by that amount while healing for the damage + %enemy_hp_drain%%% of their missing health per second.<br><br>Lasts %duration% seconds.<br>Max %max_charges% charges. Automatically gains a charge every %charge_gain_timer% seconds, whenever a visible enemy within %charge_radius% range uses an ability and gains %charge_gain_kill% charges whenever any unit dies (%charge_gain_hero% for heroes)."
+		"DOTA_Tooltip_ability_item_signet_of_destiny_3_Description"							"<h1>Active: Energy Burst</h1>Targets an allied or enemy unit. The target instantly restores health equal to %hp_per_charge% per charge and mana equal to %mp_per_charge% per charge if they're an ally or takes magical damage and loses mana equal to those if they're an enemy.<br><br>When used against enemies, it reduces health by %enemy_hp_drain%%% of current health per second, and reduces HP regeneration, healing, lifesteal and spell lifesteal by %hp_regen_reduction_enemy%%%, while dealing %soul_damage_amount% damage per second. Allied units instead have their HP regeneration, healing, lifesteal and spell lifesteal increased by that amount while healing for the damage + %enemy_hp_drain%%% of their missing health per second.<br><br>Lasts %duration% seconds.<br>Max %max_charges% charges. Automatically gains a charge every %charge_gain_timer% seconds, whenever a visible enemy within %charge_radius% range uses an ability and gains %charge_gain_kill% charges whenever any unit dies (%charge_gain_hero% for heroes)."
 		"DOTA_Tooltip_ability_item_signet_of_destiny_3_Lore"								"A ring with the power to warp the fate of others, bringing woe or weal."
 		"DOTA_Tooltip_ability_item_signet_of_destiny_3_Note0"								"Instantly kills summoned units."
 		"DOTA_Tooltip_ability_item_signet_of_destiny_3_bonus_intellect"						"+$int"
@@ -3032,10 +3078,9 @@
 		"DOTA_Tooltip_ability_item_signet_of_destiny_3_bonus_mana_regen"					"+$mana_regen"
 		"DOTA_Tooltip_ability_item_signet_of_destiny_3_heal_increase"						"%+$heal_amp"
 		"DOTA_Tooltip_ability_item_signet_of_destiny_3_spell_amp"							"%+$spell_amp"
-		"DOTA_Tooltip_ability_item_signet_of_destiny_3_passive_spell_lifesteal"				"%+$spell_lifesteal"
 
 		"DOTA_Tooltip_ability_item_signet_of_destiny_4"										"Signet of Blessed Destiny"
-		"DOTA_Tooltip_ability_item_signet_of_destiny_4_Description"							"<h1>Active: Energy Burst</h1>Targets an allied or enemy unit. The target instantly restores health equal to %base_damage% + %hp_per_charge% per charge and mana equal to %mp_per_charge% per charge if they're an ally or takes magical damage and loses mana equal to those if they're an enemy.<br><br>When used against enemies, it reduces health by %enemy_hp_drain%%% of current health per second, and reduces HP regeneration, healing, lifesteal and spell lifesteal by %hp_regen_reduction_enemy%%%, while dealing %soul_damage_amount% damage per second. Allied units instead have their HP regeneration, healing, lifesteal and spell lifesteal increased by that amount while healing for the damage + %enemy_hp_drain%%% of their missing health per second.<br><br>Lasts %duration% seconds.<br>Max %max_charges% charges. Automatically gains a charge every %charge_gain_timer% seconds, whenever a visible enemy within %charge_radius% range uses an ability and gains %charge_gain_kill% charges whenever any unit dies (%charge_gain_hero% for heroes)."
+		"DOTA_Tooltip_ability_item_signet_of_destiny_4_Description"							"<h1>Active: Energy Burst</h1>Targets an allied or enemy unit. The target instantly restores health equal to %hp_per_charge% per charge and mana equal to %mp_per_charge% per charge if they're an ally or takes magical damage and loses mana equal to those if they're an enemy.<br><br>When used against enemies, it reduces health by %enemy_hp_drain%%% of current health per second, and reduces HP regeneration, healing, lifesteal and spell lifesteal by %hp_regen_reduction_enemy%%%, while dealing %soul_damage_amount% damage per second. Allied units instead have their HP regeneration, healing, lifesteal and spell lifesteal increased by that amount while healing for the damage + %enemy_hp_drain%%% of their missing health per second.<br><br>Lasts %duration% seconds.<br>Max %max_charges% charges. Automatically gains a charge every %charge_gain_timer% seconds, whenever a visible enemy within %charge_radius% range uses an ability and gains %charge_gain_kill% charges whenever any unit dies (%charge_gain_hero% for heroes)."
 		"DOTA_Tooltip_ability_item_signet_of_destiny_4_Lore"								"A ring with the power to warp the fate of others, bringing woe or weal."
 		"DOTA_Tooltip_ability_item_signet_of_destiny_4_Note0"								"Instantly kills summoned units."
 		"DOTA_Tooltip_ability_item_signet_of_destiny_4_bonus_intellect"						"+$int"
@@ -3046,10 +3091,9 @@
 		"DOTA_Tooltip_ability_item_signet_of_destiny_4_bonus_mana_regen"					"+$mana_regen"
 		"DOTA_Tooltip_ability_item_signet_of_destiny_4_heal_increase"						"%+$heal_amp"
 		"DOTA_Tooltip_ability_item_signet_of_destiny_4_spell_amp"							"%+$spell_amp"
-		"DOTA_Tooltip_ability_item_signet_of_destiny_4_passive_spell_lifesteal"				"%+$spell_lifesteal"
 		
 		"DOTA_Tooltip_ability_item_signet_of_destiny_5"										"Signet of Eldritch Destiny"
-		"DOTA_Tooltip_ability_item_signet_of_destiny_5_Description"							"<h1>Active: Energy Burst</h1>Targets an allied or enemy unit. The target instantly restores health equal to %base_damage% + %hp_per_charge% per charge and mana equal to %mp_per_charge% per charge if they're an ally or takes magical damage and loses mana equal to those if they're an enemy.<br><br>When used against enemies, it reduces health by %enemy_hp_drain%%% of current health per second, and reduces HP regeneration, healing, lifesteal and spell lifesteal by %hp_regen_reduction_enemy%%%, while dealing %soul_damage_amount% damage per second. Allied units instead have their HP regeneration, healing, lifesteal and spell lifesteal increased by that amount while healing for the damage + %enemy_hp_drain%%% of their missing health per second.<br><br>Lasts %duration% seconds.<br>Max %max_charges% charges. Automatically gains a charge every %charge_gain_timer% seconds, whenever a visible enemy within %charge_radius% range uses an ability and gains %charge_gain_kill% charges whenever any unit dies (%charge_gain_hero% for heroes)."
+		"DOTA_Tooltip_ability_item_signet_of_destiny_5_Description"							"<h1>Active: Energy Burst</h1>Targets an allied or enemy unit. The target instantly restores health equal to %hp_per_charge% per charge and mana equal to %mp_per_charge% per charge if they're an ally or takes magical damage and loses mana equal to those if they're an enemy.<br><br>When used against enemies, it reduces health by %enemy_hp_drain%%% of current health per second, and reduces HP regeneration, healing, lifesteal and spell lifesteal by %hp_regen_reduction_enemy%%%, while dealing %soul_damage_amount% damage per second. Allied units instead have their HP regeneration, healing, lifesteal and spell lifesteal increased by that amount while healing for the damage + %enemy_hp_drain%%% of their missing health per second.<br><br>Lasts %duration% seconds.<br>Max %max_charges% charges. Automatically gains a charge every %charge_gain_timer% seconds, whenever a visible enemy within %charge_radius% range uses an ability and gains %charge_gain_kill% charges whenever any unit dies (%charge_gain_hero% for heroes)."
 		"DOTA_Tooltip_ability_item_signet_of_destiny_5_Lore"								"A ring with the power to warp the fate of others, bringing woe or weal."
 		"DOTA_Tooltip_ability_item_signet_of_destiny_5_Note0"								"Instantly kills summoned units."
 		"DOTA_Tooltip_ability_item_signet_of_destiny_5_bonus_intellect"						"+$int"
@@ -3060,7 +3104,6 @@
 		"DOTA_Tooltip_ability_item_signet_of_destiny_5_bonus_mana_regen"					"+$mana_regen"
 		"DOTA_Tooltip_ability_item_signet_of_destiny_5_heal_increase"						"%+$heal_amp"
 		"DOTA_Tooltip_ability_item_signet_of_destiny_5_spell_amp"							"%+$spell_amp"
-		"DOTA_Tooltip_ability_item_signet_of_destiny_5_passive_spell_lifesteal"				"%+$spell_lifesteal"
 		
 		// ITEMS - Greaves
 		"DOTA_Tooltip_ability_item_guardian_greaves_2"										"Phantom's Greaves"
@@ -3811,6 +3854,7 @@
 		"DOTA_Tooltip_ability_doom_bringer_infernal_blade_shard_radius"			"SHARD EFFECT RADIUS:"
 		"DOTA_Tooltip_ability_doom_bringer_infernal_blade_Note1"				"The maximum health damage is not affected by spell amplification."
 		"DOTA_Tooltip_ability_special_bonus_unique_doom_5"	"+{s:bonus_damage}% Doom DPS"
+		"DOTA_Tooltip_ability_special_bonus_unique_doom_4"	"+{s:value}% Scorched Earth Damage"
 		
 		"DOTA_Tooltip_ability_necrolyte_death_pulse_damage"						"DAMAGE:"
 		"DOTA_Tooltip_modifier_necrolyte_death_seeker_debuff"					"Death Seeker"
@@ -3857,10 +3901,7 @@
 		
 		"DOTA_Tooltip_ability_zuus_arc_lightning_Description"					"Hurls a bolt of lightning that leaps through nearby enemy units that deals damage."
 		"DOTA_Tooltip_ability_zuus_arc_lightning_Lore"							"Arc Lightning is Zeus' favorite spell to use against puny mortals."
-		"DOTA_Tooltip_ability_zuus_arc_lightning_jump_count"					"JUMPS:"
-		"DOTA_Tooltip_ability_zuus_arc_lightning_arc_damage"					"BASE DAMAGE:"
 		"DOTA_Tooltip_ability_zuus_arc_lightning_damage_health_pct"				""
-		"DOTA_Tooltip_ability_zuus_arc_lightning_creep_health_pct"				"%CREEP CURRENT HEALTH DAMAGE:"
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_zeus_2"						"+{s:bonus_arc_damage}% Arc Lightning Damage"
 		
@@ -3870,6 +3911,9 @@
 		"DOTA_Tooltip_ability_zuus_static_field_creep_health_pct_spell"			"%CREEP HEALTH DMG SPELL:"
 		"DOTA_Tooltip_ability_zuus_static_field_creep_health_pct_attack"		"%CREEP HEALTH DMG ATTACKS:"
 		"DOTA_Tooltip_ability_special_bonus_unique_zeus_4"						"+{s:bonus_damage}% Thundergod's Wrath Damage"
+		
+		"DOTA_Tooltip_ability_life_stealer_rage_Description"					"Launch into a maddened rage, becoming Debuff Immune, increasing magic resistance by 80%%, gaining armor and gaining increased movement speed.\n\nDISPEL TYPE: Basic Dispel"
+		"DOTA_Tooltip_ability_life_stealer_rage_bonus_armor"					"BONUS ARMOR:"
 		
 		"DOTA_Tooltip_ability_life_stealer_feast_Description"					"Lifestealer's attacks deal bonus damage and heal him every hit."
 		"DOTA_Tooltip_ability_life_stealer_feast_leech"							"HEAL ON ATTACK:"
