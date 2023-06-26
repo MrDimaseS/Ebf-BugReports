@@ -5,6 +5,7 @@
 	{              
 		"dota_ability_variable_heal_amp"								"Healing Amplification"
 		"dota_ability_variable_other_attr"								"Other Attributes"
+		"dota_ability_variable_cast"									"Cast Speed"
 		
 		"DOTA_Tooltip_ability_item_bag_of_gold"                                                 "Bag of Gold"
 	   
@@ -388,8 +389,6 @@
 		"DOTA_Tooltip_ability_boss_tidehunter_anchor_smash_damage_reduction"			"%DAMAGE REDUCTION:"
 		"DOTA_Tooltip_ability_boss_tidehunter_anchor_smash_reduction_duration"			"DURATION:"
 		"DOTA_Tooltip_ability_boss_tidehunter_anchor_smash_radius"						"RADIUS:"
-		"DOTA_Tooltip_ability_boss_tidehunter_anchor_smash_shard_bonus_damage"			"BONUS DAMAGE:"
-		"DOTA_Tooltip_ability_boss_tidehunter_anchor_smash_shard_cooldown_reduction"	"COOLDOWN REDUCTION:"
 		"DOTA_Tooltip_ability_boss_tidehunter_anchor_smash_Note0"						"Anchor Smash works on all Ancient creeps except for Roshan."
 		
 		"DOTA_Tooltip_ability_boss_tidehunter_ravage"									"Ravage"
@@ -1924,10 +1923,10 @@
 		"DOTA_Tooltip_modifier_item_cloak_of_the_protector_ebf_active_Description"			"Blocking damage from all damage types."
 		
 		// ITEMS - Battle Fury
-		"DOTA_Tooltip_ability_item_bfury_Description"										"<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% around the target."
+		"DOTA_Tooltip_ability_item_bfury_Description"										"<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% starting from the target."
 		
 		"DOTA_Tooltip_ability_item_bfury2"													"War Fury"
-		"DOTA_Tooltip_ability_item_bfury2_Description"										"<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% around the target."
+		"DOTA_Tooltip_ability_item_bfury2_Description"										"<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% starting from the target."
 		"DOTA_Tooltip_ability_item_bfury2_Lore"												"Used in war to destroy waves of enemies."
 		"DOTA_Tooltip_ability_item_bfury2_bonus_damage"										"+$damage"
 		"DOTA_Tooltip_ability_item_bfury2_bonus_health_regen"								"+$hp_regen"
@@ -2295,7 +2294,7 @@
 		"DOTA_Tooltip_modifier_blade_mail_taunt_Description"								"Taunting enemies"
 		// ITEMS - Sange & Kaya & Yasha
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_2"													"Weaveblades"
-		"DOTA_Tooltip_ability_item_yasha_and_kaya_2_Description"										"<h1>Passive: Spellsword</h1>When you land attacks on units, you gain stacks of Archon. The next spell you cast has its cooldown reduced by %cooldown_stacks%%% and cast time reduced by %casttime_stacks%%% for each stack, up to a maximum of %max_stacks% stacks. Stacks start disappearing after not landing an attack for %buffer_duration% seconds and all stacks are lost after %loss_timer% seconds.<br><br>Casting a spell increases your attack speed by %attack_speed_buff% for %buff_duration% seconds."
+		"DOTA_Tooltip_ability_item_yasha_and_kaya_2_Description"										"<h1>Passive: Spellsword</h1>When you land attacks on units, you gain stacks of Archon. You gain %cooldown_stacks%%% cast speed, which lasts until one of your abilities goes on cooldown, up to a maximum of %max_stacks% stacks. Stacks start disappearing after not landing an attack for %buffer_duration% seconds and all stacks are lost after %loss_timer% seconds.<br><br>Casting a spell increases your attack speed by %attack_speed_buff% for %buff_duration% seconds."
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_2_Note0"												"Yasha-based movement speed bonuses from multiple items do not stack."
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_2_Lore"												"Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination."
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_2_bonus_intellect"									"+$int"
@@ -2304,7 +2303,7 @@
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_2_movement_speed_percent_bonus"						"%+$move_speed"		
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_2_hp_regen_amp"										"%+Spell Lifesteal Amp"
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_2_spell_amp"											"%+Spell Amplification"
-		"DOTA_Tooltip_ability_item_yasha_and_kaya_2_bonus_cooldown"										"%+$cooldown_reduction"
+		"DOTA_Tooltip_ability_item_yasha_and_kaya_2_bonus_cooldown"										"+$cast"
 		
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_3"													"Blades of Strife"
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_3_Description"										"<h1>Active: Wild Magic</h1>Gives %berserk_bonus_attack_speed% attack speed and %berserk_bonus_movement_speed% movement speed, but reduces your armor by %berserk_armor_reduction%. Attacks made during Wild Magic restore mana equal to %berserk_mana_steal%%% of the lifesteal.<br><br>Lasts %berserk_duration% seconds.\n\n<h1>Passive: Spellsword</h1>When you land attacks on units, you gain stacks of Archon. The next spell you cast has its cooldown reduced by %cooldown_stacks%%% and cast time reduced by %casttime_stacks%%% for each stack, up to a maximum of %max_stacks% stacks. Stacks start disappearing after not landing an attack for %buffer_duration% seconds and all stacks are lost after %loss_timer% seconds.<br><br>Casting a spell increases your attack speed by %attack_speed_buff% for %buff_duration% seconds."
@@ -2317,7 +2316,7 @@
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_3_movement_speed_percent_bonus"						"%+$move_speed"		
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_3_hp_regen_amp"										"%+Spell Lifesteal Amp"
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_3_spell_amp"											"%+Spell Amplification"
-		"DOTA_Tooltip_ability_item_yasha_and_kaya_3_bonus_cooldown"										"%+$cooldown_reduction"
+		"DOTA_Tooltip_ability_item_yasha_and_kaya_3_bonus_cooldown"										"+$cast"
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_3_lifesteal_percent"									"+$lifesteal"
 		
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_4"													"Planeslicers"
@@ -2331,7 +2330,7 @@
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_4_movement_speed_percent_bonus"						"%+$move_speed"		
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_4_hp_regen_amp"										"%+Spell Lifesteal Amp"
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_4_spell_amp"											"%+Spell Amplification"
-		"DOTA_Tooltip_ability_item_yasha_and_kaya_4_bonus_cooldown"										"%+$cooldown_reduction"
+		"DOTA_Tooltip_ability_item_yasha_and_kaya_4_bonus_cooldown"										"+$cast"
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_4_bonus_mana"											"+$mana"
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_4_bonus_mana_regen"									"+$mana_regen"
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_4_lifesteal_percent"									"+$lifesteal"
@@ -2347,7 +2346,7 @@
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_5_movement_speed_percent_bonus"						"%+$move_speed"		
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_5_hp_regen_amp"										"%+Spell Lifesteal Amp"
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_5_spell_amp"											"%+Spell Amplification"
-		"DOTA_Tooltip_ability_item_yasha_and_kaya_5_bonus_cooldown"										"%+$cooldown_reduction"
+		"DOTA_Tooltip_ability_item_yasha_and_kaya_5_bonus_cooldown"										"+$cast"
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_5_bonus_mana"											"+$mana"
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_5_bonus_mana_regen"									"+$mana_regen"
 		"DOTA_Tooltip_ability_item_yasha_and_kaya_5_lifesteal_percent"									"%+$lifesteal"
@@ -2372,7 +2371,7 @@
 		"DOTA_Tooltip_ability_item_sange_and_yasha_2_hp_regen_amp"										"%+Health Regen and Lifesteal Amp"
 		
 		"DOTA_Tooltip_ability_item_sange_and_yasha_3"													"Hellraisers"
-		"DOTA_Tooltip_ability_item_sange_and_yasha_3_Description"										"<h1>Passive: Wait and See</h1>When a unit attemps to attack you, you gain a stack of Vengeance. Vengeance stacks increases your total attack damage by %attacked_buff%%% for each stack.<br><br>When you attack, you gain a stack of Patience. Patience stacks increase your evasion by %attack_buff%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of both Vengeance and Patience and if you are not attacked or attack for %buffer_duration% seconds, you start losing Vengeance and Patience stacks respectively, losing all stacks after %loss_timer% seconds.\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% around the target."
+		"DOTA_Tooltip_ability_item_sange_and_yasha_3_Description"										"<h1>Passive: Wait and See</h1>When a unit attemps to attack you, you gain a stack of Vengeance. Vengeance stacks increases your total attack damage by %attacked_buff%%% for each stack.<br><br>When you attack, you gain a stack of Patience. Patience stacks increase your evasion by %attack_buff%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of both Vengeance and Patience and if you are not attacked or attack for %buffer_duration% seconds, you start losing Vengeance and Patience stacks respectively, losing all stacks after %loss_timer% seconds.\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% starting from the target."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_3_Note0"												"Yasha-based movement speed bonuses from multiple items do not stack."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_3_Lore"												"Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_3_bonus_strength"									"+$str"
@@ -2386,7 +2385,7 @@
 		"DOTA_Tooltip_ability_item_sange_and_yasha_3_hp_regen_amp"										"%+Health Regen and Lifesteal Amp"
 		
 		"DOTA_Tooltip_ability_item_sange_and_yasha_4"													"Blades of Mayhem"
-		"DOTA_Tooltip_ability_item_sange_and_yasha_4_Description"										"<h1>Passive: Wait and See</h1>When a unit attemps to attack you, you gain a stack of Vengeance. Vengeance stacks increases your total attack damage by %attacked_buff%%% for each stack.<br><br>When you attack, you gain a stack of Patience. Patience stacks increase your evasion by %attack_buff%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of both Vengeance and Patience and if you are not attacked or attack for %buffer_duration% seconds, you start losing Vengeance and Patience stacks respectively, losing all stacks after %loss_timer% seconds.\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% around the target."
+		"DOTA_Tooltip_ability_item_sange_and_yasha_4_Description"										"<h1>Passive: Wait and See</h1>When a unit attemps to attack you, you gain a stack of Vengeance. Vengeance stacks increases your total attack damage by %attacked_buff%%% for each stack.<br><br>When you attack, you gain a stack of Patience. Patience stacks increase your evasion by %attack_buff%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of both Vengeance and Patience and if you are not attacked or attack for %buffer_duration% seconds, you start losing Vengeance and Patience stacks respectively, losing all stacks after %loss_timer% seconds.\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% starting from the target."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_4_Note0"												"Yasha-based movement speed bonuses from multiple items do not stack."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_4_Lore"												"Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_4_bonus_strength"									"+$str"
@@ -2403,7 +2402,7 @@
 		"DOTA_Tooltip_ability_item_sange_and_yasha_4_health_per_str"									"+Health Per Strength"
 		
 		"DOTA_Tooltip_ability_item_sange_and_yasha_5"													"Blood-cursed Blades"
-		"DOTA_Tooltip_ability_item_sange_and_yasha_5_Description"										"<h1>Passive: Wait and See</h1>When a unit attemps to attack you, you gain a stack of Vengeance. Vengeance stacks increases your total attack damage by %attacked_buff%%% for each stack.<br><br>When you attack, you gain a stack of Patience. Patience stacks increase your evasion by %attack_buff%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of both Vengeance and Patience and if you are not attacked or attack for %buffer_duration% seconds, you start losing Vengeance and Patience stacks respectively, losing all stacks after %loss_timer% seconds.\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% around the target."
+		"DOTA_Tooltip_ability_item_sange_and_yasha_5_Description"										"<h1>Passive: Wait and See</h1>When a unit attemps to attack you, you gain a stack of Vengeance. Vengeance stacks increases your total attack damage by %attacked_buff%%% for each stack.<br><br>When you attack, you gain a stack of Patience. Patience stacks increase your evasion by %attack_buff%%% for each stack.<br><br>You can get a maximum of %max_stacks% stacks of both Vengeance and Patience and if you are not attacked or attack for %buffer_duration% seconds, you start losing Vengeance and Patience stacks respectively, losing all stacks after %loss_timer% seconds.\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% starting from the target."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_5_Note0"												"Yasha-based movement speed bonuses from multiple items do not stack."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_5_Lore"												"Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination."
 		"DOTA_Tooltip_ability_item_sange_and_yasha_5_bonus_strength"									"+$str"
@@ -2652,7 +2651,7 @@
 		"DOTA_Tooltip_ability_item_uber_dagon_2_bonus_intellect"							"+$int"
 		"DOTA_Tooltip_ability_item_uber_dagon_2_bonus_other"								"+$other_attr"
 		"DOTA_Tooltip_ability_item_uber_dagon_2_bonus_mana_regen"							"+$mana_Regen"
-		"DOTA_Tooltip_ability_item_uber_dagon_2_bonus_cooldown"								"%+$cooldown_reduction"
+		"DOTA_Tooltip_ability_item_uber_dagon_2_bonus_cooldown"								"+$cast"
 		"DOTA_Tooltip_ability_item_uber_dagon_2_passive_spell_lifesteal"					"%+$spell_lifesteal"
 		
 		"DOTA_Tooltip_ability_item_uber_dagon_3"											"Uber Dagon 2"
@@ -2662,7 +2661,7 @@
 		"DOTA_Tooltip_ability_item_uber_dagon_3_bonus_intellect"							"+$int"
 		"DOTA_Tooltip_ability_item_uber_dagon_3_bonus_other"								"+$other_attr"
 		"DOTA_Tooltip_ability_item_uber_dagon_3_bonus_mana_regen"							"+$mana_Regen"
-		"DOTA_Tooltip_ability_item_uber_dagon_3_bonus_cooldown"								"%+$cooldown_reduction"
+		"DOTA_Tooltip_ability_item_uber_dagon_3_bonus_cooldown"								"+$cast"
 		"DOTA_Tooltip_ability_item_uber_dagon_3_passive_spell_lifesteal"					"%+$spell_lifesteal"
 		
 		"DOTA_Tooltip_ability_item_uber_dagon_4"											"Uber Dagon 3"
@@ -2672,7 +2671,7 @@
 		"DOTA_Tooltip_ability_item_uber_dagon_4_bonus_intellect"							"+$int"
 		"DOTA_Tooltip_ability_item_uber_dagon_4_bonus_other"								"+$other_attr"
 		"DOTA_Tooltip_ability_item_uber_dagon_4_bonus_mana_regen"							"+$mana_Regen"
-		"DOTA_Tooltip_ability_item_uber_dagon_4_bonus_cooldown"								"%+$cooldown_reduction"
+		"DOTA_Tooltip_ability_item_uber_dagon_4_bonus_cooldown"								"+$cast"
 		"DOTA_Tooltip_ability_item_uber_dagon_4_passive_spell_lifesteal"					"%+$spell_lifesteal"
 		
 		"DOTA_Tooltip_ability_item_uber_dagon_5"											"Uber Dagon 4"
@@ -2682,7 +2681,7 @@
 		"DOTA_Tooltip_ability_item_uber_dagon_5_bonus_intellect"							"+$int"
 		"DOTA_Tooltip_ability_item_uber_dagon_5_bonus_other"								"+$other_attr"
 		"DOTA_Tooltip_ability_item_uber_dagon_5_bonus_mana_regen"							"+$mana_Regen"
-		"DOTA_Tooltip_ability_item_uber_dagon_5_bonus_cooldown"								"%+$cooldown_reduction"
+		"DOTA_Tooltip_ability_item_uber_dagon_5_bonus_cooldown"								"+$cast"
 		"DOTA_Tooltip_ability_item_uber_dagon_5_passive_spell_lifesteal"					"%+$spell_lifesteal"
 		
 		// ITEMS - Upgraders - Intellect
@@ -2811,34 +2810,38 @@
 		
 		// ITEMS - Octarine Core
 		"DOTA_Tooltip_ability_item_hourglass_shard"											"Hourglass Fragment"
-		"DOTA_Tooltip_ability_item_hourglass_shard_bonus_cooldown"							"%+$cooldown_reduction"
+		"DOTA_Tooltip_ability_item_hourglass_shard_bonus_cooldown"							"+$cast"
 		"DOTA_Tooltip_ability_item_hourglass_shard_Lore"									"A shard from a mystical timekeeping piece."
 		
 		"DOTA_Tooltip_ability_item_octarine_core_Description"								""
 		"DOTA_Tooltip_ability_item_octarine_core_bonus_health_regen"						"+$hp_regen"
+		"DOTA_Tooltip_ability_item_octarine_core_bonus_cooldown"							"+$cast"
 		
 		"DOTA_Tooltip_ability_item_octarine_core2"											"Spiritual Core"
+		"DOTA_Tooltip_ability_item_octarine_core2_Description"								"<h1>Active: Reset</h1>Resets the cooldowns of all your items and abilities."
 		"DOTA_Tooltip_ability_item_octarine_core2_bonus_health"								"+$health"
 		"DOTA_Tooltip_ability_item_octarine_core2_bonus_health_regen"						"+$hp_regen"
 		"DOTA_Tooltip_ability_item_octarine_core2_bonus_mana"								"+$mana"
 		"DOTA_Tooltip_ability_item_octarine_core2_bonus_mana_regen"           			    "+$mana_regen"
-		"DOTA_Tooltip_ability_item_octarine_core2_bonus_cooldown"							"%+$cooldown_reduction"
+		"DOTA_Tooltip_ability_item_octarine_core2_bonus_cooldown"							"+$cast"
 		"DOTA_Tooltip_ability_item_octarine_core2_Lore"										"This used to be the core of a mysterious planet."
 		
 		"DOTA_Tooltip_ability_item_octarine_core3"											"Ethereal Core"
+		"DOTA_Tooltip_ability_item_octarine_core3_Description"								"<h1>Active: Reset</h1>Resets the cooldowns of all your items and abilities."
 		"DOTA_Tooltip_ability_item_octarine_core3_bonus_health"								"+$health"
 		"DOTA_Tooltip_ability_item_octarine_core3_bonus_health_regen"						"+$hp_regen"
 		"DOTA_Tooltip_ability_item_octarine_core3_bonus_mana"								"+$mana"
 		"DOTA_Tooltip_ability_item_octarine_core3_bonus_mana_regen"           			    "+$mana_regen"
-		"DOTA_Tooltip_ability_item_octarine_core3_bonus_cooldown"							"%+$cooldown_reduction"
+		"DOTA_Tooltip_ability_item_octarine_core3_bonus_cooldown"							"+$cast"
 		"DOTA_Tooltip_ability_item_octarine_core3_Lore"										"This used to be the core of a mysterious planet."
 		
 		"DOTA_Tooltip_ability_item_octarine_core4"											"Celestial Core"
+		"DOTA_Tooltip_ability_item_octarine_core4_Description"								"<h1>Active: Reset</h1>Resets the cooldowns of all your items and abilities."
 		"DOTA_Tooltip_ability_item_octarine_core4_bonus_health"								"+$health"
 		"DOTA_Tooltip_ability_item_octarine_core4_bonus_health_regen"						"+$hp_regen"
 		"DOTA_Tooltip_ability_item_octarine_core4_bonus_mana"								"+$mana"
 		"DOTA_Tooltip_ability_item_octarine_core4_bonus_mana_regen"           			    "+$mana_regen"
-		"DOTA_Tooltip_ability_item_octarine_core4_bonus_cooldown"							"%+$cooldown_reduction"
+		"DOTA_Tooltip_ability_item_octarine_core4_bonus_cooldown"							"+$cast"
 		"DOTA_Tooltip_ability_item_octarine_core4_Lore"										"This used to be the core of a mysterious planet."
 		
 		"DOTA_Tooltip_ability_item_octarine_core5"											"Otherworldly Core"
@@ -2847,15 +2850,16 @@
 		"DOTA_Tooltip_ability_item_octarine_core5_bonus_health_regen"						"+$hp_regen"
 		"DOTA_Tooltip_ability_item_octarine_core5_bonus_mana"								"+$mana"
 		"DOTA_Tooltip_ability_item_octarine_core5_bonus_mana_regen"           			    "+$mana_regen"
-		"DOTA_Tooltip_ability_item_octarine_core5_bonus_cooldown"							"%+$cooldown_reduction"
+		"DOTA_Tooltip_ability_item_octarine_core5_bonus_cooldown"							"+$cast"
 		"DOTA_Tooltip_ability_item_octarine_core5_Lore"										"This used to be the core of a mysterious planet."
 		
 		"DOTA_Tooltip_ability_item_asura_core"												"Asura Core"
-		"DOTA_Tooltip_ability_item_asura_core_Description"									"<h1>Active: Reset</h1>Resets the cooldowns of all your items and abilities.\n<h1>Passive: Cooldown Reduction</h1>Reduces the cooldown and cast time of all spells and items by %bonus_cooldown%%%.\n<h1>Passive - Asura's Strength</h1>Every round, the health bonus from this item increases by %bonus_health_pr%, the mana bonus increases by %bonus_mana_pr%, the health regeneration bonus increases by %bonus_health_regen_pr% and the mana regeneration bonus increases by %bonus_mana_regen_pr%."
+		"DOTA_Tooltip_ability_item_asura_core_Description"									"<h1>Active: Reset</h1>Resets the cooldowns of all your items and abilities.\n<h1>Passive - Asura's Strength</h1>Every round, the health bonus from this item increases by %bonus_health_pr%, the mana bonus increases by %bonus_mana_pr%, the health regeneration bonus increases by %bonus_health_regen_pr% and the mana regeneration bonus increases by %bonus_mana_regen_pr%."
 		"DOTA_Tooltip_ability_item_asura_core_bonus_health"									"+$health"
 		"DOTA_Tooltip_ability_item_asura_core_bonus_health_regen"							"+$hp_regen"
 		"DOTA_Tooltip_ability_item_asura_core_bonus_mana"									"+$mana"
 		"DOTA_Tooltip_ability_item_asura_core_bonus_mana_regen"           			    	"+$mana_regen"
+		"DOTA_Tooltip_ability_item_asura_core_bonus_cooldown"								"+$cast"
 		"DOTA_Tooltip_ability_item_asura_core_Lore"											"This used to be the core of a mysterious planet."
 		
 		// ITEMS - Veil
@@ -3001,7 +3005,7 @@
 		"DOTA_Tooltip_Ability_item_spear_of_justice_2_base_attack_range"					"+Attack Range (Melee Only)"
 		
 		"DOTA_Tooltip_Ability_item_spear_of_justice_3"										"Trishula"
-		"DOTA_Tooltip_Ability_item_spear_of_justice_3_Description"							"<h1>Active: Hurricane Thrust</h1> Pushes you and target enemy %enemy_length% units away from each other, and for %range_duration% seconds, allows you to make %max_attacks% attacks against the target with true-strike and with +%active_attack_speed% attack speed.<br><br>Works like Force Staff when used on self or allies.<br><br>Allied Range: %abilitycastrange%<br>Enemy Range: %cast_range_enemy%\n<h1>Passive: Echo Strike</h1> Causes attacks to attack twice in quick succession. The double attacks apply a %movement_slow%%% movement slow for %slow_duration% seconds on each strike.<br><br>Has a %passive_cooldown% second internal cooldown for melee attacks and %ranged_cooldown% for ranged attacks.\n\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% around the target."
+		"DOTA_Tooltip_Ability_item_spear_of_justice_3_Description"							"<h1>Active: Hurricane Thrust</h1> Pushes you and target enemy %enemy_length% units away from each other, and for %range_duration% seconds, allows you to make %max_attacks% attacks against the target with true-strike and with +%active_attack_speed% attack speed.<br><br>Works like Force Staff when used on self or allies.<br><br>Allied Range: %abilitycastrange%<br>Enemy Range: %cast_range_enemy%\n<h1>Passive: Echo Strike</h1> Causes attacks to attack twice in quick succession. The double attacks apply a %movement_slow%%% movement slow for %slow_duration% seconds on each strike.<br><br>Has a %passive_cooldown% second internal cooldown for melee attacks and %ranged_cooldown% for ranged attacks.\n\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% starting from the target."
 		"DOTA_Tooltip_Ability_item_spear_of_justice_3_Lore"									"A deceptively swift blade imbued with resonant magic."
 		"DOTA_Tooltip_Ability_item_spear_of_justice_3_bonus_strength"						"+$all"
 		"DOTA_Tooltip_Ability_item_spear_of_justice_3_bonus_attack_speed"					"+$attack"
@@ -3011,7 +3015,7 @@
 		"DOTA_Tooltip_Ability_item_spear_of_justice_3_base_attack_range"					"+Attack Range (Melee Only)"
 		
 		"DOTA_Tooltip_Ability_item_spear_of_justice_4"										"Lance of Longinus"
-		"DOTA_Tooltip_Ability_item_spear_of_justice_4_Description"							"<h1>Active: Hurricane Thrust</h1> Pushes you and target enemy %enemy_length% units away from each other, and for %range_duration% seconds, allows you to make %max_attacks% attacks against the target with true-strike and with +%active_attack_speed% attack speed.<br><br>Works like Force Staff when used on self or allies.<br><br>Allied Range: %abilitycastrange%<br>Enemy Range: %cast_range_enemy%\n<h1>Passive: Echo Strike</h1> Causes attacks to attack twice in quick succession. The double attacks apply a %movement_slow%%% movement slow for %slow_duration% seconds on each strike.<br><br>Has a %passive_cooldown% second internal cooldown for melee attacks and %ranged_cooldown% for ranged attacks.\n\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% around the target."
+		"DOTA_Tooltip_Ability_item_spear_of_justice_4_Description"							"<h1>Active: Hurricane Thrust</h1> Pushes you and target enemy %enemy_length% units away from each other, and for %range_duration% seconds, allows you to make %max_attacks% attacks against the target with true-strike and with +%active_attack_speed% attack speed.<br><br>Works like Force Staff when used on self or allies.<br><br>Allied Range: %abilitycastrange%<br>Enemy Range: %cast_range_enemy%\n<h1>Passive: Echo Strike</h1> Causes attacks to attack twice in quick succession. The double attacks apply a %movement_slow%%% movement slow for %slow_duration% seconds on each strike.<br><br>Has a %passive_cooldown% second internal cooldown for melee attacks and %ranged_cooldown% for ranged attacks.\n\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% starting from the target."
 		"DOTA_Tooltip_Ability_item_spear_of_justice_4_Lore"									"A deceptively swift blade imbued with resonant magic."
 		"DOTA_Tooltip_Ability_item_spear_of_justice_4_bonus_strength"						"+$all"
 		"DOTA_Tooltip_Ability_item_spear_of_justice_4_bonus_attack_speed"					"+$attack"
@@ -3021,7 +3025,7 @@
 		"DOTA_Tooltip_Ability_item_spear_of_justice_4_base_attack_range"					"+Attack Range (Melee Only)"
 		
 		"DOTA_Tooltip_Ability_item_spear_of_justice_5"										"Amenonuhoko"
-		"DOTA_Tooltip_Ability_item_spear_of_justice_5_Description"							"<h1>Active: Hurricane Thrust</h1> Pushes you and target enemy %enemy_length% units away from each other, and for %range_duration% seconds, allows you to make %max_attacks% attacks against the target with true-strike and with +%active_attack_speed% attack speed.<br><br>Works like Force Staff when used on self or allies.<br><br>Allied Range: %abilitycastrange%<br>Enemy Range: %cast_range_enemy%\n<h1>Passive: Echo Strike</h1> Causes attacks to attack twice in quick succession. The double attacks apply a %movement_slow%%% movement slow for %slow_duration% seconds on each strike.<br><br>Has a %passive_cooldown% second internal cooldown for melee attacks and %ranged_cooldown% for ranged attacks.\n\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% around the target."
+		"DOTA_Tooltip_Ability_item_spear_of_justice_5_Description"							"<h1>Active: Hurricane Thrust</h1> Pushes you and target enemy %enemy_length% units away from each other, and for %range_duration% seconds, allows you to make %max_attacks% attacks against the target with true-strike and with +%active_attack_speed% attack speed.<br><br>Works like Force Staff when used on self or allies.<br><br>Allied Range: %abilitycastrange%<br>Enemy Range: %cast_range_enemy%\n<h1>Passive: Echo Strike</h1> Causes attacks to attack twice in quick succession. The double attacks apply a %movement_slow%%% movement slow for %slow_duration% seconds on each strike.<br><br>Has a %passive_cooldown% second internal cooldown for melee attacks and %ranged_cooldown% for ranged attacks.\n\n<h1>Passive: Splash</h1> Deals %splash_damage%%% (%splash_damage_ranged%%% for ranged heroes) of attack damage as physical damage in a cone up to %cleave_distance% starting from the target."
 		"DOTA_Tooltip_Ability_item_spear_of_justice_5_Lore"									"A deceptively swift blade imbued with resonant magic."
 		"DOTA_Tooltip_Ability_item_spear_of_justice_5_bonus_strength"						"+$all"
 		"DOTA_Tooltip_Ability_item_spear_of_justice_5_bonus_attack_speed"					"+$attack"
@@ -3842,7 +3846,7 @@
 		"DOTA_Tooltip_ability_night_stalker_hunter_in_the_night_Description"	"Night Stalker gains attack speed and movement speed.\nThe bonuses are reduced to %daytime_pct%%% during daytime."
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_night_stalker_4"	"+{s:bonus_damage}% Void Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_night_stalker_3"	"+{s:bonus_bonus_damage} Dark Ascension Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_night_stalker_3"	"+{s:bonus_bonus_damage}% Dark Ascension Damage"
 		
 		"DOTA_Tooltip_ability_doom_bringer_devour_Description"					"Attempts to consume the target. A creep will be instantly destroyed, while a creep-hero instead takes damage equal to %hero_damage%%% of Doom's Strength.\n\nIf Doom devours a Neutral creep, he acquires any special abilities that it possessed, and amplifies their damage. If autocast is deactivated, Doom will not acquire the creep's abilities.\n\nRegardless, he starts consuming the essence he consumed, gaining armor temporarily. Duration is always %duration% seconds."
 		"DOTA_Tooltip_ability_doom_bringer_devour_creep_damage_multiplier"		"NEUTRAL SPELL DAMAGE MULTIPLIER:"
@@ -3956,6 +3960,20 @@
 		
 		"DOTA_Tooltip_ability_techies_suicide_abilitycastpoint"					"CAST POINT:"
 		
+		"DOTA_Tooltip_ability_tinker_rearm_custom"												"Rearm"
+		"DOTA_Tooltip_ability_tinker_rearm_custom_abilitydraft_note"							"For abilities with charges, a single charge of the ability will be added everytime Rearm is cast."
+		"DOTA_Tooltip_ability_tinker_rearm_custom_Description"									"CHANNELED - Resets the cooldown on most of Tinker's items and abilities."
+		"DOTA_Tooltip_ability_tinker_rearm_custom_Lore"										"A new battery here, another set of rockets there, Boush continually improves on existing technology."
+		"DOTA_Tooltip_ability_tinker_rearm_custom_Note0"										"Rearm works on all items except Aeon Disk, Arcane Boots, Black King Bar, Hand of Midas, Helm of the Dominator, Helm of the Overlord, Linken's Sphere, Meteor Hammer, Pipe of Insight, Refresher Orb, Revenant's Brooch (passive ability), and all neutral items."
+		"DOTA_Tooltip_ability_tinker_rearm_custom_abilitychanneltime"								"TIME TO REARM:"
+
+		"DOTA_Tooltip_modifier_tinker_rearm_custom"						"Rearm"
+		"DOTA_Tooltip_modifier_tinker_rearm_custom_Description"			"Resetting ability cooldowns."
+
+
+
+
+
 		"DOTA_Tooltip_modifier_ogre_magi_bloodlust_buff"						"Bloodlust - Buff"
 		"DOTA_Tooltip_modifier_ogre_magi_bloodlust_buff_Description"			"Attack speed increased by %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT% and movement speed increased by %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%"
 		
@@ -3987,6 +4005,8 @@
 		"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_aura"					"Gravekeeper's Cloak"
 		"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_aura_Description"		"Taking %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%% less damage from all sources"
 		
+		"DOTA_Tooltip_ability_visage_summon_familiars_familiar_count"			"FAMILIAR COUNT:"
+		
 		"DOTA_Tooltip_ability_special_bonus_unique_bounty_hunter_2"				"+{s:bonus_bonus_damage}% Shuriken Toss Damage"
 		"DOTA_Tooltip_ability_special_bonus_unique_bounty_hunter_4"				"+{s:bonus_bonus_damage}% Jinada Damage"
 		
@@ -4009,8 +4029,11 @@
 		"DOTA_Tooltip_ability_lone_druid_synergy_bonus_max_health"				"BONUS MAX HEALTH:"
 		"DOTA_Tooltip_ability_lone_druid_synergy_stat_share_pct"				"%STAT SHARE:"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_earth_spirit_6"						"+{s:bonus_rock_damage}% Boulder Smash Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_earth_spirit"	"+{s:value}% Rolling Boulder Damage"
+		"DOTA_Tooltip_ability_earth_spirit_rolling_boulder_Description"				"Earth Spirit gathers himself into a boulder and, after a %delay%s delay, rolls toward the target location, dealing %damage% damage and stunning enemy units. He will stop if he collides with an enemy hero, is stunned or is ordered to Stop or Hold. If he rolls over a Stone Remnant, he will travel further and faster, and stun enemies for longer."
+		"DOTA_Tooltip_ability_special_bonus_unique_earth_spirit_6"					"+{s:bonus_rock_damage}% Boulder Smash Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_earth_spirit"					"+{s:value}% Rolling Boulder Damage"
+		
+		
 		"DOTA_Tooltip_ability_special_bonus_unique_windranger_windrun_undispellable"	"+{s:bonus_powershot_damage}% Powershot Damage"
 		
 		"DOTA_Tooltip_modifier_witch_doctor_voodoo_restoration_aura"				"Voodoo Restoration"
@@ -4032,6 +4055,9 @@
 		"DOTA_Tooltip_ability_special_bonus_unique_abaddon_2"	"+{s:bonus_target_damage}% Mist Coil Heal/Damage"
 		"DOTA_Tooltip_ability_special_bonus_unique_templar_assassin_refraction_damage"	"+{s:bonus_bonus_damage}% Refraction Damage"
 		
+		"DOTA_Tooltip_ability_storm_spirit_electric_vortex_Description"					"A vortex that pulls all enemy units in radius to Storm Spirit's location."
+		"DOTA_Tooltip_ability_storm_spirit_electric_vortex_scepter_description"     	"Electric Vortex radius is increased and attacks against units affected by Electric Vortex always trigger Overload."
+		"DOTA_Tooltip_ability_storm_spirit_electric_vortex_radius"     					"RADIUS:"
 		"DOTA_Tooltip_ability_special_bonus_unique_storm_spirit_5"	"+{s:value}% Static Remnant Damage"
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_tiny"	"+{s:value}% Avalanche Damage"
@@ -4074,6 +4100,8 @@
 		"DOTA_Tooltip_ability_special_bonus_unique_faceless_void_6"	"+{s:bonus_damage_per_stack}% Time Dilation DPS per cooldown"
 		"DOTA_Tooltip_ability_special_bonus_unique_faceless_void_3"	"+{s:value}% Time Lock Damage"
 		
+		
+		"DOTA_Tooltip_ability_grimstroke_dark_portrait_description"		"Creates an ink illusion of a target allied hero. Illusion is debuff immune, has 95%% magic resistance, and has bonus movement speed and attack damage."
 		"DOTA_Tooltip_ability_special_bonus_unique_grimstroke_5"		"+{s:value}% Ink Swell Max Damage"
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_jakiro_7"	"+{s:value}% Macropyre Damage"
@@ -4092,7 +4120,9 @@
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_magnus"	"+{s:bonus_shock_damage} Shockwave Damage"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_mirana_7"		"+{s:value}% Starstorm Damage"
+		"DOTA_Tooltip_ability_mirana_invis_Description"							"Turns Mirana and all allied heroes invisible, granting them bonus movement speed and evasion. If a hero is revealed, invisibility will restore after the fade delay as long as Moonlight Shadow's duration has not expired."
+		"DOTA_Tooltip_ability_mirana_invis_bonus_evasion"						"%EVASION:"
+		"DOTA_Tooltip_ability_special_bonus_unique_mirana_7"					"+{s:value}% Starstorm Damage"
 		
 		"DOTA_Tooltip_Ability_muerta_pierce_the_veil_Description"				"Muerta transforms, becoming immune to physical damage. All of her attack damage is dealt as magical spell damage. Muerta gains bonus attack damage and phased movement.<br><br>Muerta's attacks only benefit from 25%% of her Spell Amplification<br><br>Muerta can attack ethereal units, but deals no damage to Magic Immune targets.<br><br>DISPEL TYPE: Basic Dispel"
 		"DOTA_Tooltip_ability_special_bonus_unique_muerta_dead_shot_damage"						"+{s:bonus_damage}% Dead Shot Damage"
@@ -4121,6 +4151,12 @@
 		"DOTA_Tooltip_ability_special_bonus_unique_sniper_headshot_damage"	"+{s:bonus_damage}% Headshot Damage"
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_phantom_assassin_4"	"+{s:bonus_duration}% Phantom Strike Duration"
+		
+		"DOTA_Tooltip_ability_special_bonus_unique_tinker"		"+{s:bonus_laser_damage}% Laser Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_tinker_7"	"+{s:bonus_damage_absorb}% Defense Matrix Damage Absorbed"
+		
+		"DOTA_Tooltip_ability_special_bonus_unique_arc_warden_2""+{s:bonus_damage_per_second}% Flux Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_arc_warden_3""+{s:bonus_attack_speed_bonus}% Magnetic Field Attack Speed/Bonus Magic Damage"
 		// NEUTRALS
 		"DOTA_Tooltip_Ability_item_eye_of_the_vizier_mana_reduction_pct"		"%+Max Mana"
 		
