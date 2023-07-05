@@ -3569,7 +3569,7 @@
 		"DOTA_Tooltip_ability_legion_commander_duel_Lore"						"To face a soldier of Stonehall in single combat is a challenge few can resist."
 		"DOTA_Tooltip_ability_legion_commander_duel_AbilityCooldown"				"COOLDOWN:"
 		"DOTA_Tooltip_ability_legion_commander_duel_scepter_damage_reduction_pct"		"%LEGION DAMAGE REDUCTION:"
-		"DOTA_Tooltip_ability_special_bonus_unique_legion_commander"			"+{s:value}% Duel Bonus Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_legion_commander"			"+{s:bonus_reward_damage}% Duel Bonus Damage"
 		"DOTA_Tooltip_ability_special_bonus_unique_legion_commander_4"			"+{s:bonus_damage_per_hero}% Overwhelming Odds Damage per Hero"
 		
 		"DOTA_Tooltip_modifier_legion_commander_duel_wins"						"Duel Victory Damage"
@@ -3656,6 +3656,7 @@
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_batrider_4"					"+{s:bonus_damage}% Sticky Napalm Damage"
 		
+		"DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_2"			"+{s:bonus_nova_damage}% Crystal Nova Damage"
 		"DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_3"			"+{s:bonus_damage}% Freezing Field Damage"
 		"DOTA_Tooltip_ability_special_bonus_unique_luna_1"						"+{s:bonus_beam_damage}% Lucent Beam Damage"
 		"DOTA_Tooltip_ability_special_bonus_unique_luna_3"	"+{s:bonus_bonus_damage}% Lunar Blessing Damage"
@@ -3960,15 +3961,6 @@
 		
 		"DOTA_Tooltip_ability_techies_suicide_abilitycastpoint"					"CAST POINT:"
 		
-		"DOTA_Tooltip_ability_tinker_rearm_custom"												"Rearm"
-		"DOTA_Tooltip_ability_tinker_rearm_custom_abilitydraft_note"							"For abilities with charges, a single charge of the ability will be added everytime Rearm is cast."
-		"DOTA_Tooltip_ability_tinker_rearm_custom_Description"									"CHANNELED - Resets the cooldown on most of Tinker's items and abilities."
-		"DOTA_Tooltip_ability_tinker_rearm_custom_Lore"										"A new battery here, another set of rockets there, Boush continually improves on existing technology."
-		"DOTA_Tooltip_ability_tinker_rearm_custom_Note0"										"Rearm works on all items except Aeon Disk, Arcane Boots, Black King Bar, Hand of Midas, Helm of the Dominator, Helm of the Overlord, Linken's Sphere, Meteor Hammer, Pipe of Insight, Refresher Orb, Revenant's Brooch (passive ability), and all neutral items."
-		"DOTA_Tooltip_ability_tinker_rearm_custom_abilitychanneltime"								"TIME TO REARM:"
-
-		"DOTA_Tooltip_modifier_tinker_rearm_custom"						"Rearm"
-		"DOTA_Tooltip_modifier_tinker_rearm_custom_Description"			"Resetting ability cooldowns."
 
 
 
@@ -4070,8 +4062,8 @@
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_warlock_7""+{s:bonus_damage}% Shadow Word Heal/Damage"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_weaver_1"	"+{s:value}% Shukuchi Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_weaver_2"	"+{s:value}% Geminate Attack Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_weaver_1"	"+{s:bonus_damage}% Shukuchi Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_weaver_2"	"+{s:bonus_bonus_damage}% Geminate Attack Damage"
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_broodmother_3"	"+{s:bonus_damage}% Spawn Spiderlings Damage"
 	
@@ -4147,16 +4139,31 @@
 		"DOTA_Tooltip_ability_special_bonus_unique_slardar"			"+{s:value}% Slithereen Crush Damage"
 		"DOTA_Tooltip_ability_special_bonus_unique_slardar_2"		"+{s:value}% Bash of the Deep Damage"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_sniper_1"	"+{s:value}% Shrapnel DPS"
+		"DOTA_Tooltip_ability_special_bonus_unique_sniper_1"		"+{s:value}% Shrapnel DPS"
 		"DOTA_Tooltip_ability_special_bonus_unique_sniper_headshot_damage"	"+{s:bonus_damage}% Headshot Damage"
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_phantom_assassin_4"	"+{s:bonus_duration}% Phantom Strike Duration"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_tinker"		"+{s:bonus_laser_damage}% Laser Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_tinker_7"	"+{s:bonus_damage_absorb}% Defense Matrix Damage Absorbed"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_arc_warden_2""+{s:bonus_damage_per_second}% Flux Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_arc_warden_3""+{s:bonus_attack_speed_bonus}% Magnetic Field Attack Speed/Bonus Magic Damage"
+		"DOTA_Tooltip_ability_tinker_rearm"									"Rearm"
+		"DOTA_Tooltip_ability_tinker_rearm_abilitydraft_note"				"For abilities with charges, a single charge of the ability will be added everytime Rearm is cast."
+		"DOTA_Tooltip_ability_tinker_rearm_Description"						"CHANNELED - Resets the cooldown on most of Tinker's items and abilities.\nEach time Tinker Rearms an ability, the duration of the buffs and debuffs he applies are reduced by %duration_debuff%%% for %debuff_duration% seconds. Stacks are independent from each other and stack up to %debuff_max% times."
+		"DOTA_Tooltip_ability_tinker_rearm_Lore"							"A new battery here, another set of rockets there, Boush continually improves on existing technology."
+		"DOTA_Tooltip_ability_tinker_rearm_Note0"							"Rearm works on all items except Aeon Disk and items that can otherwise not be refreshed."
+		"DOTA_Tooltip_ability_tinker_rearm_abilitychanneltime"				"TIME TO REARM:"
+
+		"DOTA_Tooltip_modifier_tinker_rearm_hidden"							"Rearm"
+		"DOTA_Tooltip_modifier_tinker_rearm_hidden_Description"				"Resetting ability cooldowns."
+		
+		"DOTA_Tooltip_modifier_tinker_rearm_debuff"							"Rearm Sickness"
+		"DOTA_Tooltip_modifier_tinker_rearm_debuff_Description"				"The duration of your buffs and debuffs are reduced by %dMODIFIER_PROPERTY_TOOLTIP%%%."
+		
+		"DOTA_Tooltip_ability_special_bonus_unique_tinker_5"		"-{s:value}s Rearm Channel Time"
+		"DOTA_Tooltip_ability_special_bonus_unique_tinker"			"+{s:bonus_laser_damage}% Laser Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_tinker_7"		"+{s:bonus_damage_absorb}% Defense Matrix Damage Absorbed"
+		
+		"DOTA_Tooltip_ability_special_bonus_unique_arc_warden_2"	"+{s:bonus_damage_per_second}% Flux Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_arc_warden_3"	"+{s:bonus_attack_speed_bonus}% Magnetic Field Attack Speed/Bonus Magic Damage"
 		// NEUTRALS
 		"DOTA_Tooltip_Ability_item_eye_of_the_vizier_mana_reduction_pct"		"%+Max Mana"
 		
