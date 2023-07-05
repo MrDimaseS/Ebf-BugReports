@@ -3569,7 +3569,7 @@
 		"DOTA_Tooltip_ability_legion_commander_duel_Lore"						"To face a soldier of Stonehall in single combat is a challenge few can resist."
 		"DOTA_Tooltip_ability_legion_commander_duel_AbilityCooldown"				"COOLDOWN:"
 		"DOTA_Tooltip_ability_legion_commander_duel_scepter_damage_reduction_pct"		"%LEGION DAMAGE REDUCTION:"
-		"DOTA_Tooltip_ability_special_bonus_unique_legion_commander"			"+{s:value}% к бонусному урону от Duel"
+		"DOTA_Tooltip_ability_special_bonus_unique_legion_commander"			"+{s:bonus_reward_damage}% к бонусному урону от Duel"
 		"DOTA_Tooltip_ability_special_bonus_unique_legion_commander_4"			"+{s:bonus_damage_per_hero}% к урону за героя Overwhelming Odds"
 		
 		"DOTA_Tooltip_modifier_legion_commander_duel_wins"						"Duel Victory Damage"
@@ -3655,17 +3655,18 @@
 		"DOTA_Tooltip_ability_special_bonus_unique_bane_8"						"-{s:bonus_AbilityCooldown}% Brain Sap Cooldown"
 		"DOTA_Tooltip_ability_special_bonus_unique_bane_10"						"+{s:bonus_enfeeble_tick_damage}% Enfeeble Damage Per Second"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_batrider_4"					"+{s:bonus_damage}% Sticky Napalm Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_batrider_4"					"+{s:bonus_damage}% к урону от Sticky Napalm"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_3"			"+{s:bonus_damage}% Freezing Field Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_2"			"+{s:bonus_nova_damage}% к урону от Crystal Nova"
+		"DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_3"			"+{s:bonus_damage}% к урону от Freezing Field"
 
-		"DOTA_Tooltip_ability_special_bonus_unique_luna_1"						"+{s:bonus_beam_damage}% Lucent Beam Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_luna_3"						"+{s:bonus_bonus_damage}% Lunar Blessing Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_luna_1"						"+{s:bonus_beam_damage}% к урону от Lucent Beam"
+		"DOTA_Tooltip_ability_special_bonus_unique_luna_3"						"+{s:bonus_bonus_damage}% к урону от Lunar Blessing"
 
 		"DOTA_Tooltip_ability_special_bonus_unique_primal_beast_onslaught_damage"	"+{s:bonus_knockback_damage}% к урону от Onslaught"
 
-		"DOTA_Tooltip_ability_special_bonus_unique_puck_orb_damage"				"+{s:bonus_damage}% Illusory Orb Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_puck_6"						"+{s:bonus_damage}% Waning Rift Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_puck_orb_damage"				"+{s:bonus_damage}% к урону от Illusory Orb"
+		"DOTA_Tooltip_ability_special_bonus_unique_puck_6"						"+{s:bonus_damage}% к урону от Waning Rift"
 		"DOTA_Tooltip_ability_special_bonus_unique_puck_coil_damage"			"+{s:bonus_coil_break_damage}% Initial/Break Dream Coil Damage"
 		
 		"DOTA_Tooltip_ability_slark_pounce_Description"							"Slark прыгает вперед, атакуя каждого врага в радиусе своей атаки и останавливаясь на первом герое, с которым он соединяется. Враги, проскочившие сквозь него, получают урон, а их скорость атаки и передвижения замедляется на некоторое время."
@@ -3969,16 +3970,6 @@
 		
 		"DOTA_Tooltip_ability_techies_suicide_abilitycastpoint"					"CAST POINT:"
 
-		"DOTA_Tooltip_ability_tinker_rearm_custom"								"Rearm"
-		"DOTA_Tooltip_ability_tinker_rearm_custom_abilitydraft_note"			"For abilities with charges, a single charge of the ability will be added everytime Rearm is cast."
-		"DOTA_Tooltip_ability_tinker_rearm_custom_Description"					"СНЯТО - сбрасывает перезарядку большинства предметов и способностей Тинкера."
-		"DOTA_Tooltip_ability_tinker_rearm_custom_Lore"							"A new battery here, another set of rockets there, Boush continually improves on existing technology."
-		"DOTA_Tooltip_ability_tinker_rearm_custom_Note0"						"Rearm works on all items except Aeon Disk, Arcane Boots, Black King Bar, Hand of Midas, Helm of the Dominator, Helm of the Overlord, Linken's Sphere, Meteor Hammer, Pipe of Insight, Refresher Orb, Revenant's Brooch (passive ability), and all neutral items."
-		"DOTA_Tooltip_ability_tinker_rearm_custom_abilitychanneltime"			"TIME TO REARM:"
-
-		"DOTA_Tooltip_modifier_tinker_rearm_custom"						        "Rearm"
-		"DOTA_Tooltip_modifier_tinker_rearm_custom_Description"			        "Resetting ability cooldowns."
-
 		"DOTA_Tooltip_modifier_ogre_magi_bloodlust_buff"						"Bloodlust - Buff"
 		"DOTA_Tooltip_modifier_ogre_magi_bloodlust_buff_Description"			"Скорость атаки увеличена на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT% и скорость передвижения увеличена на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%."
 		
@@ -4075,8 +4066,8 @@
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_warlock_7"						"+{s:bonus_damage}% Shadow Word Heal/Damage"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_weaver_1"						"+{s:value}% Shukuchi Damage"
-		"DOTA_Tooltip_ability_special_bonus_unique_weaver_2"						"+{s:value}% Geminate Attack Damage"
+		"DOTA_Tooltip_ability_special_bonus_unique_weaver_1"						"+{s:bonus_damage}% к урону от Shukuchi"
+		"DOTA_Tooltip_ability_special_bonus_unique_weaver_2"						"+{s:bonus_bonus_damage}% Geminate Attack Damage"
 		
 		"DOTA_Tooltip_ability_special_bonus_unique_broodmother_3"					"+{s:bonus_damage}% Spawn Spiderlings Damage"
 	
@@ -4156,14 +4147,28 @@
 
 		"DOTA_Tooltip_ability_special_bonus_unique_phantom_assassin_4"				"+{s:bonus_duration}% Phantom Strike Duration"
 
-		"DOTA_Tooltip_ability_special_bonus_unique_tinker"							"+{s:bonus_laser_damage}% к урону от Laser"
+		"DOTA_Tooltip_ability_tinker_rearm"											"Rearm"
+		"DOTA_Tooltip_ability_tinker_rearm_abilitydraft_note"						"Для способностей с зарядами, один заряд будет добавляться каждый раз при использовании Rearm."
+		"DOTA_Tooltip_ability_tinker_rearm_Description"								"CHANNELED - Сбрасывает время действия большинства предметов и способностей Tinker.\nКаждый раз, когда Tinker использует способность, продолжительность действия накладываемых им баффов и дебаффов уменьшается на %duration_debuff%%% на %debuff_duration%% секунд. Стаки не зависят друг от друга и складываются до %debuff_max% раз."
+		"DOTA_Tooltip_ability_tinker_rearm_Lore"									"A new battery here, another set of rockets there, Boush continually improves on existing technology."
+		"DOTA_Tooltip_ability_tinker_rearm_Note0"									"Rearm works on all items except Aeon Disk and items that can otherwise not be refreshed."
+		"DOTA_Tooltip_ability_tinker_rearm_abilitychanneltime"						"Время применения:"
+
+		"DOTA_Tooltip_modifier_tinker_rearm_hidden"									"Rearm"
+		"DOTA_Tooltip_modifier_tinker_rearm_hidden_Description"						"Сброс перезарядки способностей."
+		
+		"DOTA_Tooltip_modifier_tinker_rearm_debuff"									"Rearm Sickness"
+		"DOTA_Tooltip_modifier_tinker_rearm_debuff_Description"						"Продолжительность действия ваших баффов и дебаффов уменьшается на %dMODIFIER_PROPERTY_TOOLTIP%%%."
+		
+		"DOTA_Tooltip_ability_special_bonus_unique_tinker_5"						"-{s:value}s Rearm Channel Time"
+		"DOTA_Tooltip_ability_special_bonus_unique_tinker"							"+{s:bonus_laser_damage}% Laser Damage"
 		"DOTA_Tooltip_ability_special_bonus_unique_tinker_7"						"+{s:bonus_damage_absorb}% Defense Matrix Damage Absorbed"
 		
-		"DOTA_Tooltip_ability_special_bonus_unique_arc_warden_2"					"+{s:bonus_damage_per_second}% к урону от Flux"
+		"DOTA_Tooltip_ability_special_bonus_unique_arc_warden_2"					"+{s:bonus_damage_per_second}% Flux Damage"
 		"DOTA_Tooltip_ability_special_bonus_unique_arc_warden_3"					"+{s:bonus_attack_speed_bonus}% Magnetic Field Attack Speed/Bonus Magic Damage"
 		
 		// NEUTRALS
-		"DOTA_Tooltip_Ability_item_eye_of_the_vizier_mana_reduction_pct"		"%+Max Mana"
+		"DOTA_Tooltip_Ability_item_eye_of_the_vizier_mana_reduction_pct"			"%+Max Mana"
 		
 		// GENERIC TALENTS
 		"DOTA_Tooltip_ability_special_bonus_hp_130000"				"+{s:value} Health"
