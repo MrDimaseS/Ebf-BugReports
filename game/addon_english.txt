@@ -1353,6 +1353,8 @@
 			"DOTA_Tooltip_ability_enigma_demonic_conversion_Description"                                        "Transforms a creep or part of a creep-hero's soul into three fragments of Enigma himself.  These eidolons are all under Enigma's control, and repeated successful attacks cause them to multiply.  When this happens, the eidolons have their health restored.\nCreeps are instantly killed, creep-heroes take Pure damage equal to the eidolon's health for each eidolon created."
 			"DOTA_Tooltip_ability_enigma_malefice_shard_description"                                            "Reduces Malefice tick rate and spreads Malefice to a new target each tick."
 			"DOTA_Tooltip_ability_enigma_malefice_shard_spread_radius"                                          "SEARCH RADIUS:"
+			"DOTA_Tooltip_modifier_enigma_malefice_debuff"														"Malefice"
+			"DOTA_Tooltip_modifier_enigma_malefice_debuff_Description"											"Stunned and takes damage"
 
 
 			//Furion
@@ -1580,6 +1582,10 @@
 			"DOTA_Tooltip_ability_pudge_rot_rot_str_damage"                                                     "%STRENGTH TO BONUS DAMAGE:"
 			"DOTA_Tooltip_ability_pudge_rot_scepter_bonus_enemy_damage"                                         "%INCREASED ENEMY DAMAGE:"
 			"DOTA_Tooltip_ability_pudge_rot_scepter_description"                                                "Increases Rot's radius, enemies take increased damage from Rot and have their health regeneration reduced."
+			"DOTA_Tooltip_modifier_pudge_rot_debuff"															"Rot"
+			"DOTA_Tooltip_modifier_pudge_rot_debuff_Description"												"Slowed and taking damage"
+			"DOTA_Tooltip_modifier_pudge_rot_aura"																"Rot"
+			"DOTA_Tooltip_modifier_pudge_rot_aura_Description"													"Causes damage to every fighter in a radius every second."
 			"DOTA_Tooltip_modifier_pudge_flesh_heap_buff"                                                       "Flesh Heap - Block"
 			"DOTA_Tooltip_modifier_pudge_flesh_heap_buff_Description"                                           "Blocking %dMODIFIER_PROPERTY_TOTAL_CONSTANT_BLOCK% damage after reductions."
 			"DOTA_Tooltip_modifier_pudge_flesh_heap_kills"                                                      "Flesh Heap - Kills"
@@ -1676,7 +1682,9 @@
 			"DOTA_Tooltip_ability_spectre_ebf_haunt_Description"                                                "Each attack reduces enemy armor; every attack increases the total armor reduction. Lasts %duration% seconds."
 			"DOTA_Tooltip_ability_spectre_ebf_haunt_duration"                                                   "DURATION:"
 			"DOTA_Tooltip_ability_spectre_ebf_haunt_lore"                                                       "Spectre's attacks are eternally remembered her victims."
-			
+			"DOTA_Tooltip_modifier_spectre_dispersion_boost"													"Dispersion"
+			"DOTA_Tooltip_modifier_spectre_dispersion_boost_Description"										"Reflects 100% damage"
+
 			
 			//Spirit Breaker
 			"DOTA_Tooltip_ability_spirit_breaker_bulldoze_Description"                                          "Spirit Breaker gains movement speed, magic resistance and status resistance to ram through enemies. Can be used while charging.\nPassively grants Spirit Breaker bonus armor based on his movement speed."
@@ -1756,7 +1764,9 @@
 			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_aura_Description"                                  "Taking %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%% less damage from all sources"
 			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_handle"                                            "Gravekeeper's Cloak"
 			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_handle_Description"                                "Taking %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%% less damage from all sources"
-			
+			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_passive"                                           "Gravekeeper's Cloak"
+			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_passive_Description"                               "Taking %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%% less damage from all sources"
+
 			
 			//Void Spirit
 			"DOTA_Tooltip_ability_void_spirit_aether_remnant_shard_attack_rate_multiplier"                      "REMNANT ATTACK RATE MULTIPLIER."
@@ -1779,7 +1789,9 @@
 			//Witch Doctor
 			"DOTA_Tooltip_modifier_witch_doctor_voodoo_restoration_aura"                                        "Voodoo Restoration"
 			"DOTA_Tooltip_modifier_witch_doctor_voodoo_restoration_aura_Description"                            "Affected by Witch Doctor's Voodoo Restoration."
-			
+			"DOTA_Tooltip_modifier_witch_doctor_maledict_debuff"												"Maledict"								
+			"DOTA_Tooltip_modifier_witch_doctor_maledict_debuff_Description"									"Cursed. Taking damage over time, and taking bonus damage every 4 seconds based on HP lost since the beginning of the curse."				
+
 			
 			//Zeus
 			"DOTA_Tooltip_ability_zuus_arc_lightning_damage_health_pct"                                         " "

@@ -1351,6 +1351,8 @@
 			"DOTA_Tooltip_ability_enigma_demonic_conversion_Description"                                        "Transforms a creep or part of a creep-hero's soul into three fragments of Enigma himself.  These eidolons are all under Enigma's control, and repeated successful attacks cause them to multiply.  When this happens, the eidolons have their health restored.\nCreeps are instantly killed, creep-heroes take Pure damage equal to the eidolon's health for each eidolon created."
 			"DOTA_Tooltip_ability_enigma_malefice_shard_description"                                            "Reduces Malefice tick rate and spreads Malefice to a new target each tick."
 			"DOTA_Tooltip_ability_enigma_malefice_shard_spread_radius"                                          "SEARCH RADIUS:"
+			"DOTA_Tooltip_modifier_enigma_malefice_debuff"														"Malefice"
+			"DOTA_Tooltip_modifier_enigma_malefice_debuff_Description"											"Наносит урон и оглушает"
 
 
 			//Furion
@@ -1577,6 +1579,10 @@
 			"DOTA_Tooltip_ability_pudge_rot_rot_str_damage"                                                     "%STRENGTH TO BONUS DAMAGE:"
 			"DOTA_Tooltip_ability_pudge_rot_scepter_bonus_enemy_damage"                                         "%INCREASED ENEMY DAMAGE:"
 			"DOTA_Tooltip_ability_pudge_rot_scepter_description"                                                "Increases Rot's radius, enemies take increased damage from Rot and have their health regeneration reduced."
+			"DOTA_Tooltip_modifier_pudge_rot_debuff"															"Rot"
+			"DOTA_Tooltip_modifier_pudge_rot_debuff_Description"												"Замедлен и получает урон"
+			"DOTA_Tooltip_modifier_pudge_rot_aura"																"Rot"
+			"DOTA_Tooltip_modifier_pudge_rot_aura_Description"													"Каждую секунду наносит урон противникам, находящимся в зоне действия."
 			"DOTA_Tooltip_modifier_pudge_flesh_heap_buff"                                                       "Flesh Heap - Block"
 			"DOTA_Tooltip_modifier_pudge_flesh_heap_buff_Description"                                           "Blocking %dMODIFIER_PROPERTY_TOTAL_CONSTANT_BLOCK% damage after reductions."
 			"DOTA_Tooltip_modifier_pudge_flesh_heap_kills"                                                      "Flesh Heap - Kills"
@@ -1673,6 +1679,8 @@
 			"DOTA_Tooltip_ability_spectre_ebf_haunt_Description"                                                "Each attack reduces enemy armor; every attack increases the total armor reduction. Lasts %duration% seconds."
 			"DOTA_Tooltip_ability_spectre_ebf_haunt_duration"                                                   "ДЛИТЕЛЬНОСТЬ:"
 			"DOTA_Tooltip_ability_spectre_ebf_haunt_lore"                                                       "Spectre's attacks are eternally remembered her victims."
+			"DOTA_Tooltip_modifier_spectre_dispersion_boost"													"Dispersion"
+			"DOTA_Tooltip_modifier_spectre_dispersion_boost_Description"										"Отражает 100% урона"
 
 
 			//Spirit Breaker
@@ -1751,6 +1759,8 @@
 			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_aura_Description"                                  "Получает на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%% меньше урона из всех источников"
 			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_handle"                                            "Gravekeeper's Cloak"
 			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_handle_Description"                                "Получает на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%% меньше урона из всех источников"
+			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_passive"											"Gravekeeper's Cloak"
+			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_passive_Description"								"Получает на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%% меньше урона из всех источников"
 
 
 			//Void Spirit
@@ -1774,7 +1784,8 @@
 			//Witch Doctor
 			"DOTA_Tooltip_modifier_witch_doctor_voodoo_restoration_aura"                                        "Voodoo Restoration"
 			"DOTA_Tooltip_modifier_witch_doctor_voodoo_restoration_aura_Description"                            "Affected by Witch Doctor's Voodoo Restoration."
-
+			"DOTA_Tooltip_modifier_witch_doctor_maledict_debuff"												"Maledict"								
+			"DOTA_Tooltip_modifier_witch_doctor_maledict_debuff_Description"									"Получает периодический урон, а также каждые 4 секунды получает дополнительный урон, основанный на том, сколько здоровья было потеряно с момента наложения сглаза."				
 
 			//Zeus
 			"DOTA_Tooltip_ability_zuus_arc_lightning_damage_health_pct"                                         " "
