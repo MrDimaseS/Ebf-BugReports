@@ -186,6 +186,7 @@
 			"npc_dota_unit_tombstone6"                                                                          "Tombstone"
 			"npc_dota_unit_tombstone7"                                                                          "Tombstone"
 
+			"npc_dota_practice_hero"																			"Practice Dummy"
 
 
 			//BOSS ABILITIES ======================================================================================================
@@ -1257,8 +1258,11 @@
 			//Axe
 			"DOTA_Tooltip_ability_axe_berserkers_call_abilitycooldown"                                          "ПЕРЕЗАРЯДКА:"
 			"DOTA_Tooltip_ability_axe_berserkers_call_Description"                                              "Axe gains bonus armor for a duration, taunting enemy units that get close to him, forcing them to attack him. Does not prevent them from casting spells."
+			"DOTA_Tooltip_modifier_axe_berserkers_call_aura"													"Броня увеличена"
+			"DOTA_Tooltip_modifier_axe_berserkers_call_taunt"													"Вы вынуждены атаковать Axe"
 			"DOTA_Tooltip_ability_axe_counter_helix_Description"                                                "After a set number of attacks, Axe will perform a helix counter attack, dealing pure damage to all nearby enemies.\nAttacks from hero-type units count as %hero_trigger% attacks."
 			"DOTA_Tooltip_ability_axe_counter_helix_shard_description"                                          "Counter Helix now applies a stacking debuff to enemies hit by it that causes them to deal less total attack damage to Axe. Counter Helix attacks to trigger reduced."
+			"DOTA_Tooltip_modifier_axe_counter_helix_passive"													"Ударов получено"
 			"DOTA_Tooltip_ability_axe_culling_blade_Description"                                                "Axe spots a weakness and strikes, dealing pure damage. When an enemy hero is killed with Culling Blade or within %grace_period% of it landing, its cooldown is reduced by %hero_cd_reduction%%%, Axe gains bonus armor permanently and all nearby allied units gain bonus movement speed.\nCooldown is not reduced when a creep is killed."
 			"DOTA_Tooltip_modifier_axe_culling_blade_grace_period"                                              "Culling Blade - Grace Period"
 			"DOTA_Tooltip_modifier_axe_culling_blade_grace_period_Description"                                  "Unit provides Culling Blade's benefits on death."
@@ -1271,6 +1275,10 @@
 			//Bloodseeker
 			"DOTA_Tooltip_ability_bloodseeker_blood_mist_Description"                                           "Bloodseeker sprays his blood continuously in the area around him, damaging himself to damage and slow his enemies. While active, Thirst's healing is increased. Cannot be turned off while on cooldown."
 			"DOTA_Tooltip_ability_bloodseeker_blood_mist_Note0"                                                 "Damage dealt is based on Bloodseeker's maximum health."
+			"DOTA_Tooltip_modifier_bloodseeker_blood_mist_debuff"												"Blood Mist"
+			"DOTA_Tooltip_modifier_bloodseeker_blood_mist_debuff_Description"									"Теряет здоровье."
+			"DOTA_Tooltip_modifier_bloodseeker_blood_mist_toggle"												"Blood Mist"
+			"DOTA_Tooltip_modifier_bloodseeker_blood_mist_toggle_Description"									"Испускает кровь, нанося урон врагам неподалёку и замедляя их. Лечение от Thirst увеличено."
 			"DOTA_Tooltip_ability_bloodseeker_thirst_Description"                                               "Bloodseeker is invigorated by the wounds of his enemies, restoring some life when he kills a unit. Restores for half values when denying, or if an ally kills a nearby enemy hero. Also gains bonus movement speed when his health falls below %min_bonus_pct%%%, with the bonuses increasing as his health falls further. Unlocks max movement speed for Bloodseeker."
 			"DOTA_Tooltip_modifier_bloodseeker_thirst_buff"                                                     "Thirst - Buff"
 			"DOTA_Tooltip_modifier_bloodseeker_thirst_buff_Description"                                         "Gaining %fMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%% movement speed."
@@ -1285,6 +1293,8 @@
 			"DOTA_Tooltip_ability_bristleback_bristleback_Note0"                                                "The lower Bristleback's current health, the more often he Quill Sprays."
 			"DOTA_Tooltip_ability_bristleback_bristleback_Note1"                                                "The damage reduction reaches its maximum directly behind Bristleback and is at its minimum directly in front of him."
 			"DOTA_Tooltip_ability_bristleback_bristleback_quill_release_threshold"                              "%CURRENT HEALTH THRESHOLD:"
+			"DOTA_Tooltip_modifier_bristleback_bristleback_passive"												"Bristleback"
+			"DOTA_Tooltip_modifier_bristleback_bristleback_passive_Description"									"Герой получает меньше урона от атак со спины и с боков."
 
 
 			//Centaur Warruner
@@ -1327,6 +1337,7 @@
 			"DOTA_Tooltip_ability_doom_bringer_devour_Description"                                              "Attempts to consume the target. A creep will be instantly destroyed, while a creep-hero instead takes damage equal to %hero_damage%%% of Doom's Strength.\n\nIf Doom devours a Neutral creep, he acquires any special abilities that it possessed, and amplifies their damage. If autocast is deactivated, Doom will not acquire the creep's abilities.\n\nRegardless, he starts consuming the essence he consumed, gaining armor temporarily. Duration is always %duration% seconds."
 			"DOTA_Tooltip_ability_doom_bringer_infernal_blade_Note1"                                            "The maximum health damage is not affected by spell amplification."
 			"DOTA_Tooltip_ability_doom_bringer_infernal_blade_shard_description"                                "Infernal Blade now affects all enemies in a %shard_radius% radius."
+			"DOTA_Tooltip_modifier_doom_bringer_infernal_blade_debuff"											"Горит и получает урон"
 			"DOTA_Tooltip_ability_doom_bringer_infernal_blade_shard_radius"                                     "SHARD EFFECT RADIUS:"
 			"DOTA_Tooltip_modifier_doom_bringer_devour_eating"                                                  "Devour - Eating"
 			"DOTA_Tooltip_modifier_doom_bringer_devour_eating_Description"                                      "Gaining armor while digesting and bonus gold when this expires successfully."
@@ -1407,7 +1418,7 @@
 			"DOTA_Tooltip_ability_lion_finger_of_death_ebf_splash_radius_scepter"                               "SCEPTER AREA OF EFFECT:"
 			"DOTA_Tooltip_modifier_lion_finger_of_death_ebf_bonus"                                              "Finger of Death"
 			"DOTA_Tooltip_modifier_lion_finger_of_death_ebf_bonus_Description"                                  "Finger of Death gaining +%dMODIFIER_PROPERTY_TOOLTIP% damage."
-
+			"DOTA_Tooltip_modifier_lion_finger_of_death_ebf_death"												"Finger of Death"
 
 			//Lone Druid
 			"DOTA_Tooltip_ability_lone_druid_Synergy"                                                           "Synergy"
@@ -1848,6 +1859,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_bristleback_3"                                           "+{s:value}% Warpath Damage Per Stack"
 			"DOTA_Tooltip_ability_special_bonus_unique_bristleback_6"                                           "+{s:bonus_max_damage_reduction}%/{s:bonus_min_damage_reduction}% Bristleback Max/Min Damage Reduction"
 			"DOTA_Tooltip_ability_special_bonus_unique_broodmother_3"                                           "+{s:bonus_damage}% к урону от Spawn Spiderlings"
+			"DOTA_Tooltip_ability_special_bonus_unique_broodmother_7"                                           "+{s:bonus_hp_bonus}% здоровья Spiderlings"
 			"DOTA_Tooltip_ability_special_bonus_unique_centaur_3"                                               "+{s:bonus_return_damage}% Retaliate Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_centaur_4"                                               "+{s:bonus_edge_damage}% Double Edge Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_clinkz_1"                                                "+{s:bonus_damage_bonus}% Tar Bomb Bonus Attack Damage"
@@ -1867,6 +1879,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_earth_spirit_6"                                          "+{s:bonus_rock_damage}% к урону от Boulder Smash"
 			"DOTA_Tooltip_ability_special_bonus_unique_earthshaker_2"                                           "+{s:value}% к урону от эха у Echo Slam"
 			"DOTA_Tooltip_ability_special_bonus_unique_earthshaker_4"                                           "+{s:value}% к урону от Fissure"
+			"DOTA_Tooltip_ability_special_bonus_unique_earthshaker_5"                                           "+{s:bonus_aftershock_range}% к радиусу Aftershock"
 			"DOTA_Tooltip_ability_special_bonus_unique_elder_titan_2"                                           "+{s:bonus_stomp_damage}% к урону от Echo Stomp"
 			"DOTA_Tooltip_ability_special_bonus_unique_ember_spirit_3"                                          "+{s:value}% к урону в секунду от Flame Guard"
 			"DOTA_Tooltip_ability_special_bonus_unique_ember_spirit_6"                                          "+{s:value}% к доп. урону героям от Sleight of Fist"
