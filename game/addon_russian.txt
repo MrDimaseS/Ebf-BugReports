@@ -22,7 +22,9 @@
 			"DOTA_Quest_Holdout_Round_Subtext"                                                                  "%quest_current_value% killed / %quest_target_value% total"
 
 			"DOTA_Tooltip_ability_item_Admin_armor"                                                             "ADMIN ARMOR"
-			"DOTA_Tooltip_ability_item_Admin_armor_Description"                                                 "<font color='#FFFA92'>АРМОР РАЗРАБОТЧИКА , делает владельца НЕВОЗМОЖНЫМ.</font> \n<font color='#FF3500'>Только разработчики могут использовать эту броню</font>\n<font color='#BBBBBB'>Если вы видите это, значит, вам повезло!</font>"
+			"DOTA_Tooltip_ability_item_Admin_armor_Description"                                                 "Эту херь надо было давно удалить"
+			"DOTA_Tooltip_dev_passive"																			""
+			"DOTA_Tooltip_dev_Immunity"																			""
 
 			"DOTA_Tooltip_modifier_last_man_standing"                                                           "Последний выживший"
 			"DOTA_Tooltip_modifier_last_man_standing_Description"                                               "Вы не можете стать невидимыми. Способности и предметы, которые делают вас невидимым например, Smoke of Deceit игнорируют это."
@@ -328,7 +330,7 @@
 
 
 			"DOTA_Tooltip_ability_boss_Doom_bring"                                                              "Doom"
-			"DOTA_Tooltip_ability_boss_doom_bring_Description"                                                  "Вражеского героя настигает жуткая участь, отчего тот получает периодический урон. Длительность - 15 секунд или пока вы не наберете определенное количество очков здоровья)"
+			"DOTA_Tooltip_ability_boss_doom_bring_Description"                                                  "Вражеского героя настигает жуткая участь, отчего тот получает периодический урон. Длительность - 15 секунд или пока вы не наберете определенное количество очков здоровья"
 
 
 			"DOTA_Tooltip_ability_boss_doomraze"                                                                "Doom raze"
@@ -344,13 +346,13 @@
 
 			"DOTA_Tooltip_ability_boss_fire_aura"                                                               "Hellfire aura"
 			"DOTA_Tooltip_ability_boss_fire_aura_Description"                                                   "Отключает регенерацию здоровья героев в радиусе 800"
-			"DOTA_Tooltip_ability_boss_fire_aura_Lore"                                                          "Хранитель Ада приносит с собой пламя ада, наполняя ближайших врагов смертельным ужасом — они чувствуют, что смерть неизбежна, но желают, чтобы она пришла быстрее, чтобы положить конец этим мучениям."
+			"DOTA_Tooltip_ability_boss_fire_aura_Lore"                                                          "Хранитель Ада приносит с собой пламя, наполняя ближайших врагов смертельным ужасом — они чувствуют, что смерть неизбежна, но желают, чтобы она пришла быстрее, чтобы положить конец этим мучениям."
 
 
 			"DOTA_Tooltip_ability_boss_focusfire"                                                               "Boss Focus Fire"
 			"DOTA_Tooltip_ability_boss_focusfire_bonus_attack_speed"                                            "ДОП. СКОРОСТЬ АТАКИ:"
 			"DOTA_Tooltip_ability_boss_focusfire_cooldown_scepter"                                              "ПЕРЕЗАРЯДКА:"
-			"DOTA_Tooltip_ability_boss_focusfire_Description"                                                   " "
+			"DOTA_Tooltip_ability_boss_focusfire_Description"                                                   "Призывает вихрь, увеличивающий скорость его атаки по выбранному вражескому существу."
 			"DOTA_Tooltip_ability_boss_focusfire_focusfire_damage_reduction"                                    "СНИЖЕНИЕ УРОНА:"
 			"DOTA_Tooltip_ability_boss_focusfire_focusfire_damage_reduction_scepter"                            "СНИЖЕНИЕ УРОНА:"
 			"DOTA_Tooltip_ability_boss_focusfire_focusfire_duration_tooltip"                                    "ДЛИТЕЛЬНОСТЬ:"
@@ -451,12 +453,10 @@
 
 			"DOTA_Tooltip_ability_boss_golem_rock_throw"                                                        "Rock Avalanche"
 			"DOTA_Tooltip_ability_boss_golem_rock_throw_Description"                                            "Granite Titan бросает россыпь валунов. Поражает всех противников в радиусе %radius%, нанося им %damage% и оглушая их на %duration% секунд. При ударе создается каменный голем."
-			"DOTA_Tooltip_ability_boss_golem_rock_throw_Lore"                                                   "xd split"
 
 
 			"DOTA_Tooltip_ability_boss_golem_split"                                                             "Granite Split"
 			"DOTA_Tooltip_ability_boss_golem_split_Description"                                                 "После смерти Granite Titan распадается на %count% меньших кусков, которые на %split_pct%%% прочнее. Куски приземляются на расстоянии до %distance% единиц в течение %travel_time% секунд."
-			"DOTA_Tooltip_ability_boss_golem_split_Lore"                                                        "xd split"
 
 
 			"DOTA_Tooltip_ability_boss_kobold_disarm"                                                           "Украсть оружие"
@@ -509,10 +509,8 @@
 
 
 			"DOTA_Tooltip_ability_boss_Lifesteal"                                                               "Lifesteal"
-			"DOTA_Tooltip_ability_boss_lifesteal_Description"                                                   " "
+			"DOTA_Tooltip_ability_boss_lifesteal_Description"                                                   "Наделяет атаки владельца вампризмом, отчего они восстанавливают здоровье в размере доли от нанесённого урона."
 			"DOTA_Tooltip_ability_boss_lifesteal_lifesteal"                                                     "ВАМПИРИЗМ: %"
-			"DOTA_Tooltip_ability_boss_lifesteal_Lore"                                                          " "
-			"DOTA_Tooltip_ability_boss_lifesteal_Note0"                                                         " "
 
 
 			"DOTA_Tooltip_ability_boss_lifestealer_Feast"                                                       "Feast"
@@ -555,7 +553,7 @@
 
 			"DOTA_Tooltip_ability_boss_living_armor_damage_block"                                               "БЛОК УРОНА:"
 			"DOTA_Tooltip_ability_boss_living_armor_damage_count"                                               "ЧИСЛО ПОПАДАНИЙ:"
-			"DOTA_Tooltip_ability_boss_living_armor_Description"                                                " "
+			"DOTA_Tooltip_ability_boss_living_armor_Description"                                                "Накладывает на выбранного героя или постройку защитный покров, увеличивающий регенерацию здоровья и броню."
 			"DOTA_Tooltip_ability_boss_living_armor_duration"                                                   "ДЛИТЕЛЬНОСТЬ:"
 			"DOTA_Tooltip_ability_boss_living_armor_health_regen"                                               "ВОССТАНОВЛЕНИЕ ЗДОРОВЬЯ:"
 
@@ -651,17 +649,14 @@
 
 			"DOTA_Tooltip_ability_boss_power_aura"                                                              "Boss Power Aura"
 			"DOTA_Tooltip_ability_boss_power_aura_armor_buff"                                                   "БОНУС БРОНИ:"
-			"DOTA_Tooltip_ability_boss_power_aura_Description"                                                  " "
 			"DOTA_Tooltip_ability_boss_power_aura_h"                                                            "Boss Power Aura H"
 			"DOTA_Tooltip_ability_boss_power_aura_h_armor_buff"                                                 "БОНУС БРОНИ:"
-			"DOTA_Tooltip_ability_boss_power_aura_h_Description"                                                " "
 			"DOTA_Tooltip_ability_boss_power_aura_h_health_radius"                                              "РАДИУС АУРЫ ЗДОРОВЬЯ:"
 			"DOTA_Tooltip_ability_boss_power_aura_h_health_regen_amount"                                        "КОЛИЧЕСТВО ВОССТАНОВЛЕНИЯ ЗДОРОВЬЯ:"
 			"DOTA_Tooltip_ability_boss_power_aura_health_radius"                                                "РАДИУС АУРЫ ЗДОРОВЬЯ:"
 			"DOTA_Tooltip_ability_boss_power_aura_health_regen_amount"                                          "КОЛИЧЕСТВО ВОССТАНОВЛЕНИЯ ЗДОРОВЬЯ:"
 			"DOTA_Tooltip_ability_boss_power_aura_vh"                                                           "Boss Power Aura Vh"
 			"DOTA_Tooltip_ability_boss_power_aura_vh_armor_buff"                                                "БОНУС БРОНИ:"
-			"DOTA_Tooltip_ability_boss_power_aura_vh_Description"                                               " "
 			"DOTA_Tooltip_ability_boss_power_aura_vh_health_radius"                                             "РАДИУС АУРЫ ЗДОРОВЬЯ:"
 			"DOTA_Tooltip_ability_boss_power_aura_vh_health_regen_amount"                                       "КОЛИЧЕСТВО ВОССТАНОВЛЕНИЯ ЗДОРОВЬЯ:"
 
@@ -822,51 +817,42 @@
 			"DOTA_Tooltip_ability_boss_summon_skeleton_archer"                                                  "Boss Summon Skeleton Archer"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_archer_bonus_armor"                                      "ДОП. БРОНЯ:"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_archer_debuff_duration"                                  "ДЛИТЕЛЬНОСТЬ ЭФФЕКТА:"
-			"DOTA_Tooltip_ability_boss_summon_skeleton_archer_Description"                                      " "
 			"DOTA_Tooltip_ability_boss_summon_skeleton_archer_h"                                                "Boss Summon Skeleton Archer H"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_archer_h_bonus_armor"                                    "ДОП. БРОНЯ:"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_archer_h_debuff_duration"                                "ДЛИТЕЛЬНОСТЬ ЭФФЕКТА:"
-			"DOTA_Tooltip_ability_boss_summon_skeleton_archer_h_Description"                                    " "
 			"DOTA_Tooltip_ability_boss_summon_skeleton_archer_h_number_of_zombies"                              "КОЛИЧЕСТВО ЗОМБИ:"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_archer_number_of_zombies"                                "КОЛИЧЕСТВО ЗОМБИ:"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_archer_vh"                                               "Boss Summon Skeleton Archer Vh"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_archer_vh_bonus_armor"                                   "ДОП. БРОНЯ:"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_archer_vh_debuff_duration"                               "ДЛИТЕЛЬНОСТЬ ЭФФЕКТА:"
-			"DOTA_Tooltip_ability_boss_summon_skeleton_archer_vh_Description"                                   " "
 			"DOTA_Tooltip_ability_boss_summon_skeleton_archer_vh_number_of_zombies"                             "КОЛИЧЕСТВО ЗОМБИ:"
 
 
 			"DOTA_Tooltip_ability_boss_summon_skeleton_minion"                                                  "Boss Summon Skeleton Minion"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_minion_bonus_armor"                                      "ДОП. БРОНЯ:"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_minion_debuff_duration"                                  "ДЛИТЕЛЬНОСТЬ ЭФФЕКТА:"
-			"DOTA_Tooltip_ability_boss_summon_skeleton_minion_Description"                                      " "
 			"DOTA_Tooltip_ability_boss_summon_skeleton_minion_h"                                                "Boss Summon Skeleton Minion H"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_minion_h_bonus_armor"                                    "ДОП. БРОНЯ:"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_minion_h_debuff_duration"                                "ДЛИТЕЛЬНОСТЬ ЭФФЕКТА:"
-			"DOTA_Tooltip_ability_boss_summon_skeleton_minion_h_Description"                                    " "
 			"DOTA_Tooltip_ability_boss_summon_skeleton_minion_h_number_of_zombies"                              "КОЛИЧЕСТВО ЗОМБИ:"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_minion_number_of_zombies"                                "КОЛИЧЕСТВО ЗОМБИ:"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_minion_vh"                                               "Boss Summon Skeleton Minion Vh"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_minion_vh_bonus_armor"                                   "ДОП. БРОНЯ:"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_minion_vh_debuff_duration"                               "ДЛИТЕЛЬНОСТЬ ЭФФЕКТА:"
-			"DOTA_Tooltip_ability_boss_summon_skeleton_minion_vh_Description"                                   " "
 			"DOTA_Tooltip_ability_boss_summon_skeleton_minion_vh_number_of_zombies"                             "КОЛИЧЕСТВО ЗОМБИ:"
 
 
 			"DOTA_Tooltip_ability_boss_summon_skeleton_smash"                                                   "Boss Summon Skeleton Smash"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_smash_bonus_armor"                                       "ДОП. БРОНЯ:"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_smash_debuff_duration"                                   "ДЛИТЕЛЬНОСТЬ ЭФФЕКТА:"
-			"DOTA_Tooltip_ability_boss_summon_skeleton_smash_Description"                                       " "
 			"DOTA_Tooltip_ability_boss_summon_skeleton_smash_h"                                                 "Boss Summon Skeleton Smash H"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_smash_h_bonus_armor"                                     "ДОП. БРОНЯ:"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_smash_h_debuff_duration"                                 "ДЛИТЕЛЬНОСТЬ ЭФФЕКТА:"
-			"DOTA_Tooltip_ability_boss_summon_skeleton_smash_h_Description"                                     " "
 			"DOTA_Tooltip_ability_boss_summon_skeleton_smash_h_number_of_zombies"                               "КОЛИЧЕСТВО ЗОМБИ:"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_smash_number_of_zombies"                                 "КОЛИЧЕСТВО ЗОМБИ:"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_smash_vh"                                                "Boss Summon Skeleton Smash Vh"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_smash_vh_bonus_armor"                                    "ДОП. БРОНЯ:"
 			"DOTA_Tooltip_ability_boss_summon_skeleton_smash_vh_debuff_duration"                                "ДЛИТЕЛЬНОСТЬ ЭФФЕКТА:"
-			"DOTA_Tooltip_ability_boss_summon_skeleton_smash_vh_Description"                                    " "
 			"DOTA_Tooltip_ability_boss_summon_skeleton_smash_vh_number_of_zombies"                              "КОЛИЧЕСТВО ЗОМБИ:"
 
 
@@ -990,22 +976,13 @@
 
 			"DOTA_Tooltip_ability_boss_ursa_rage"                                                               "Boss Ursa Rage"
 			"DOTA_Tooltip_ability_boss_ursa_rage_bonus_damage_per_stack"                                        "БОНУС К УРОНУ ЗА ЗАРЯД:"
-			"DOTA_Tooltip_ability_boss_ursa_rage_Description"                                                   " "
 			"DOTA_Tooltip_ability_boss_ursa_rage_duration"                                                      "ДЛИТЕЛЬНОСТЬ:"
 			"DOTA_Tooltip_ability_boss_ursa_rage_h"                                                             "Boss Ursa Rage H"
 			"DOTA_Tooltip_ability_boss_ursa_rage_h_bonus_damage_per_stack"                                      "БОНУС К УРОНУ ЗА ЗАРЯД:"
-			"DOTA_Tooltip_ability_boss_ursa_rage_h_Description"                                                 " "
 			"DOTA_Tooltip_ability_boss_ursa_rage_h_duration"                                                    "ДЛИТЕЛЬНОСТЬ:"
-			"DOTA_Tooltip_ability_boss_ursa_rage_h_Lore"                                                        " "
-			"DOTA_Tooltip_ability_boss_ursa_rage_h_Note0"                                                       " "
-			"DOTA_Tooltip_ability_boss_ursa_rage_Lore"                                                          " "
-			"DOTA_Tooltip_ability_boss_ursa_rage_Note0"                                                         " "
 			"DOTA_Tooltip_ability_boss_ursa_rage_vh"                                                            "Boss Ursa Rage Vh"
 			"DOTA_Tooltip_ability_boss_ursa_rage_vh_bonus_damage_per_stack"                                     "БОНУС К УРОНУ ЗА ЗАРЯД:"
-			"DOTA_Tooltip_ability_boss_ursa_rage_vh_Description"                                                " "
 			"DOTA_Tooltip_ability_boss_ursa_rage_vh_duration"                                                   "ДЛИТЕЛЬНОСТЬ:"
-			"DOTA_Tooltip_ability_boss_ursa_rage_vh_Lore"                                                       " "
-			"DOTA_Tooltip_ability_boss_ursa_rage_vh_Note0"                                                      " "
 
 
 			"DOTA_Tooltip_ability_boss_zombie_acid_spit"                                                        "Nethertoxin"
@@ -1066,16 +1043,13 @@
 
 
 			"DOTA_Tooltip_ability_creature_aoe_spikes_2"                                                        "Существо Aoe Шипы 2"
-			"DOTA_Tooltip_ability_creature_aoe_spikes_2_Description"                                            " "
 			"DOTA_Tooltip_ability_creature_aoe_spikes_2_h"                                                      "Creature Aoe Spikes 2 H"
 			"DOTA_Tooltip_ability_creature_aoe_spikes_2_h_damage"                                               "УРОН:"
-			"DOTA_Tooltip_ability_creature_aoe_spikes_2_h_Description"                                          " "
 			"DOTA_Tooltip_ability_creature_aoe_spikes_2_h_duration_stun"                                        "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_aoe_spikes_2_h_impact_radius"                                        "РАДИУС ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_aoe_spikes_2_h_think_time"                                           "ДЛИТЕЛЬНОСТЬ:"
 			"DOTA_Tooltip_ability_creature_aoe_spikes_2_vh"                                                     "Creature Aoe Spikes 2 Vh"
 			"DOTA_Tooltip_ability_creature_aoe_spikes_2_vh_damage"                                              "УРОН:"
-			"DOTA_Tooltip_ability_creature_aoe_spikes_2_vh_Description"                                         " "
 			"DOTA_Tooltip_ability_creature_aoe_spikes_2_vh_duration_stun"                                       "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_aoe_spikes_2_vh_impact_radius"                                       "РАДИУС ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_aoe_spikes_2_vh_think_time"                                          "ДЛИТЕЛЬНОСТЬ:"
@@ -1103,7 +1077,6 @@
 			"DOTA_Tooltip_ability_creature_melee_smash_damage"                                                  "УРОН:"
 			"DOTA_Tooltip_ability_creature_melee_smash_h"                                                       "Creature Melee Smash H"
 			"DOTA_Tooltip_ability_creature_melee_smash_h_damage"                                                "УРОН:"
-			"DOTA_Tooltip_ability_creature_melee_smash_h_Description"                                           " "
 			"DOTA_Tooltip_ability_creature_melee_smash_h_impact_radius"                                         "РАДИУС ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_melee_smash_h_stun_duration"                                         "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_melee_smash_h_think_time"                                            "ДЛИТЕЛЬНОСТЬ:"
@@ -1111,14 +1084,12 @@
 			"DOTA_Tooltip_ability_creature_melee_smash_stun_duration"                                           "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_melee_smash_stun_vh"                                                 "Creature Melee Smash Stun Vh"
 			"DOTA_Tooltip_ability_creature_melee_smash_stun_vh_damage"                                          "УРОН:"
-			"DOTA_Tooltip_ability_creature_melee_smash_stun_vh_Description"                                     " "
 			"DOTA_Tooltip_ability_creature_melee_smash_stun_vh_impact_radius"                                   "РАДИУС ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_melee_smash_stun_vh_stun_duration"                                   "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_melee_smash_stun_vh_think_time"                                      "ДЛИТЕЛЬНОСТЬ:"
 			"DOTA_Tooltip_ability_creature_melee_smash_think_time"                                              "ДЛИТЕЛЬНОСТЬ:"
 			"DOTA_Tooltip_ability_creature_melee_smash_vh"                                                      "Creature Melee Smash Vh"
 			"DOTA_Tooltip_ability_creature_melee_smash_vh_damage"                                               "УРОН:"
-			"DOTA_Tooltip_ability_creature_melee_smash_vh_Description"                                          " "
 			"DOTA_Tooltip_ability_creature_melee_smash_vh_impact_radius"                                        "РАДИУС ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_melee_smash_vh_stun_duration"                                        "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_melee_smash_vh_think_time"                                           "ДЛИТЕЛЬНОСТЬ:"
@@ -1126,10 +1097,8 @@
 
 			"DOTA_Tooltip_ability_creature_melee_smash2"                                                        "Creature Melee Smash2"
 			"DOTA_Tooltip_ability_creature_melee_smash2_damage"                                                 "УРОН:"
-			"DOTA_Tooltip_ability_creature_melee_smash2_Description"                                            " "
 			"DOTA_Tooltip_ability_creature_melee_smash2_h"                                                      "Creature Melee Smash2 H"
 			"DOTA_Tooltip_ability_creature_melee_smash2_h_damage"                                               "УРОН:"
-			"DOTA_Tooltip_ability_creature_melee_smash2_h_Description"                                          " "
 			"DOTA_Tooltip_ability_creature_melee_smash2_h_impact_radius"                                        "РАДИУС ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_melee_smash2_h_stun_duration"                                        "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_melee_smash2_h_think_time"                                           "ДЛИТЕЛЬНОСТЬ:"
@@ -1138,7 +1107,6 @@
 			"DOTA_Tooltip_ability_creature_melee_smash2_think_time"                                             "ДЛИТЕЛЬНОСТЬ:"
 			"DOTA_Tooltip_ability_creature_melee_smash2_vh"                                                     "Creature Melee Smash2 Vh"
 			"DOTA_Tooltip_ability_creature_melee_smash2_vh_damage"                                              "УРОН:"
-			"DOTA_Tooltip_ability_creature_melee_smash2_vh_Description"                                         " "
 			"DOTA_Tooltip_ability_creature_melee_smash2_vh_impact_radius"                                       "РАДИУС ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_melee_smash2_vh_stun_duration"                                       "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_melee_smash2_vh_think_time"                                          "ДЛИТЕЛЬНОСТЬ:"
@@ -1146,34 +1114,22 @@
 
 			"DOTA_Tooltip_ability_creature_melee_smash3"                                                        "Creature Melee Smash3"
 			"DOTA_Tooltip_ability_creature_melee_smash3_damage"                                                 "УРОН:"
-			"DOTA_Tooltip_ability_creature_melee_smash3_Description"                                            " "
 			"DOTA_Tooltip_ability_creature_melee_smash3_h"                                                      "Creature Melee Smash3 H"
 			"DOTA_Tooltip_ability_creature_melee_smash3_h_damage"                                               "УРОН:"
-			"DOTA_Tooltip_ability_creature_melee_smash3_h_Description"                                          " "
 			"DOTA_Tooltip_ability_creature_melee_smash3_h_impact_radius"                                        "РАДИУС УРОНА:"
-			"DOTA_Tooltip_ability_creature_melee_smash3_h_Lore"                                                 " "
-			"DOTA_Tooltip_ability_creature_melee_smash3_h_Note0"                                                " "
 			"DOTA_Tooltip_ability_creature_melee_smash3_h_stun_duration"                                        "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_melee_smash3_h_think_time"                                           "ДЛИТЕЛЬНОСТЬ:"
 			"DOTA_Tooltip_ability_creature_melee_smash3_impact_radius"                                          "РАДИУС УРОНА:"
-			"DOTA_Tooltip_ability_creature_melee_smash3_Lore"                                                   " "
-			"DOTA_Tooltip_ability_creature_melee_smash3_Note0"                                                  " "
 			"DOTA_Tooltip_ability_creature_melee_smash3_stun_duration"                                          "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_melee_smash3_think_time"                                             "ДЛИТЕЛЬНОСТЬ:"
 			"DOTA_Tooltip_ability_creature_melee_smash3_vh_a"                                                   "Creature Melee Smash3 Vh A"
 			"DOTA_Tooltip_ability_creature_melee_smash3_vh_a_damage"                                            "УРОН:"
-			"DOTA_Tooltip_ability_creature_melee_smash3_vh_a_Description"                                       " "
 			"DOTA_Tooltip_ability_creature_melee_smash3_vh_a_impact_radius"                                     "РАДИУС УРОНА:"
-			"DOTA_Tooltip_ability_creature_melee_smash3_vh_a_Lore"                                              " "
-			"DOTA_Tooltip_ability_creature_melee_smash3_vh_a_Note0"                                             " "
 			"DOTA_Tooltip_ability_creature_melee_smash3_vh_a_stun_duration"                                     "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_melee_smash3_vh_a_think_time"                                        "ДЛИТЕЛЬНОСТЬ:"
 			"DOTA_Tooltip_ability_creature_melee_smash3_vh_b"                                                   "Creature Melee Smash3 Vh B"
 			"DOTA_Tooltip_ability_creature_melee_smash3_vh_b_damage"                                            "УРОН:"
-			"DOTA_Tooltip_ability_creature_melee_smash3_vh_b_Description"                                       " "
 			"DOTA_Tooltip_ability_creature_melee_smash3_vh_b_impact_radius"                                     "РАДИУС УРОНА:"
-			"DOTA_Tooltip_ability_creature_melee_smash3_vh_b_Lore"                                              " "
-			"DOTA_Tooltip_ability_creature_melee_smash3_vh_b_Note0"                                             " "
 			"DOTA_Tooltip_ability_creature_melee_smash3_vh_b_stun_duration"                                     "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
 			"DOTA_Tooltip_ability_creature_melee_smash3_vh_b_think_time"                                        "ДЛИТЕЛЬНОСТЬ:"
 
@@ -1193,10 +1149,7 @@
 			"DOTA_Tooltip_ability_hell_tempest_Description"                                                     "Босс применил мощное АоЕ, убивающее всех, кто не защищен от огня."
 
 			"DOTA_Tooltip_ability_normal_splash_2"                                                              "Forest Strength"
-			"DOTA_Tooltip_ability_normal_splash_2_Description"                                                  " "
 			"DOTA_Tooltip_ability_normal_splash_2_evasion"                                                      "+$evasion"
-			"DOTA_Tooltip_ability_normal_splash_2_Lore"                                                         " "
-			"DOTA_Tooltip_ability_normal_splash_2_Note0"                                                        " "
 			"DOTA_Tooltip_ability_normal_splash_2_radius"                                                       "РАДИУС:"
 			"DOTA_Tooltip_ability_normal_splash_2_splash_damage"                                                "ПРОРУБАЮЩИЙ УРОН: %"
 
@@ -1242,34 +1195,34 @@
 
 			//Alchemist
 			"DOTA_Tooltip_ability_alchemist_goblins_greed_bounty_multiplier"                                    "%ДОП. ЗОЛОТО:"
-			"DOTA_Tooltip_ability_alchemist_goblins_greed_Description"                                          "Alchemist synthesizes additional gold. Every time he gains gold from any source, he gets bonus gold."
+			"DOTA_Tooltip_ability_alchemist_goblins_greed_Description"                                          "Позволяет синтезировать больше золота из врагов и рун. Дополнительное золото за убийство существ состоит из начального бонуса и нарастающего, который увеличивается с каждым существом, убитым в течение %duration% сек. после предыдущего. Также способность умножает золото от рун богатства."
 
 
 			//Antimage
 			"DOTA_Tooltip_ability_antimage_counterspell_barrier"                                                "SPELL BARRIER:"
-			"DOTA_Tooltip_ability_antimage_counterspell_Description"                                            "Passively grants magic resistance. Counterspell may be activated to create an anti-magic barrier around Anti-Mage that blocks spell damage and turns him Debuff Immune while it lasts.\nThe barrier degrades after %duration% seconds, losing increasingly more barrier every second.\nLasts %max_duration% seconds."
-			"DOTA_Tooltip_ability_antimage_counterspell_Note0"                                                  "The speed of barrier loss is not reset when the buff is refreshed, but the barrier is added to the total."
-			"DOTA_Tooltip_ability_antimage_counterspell_shard_description"                                      "Counterspell's Barrier blocks all types of damage."
-			"DOTA_Tooltip_ability_antimage_mana_break_Description"                                              "Burns an opponent's mana on each attack and deals damage equal to a percentage of the mana burnt. The damage is dealt regardless of the mana burned.\n\nIf this leaves the enemy with no mana, their attack speed and movement speed are slowed and the damage dealt becomes Pure."
+			"DOTA_Tooltip_ability_antimage_counterspell_Description"                                            "Пассивно увеличивает сопротивление магическому урону. Можно применить, чтобы создать вокруг себя противомагический щит, который полностью блокирует и отражает все направленные заклинания обратно во врага.\nБарьер деградирует через %duration% секунд, теряя все больше барьера каждую секунду.\nДлится %max_duration% секунд."
+			"DOTA_Tooltip_ability_antimage_counterspell_Note0"                                                  "Скорость потери барьера не сбрасывается при обновлении баффа."
+			"DOTA_Tooltip_ability_antimage_counterspell_shard_description"                                      "Барьер блокирует все виды урона."
+			"DOTA_Tooltip_ability_antimage_mana_break_Description"                                              "Каждая атака сжигает ману цели и наносит ей урон, равный доле от сожжённой маны. Замедляет жертв, у которых нет маны."
 			"DOTA_Tooltip_modifier_antimage_counterspell_active"                                                "Counterspell - Barrier"
-			"DOTA_Tooltip_modifier_antimage_counterspell_active_Description"                                    "Debuff Immune and blocking spell damage."
+			"DOTA_Tooltip_modifier_antimage_counterspell_active_Description"                                    "Невосприимчив к отрицательным эффектам и блокирует урона от заклинаний."
 
 
 			//Axe
 			"DOTA_Tooltip_ability_axe_berserkers_call_abilitycooldown"                                          "ПЕРЕЗАРЯДКА:"
-			"DOTA_Tooltip_ability_axe_berserkers_call_Description"                                              "Axe gains bonus armor for a duration, taunting enemy units that get close to him, forcing them to attack him. Does not prevent them from casting spells."
+			"DOTA_Tooltip_ability_axe_berserkers_call_Description"                                              "Герой бросает вызов ближайшим врагам, заставляя их атаковать его, а также получает бонус к броне на время действия способности."
 			"DOTA_Tooltip_modifier_axe_berserkers_call_aura"													"Броня увеличена"
 			"DOTA_Tooltip_modifier_axe_berserkers_call_taunt"													"Вы вынуждены атаковать Axe"
-			"DOTA_Tooltip_ability_axe_counter_helix_Description"                                                "After a set number of attacks, Axe will perform a helix counter attack, dealing pure damage to all nearby enemies.\nAttacks from hero-type units count as %hero_trigger% attacks."
-			"DOTA_Tooltip_ability_axe_counter_helix_shard_description"                                          "Counter Helix now applies a stacking debuff to enemies hit by it that causes them to deal less total attack damage to Axe. Counter Helix attacks to trigger reduced."
+			"DOTA_Tooltip_ability_axe_counter_helix_Description"                                                "После определённого числа полученных атак герой прокручивает вокруг себя топор, нанося чистый урон всем врагам неподалёку.\nАтаки юнитов-героев считаются за %hero_trigger% атаки."
+			"DOTA_Tooltip_ability_axe_counter_helix_shard_description"                                          "Counter Helix теперь накладывает суммирующийся дебафф на пораженных им противников, из-за чего они наносят меньше урона Axe. Количество атак для срабатывания Counter Helix уменьшено."
 			"DOTA_Tooltip_modifier_axe_counter_helix_passive"													"Ударов получено"
-			"DOTA_Tooltip_ability_axe_culling_blade_Description"                                                "Axe spots a weakness and strikes, dealing pure damage. When an enemy hero is killed with Culling Blade or within %grace_period% of it landing, its cooldown is reduced by %hero_cd_reduction%%%, Axe gains bonus armor permanently and all nearby allied units gain bonus movement speed.\nCooldown is not reduced when a creep is killed."
+			"DOTA_Tooltip_ability_axe_culling_blade_Description"                                                "Герой находит слабую точку врага и наносит ему чистый урон. Если убить этой способностью вражеского героя, её перезарядка сбрасывается, броня её владельца навсегда увеличится, а он и его союзники поблизости временно получат дополнительную скорость передвижения. Сброс перезарядки не срабатывает от крипов."
 			"DOTA_Tooltip_modifier_axe_culling_blade_grace_period"                                              "Culling Blade - Grace Period"
-			"DOTA_Tooltip_modifier_axe_culling_blade_grace_period_Description"                                  "Unit provides Culling Blade's benefits on death."
+			"DOTA_Tooltip_modifier_axe_culling_blade_grace_period_Description"                                  "Юнит дает преимущества Culling Blade после смерти."
 			"DOTA_Tooltip_modifier_axe_culling_blade_kill"                                                      "Culling Blade - Speed"
-			"DOTA_Tooltip_modifier_axe_culling_blade_kill_Description"                                          "Movement speed increased by %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%% and attack speed increased by %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%."
+			"DOTA_Tooltip_modifier_axe_culling_blade_kill_Description"                                          "Боевой клич Акса увеличил скорость передвижения на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%, а скорость атаки — на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%."
 			"DOTA_Tooltip_modifier_axe_culling_blade_permanent_armor"                                           "Culling Blade - Armor"
-			"DOTA_Tooltip_modifier_axe_culling_blade_permanent_armor_Description"                               "You have gained %fMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% bonus armor permanently."
+			"DOTA_Tooltip_modifier_axe_culling_blade_permanent_armor_Description"                               "+%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% к броне получено при помощи способности Culling Blade."
 
 
 			//Bloodseeker
