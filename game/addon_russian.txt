@@ -1239,34 +1239,32 @@
 
 			//Bristleback
 			"DOTA_Tooltip_ability_Bristleback_Bristleback"                                                      "Bristleback"
-			"DOTA_Tooltip_ability_bristleback_bristleback_Description"                                          "Bristleback takes less damage from all sources, taking less from the rear. The damage reduction scales linearly. If this ability negates enough damage to reach the current health threshold, he releases a Quill Spray of the current level."
-			"DOTA_Tooltip_ability_bristleback_bristleback_Lore"                                                 "Turning his back to a fight might be just the thing."
-			"DOTA_Tooltip_ability_bristleback_bristleback_max_damage_reduction"                                 "%MAX DAMAGE REDUCTION:"
-			"DOTA_Tooltip_ability_bristleback_bristleback_min_damage_reduction"                                 "%MIN DAMAGE REDUCTION:"
-			"DOTA_Tooltip_ability_bristleback_bristleback_Note0"                                                "The lower Bristleback's current health, the more often he Quill Sprays."
-			"DOTA_Tooltip_ability_bristleback_bristleback_Note1"                                                "The damage reduction reaches its maximum directly behind Bristleback and is at its minimum directly in front of him."
-			"DOTA_Tooltip_ability_bristleback_bristleback_quill_release_threshold"                              "%CURRENT HEALTH THRESHOLD:"
+			"DOTA_Tooltip_ability_bristleback_bristleback_Description"                                          "Bristleback получает меньше урона от всех источников и от атак со спины. Снижение урона происходит линейно. При получении определённого количества урона - применяется способность Quill Spray текущего уровня."
+			"DOTA_Tooltip_ability_bristleback_bristleback_Lore"                                                 "Иногда бывает полезно повернуться спиной к врагу во время битвы."
+			"DOTA_Tooltip_ability_bristleback_bristleback_max_damage_reduction"                                 "%МАКСИМАЛЬНОЕ СНИЖЕНИЕ УРОНА ОТ АТАК:"
+			"DOTA_Tooltip_ability_bristleback_bristleback_min_damage_reduction"                                 "%МИНИМАЛЬНОЕ СНИЖЕНИЕ УРОНА ОТ АТАК:"
+			"DOTA_Tooltip_ability_bristleback_bristleback_Note0"                                                "Чем меньше текущее здоровье Bristleback, тем чаще он выпускает Quill Spray."
+			"DOTA_Tooltip_ability_bristleback_bristleback_Note1"                                                "Снижение урона максимально эффективно если Bristleback идеально повёрнут к противнику спной и минимально - если лицом."
+			"DOTA_Tooltip_ability_bristleback_bristleback_quill_release_threshold"                              "%ТЕКУЩИЙ ПОРОГ ЗДОРОВЬЯ:"
 			"DOTA_Tooltip_modifier_bristleback_bristleback_passive"												"Bristleback"
-			"DOTA_Tooltip_modifier_bristleback_bristleback_passive_Description"									"Герой получает меньше урона от атак со спины и с боков."
+			"DOTA_Tooltip_modifier_bristleback_bristleback_passive_Description"									"Герой получает меньше урона от атак со спины."
 
 
 			//Centaur Warruner
-			"DOTA_Tooltip_ability_centaur_double_edge_Description"                                              "Centaur strikes a mighty blow at melee range, damaging both himself and a small area around the target.\nCentaur cannot die from Double Edge and takes reduced damage from Double Edge. Centaur takes %self_damage%%% damage per unit affected by Double Edge, up to a maximum of %max_self_damage%%%."
-			"DOTA_Tooltip_ability_centaur_double_edge_Note0"                                                    "Double Edge deals magic type damage to both the targets and himself."
-			"DOTA_Tooltip_ability_centaur_double_edge_shard_description"                                        "Causes Double Edge to slow enemies and increase Centaur's strength per hero hit for a short time. Duration refreshes per stack, up to a max of %shard_max_stacks% stacks."
-			"DOTA_Tooltip_ability_centaur_return_Description"                                                   "Centaur counters all attacks, dealing damage back to the attacker.\nAlso grants him bonus armor equal to %bonus_armor_str%%% of his Strength."
+			"DOTA_Tooltip_ability_centaur_double_edge_Description"                                              "Герой совершает сокрушительный удар, нанося урон себе, цели и всем врагам неподалёку от неё. Урон этой способности меньше по владельцу, и он не может погибнуть от её применения. Кентавр получает %self_damage%%% урона за каждую единицу, пораженную Double Edge, вплоть до максимального значения %max_self_damage%%%."
+			"DOTA_Tooltip_ability_centaur_double_edge_Note0"                                                    "Наносит магический урон как цели, так и самому герою."
+			"DOTA_Tooltip_ability_centaur_double_edge_shard_description"                                        "Способность замедляет жертв и ненадолго увеличивает силу владельца за каждого задетого вражеского героя. Получение нового эффекта возобновляет длительность действия остальных. Максимум эффектов: %shard_max_stacks%."			
+			"DOTA_Tooltip_ability_centaur_return_Description"                                                   "Каждая атака по герою наносит урон и атакующему.\nТакже дает ему дополнительную броню, равную %bonus_armor_str%%% его Силы."
 			"DOTA_Tooltip_ability_centaur_stampede_base_damage"                                                 "УРОН СПОСОБНОСТИ:"
-			"DOTA_Tooltip_ability_centaur_stampede_Description"                                                 "Centaur leads all allies into a vicious charge causing them to move through units at max speed and slow any enemy units they trample. Trampled enemies take a fixed amount of damage. Each enemy can be trampled once."
-			"DOTA_Tooltip_modifier_centaur_return_return"                                                       "Retaliate"
-			"DOTA_Tooltip_modifier_centaur_return_return_Description"                                           "Gaining %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% bonus armor and counterattacking."
+			"DOTA_Tooltip_ability_centaur_stampede_Description"                                                 "Герой ведёт союзников в яростное наступление. Они проходят сквозь существ на максимальной скорости и втаптывают в землю всех врагов на пути, замедляя их и нанося им урон, зависящий от силы владельца способности. Каждого врага можно втоптать в землю лишь один раз."
 
 			//Clinkz
 			"DOTA_Tooltip_ability_clinkz_death_pact_damage"                                                     "УРОН:"
-			"DOTA_Tooltip_ability_clinkz_death_pact_damage_gain_pct"                                            "%DAMAGE DEALT TO ATK DMG:"
-			"DOTA_Tooltip_ability_clinkz_death_pact_Description"                                                "Clinkz consumes the life essence of the target, dealing damage to it and gaining max health and damage based on the damage dealt. Does not take Clinkz out of Skeleton Walk."
-			"DOTA_Tooltip_ability_clinkz_death_pact_health_gain_pct"                                            "%DAMAGE DEALT TO HP:"
+			"DOTA_Tooltip_ability_clinkz_death_pact_damage_gain_pct"                                            "%БОНУСНОГО УРОНА ОТ ЭФФЕКТА:"
+			"DOTA_Tooltip_ability_clinkz_death_pact_Description"                                                "Герой поглощает выбранного вражеского крипа, излечиваясь и получая бонус к урону и максимальному здоровью, и создаёт на его месте скелета-лучника. Не снимает невидимость от Skeleton Walk.<br><br>Скелеты-лучники неподвижны и умирают от нескольких геройских атак. Они наносят часть урона владельца и имеют его полную дальность атаки. Одновременно может существовать только один скелет от этой способности."
+			"DOTA_Tooltip_ability_clinkz_death_pact_health_gain_pct"                                            "%БОНУСНОГО ЗДОРОВЬЯ ОТ ЭФФЕКТА:"
 			"DOTA_Tooltip_modifier_clinkz_death_pact_buff"                                                      "Death Pact - Buff"
-			"DOTA_Tooltip_modifier_clinkz_death_pact_buff_Description"                                          "Gaining %dMODIFIER_PROPERTY_HEALTH_BONUS% bonus health and %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% bonus damage."
+			"DOTA_Tooltip_modifier_clinkz_death_pact_buff_Description"                                          "Получает %dMODIFIER_PROPERTY_HEALTH_BONUS% бонус к здоровью и %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% к урону."
 
 
 			//Dark Seer
@@ -1278,32 +1276,32 @@
 
 
 			//Disruptor
-			"DOTA_Tooltip_ability_aghsfort_disruptor_glimpse_cast_radius"                                       "RADIUS:"
+			"DOTA_Tooltip_ability_aghsfort_disruptor_glimpse_cast_radius"                                       "РАДИУС:"
 			"DOTA_Tooltip_ability_disruptor_glimpse_bonus_damage"                                               "ДОПОЛНИТЕЛЬНЫЙ УРОН:"
-			"DOTA_Tooltip_ability_disruptor_glimpse_Description"                                                "Teleports the target hero back to where it was 4 seconds ago.  Instantly kills illusions. Disruptor fires an attack that deals bonus damage on all targets hit by Glimpse."
-			"DOTA_Tooltip_ability_disruptor_kinetic_field_damage_per_second"                                    "DAMAGE PER SECOND:"
-			"DOTA_Tooltip_ability_disruptor_kinetic_field_scepter_description"                                  "Units that touch Kinetic Field's borders take damage."
+			"DOTA_Tooltip_ability_disruptor_glimpse_Description"                                                "Возвращает выбранного героя туда, где он был 4 секунды назад. Мгновенно убивает иллюзии. Disruptor наносит дополнительный урон всем целям, пораженным Glimpse."
+			"DOTA_Tooltip_ability_disruptor_kinetic_field_damage_per_second"                                    "УРОНА В СЕКУНДУ:"
+			"DOTA_Tooltip_ability_disruptor_kinetic_field_scepter_description"                                  "Враги, коснувшиеся границ Kinetic Field's получают урон."
 
 
 			//Doom
-			"DOTA_Tooltip_ability_doom_bringer_devour_creep_damage_multiplier"                                  "NEUTRAL SPELL DAMAGE MULTIPLIER:"
-			"DOTA_Tooltip_ability_doom_bringer_devour_Description"                                              "Attempts to consume the target. A creep will be instantly destroyed, while a creep-hero instead takes damage equal to %hero_damage%%% of Doom's Strength.\n\nIf Doom devours a Neutral creep, he acquires any special abilities that it possessed, and amplifies their damage. If autocast is deactivated, Doom will not acquire the creep's abilities.\n\nRegardless, he starts consuming the essence he consumed, gaining armor temporarily. Duration is always %duration% seconds."
-			"DOTA_Tooltip_ability_doom_bringer_infernal_blade_Note1"                                            "The maximum health damage is not affected by spell amplification."
-			"DOTA_Tooltip_ability_doom_bringer_infernal_blade_shard_description"                                "Infernal Blade now affects all enemies in a %shard_radius% radius."
+			"DOTA_Tooltip_ability_doom_bringer_devour_creep_damage_multiplier"                                  "МНОЖИТЕЛЬ УРОНА ПОГЛОЩЁННЫХ ЗАКЛИНАНИЙ:"
+			"DOTA_Tooltip_ability_doom_bringer_devour_Description"                                              "Попытка поглотить цель. Крип будет мгновенно уничтожен, а крип-герой вместо этого получит урон, равный %hero_damage%%% от силы Doom.\n\nЕсли Дум пожирает нейтрального крипа, он получает все особые способности, которыми он обладал, и усиливает их урон. Если автоматическое применение выключено, способности не перенимаются\n\nНесмотря на это, он получает дополнительную броню на время, пока крип переваривается.Длительность всегда составляет %duration% секунд."
+			"DOTA_Tooltip_ability_doom_bringer_infernal_blade_Note1"                                            "Максимальный урон здоровью не зависит от усиления заклинаний."
+			"DOTA_Tooltip_ability_doom_bringer_infernal_blade_shard_description"                                "Infernal Blade теперь действует на всех врагов в радиусе %shard_radius%."
 			"DOTA_Tooltip_modifier_doom_bringer_infernal_blade_debuff"											"Горит и получает урон"
-			"DOTA_Tooltip_ability_doom_bringer_infernal_blade_shard_radius"                                     "SHARD EFFECT RADIUS:"
+			"DOTA_Tooltip_ability_doom_bringer_infernal_blade_shard_radius"                                     "РАДИУС ЭФФЕКТА с SHARD:"
 			"DOTA_Tooltip_modifier_doom_bringer_devour_eating"                                                  "Devour - Eating"
-			"DOTA_Tooltip_modifier_doom_bringer_devour_eating_Description"                                      "Gaining armor while digesting and bonus gold when this expires successfully."
+			"DOTA_Tooltip_modifier_doom_bringer_devour_eating_Description"                                      "Получение брони при переваривании и бонусное золото по истечении срока действия."
 
 
 			//Earth Spirit
-			"DOTA_Tooltip_ability_earth_spirit_rolling_boulder_Description"                                     "Earth Spirit gathers himself into a boulder and, after a %delay%s delay, rolls toward the target location, dealing %damage% damage and stunning enemy units. He will stop if he collides with an enemy hero, is stunned or is ordered to Stop or Hold. If he rolls over a Stone Remnant, he will travel further and faster, and stun enemies for longer."
+			"DOTA_Tooltip_ability_earth_spirit_rolling_boulder_Description"                                     "Герой сворачивается в валун, который после задержки в %delay% сек. катится в выбранном направлении, оглушает врагов и наносит им урон в размере %damage%. Он остановится, если попадёт во вражеского героя или будет оглушён. Валун станет сильнее, если попадёт на каменную копию: он покатится быстрее и дальше, а оглушение от него будет дольше."
 
 
 			//Enigma
-			"DOTA_Tooltip_ability_enigma_demonic_conversion_Description"                                        "Transforms a creep or part of a creep-hero's soul into three fragments of Enigma himself.  These eidolons are all under Enigma's control, and repeated successful attacks cause them to multiply.  When this happens, the eidolons have their health restored.\nCreeps are instantly killed, creep-heroes take Pure damage equal to the eidolon's health for each eidolon created."
-			"DOTA_Tooltip_ability_enigma_malefice_shard_description"                                            "Reduces Malefice tick rate and spreads Malefice to a new target each tick."
-			"DOTA_Tooltip_ability_enigma_malefice_shard_spread_radius"                                          "SEARCH RADIUS:"
+			"DOTA_Tooltip_ability_enigma_demonic_conversion_Description"                                        "Превращает крипа в три подконтрольных фрагмента самого героя — эйдолонов. Они раздваиваются после нескольких атак, при этом полностью восстанавливая здоровье.\nКрипы мгновенно погибают, крипы-герои получают Чистый урон, равный здоровью эйдолона, за каждого созданного эйдолона."
+			"DOTA_Tooltip_ability_enigma_malefice_shard_description"                                            "Увеличивает длительность оглушения при каждом срабатывании и распространяет Malefice на новую цель."
+			"DOTA_Tooltip_ability_enigma_malefice_shard_spread_radius"                                          "РАДИУС ЦЕЛЕЙ:"
 			"DOTA_Tooltip_modifier_enigma_malefice_debuff"														"Malefice"
 			"DOTA_Tooltip_modifier_enigma_malefice_debuff_Description"											"Наносит урон и оглушает"
 
@@ -1942,7 +1940,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_templar_assassin_refraction_damage"                      "+{s:bonus_bonus_damage}% к доп. урону от Refraction"
 			"DOTA_Tooltip_ability_special_bonus_unique_terrorblade_2"                                           "+16 к скорость атаки Demon Frenzy"
 			"DOTA_Tooltip_ability_special_bonus_unique_terrorblade_6"                                           "+5% уворота Demon Frenzy"
-			"DOTA_Tooltip_ability_special_bonus_unique_tidehunter_4"                                            "Kraken Shell Ravages Attackers"
+			"DOTA_Tooltip_ability_special_bonus_unique_tidehunter_4"                                            "Kraken Shell накладывает Ravages на атакующих"
 			"DOTA_Tooltip_ability_special_bonus_unique_tidehunter_9"                                            "+{s:bonus_attack_damage}% к урону от Anchor Smash"
 			"DOTA_Tooltip_ability_special_bonus_unique_tinker"                                                  "+{s:bonus_laser_damage}% к урону от Laser"
 			"DOTA_Tooltip_ability_special_bonus_unique_tinker_5"                                                "-{s:value} сек. применения Rearm"

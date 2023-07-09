@@ -1259,13 +1259,11 @@
 			"DOTA_Tooltip_ability_centaur_return_Description"                                                   "Centaur counters all attacks, dealing damage back to the attacker.\nAlso grants him bonus armor equal to %bonus_armor_str%%% of his Strength."
 			"DOTA_Tooltip_ability_centaur_stampede_base_damage"                                                 "STAMPEDE DAMAGE:"
 			"DOTA_Tooltip_ability_centaur_stampede_Description"                                                 "Centaur leads all allies into a vicious charge causing them to move through units at max speed and slow any enemy units they trample. Trampled enemies take a fixed amount of damage. Each enemy can be trampled once."
-			"DOTA_Tooltip_modifier_centaur_return_return"                                                       "Retaliate"
-			"DOTA_Tooltip_modifier_centaur_return_return_Description"                                           "Gaining %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% bonus armor and counterattacking."
 
 			//Clinkz
 			"DOTA_Tooltip_ability_clinkz_death_pact_damage"                                                     "DAMAGE:"
 			"DOTA_Tooltip_ability_clinkz_death_pact_damage_gain_pct"                                            "%DAMAGE DEALT TO ATK DMG:"
-			"DOTA_Tooltip_ability_clinkz_death_pact_Description"                                                "Clinkz consumes the life essence of the target, dealing damage to it and gaining max health and damage based on the damage dealt. Does not take Clinkz out of Skeleton Walk."
+			"DOTA_Tooltip_ability_clinkz_death_pact_Description"                                                "Clinkz consumes the target enemy creep and creates a Burning Skeleton Archer in their place, healing and gaining damage and max health. Does not take Clinkz out of Skeleton Walk.<br><br>Archers are immobile and die within several attacks from a hero. Skeletons deal a percentage of Clinkz' damage. Attack range is equal to Clinkz's attack range. Only one archer can be summoned from Death Pact at a time."
 			"DOTA_Tooltip_ability_clinkz_death_pact_health_gain_pct"                                            "%DAMAGE DEALT TO HP:"
 			"DOTA_Tooltip_modifier_clinkz_death_pact_buff"                                                      "Death Pact - Buff"
 			"DOTA_Tooltip_modifier_clinkz_death_pact_buff_Description"                                          "Gaining %dMODIFIER_PROPERTY_HEALTH_BONUS% bonus health and %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% bonus damage."
