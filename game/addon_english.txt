@@ -1197,7 +1197,7 @@
 
 			//Alchemist
 			"DOTA_Tooltip_ability_alchemist_goblins_greed_bounty_multiplier"                                    "%BONUS GOLD:"
-			"DOTA_Tooltip_ability_alchemist_goblins_greed_Description"                                          "Alchemist synthesizes additional gold. Every time he gains gold from any source, he gets bonus gold."
+			"DOTA_Tooltip_ability_alchemist_goblins_greed_Description"                                          "Alchemist synthesizes additional gold. Every time he gains gold from any source, he gets bonus gold.\n\nDoes not stack with Hand of Midas."
 
 
 			//Antimage
@@ -1826,7 +1826,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_bounty_hunter_2"                                         "+{s:bonus_bonus_damage}% Shuriken Toss Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_bounty_hunter_4"                                         "+{s:bonus_bonus_damage}% Jinada Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_bristleback_2"                                           "+{s:value}% Quill Stack Damage"
-			"DOTA_Tooltip_ability_special_bonus_unique_bristleback_3"                                           "+{s:value}% Warpath Damage Per Stack"
+			"DOTA_Tooltip_ability_special_bonus_unique_bristleback_3"                                           "+{s:bonus_damage_per_stack}% Warpath Damage Per Stack"
 			"DOTA_Tooltip_ability_special_bonus_unique_bristleback_6"                                           "+{s:bonus_max_damage_reduction}%/{s:bonus_min_damage_reduction}% Bristleback Max/Min Damage Reduction"
 			"DOTA_Tooltip_ability_special_bonus_unique_broodmother_3"                                           "+{s:bonus_damage}% Spawn Spiderlings Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_broodmother_7"                                           "+{s:bonus_hp_bonus}% Spiderlings Health"
@@ -1847,9 +1847,10 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_drow_ranger_2"                                           "+{s:bonus_damage}% Frost Arrow Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_earth_spirit"                                            "+{s:value}% Rolling Boulder Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_earth_spirit_6"                                          "+{s:bonus_rock_damage}% Boulder Smash Damage"
-			"DOTA_Tooltip_ability_special_bonus_unique_earthshaker_2"                                           "+{s:value}% Echo Slam Damage"
-			"DOTA_Tooltip_ability_special_bonus_unique_earthshaker_4"                                           "+{s:value}% Fissure Damage"
+			"DOTA_Tooltip_ability_special_bonus_unique_earthshaker_2"                                           "+{s:bonus_echo_slam_echo_damage}% Echo Slam Damage"
+			"DOTA_Tooltip_ability_special_bonus_unique_earthshaker_4"                                           "+{s:bonus_fissure_damage}% Fissure Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_earthshaker_5"                                           "+{s:bonus_aftershock_range}% Aftershock Radius"
+			"DOTA_Tooltip_ability_special_bonus_unique_earthshaker_6" 											"+{s:bonus_aftershock_damage}% Aftershock Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_elder_titan_2"                                           "+{s:bonus_stomp_damage}% Echo Stomp Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_ember_spirit_3"                                          "+{s:value}% Flame Guard DPS"
 			"DOTA_Tooltip_ability_special_bonus_unique_ember_spirit_6"                                          "+{s:value}% Sleight of Fist Hero Damage"
@@ -2972,7 +2973,7 @@
 					
 			"DOTA_Tooltip_ability_item_hand_of_midas_ebf"                                                       "Hand of Midas"
 			"DOTA_Tooltip_ability_item_hand_of_midas_ebf_bonus_attack_speed"                                    "+$attack"
-			"DOTA_Tooltip_ability_item_hand_of_midas_ebf_Description"                                           "<h1>Active: Overflowing Coffers</h1>Every time you earn gold from killing units or ending the round, the gold gain is increased by %bonus_gold%%%"
+			"DOTA_Tooltip_ability_item_hand_of_midas_ebf_Description"                                           "<h1>Active: Overflowing Coffers</h1>Every time you earn gold from killing units or ending the round, the gold gain is increased by %bonus_gold%%%\n\nDoes not stack with other sources of gold gain like other Hand of Midases or Greevil's Greed"
 			"DOTA_Tooltip_ability_item_hand_of_midas_ebf_Lore"                                                  "Preserved through unknown magical means, the Hand of Midas is a weapon of greed, sacrificing animals to line the owner's pockets."
 			
 
