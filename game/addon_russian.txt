@@ -1478,7 +1478,7 @@
 
 
 			//Outworld Destroyer
-			"DOTA_Tooltip_ability_obsidian_destroyer_astral_imprisonment_Description"                           "омещает выбранное существо в астральное заточение, где оно неуязвимо и не может ничего делать. По окончании эффекта происходит взрыв, наносящий цели урон и увеличивает максимальный запас маны Outworld Destroyer."
+			"DOTA_Tooltip_ability_obsidian_destroyer_astral_imprisonment_Description"                           "Помещает выбранное существо в астральное заточение, где оно неуязвимо и не может ничего делать. По окончании эффекта происходит взрыв, наносящий цели урон и увеличивает максимальный запас маны Outworld Destroyer."
 			"DOTA_Tooltip_ability_obsidian_destroyer_astral_imprisonment_mana_capacity_steal"                   "МАКС.МАНЫ:"
 			"DOTA_Tooltip_ability_obsidian_destroyer_sanity_eclipse_Description"                                "Вызывает ментальный взрыв, который наносит урон, зависящий от разницы в мане между жертвами и самим героем. Действует на врагов под действием способности Astral Imprisonment. Призванные сущства получаюют в %summon_multiplier% раз больше урона."
 			"DOTA_Tooltip_modifier_obsidian_destroyer_astral_imprisonment_int_gain"                             "Astral Imprisonment - Mana Gain"
@@ -1505,62 +1505,61 @@
 
 
 			//Pangolier
-			"DOTA_Tooltip_ability_pangolier_shield_crash_creep_stacks"                                          "%REDUCTION PER CREEP:"
+			"DOTA_Tooltip_ability_pangolier_shield_crash_creep_stacks"                                          "%СНИЖЕНИЕ УРОНА ЗА КРИПА:"
 			"DOTA_Tooltip_ability_pangolier_shield_crash_Description"                                           "Герой прыгает вперёд и бьётся спиной о землю, нанося урон всем врагам неподалёку и замедляя их. За каждого задетого противника он получает эффект, ненадолго снижающий получаемый урон, максимум до %max_stacks%%%.\n\nЕсли применить эту способность во время действия Rolling Thunder, движение не прекратится, а герой перепрыгнет через любые препятствия."
 
 
 			//Phoenix
-			"DOTA_Tooltip_ability_phoenix_sun_ray_shard_description"                                            "Sun Ray slows for %shard_move_slow_pct%%% and all healing and damage is increased by %shard_move_slow_pct%%%"
+			"DOTA_Tooltip_ability_phoenix_sun_ray_shard_description"                                            "Способность замедляет врагов на %shard_move_slow_pct%%% и все регенерации здоровья и урон увеличены на %shard_move_slow_pct%%%."
 
 
 			//Primal Beast
-			"DOTA_Tooltip_ability_primal_beast_uproar_Description"                                              "The Beast's temper passively provides bonus damage. Additionally, when Primal Beast takes a total of %damage_limit%%% of his maximum health or more in damage, he accumulates stacks of Uproar. \n\n When activated, Primal Beast releases a roar that slows surrounding enemies and grants the Beast additional attack damage and armor for %roar_duration% seconds based on his current stacks of Uproar."
+			"DOTA_Tooltip_ability_primal_beast_uproar_Description"                                              "Скверный нрав героя пассивно увеличивает его урон. Помимо этого владельцу способности даётся один её заряд, когда герой получает урон в размере %damage_limit%%% от своего максимального здоровья или более. \n\nПри активации герой издаёт рёв, увеличивая себе броню и урон от атак, а также замедляя окружающих врагов. Каждый из этих эффектов усиливается с количеством зарядов способности. Действует %roar_duration% сек."
 			"DOTA_Tooltip_modifier_primal_beast_UPROAR_ebf"                                                     "UPROAR"
 			"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_buff"                                                "ROARED"
-			"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_buff_Description"                                    "Gaining bonus attack damage and armor"
+			"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_buff_Description"                                    "Урон и броня увеличены"
 			"DOTA_Tooltip_modifier_primal_beast_UPROAR_ebf_debuff"                                              "UPROAR"
-			"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_debuff_Description"                                  "Slowed by Primal Beast"
-			"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_Description"                                         "Primal Beast deals increased damage and slows enemy"
+			"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_debuff_Description"                                  "Существо замедлено первобытным зверем"
+			"DOTA_Tooltip_modifier_primal_beast_uproar_ebf_Description"                                         "Герой наносит больше урона и замедляет врагов"
 
 
 			//Pudge
-			"DOTA_Tooltip_ability_pudge_flesh_heap_Description"                                                 "Gives Pudge a guaranteed damage block against all types of damage. Passively grants bonus strength that increases each time Pudge kills an enemy unit or it dies in his vicinity.\nFlesh Heap's stacks increase by %hero_stacks% when a creep-hero is killed and by %creep_stacks% otherwise.\nSummoned units, such as Illusions and units created by abilities, give temporary stacks of Flesh Heap, which disappear after %temporary_duration% seconds.\nFlesh Heap is retroactive, meaning it can gain charges before it is skilled, which then become active."
-			"DOTA_Tooltip_ability_pudge_flesh_heap_Note0"                                                       "Flesh Heap's damage block is applied after all forms of reduction, including other sources of damage block."
-			"DOTA_Tooltip_ability_pudge_rot_Description"                                                        "A toxic cloud that deals intense damage and slows movement--harming not only enemy units but Pudge himself.\nPudge is not affected by the movement slow and does not take the bonus damage based on his Strength."
-			"DOTA_Tooltip_ability_pudge_rot_rot_str_damage"                                                     "%STRENGTH TO BONUS DAMAGE:"
-			"DOTA_Tooltip_ability_pudge_rot_scepter_bonus_enemy_damage"                                         "%INCREASED ENEMY DAMAGE:"
-			"DOTA_Tooltip_ability_pudge_rot_scepter_description"                                                "Increases Rot's radius, enemies take increased damage from Rot and have their health regeneration reduced."
+			"DOTA_Tooltip_ability_pudge_flesh_heap_Description"                                                 "Гарантированно блокирует часть любого урона, наносимого владельцу.\nСтеки Flesh Heap увеличиваются на %hero_stacks%, когда рядом убит крип-герой, и на %creep_stacks% в случае обычного крипа.\nПризванные юниты, такие как иллюзии и юниты, созданные способностями, дают временные стеки Flesh Heap, которые исчезают через %temporary_duration% секунд.\nЭффекты накапливаются с начала игры, но герой получит силу только после изучения способности."
+			"DOTA_Tooltip_ability_pudge_flesh_heap_Note0"                                                       "Блокировка урона Flesh Heap применяется после всех форм уменьшения, включая другие источники блокировки урона."
+			"DOTA_Tooltip_ability_pudge_rot_Description"                                                        "Ядовитое облако, которое замедляет врагов и наносит значительный урон как им, так и владельцу способности.\nНа Pudge не действует замедление движения, и он не получает дополнительный урон, зависящий от его Силы."
+			"DOTA_Tooltip_ability_pudge_rot_scepter_bonus_enemy_damage"                                         "%УВЕЛИЧЕНИЕ УРОНА ПО ВРАГАМ:"
+			"DOTA_Tooltip_ability_pudge_rot_scepter_description"                                                "Увеличивает радиус действия Rot, враги получают от Rot больше урона, а регенерация их здоровья снижается."
 			"DOTA_Tooltip_modifier_pudge_rot_debuff"															"Rot"
 			"DOTA_Tooltip_modifier_pudge_rot_debuff_Description"												"Замедлен и получает урон"
 			"DOTA_Tooltip_modifier_pudge_rot_aura"																"Rot"
 			"DOTA_Tooltip_modifier_pudge_rot_aura_Description"													"Каждую секунду наносит урон противникам, находящимся в зоне действия."
 			"DOTA_Tooltip_modifier_pudge_flesh_heap_buff"                                                       "Flesh Heap - Block"
-			"DOTA_Tooltip_modifier_pudge_flesh_heap_buff_Description"                                           "Blocking %dMODIFIER_PROPERTY_TOTAL_CONSTANT_BLOCK% damage after reductions."
+			"DOTA_Tooltip_modifier_pudge_flesh_heap_buff_Description"                                           "Брокирует %dMODIFIER_PROPERTY_TOTAL_CONSTANT_BLOCK% урона."
 			"DOTA_Tooltip_modifier_pudge_flesh_heap_kills"                                                      "Flesh Heap - Kills"
-			"DOTA_Tooltip_modifier_pudge_flesh_heap_kills_Description"                                          "Gaining %fMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% strength."
+			"DOTA_Tooltip_modifier_pudge_flesh_heap_kills_Description"                                          "Получает %fMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% силы."
 
 
 			//Pugna
-			"DOTA_Tooltip_ability_pugna_nether_ward_Description"                                                "Pugna places a Nether Ward at the target location. The ward will fire at any enemy who casts a spell dealing base damage plus a damage multiplier equal to Pugna's Intelligence."
-			"DOTA_Tooltip_ability_pugna_nether_ward_mana_multiplier"                                            "DAMAGE PER INTELLIGENCE:"
+			"DOTA_Tooltip_ability_pugna_nether_ward_Description"                                                "Герой создаёт в указанном месте тотем бездны, который наносит врагам урон, когда те применяют способности. Часть урона постоянна, а часть зависит от множителя интеллекта."
+			"DOTA_Tooltip_ability_pugna_nether_ward_mana_multiplier"                                            "УРОНА ЗА ЕДИНИЦУ ИНТЕЛЛЕКТА:"
 
 
 			//Shadow Shaman
 			"DOTA_Tooltip_ability_shadow_shaman_shackles_total_damage"                                          "СУММАРНЫЙ УРОН:"
-			"DOTA_Tooltip_ability_shadow_shaman_shackles_total_heal"                                            "TOTAL HEAL:"
+			"DOTA_Tooltip_ability_shadow_shaman_shackles_total_heal"                                            "СУММАРНОЕ ЛЕЧЕНИЕ:"
 			"DOTA_Tooltip_ability_shadow_shaman_voodoo"                                                         "Counterhex"
-			"DOTA_Tooltip_ability_shadow_shaman_voodoo_Description"                                             "When Shadow Shaman is damaged, he instantly transforms the enemy attacker into a harmless creature, disabling their attacks and abilities. The effect lingers for %linger_duration%, potentially hexing other attackers."
+			"DOTA_Tooltip_ability_shadow_shaman_voodoo_Description"                                             "Когда Shadow Shaman получает урон, он мгновенно превращает атакующего противника в безобидную зверюшку, лишая его возможности атаковать или применять способности. Эффект длится %linger_duration% секунд, потенциально накладывая порчу на других врагов."
 			"DOTA_Tooltip_modifier_shadow_shaman_bound_shackles"                                                "Shackles - Debuff"
-			"DOTA_Tooltip_modifier_shadow_shaman_bound_shackles_Description"                                    "Shackled"
+			"DOTA_Tooltip_modifier_shadow_shaman_bound_shackles_Description"                                    "Связан"
 			"DOTA_Tooltip_modifier_shadow_shaman_voodoo_effect"                                                 "Counterhex - Effect"
-			"DOTA_Tooltip_modifier_shadow_shaman_voodoo_effect_Description"                                     "Attackers are getting hexed."
+			"DOTA_Tooltip_modifier_shadow_shaman_voodoo_effect_Description"                                     "Атакаующие превращаются в курицу."
 
 
 			//Timbersaw
-			"DOTA_Tooltip_ability_shredder_whirling_death_Description"                                          "Timbersaw whirls extremely sharp edges, damaging enemies and destroying trees around him in an area. Whirling Death will deal bonus damage per tree destroyed.\n\nWhirling Death also reduces the base armor and base damage of a unit affected for a duration."
-			"DOTA_Tooltip_ability_shredder_whirling_death_stat_loss_pct"                                        "%BASE ARMOR AND DAMAGE LOSS:"
+			"DOTA_Tooltip_ability_shredder_whirling_death_Description"                                          "Герой вращает смертельно острые лезвия, нанося врагам вокруг урон, разрушая деревья. Способность наносит дополнительный урон за каждое срубаемое дерево. Whirling Death также снижает базовую броню и базовый урон врагов."
+			"DOTA_Tooltip_ability_shredder_whirling_death_stat_loss_pct"                                        "%ПОТЕРЯ БРОНИ И УРОНА:"
 			"DOTA_Tooltip_modifier_shredder_whirling_death_enemy"                                               "Whirling Death - Debuff"
-			"DOTA_Tooltip_modifier_shredder_whirling_death_enemy_Description"                                   "Armor and attack damage reduced."
+			"DOTA_Tooltip_modifier_shredder_whirling_death_enemy_Description"                                   "Броня и урон от атаки уменьшены."
 
 
 			//Silencer
@@ -1573,7 +1572,7 @@
 			"DOTA_Tooltip_modifier_silencer_glaives_of_wisdom_intellect_bonus"                                  "Glaives of Wisdom - Temporary Intelligence"
 			"DOTA_Tooltip_modifier_silencer_glaives_of_wisdom_intellect_bonus_Description"                      "Получено %dMODIFIER_PROPERTY_STATS_INTELLECT_BONUS% временного интеллекта."
 			"DOTA_Tooltip_modifier_silencer_glaives_of_wisdom_shard"                                            "Glaives of Wisdom - Attacks For Silence"
-			"DOTA_Tooltip_modifier_silencer_glaives_of_wisdom_shard_Description"                                "Silenced after a number of attacks."
+			"DOTA_Tooltip_modifier_silencer_glaives_of_wisdom_shard_Description"                                "Эффект безмолвия будет наложен после нескольких атак."
 
 
 			//Wraith King
@@ -1582,119 +1581,119 @@
 
 			//Skywrath Mage
 			"DOTA_Tooltip_ability_skywrath_mage_shield_of_the_scion"                                            "Shield of the Scion"
-			"DOTA_Tooltip_ability_skywrath_mage_shield_of_the_scion_bonus_armor"                                "BONUS ARMOR:"
-			"DOTA_Tooltip_ability_skywrath_mage_shield_of_the_scion_bonus_intelligence"                         "BONUS INTELLIGENCE:"
-			"DOTA_Tooltip_ability_skywrath_mage_shield_of_the_scion_Description"                                "Every time Skywrath Mage deals magic damage to an enemy hero with an ability, he gains a buff that grants bonus Intelligence and Armor. Each charge stacks independently. Creeps have a %creep_chance%%% chance to grant a charge instead."
+			"DOTA_Tooltip_ability_skywrath_mage_shield_of_the_scion_bonus_armor"                                "БОНУС К БРОНЕ:"
+			"DOTA_Tooltip_ability_skywrath_mage_shield_of_the_scion_bonus_intelligence"                         "БОНУС К ИНТЕЛЛЕКТУ:"
+			"DOTA_Tooltip_ability_skywrath_mage_shield_of_the_scion_Description"                                "Каждый раз, когда герой наносит магический урон вражескому герою своей способностью, он получает бонус к интеллекту и броне. Эффекты складываются, но их время действия не зависит друг от друга. У крипов есть %creep_chance%%% шанс дать заряд."
 			"DOTA_Tooltip_ability_skywrath_mage_shield_of_the_scion_stack_duration"                             "ДЛИТЕЛЬНОСТЬ ЭФФЕКТА:"
 			"DOTA_Tooltip_modifier_skywrath_mage_shield_of_the_scion_handler"                                   "Shield of the Scion"
-			"DOTA_Tooltip_modifier_skywrath_mage_shield_of_the_scion_handler_Description"                       "Gaining %dMODIFIER_PROPERTY_STATS_INTELLECT_BONUS% intelligence and %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% armor."
+			"DOTA_Tooltip_modifier_skywrath_mage_shield_of_the_scion_handler_Description"                       "Получает %dMODIFIER_PROPERTY_STATS_INTELLECT_BONUS% единиц интеллекта и  %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% брони."
 
 
 			//Slark
-			"DOTA_Tooltip_ability_slark_essence_shift_agi_gain"                                                 "AGILITY GAINED/HIT:"
-			"DOTA_Tooltip_ability_slark_essence_shift_debuff_armor"                                             "ARMOR REDUCTION:"
-			"DOTA_Tooltip_ability_slark_essence_shift_debuff_slow"                                              "%MOVEMENT SLOW:"
-			"DOTA_Tooltip_ability_slark_essence_shift_Description"                                              "Slark steals the life essence of enemy heroes with his attacks, slowing their movement speed and reducing their armor while gaining bonus Agility, Strength and Intelligence. Slark gains more Agility than Strength and Intelligence. If Slark kills an affected enemy hero, he permanently gains some Agility."
+			"DOTA_Tooltip_ability_slark_essence_shift_agi_gain"                                                 "ЛОВКОСТЬ/УДАР:"
+			"DOTA_Tooltip_ability_slark_essence_shift_debuff_armor"                                             "УМЕНЬШЕНИЕ БРОНИ:"
+			"DOTA_Tooltip_ability_slark_essence_shift_debuff_slow"                                              "%ЗАМЕДЛЕНИЕ:"
+			"DOTA_Tooltip_ability_slark_essence_shift_Description"                                              "Герой крадёт атаками жизненную сущность вражеских героев,замедляя их скорость передвижения и уменьшая их броню, получая при этом дополнительные ловкость, силу и интеллект. Slark получает больше ловкости, чем силы и интеллекта. Если Сларк убивает врага, он навсегда получает некоторое количество ловкости."
 			"DOTA_Tooltip_ability_slark_essence_shift_duration"                                                 "ДЛИТЕЛЬНОСТЬ:"
-			"DOTA_Tooltip_ability_slark_essence_shift_int_gain"                                                 "INTELLIGENCE GAINED/HIT:"
-			"DOTA_Tooltip_ability_slark_essence_shift_Note2"                                                    "To permanently steal Agility, Slark doesn't need to land the killing blow, as long as the enemy hero is killed within 300 range of Slark while having the Essence Shift debuff."
-			"DOTA_Tooltip_ability_slark_essence_shift_permanent_agi"                                            "AGILITY GAINED/KILL:"
-			"DOTA_Tooltip_ability_slark_essence_shift_str_gain"                                                 "STRENGTH GAINED/HIT:"
-			"DOTA_Tooltip_ability_slark_pounce_Description"                                                     "Slark leaps forward, attacking every enemy within his attack range and stopping at the first hero he connects with. Enemies leapt through take damage and have their attack and movement speed slowed for a duration."
+			"DOTA_Tooltip_ability_slark_essence_shift_int_gain"                                                 "ИНТЕЛЛЕКТ/УДАР:"
+			"DOTA_Tooltip_ability_slark_essence_shift_Note2"                                                    "Чтобы навсегда украсть ловкость, противник должен быть убит в радиусе 300 от Сларка, находясь под действием Essence Shift. Сларку не нужно наносить смертельный удар"
+			"DOTA_Tooltip_ability_slark_essence_shift_permanent_agi"                                            "ЛОВКОСТЬ/УБИЙСТВО:"
+			"DOTA_Tooltip_ability_slark_essence_shift_str_gain"                                                 "СИЛА/УДАР:"
+			"DOTA_Tooltip_ability_slark_pounce_Description"                                                     "Slark прыгает вперед, атакуя каждого врага в пределах своего диапазона атаки и останавливаясь на первом герое, с которым он соединяется. Враги получают урон, а их скорость атаки и передвижения замедляется на некоторое время."
 			"DOTA_Tooltip_ability_slark_pounce_leash_duration"                                                  "ДЛИТЕЛЬНОСТЬ ЭФФЕКТА:"
-			"DOTA_Tooltip_ability_slark_pounce_leash_slow"                                                      "%DEBUFF SLOW:"
-			"DOTA_Tooltip_ability_slark_pounce_Lore"                                                            "Time in the Dark Reef made Slark a dangerous assassin; aggressive and fearless."
-			"DOTA_Tooltip_ability_slark_pounce_Note0"                                                           "On cast, Slark leaps forward at a speed of %pounce_speed%, stopping when he latches onto an enemy hero or has traveled %pounce_distance% distance."
-			"DOTA_Tooltip_ability_slark_pounce_Note1"                                                           "Spell Immune units cannot be leashed."
-			"DOTA_Tooltip_ability_slark_pounce_Note2"                                                           "Trees will be destroyed around Slark's landing location."
-			"DOTA_Tooltip_ability_slark_pounce_scepter_description"                                             "Provides charges, reduces cooldown and increases range."
-			"DOTA_Tooltip_ability_slark_shadow_dance_Description"                                               "When used, Slark hides himself in a cloud of shadows, becoming immune to detection. Attacking, casting spells, and using items will not reveal Slark.\nPassively, if Slark has not been damaged for at least %neutral_disable% seconds, he gains bonus movement speed and health regeneration."
+			"DOTA_Tooltip_ability_slark_pounce_leash_slow"                                                      "%ЗАМЕДЛЕНИЕ:"
+			"DOTA_Tooltip_ability_slark_pounce_Lore"                                                            "За время, проведённое в Тёмном рифе, узник стал опасным убийцей: агрессивным и бесстрашным."
+			"DOTA_Tooltip_ability_slark_pounce_Note0"                                                           "Герой летит в прыжке со скоростью в %pounce_speed% либо на расстояние в %pounce_distance%, либо до соприкосновения со вражеским героем."
+			"DOTA_Tooltip_ability_slark_pounce_Note1"                                                           "Не привязывает врагов, невосприимчивых к эффектам."
+			"DOTA_Tooltip_ability_slark_pounce_Note2"                                                           "Разрушает деревья в месте приземления."
+			"DOTA_Tooltip_ability_slark_pounce_scepter_description"                                             "Даёт способности заряды, увеличивает дальность прыжка и снижает время перезарядки"
+			"DOTA_Tooltip_ability_slark_shadow_dance_Description"                                               "Скрывает героя в облаке теней, делая его невидимым. Эта невидимость не раскрывается ничем; атаки, использование предметов и применение способностей также не снимают невидимость. Пассивно, если Сларк не получает урон в течение как минимум %neutral_disable% секунд, он получает дополнительную скорость передвижения и восстановление здоровья."
 			"DOTA_Tooltip_modifier_slark_essence_shift_agi_buff"                                                "Essence Shift - Buff"
-			"DOTA_Tooltip_modifier_slark_essence_shift_agi_buff_Description"                                    "Gaining %dMODIFIER_PROPERTY_STATS_AGILITY_BONUS% Agility %dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% Strength and %dMODIFIER_PROPERTY_STATS_INTELLECT_BONUS% Intelligence."
+			"DOTA_Tooltip_modifier_slark_essence_shift_agi_buff_Description"                                    "Получает %dMODIFIER_PROPERTY_STATS_AGILITY_BONUS% ловкости %dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% силы и %dMODIFIER_PROPERTY_STATS_INTELLECT_BONUS% интеллекта."
 			"DOTA_Tooltip_modifier_slark_essence_shift_attr_debuff"                                             "Essence Shift - Debuff"
-			"DOTA_Tooltip_modifier_slark_essence_shift_attr_debuff_Description"                                 "Armor reduced and movement speed slowed."
+			"DOTA_Tooltip_modifier_slark_essence_shift_attr_debuff_Description"                                 "Броня и скорость передвижения снижены."
 			"DOTA_Tooltip_modifier_slark_essence_shift_handler"                                                 "Essence Shift - Agility"
-			"DOTA_Tooltip_modifier_slark_essence_shift_handler_Description"                                     "%dMODIFIER_PROPERTY_STATS_AGILITY_BONUS% Agility permanently gained."
+			"DOTA_Tooltip_modifier_slark_essence_shift_handler_Description"                                     "Имеет %dMODIFIER_PROPERTY_STATS_AGILITY_BONUS% постоянного бонуса к ловкости."
 			"DOTA_Tooltip_modifier_slark_pounce_debuff"                                                         "Pounce - Slow"
-			"DOTA_Tooltip_modifier_slark_pounce_debuff_Description"                                             "Attack speed and movement speed slowed by %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%%%"
+			"DOTA_Tooltip_modifier_slark_pounce_debuff_Description"                                             "Скорость атаки и передвижения снижены на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%%%"
 
 
 			//Snapfire
-			"DOTA_Tooltip_ability_snapfire_firesnap_cookie_Description"                                         "Snapfire feeds a potent cookie to Mortimer or an ally, healing them and causing them to hop a short distance. The hopping unit stuns and damages enemies in the landing zone."
-			"DOTA_Tooltip_ability_snapfire_firesnap_cookie_target_heal"                                         "TARGET HEAL:"
+			"DOTA_Tooltip_ability_snapfire_firesnap_cookie_Description"                                         "Герой скармливает бодрящую печеньку Мортимеру или союзнику, отчего тот востанавливает здоровье и совершает прыжок на небольшое расстояние, оглушая врагов в области приземления и нанося им урон."
+			"DOTA_Tooltip_ability_snapfire_firesnap_cookie_target_heal"                                         "ЛЕЧЕНИЕ ЦЕЛИ:"
 
 
 			//Spectre
 			"DOTA_Tooltip_ability_spectre_ebf_haunt"                                                            "Trauma"
-			"DOTA_Tooltip_ability_spectre_ebf_haunt_armor_reduction_perstack"                                   "ARMOR REDUCTION/HIT:"
-			"DOTA_Tooltip_ability_spectre_ebf_haunt_Description"                                                "Each attack reduces enemy armor; every attack increases the total armor reduction. Lasts %duration% seconds."
+			"DOTA_Tooltip_ability_spectre_ebf_haunt_armor_reduction_perstack"                                   "СНИЖЕНИЕ БРОНИ/УДАР:"
+			"DOTA_Tooltip_ability_spectre_ebf_haunt_Description"                                                "Каждая удар снижает броню противника. Длится %duration% секунд."
 			"DOTA_Tooltip_ability_spectre_ebf_haunt_duration"                                                   "ДЛИТЕЛЬНОСТЬ:"
-			"DOTA_Tooltip_ability_spectre_ebf_haunt_lore"                                                       "Spectre's attacks are eternally remembered her victims."
+			"DOTA_Tooltip_ability_spectre_ebf_haunt_lore"                                                       "Нападения Spectre навсегда запомнились ее жертвам."
 			"DOTA_Tooltip_modifier_spectre_dispersion_boost"													"Dispersion"
 			"DOTA_Tooltip_modifier_spectre_dispersion_boost_Description"										"Отражает 100% урона"
 
 
 			//Spirit Breaker
-			"DOTA_Tooltip_ability_spirit_breaker_bulldoze_Description"                                          "Spirit Breaker gains movement speed, magic resistance and status resistance to ram through enemies. Can be used while charging.\nPassively grants Spirit Breaker bonus armor based on his movement speed."
-			"DOTA_Tooltip_ability_spirit_breaker_bulldoze_magic_resistance"                                     "%MAGIC RESISTANCE:"
-			"DOTA_Tooltip_ability_spirit_breaker_bulldoze_ms_armor"                                             "%MOVESPEED TO ARMOR:"
+			"DOTA_Tooltip_ability_spirit_breaker_bulldoze_Description"                                          "Герой увеличивает свои скорость передвижения, сопротивление магии и сопротивление эффектам, чтобы пробиваться через ряды врагов. Можно применить во время разбега.\nПассивно увеличивает броню Spirit Breaker в зависимости от его скорости передвижения."
+			"DOTA_Tooltip_ability_spirit_breaker_bulldoze_magic_resistance"                                     "%ДОП. СОПРОТИВЛЕНИЕ МАГИИ:"
+			"DOTA_Tooltip_ability_spirit_breaker_bulldoze_ms_armor"                                             "%СКОРОСТЬ ПЕРЕДВИЖЕНИЯ В БРОНЮ:"
 			"DOTA_Tooltip_modifier_spirit_breaker_bulldoze_active"                                              "Bulldoze - Active"
-			"DOTA_Tooltip_modifier_spirit_breaker_bulldoze_active_Description"                                  "Gaining movement speed, status resistance and magical resistance."
+			"DOTA_Tooltip_modifier_spirit_breaker_bulldoze_active_Description"                                  "Увеличение скорости передвижения, сопротивления эффектам и сопротивления магии."
 
 
 			//Storm Spirit
-			"DOTA_Tooltip_ability_storm_spirit_electric_vortex_Description"                                     "A vortex that pulls all enemy units in radius to Storm Spirit's location."
-			"DOTA_Tooltip_ability_storm_spirit_electric_vortex_radius"                                          "RADIUS:"
-			"DOTA_Tooltip_ability_storm_spirit_electric_vortex_scepter_description"                             "Electric Vortex radius is increased and attacks against units affected by Electric Vortex always trigger Overload."
+			"DOTA_Tooltip_ability_storm_spirit_electric_vortex_Description"                                     "Создаёт вихрь, затягивающий врагов в место, где находится герой."
+			"DOTA_Tooltip_ability_storm_spirit_electric_vortex_radius"                                          "РАДИУС:"
+			"DOTA_Tooltip_ability_storm_spirit_electric_vortex_scepter_description"                             "Радиус Electric Vortex увеличен, и атаки против противников, затронутых Electric Vortex, всегда вызывают Overload."
 
 
 			//Sven
-			"DOTA_Tooltip_ability_sven_great_cleave_great_cleave_distance"                                      "CLEAVE DISTANCE:"
-			"DOTA_Tooltip_ability_sven_great_cleave_great_cleave_ending_width"                                  "CLEAVE END RADIUS:"
-			"DOTA_Tooltip_ability_sven_great_cleave_great_cleave_starting_width"                                "CLEAVE STARTING RADIUS:"
+			"DOTA_Tooltip_ability_sven_great_cleave_great_cleave_distance"                                      "ДАЛЬНОСТЬ ПРОРУБАНИЯ:"
+			"DOTA_Tooltip_ability_sven_great_cleave_great_cleave_ending_width"                                  "КОНЕЧНЫЙ РАДИУС ПРОРУБАНИЯ:"
+			"DOTA_Tooltip_ability_sven_great_cleave_great_cleave_starting_width"                                "НАЧАЛЬНЫЙ РАДИУС ПРОРУБАНИЯ:"
 
 
 			//Techies
-			"DOTA_Tooltip_ability_techies_suicide_abilitycastpoint"                                             "CAST POINT:"
+			"DOTA_Tooltip_ability_techies_suicide_abilitycastpoint"                                             "ЗАДЕРЖКА ПРИМЕНЕНИЯ:"
 
 			//Terror Blade
 			"DOTA_Tooltip_ability_terrorblade_attack_speed"                                                     "Demon Frenzy"
-			"DOTA_Tooltip_ability_terrorblade_attack_speed_bonus_attack_speed"                                  "ATTACK SPEED:"
-			"DOTA_Tooltip_ability_terrorblade_attack_speed_bonus_evasion"                                       "%EVASION:"
-			"DOTA_Tooltip_ability_terrorblade_attack_speed_Description"                                         "Terrorblade gains attack speed and evasion."
+			"DOTA_Tooltip_ability_terrorblade_attack_speed_bonus_attack_speed"                                  "ДОП. СКОРОСТЬ АТАКИ:"
+			"DOTA_Tooltip_ability_terrorblade_attack_speed_bonus_evasion"                                       "%УКЛОНЕНИЕ:"
+			"DOTA_Tooltip_ability_terrorblade_attack_speed_Description"                                         "Terrorblade увеличивает скорость атаки и уклонение."
 
 
 			//Tidehunter
-			"DOTA_Tooltip_ability_tidehunter_kraken_shell_Description"                                          "Whenever Tidehunter is damaged while this ability is off cooldown, his abyssal nature purges him of all debuffs and negates the damage taken. The buff that renders him immune to damage and purges him lingers for %linger_duration% seconds.\n\nDISPEL TYPE: Strong Dispel"
+			"DOTA_Tooltip_ability_tidehunter_kraken_shell_Description"                                          "Всякий раз, когда Tidehunter получает урон, пока эта способность не перезаряжается, его глубинная природа очищает его от всех дебаффов и сводит на нет получаемый урон. Положительный эффект, который делает его невосприимчивым к урону и очищает его, сохраняется в течение %linger_duration% секунд.\n\nТИП РАЗВЕИВАНИЯ: сильное"
 			"DOTA_Tooltip_modifier_tidehunter_kraken_shell_effect"                                              "Kraken Shell"
-			"DOTA_Tooltip_modifier_tidehunter_kraken_shell_effect_Description"                                  "Purging yourself constantly and taking no damage."
+			"DOTA_Tooltip_modifier_tidehunter_kraken_shell_effect_Description"                                  "Снимает с себя отрицательные эффекты и не получает урона."
 
 
 			//Tinker
 			"DOTA_Tooltip_ability_tinker_Rearm_custom"                                                          "Rearm"
-			"DOTA_Tooltip_ability_tinker_rearm_custom_abilitychanneltime"                                       "TIME TO REARM:"
-			"DOTA_Tooltip_ability_tinker_rearm_custom_abilitydraft_note"                                        "For abilities with charges, a single charge of the ability will be added everytime Rearm is cast."
-			"DOTA_Tooltip_ability_tinker_rearm_custom_Description"                                              "CHANNELED - Resets the cooldown on most of Tinker's items and abilities."
-			"DOTA_Tooltip_ability_tinker_rearm_custom_Lore"                                                     "A new battery here, another set of rockets there, Boush continually improves on existing technology."
-			"DOTA_Tooltip_ability_tinker_rearm_custom_Note0"                                                    "Rearm works on all items except Aeon Disk, Arcane Boots, Black King Bar, Hand of Midas, Helm of the Dominator, Helm of the Overlord, Linken's Sphere, Meteor Hammer, Pipe of Insight, Refresher Orb, Revenant's Brooch (passive ability), and all neutral items."
+			"DOTA_Tooltip_ability_tinker_rearm_custom_abilitychanneltime"                                       "ВРЕМЯ ПРИМЕНЕНИЯ:"
+			"DOTA_Tooltip_ability_tinker_rearm_custom_abilitydraft_note"                                        "Для способностей с зарядами один заряд способности будет добавляться каждый раз, когда используется Rearm."
+			"DOTA_Tooltip_ability_tinker_rearm_custom_Description"                                              "ПРЕРЫВАЕМАЯ — сбрасывает время перезарядки способностей и большинства предметов героя."
+			"DOTA_Tooltip_ability_tinker_rearm_custom_Lore"                                                     "Новую батарею сюда, пару ракет туда — Боуш постоянно совершенствует и обновляет свои устройства."
+			"DOTA_Tooltip_ability_tinker_rearm_custom_Note0"                                                    "Действует на все предметы за исключением Aeon Disk, Arcane Boots, Black King Bar, Hand of Midas, Helm of the Dominator, Helm of the Overlord, Linken's Sphere, Meteor Hammer, Pipe of Insight, Refresher Orb, пассивной способности Revenant's Brooch и всех нейтральных предметов."
 			"DOTA_Tooltip_modifier_tinker_Rearm_custom"                                                         "Rearm"
-			"DOTA_Tooltip_modifier_tinker_rearm_custom_Description"                                             "Resetting ability cooldowns."
+			"DOTA_Tooltip_modifier_tinker_rearm_custom_Description"                                             "Сбрасывает время перезарядки способностей."
 
 
 			//Undying
 			"DOTA_Tooltip_ability_undying_Decay"                                                                "Decay"
 			"DOTA_Tooltip_ability_undying_decay_decay_damage"                                                   "БАЗОВЫЙ УРОН:"
 			"DOTA_Tooltip_ability_undying_decay_decay_duration"                                                 "ДЛИТЕЛЬНОСТЬ КРАЖИ:"
-			"DOTA_Tooltip_ability_undying_decay_Description"                                                    "Undying steals strength from all enemy creep-heroes in an area, dealing base damage as he claims the enemy's strength for himself."
-			"DOTA_Tooltip_ability_undying_decay_Lore"                                                           "The strength of the living is simply borrowed from the strength of the dead."
-			"DOTA_Tooltip_ability_undying_decay_Note0"                                                          "The strength stolen stacks, but can't cause a hero to have strength below 1."
-			"DOTA_Tooltip_ability_undying_decay_Note1"                                                          "The strength steal takes effect before the damage is dealt."
-			"DOTA_Tooltip_ability_undying_decay_Note2"                                                          "Affects invisible units."
-			"DOTA_Tooltip_ability_undying_decay_radius"                                                         "RADIUS:"
-			"DOTA_Tooltip_ability_undying_decay_scepter_description"                                            "Increases strength steal."
-			"DOTA_Tooltip_ability_undying_decay_str_steal"                                                      "STRENGTH STEAL:"
+			"DOTA_Tooltip_ability_undying_decay_Description"                                                    "Undying крадет силу у всех вражеских крипов-героев в области, нанося базовый урон, забирая силу врага себе."
+			"DOTA_Tooltip_ability_undying_decay_Lore"                                                           "Живые просто заимствуют силу у мертвецов."
+			"DOTA_Tooltip_ability_undying_decay_Note0"                                                          "Украденная сила складывается, но сила цели не может опуститься ниже 1."
+			"DOTA_Tooltip_ability_undying_decay_Note1"                                                          "Кража силы происходит до нанесения урона."
+			"DOTA_Tooltip_ability_undying_decay_Note2"                                                          "Действует на невидимых существ."
+			"DOTA_Tooltip_ability_undying_decay_radius"                                                         "РАДИУС:"
+			"DOTA_Tooltip_ability_undying_decay_scepter_description"                                            "Увеличивает число отнимаемой силы."
+			"DOTA_Tooltip_ability_undying_decay_str_steal"                                                      "ПОХИЩЕНИЕ СИЛЫ:"
 			"DOTA_Tooltip_modifier_undying_decay_str"                                                           "Decay - Buff"
-			"DOTA_Tooltip_modifier_undying_decay_str_Description"                                               "Gaining %dMODIFIER_PROPERTY_EXTRA_STRENGTH_BONUS% strength."
+			"DOTA_Tooltip_modifier_undying_decay_str_Description"                                               "Получает %dMODIFIER_PROPERTY_EXTRA_STRENGTH_BONUS% силы."
 
 
 			//Vengeful spirit
