@@ -1697,14 +1697,14 @@
 
 
 			//Vengeful spirit
-			"DOTA_Tooltip_ability_vengefulspirit_nether_swap_Description"                                       "Instantaneously swaps positions with a target Hero, friend or enemy. Nether Swap interrupts channeling abilities on the target. Enemy Swapped units take damage. Allied swapped units receive less damage for a short duration. Vengeful Spirit always benefits from the damage reduction."
+			"DOTA_Tooltip_ability_vengefulspirit_nether_swap_Description"                                       "Мгновенно меняется местами с выбранной целью, останавливая его прерываемые способности. Если целью был враг, то способность нанесёт ему урон, если союзник — весь получаемый им урон будет ненадолго уменьшен. Vengeful Spirit всегда выигрывает от снижения урона."
 			"DOTA_Tooltip_modifier_vengefulspirit_nether_swap"                                                  "Nether Swap - Buff"
-			"DOTA_Tooltip_modifier_vengefulspirit_nether_swap_Description"                                      "All damage taken reduced by %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%."
+			"DOTA_Tooltip_modifier_vengefulspirit_nether_swap_Description"                                      "Получаемый урон уменьшен на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%."
 
 
 			//Visage
 			"DOTA_Tooltip_ability_visage_soul_assumption_Description"                                           "Способность получает заряд каждый раз, когда атакует %attacks_per_stack% или произносит заклинание. Наносит выбранной цели урон, зависящий от числа зарядов."
-			"DOTA_Tooltip_ability_visage_summon_familiars_familiar_count"                                       "FAMILIAR COUNT:"
+			"DOTA_Tooltip_ability_visage_summon_familiars_familiar_count"                                       "ЧИСЛО ГАРГУЛИЙ:"
 			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_aura"                                              "Gravekeeper's Cloak"
 			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_aura_Description"                                  "Получает на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%% меньше урона из всех источников"
 			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_handle"                                            "Gravekeeper's Cloak"
@@ -1714,40 +1714,33 @@
 
 
 			//Void Spirit
-			"DOTA_Tooltip_ability_void_spirit_aether_remnant_shard_attack_rate_multiplier"                      "REMNANT ATTACK RATE MULTIPLIER."
-			"DOTA_Tooltip_ability_void_spirit_aether_remnant_shard_Description"                                 "Aether Remnant's cooldown is reduced and it attacks enemies pulled."
+			"DOTA_Tooltip_ability_void_spirit_aether_remnant_shard_attack_rate_multiplier"                      "МНОЖИТЕЛЬ СКОРОСТИ АТАКИ REMNANT"
+			"DOTA_Tooltip_ability_void_spirit_aether_remnant_shard_Description"                                 "Время перезарядки Aether Remnant уменьшено, и он атакует притянутых врагов."
 			"DOTA_Tooltip_modifier_void_spirit_resonant_pulse_shield"                                           "Resonant Pulse"
-			"DOTA_Tooltip_modifier_void_spirit_resonant_pulse_shield_Description"                               "Blocking %dMODIFIER_PROPERTY_TOOLTIP% physical damage."
+			"DOTA_Tooltip_modifier_void_spirit_resonant_pulse_shield_Description"                               "Блокирует %dMODIFIER_PROPERTY_TOOLTIP% физического урона."
 
 
 			//Wisp
 			"DOTA_Tooltip_ability_wisp_Sacrifice"                                                               "Sacrifice"
 			"DOTA_Tooltip_ability_wisp_sacrifice_Description"                                                   "Wisp жертвует своей жизненной силой, чтобы усилить своих союзников. Wisp привязывается ко всем своим союзников, теряя часть своего максимального здоровья и маны в течение продолжительности действия.\nНа время действия - союзники получают здоровье и ману, потерянные Wisp, увеличенные бонусом восстановления Tether. Если Wisp использует Overcharge во время Sacrifice, все союзники получают от этого преимущество."
 			"DOTA_Tooltip_ability_wisp_sacrifice_invul_duration"                                                "ДЛИТЕЛЬНОСТЬ:"
-			"DOTA_Tooltip_ability_wisp_sacrifice_sacrifice_hp"                                                  "%MAX HEALTH SACRIFICED:"
+			"DOTA_Tooltip_ability_wisp_sacrifice_sacrifice_hp"                                                  "%МАКСИМАЛЬНО КОЛИЧЕСТВО ЗДОРОВЬЯ:"
 			"DOTA_Tooltip_modifier_wisp_sacrifice_invulnerability"                                              "Sacrifice - Buff"
-			"DOTA_Tooltip_modifier_wisp_sacrifice_invulnerability_Description"                                  "Restoring health and mana thanks to Wisp."
+			"DOTA_Tooltip_modifier_wisp_sacrifice_invulnerability_Description"                                  "Восстановление здоровья и маны благодаря Wisp."
 			"DOTA_Tooltip_modifier_wisp_sacrifice_sacrifice"                                                    "Sacrifice - Debuff"
-			"DOTA_Tooltip_modifier_wisp_sacrifice_sacrifice_Description"                                        "Losing health, slowed, muted, silenced, disarmed. Allies are resurrected if you survive."
+			"DOTA_Tooltip_modifier_wisp_sacrifice_sacrifice_Description"                                        "Теряет здоровье, замедлен, безмолвен, оглушён, обезоружен. Союзники восрекнут, если Wisp выживет."
 
 
 			//Witch Doctor
 			"DOTA_Tooltip_modifier_witch_doctor_voodoo_restoration_aura"                                        "Voodoo Restoration"
-			"DOTA_Tooltip_modifier_witch_doctor_voodoo_restoration_aura_Description"                            "Affected by Witch Doctor's Voodoo Restoration."
+			"DOTA_Tooltip_modifier_witch_doctor_voodoo_restoration_aura_Description"                            "Эффект восстановления Voodoo Restoration."
 			"DOTA_Tooltip_modifier_witch_doctor_maledict_debuff"												"Maledict"								
 			"DOTA_Tooltip_modifier_witch_doctor_maledict_debuff_Description"									"Получает периодический урон, а также каждые 4 секунды получает дополнительный урон, основанный на том, сколько здоровья было потеряно с момента наложения сглаза."				
 
 			//Zeus
-			"DOTA_Tooltip_ability_zuus_arc_lightning_damage_health_pct"                                         " "
-			"DOTA_Tooltip_ability_zuus_arc_lightning_Description"                                               "Hurls a bolt of lightning that leaps through nearby enemy units that deals damage."
-			"DOTA_Tooltip_ability_zuus_arc_lightning_Lore"                                                      "Arc Lightning is Zeus' favorite spell to use against puny mortals."
-			"DOTA_Tooltip_ability_zuus_static_field_creep_health_pct_attack"                                    "%CREEP HEALTH DMG ATTACKS:"
-			"DOTA_Tooltip_ability_zuus_static_field_creep_health_pct_spell"                                     "%CREEP HEALTH DMG SPELL:"
-			"DOTA_Tooltip_ability_zuus_static_field_damage_health_pct_attack"                                   "%CURRENT HEALTH DMG ATTACKS:"
-			"DOTA_Tooltip_ability_zuus_static_field_damage_health_pct_spell"                                    "%CURRENT HEALTH DMG SPELLS:"
-			"DOTA_Tooltip_ability_zuus_static_field_Description"                                                "Zeus shocks any enemy that is hit by his abilities or his attacks, dealing damage equal to a percentage of their current health. The damage is increased against creeps and attacks deal less damage."
-
-
+			"DOTA_Tooltip_ability_zuus_arc_lightning_damage_health_pct"                                         ""
+			"DOTA_Tooltip_ability_zuus_arc_lightning_Description"                                               "Выпускает молнию, которая перескакивает с одного врага на другого, нанося им урон."
+			"DOTA_Tooltip_ability_zuus_arc_lightning_Lore"                                                      "Любимый приём бога грома против жалких смертных."
 
 
 

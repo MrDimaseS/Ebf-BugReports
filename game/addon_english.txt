@@ -1747,14 +1747,6 @@
 			"DOTA_Tooltip_ability_zuus_arc_lightning_damage_health_pct"                                         " "
 			"DOTA_Tooltip_ability_zuus_arc_lightning_Description"                                               "Hurls a bolt of lightning that leaps through nearby enemy units that deals damage."
 			"DOTA_Tooltip_ability_zuus_arc_lightning_Lore"                                                      "Arc Lightning is Zeus' favorite spell to use against puny mortals."
-			"DOTA_Tooltip_ability_zuus_static_field_creep_health_pct_attack"                                    "%CREEP HEALTH DMG ATTACKS:"
-			"DOTA_Tooltip_ability_zuus_static_field_creep_health_pct_spell"                                     "%CREEP HEALTH DMG SPELL:"
-			"DOTA_Tooltip_ability_zuus_static_field_damage_health_pct_attack"                                   "%CURRENT HEALTH DMG ATTACKS:"
-			"DOTA_Tooltip_ability_zuus_static_field_damage_health_pct_spell"                                    "%CURRENT HEALTH DMG SPELLS:"
-			"DOTA_Tooltip_ability_zuus_static_field_Description"                                                "Zeus shocks any enemy that is hit by his abilities or his attacks, dealing damage equal to a percentage of their current health. The damage is increased against creeps and attacks deal less damage."
-			
-
-
 
 
 
