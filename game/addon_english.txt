@@ -1902,6 +1902,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_primal_beast_roar_dispells_Description"                  "Spell Immunity duration is equal to stacks on cast."
 			"DOTA_Tooltip_ability_special_bonus_unique_puck_6"                                                  "+{s:bonus_damage}% Waning Rift Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_puck_coil_damage"                                        "+{s:bonus_coil_break_damage}% Initial/Break Dream Coil Damage"
+			"DOTA_Tooltip_ability_special_bonus_unique_puck_orb_damage"											"+{s:bonus_damage}% Illusory Orb Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_pudge_2"                                                 "+{s:value}% Rot Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_pudge_7"                                                 "+{s:bonus_damage}% Meat Hook Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_pugna_2"                                                 "+{s:bonus_blast_damage}% Nether Blast Damage"

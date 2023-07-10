@@ -1226,15 +1226,15 @@
 
 
 			//Bloodseeker
-			"DOTA_Tooltip_ability_bloodseeker_blood_mist_Description"                                           "Bloodseeker sprays his blood continuously in the area around him, damaging himself to damage and slow his enemies. While active, Thirst's healing is increased. Cannot be turned off while on cooldown."
-			"DOTA_Tooltip_ability_bloodseeker_blood_mist_Note0"                                                 "Damage dealt is based on Bloodseeker's maximum health."
+			"DOTA_Tooltip_ability_bloodseeker_blood_mist_Description"                                           "Пока способность активна, герой разбрызгивает вокруг свою кровь, теряя здоровье, но нанося задетым врагам урон и замедляя их, а также получая увеличенное лечение от Thirst. Эту способность нельзя выключить, пока она перезаряжается."
+			"DOTA_Tooltip_ability_bloodseeker_blood_mist_Note0"                                                 "Урона зависит от маскимального количества здоровья."
 			"DOTA_Tooltip_modifier_bloodseeker_blood_mist_debuff"												"Blood Mist"
 			"DOTA_Tooltip_modifier_bloodseeker_blood_mist_debuff_Description"									"Теряет здоровье."
 			"DOTA_Tooltip_modifier_bloodseeker_blood_mist_toggle"												"Blood Mist"
 			"DOTA_Tooltip_modifier_bloodseeker_blood_mist_toggle_Description"									"Испускает кровь, нанося урон врагам неподалёку и замедляя их. Лечение от Thirst увеличено."
-			"DOTA_Tooltip_ability_bloodseeker_thirst_Description"                                               "Bloodseeker is invigorated by the wounds of his enemies, restoring some life when he kills a unit. Restores for half values when denying, or if an ally kills a nearby enemy hero. Also gains bonus movement speed when his health falls below %min_bonus_pct%%%, with the bonuses increasing as his health falls further. Unlocks max movement speed for Bloodseeker."
+			"DOTA_Tooltip_ability_bloodseeker_thirst_Description"                                               "Герой упивается ранениями противников, излечиваясь при убийстве любого существа. Лечение в два раза слабее, если жертвой был союзник или если вражеский герой неподалёку умер от чужой руки. Способность также даёт дополнительную скорость передвижения, когда его здоровье становится меньше %min_bonus_pct%%%. Чем ниже уровень здоровья, тем сильнее эффект. Если здоровье вражеского героя упадёт ниже %invis_threshold_pct%%%, его станет видно в любой точке карты, даже если он невидим. Бонусы от разных противников складываются и позволяют превысить максимальную скорость передвижения."
 			"DOTA_Tooltip_modifier_bloodseeker_thirst_buff"                                                     "Thirst - Buff"
-			"DOTA_Tooltip_modifier_bloodseeker_thirst_buff_Description"                                         "Gaining %fMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%% movement speed."
+			"DOTA_Tooltip_modifier_bloodseeker_thirst_buff_Description"                                         "Скорость передвижения увеличена на %fMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%"
 
 
 			//Bristleback
@@ -1670,14 +1670,14 @@
 
 
 			//Tinker
-			"DOTA_Tooltip_ability_tinker_Rearm_custom"                                                          "Rearm"
-			"DOTA_Tooltip_ability_tinker_rearm_custom_abilitychanneltime"                                       "ВРЕМЯ ПРИМЕНЕНИЯ:"
-			"DOTA_Tooltip_ability_tinker_rearm_custom_abilitydraft_note"                                        "Для способностей с зарядами один заряд способности будет добавляться каждый раз, когда используется Rearm."
-			"DOTA_Tooltip_ability_tinker_rearm_custom_Description"                                              "ПРЕРЫВАЕМАЯ — сбрасывает время перезарядки способностей и большинства предметов героя."
-			"DOTA_Tooltip_ability_tinker_rearm_custom_Lore"                                                     "Новую батарею сюда, пару ракет туда — Боуш постоянно совершенствует и обновляет свои устройства."
-			"DOTA_Tooltip_ability_tinker_rearm_custom_Note0"                                                    "Действует на все предметы за исключением Aeon Disk, Arcane Boots, Black King Bar, Hand of Midas, Helm of the Dominator, Helm of the Overlord, Linken's Sphere, Meteor Hammer, Pipe of Insight, Refresher Orb, пассивной способности Revenant's Brooch и всех нейтральных предметов."
-			"DOTA_Tooltip_modifier_tinker_Rearm_custom"                                                         "Rearm"
-			"DOTA_Tooltip_modifier_tinker_rearm_custom_Description"                                             "Сбрасывает время перезарядки способностей."
+			"DOTA_Tooltip_ability_tinker_rearm"                                                          "Rearm"
+			"DOTA_Tooltip_ability_tinker_rearm_abilitychanneltime"                                       "ВРЕМЯ ПРИМЕНЕНИЯ:"
+			"DOTA_Tooltip_ability_tinker_rearm_abilitydraft_note"                                        "Для способностей с зарядами один заряд способности будет добавляться каждый раз, когда используется Rearm."
+			"DOTA_Tooltip_ability_tinker_rearm_Description"                                              "ПРЕРЫВАЕМАЯ — сбрасывает время перезарядки способностей и большинства предметов героя."
+			"DOTA_Tooltip_ability_tinker_rearm_Lore"                                                     "Новую батарею сюда, пару ракет туда — Боуш постоянно совершенствует и обновляет свои устройства."
+			"DOTA_Tooltip_ability_tinker_rearm_Note0"                                                    "Действует на все предметы за исключением Aeon Disk, Arcane Boots, Black King Bar, Hand of Midas, Helm of the Dominator, Helm of the Overlord, Linken's Sphere, Meteor Hammer, Pipe of Insight, Refresher Orb, пассивной способности Revenant's Brooch и всех нейтральных предметов."
+			"DOTA_Tooltip_modifier_tinker_rearm"                                                         "Rearm"
+			"DOTA_Tooltip_modifier_tinker_rearm_Description"                                             "Сбрасывает время перезарядки способностей."
 
 
 			//Undying
@@ -1897,6 +1897,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_primal_beast_roar_dispells_Description"                  "Продолжительность невосприимчивости к заклинаниям равна количеству стаков при применении."
 			"DOTA_Tooltip_ability_special_bonus_unique_puck_6"                                                  "+{s:bonus_damage}% к урону от Waning Rift"
 			"DOTA_Tooltip_ability_special_bonus_unique_puck_coil_damage"                                        "+{s:bonus_coil_break_damage}% ко всему урону от Dream Coil"
+			"DOTA_Tooltip_ability_special_bonus_unique_puck_orb_damage"											"+{s:bonus_damage}% к урону от Illusory Orb"
 			"DOTA_Tooltip_ability_special_bonus_unique_pudge_2"                                                 "+{s:value}% к урону от Rot"
 			"DOTA_Tooltip_ability_special_bonus_unique_pudge_7"                                                 "+{s:bonus_damage}% к урону от Meat Hook"
 			"DOTA_Tooltip_ability_special_bonus_unique_pugna_2"                                                 "+{s:bonus_blast_damage}% к урону от Nether Blast"
