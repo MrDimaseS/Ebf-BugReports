@@ -48,7 +48,11 @@
 	"bug_button"			"Bug tracker"
 	"profile_button"		"Profile"
 	"leaderboard_button"	"Leaderboards"
-	"information_button"	"Game Information"
+	"bug_reports"			"Bug Reports"
+	"patch_notes"			"Patch Notes"
+	"last_change_date"		"Last change date"
+	"ebf_version"			"EBF Version"
+	"web_notes"				"Web notes"
 
 	//Leaderboards
 	"tab_leaderboard"		"Top MMR"

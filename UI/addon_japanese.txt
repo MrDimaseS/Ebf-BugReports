@@ -48,7 +48,11 @@ addon
 	"bug_button"			"バグ報告"
 	"profile_button"		"プロフィール"
 	"leaderboard_button"	"リーダーボード"
-	"information_button"	"ゲーム情報"
+	"bug_reports"			"バグレポート"
+	"patch_notes"			"パッチノート"
+	"last_change_date"		"最終変更日"
+	"ebf_version"			"EBF バージョン"
+	"web_notes"				"ウェブノート"
 
 	//リーダーボード
 	"tab_leaderboard"		"トップMMR"

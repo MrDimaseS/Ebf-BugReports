@@ -48,7 +48,11 @@
 "bug_button"				"错误回报"
 "profile_button"			"个人资料"
 "leaderboard_button"		"排行榜"
-"information_button"		"游戏信息"
+"bug_reports"               "错误报告"
+"patch_notes"               "补丁说明"
+"last_change_date"          "最后更改日期"
+"ebf_version"               "EBF 版本"
+"web_notes"                 "网络笔记"
 
 //排行榜
 "tab_leaderboard"			"最高天梯分数"

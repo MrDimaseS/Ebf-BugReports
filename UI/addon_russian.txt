@@ -41,14 +41,18 @@
 	"target_dps" 			" Target DPS"
 
 	//Top buttons
-	"discord_button"		"Discord EBF"
+	"discord_button"		"EBF Discord"
 	"patch_button"			"Обновления"
 	"pat_button"			"Patreon"
 	"bst_button"			"Boosty"
 	"bug_button"			"Баг трекер"
 	"profile_button"		"Профиль"
 	"leaderboard_button"	"Таблица лидеров"
-	"information_button"	"Информация об игре"
+	"bug_reports"			"Баг-репорты"
+	"patch_notes"			"Изменения и Обновления"
+	"last_change_date"		"Дата последнего изменения"
+	"ebf_version"			"Версия EBF"
+	"web_notes"				"Веб версия"
 
 	//Leaderboards
 	"tab_leaderboard"		"Топ MMR"
@@ -83,25 +87,25 @@
 	//Badge tiers
 	"reg_pl"				"Обычный игрок"
 	"discord_sup"			"Знак сообщества"
-	"supporter_1"			"Донатер I"
-	"supporter_2"			"Донатер II"
-	"supporter_3"			"Донатер III"
-	"trs"					"Переводчик EBF"
-	"dev"					"Разработчик EBF"
+	"supporter_1"			"Меценат I"
+	"supporter_2"			"Меценат II"
+	"supporter_3"			"Меценат III"
+	"trs"					"EBF Переводчик"
+	"dev"					"EBF Разработчик"
 
 	// Плюшки
 	"perk_1_tooltip" " EBF Supporter"
-	"perk_1_tooltip_desc" 	"- Награда 1-го уровня <br> - Добавляет значок в таблицу счёта"
+	"perk_1_tooltip_desc" 	"- Награда 1-го уровня <br> - Дает значок для таблица счёта"
 
 	"perk_2_tooltip"		" Aegis of Immortal"
-	"perk_2_tooltip_desc" 	"- Награда 2-го уровня <br> — Aegis появится в инвентаре в начале игры. <br> - Может быть сброшен, передан или уничтожен"
+	"perk_2_tooltip_desc" 	"- Награда 2-го уровня <br> — Aegis появится в инвентаре в начале игры. <br> — Можно выбросить, передать или уничтожить"
 
 	"perk_3_tooltip"		" Magical Runes"
 	"perk_3_tooltip_desc" 	"- Награда 3-го уровня <br> - Случайные магические руны будут появляться в начале каждого раунда"
 
 	"perk_4_tooltip"		" Community Contributor"
-	"perk_4_tooltip_desc" 	"- Награда зарезервирована для выдающихся участников сообщества и переводчиков <br> - Добавляет значок в таблицу счёта"
+	"perk_4_tooltip_desc" 	"- Награда зарезервирована для выдающихся участников сообщества и переводчиков <br> - Дает значок для таблица счёта"
 
 	"perk_5_tooltip"		" Loading Screen Name"
-	"perk_5_tooltip_desc" 	"- Награда 3-го уровня <br> - Ваше имя будет выгравировано на экране загрузки"
+	"perk_5_tooltip_desc" 	"- Награда 3-го уровня <br> - Ваше имя выгравировано на экране загрузки"
 }
