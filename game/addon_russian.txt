@@ -1193,6 +1193,33 @@
 
 			// HERO ABILITIES ======================================================================================================
 
+			// Abaddon
+			"DOTA_Tooltip_ability_abaddon_death_coil_Description"												"Ценой собственного здоровья выпускает смертельный туман, который наносит урон врагу или лечит союзника.\nАбаддон теряет здоровье, равное %self_damage%%% урона, нанесенного способностью, но получает %self_damage_ult%%% во время Borrowed Time.\nНаносимый урон не может быть смертельным для Абаддона и не увеличивается усилением заклинаний."
+			"DOTA_Tooltip_ability_abaddon_death_coil_target_damage"												"УРОН:"
+			"DOTA_Tooltip_ability_abaddon_death_coil_heal_amount"												"ЛЕЧЕНИЕ:"
+			"DOTA_Tooltip_ability_abaddon_death_coil_self_damage"												""
+			
+			"DOTA_Tooltip_ability_abaddon_aphotic_shield_Description"											"Окружает союзника барьером из тёмной энергии, который поглощает некоторое количество урона. \nБарьер увеличивается за счет Усиления заклинаний.\n\nЕсли барьер пропадёт или его уничтожат, он взорвётся и нанесёт врагам вокруг урон, равный %Absorbed_to_damage%%% от суммы, которую он поглотил. Этот урон не усиливается Усилением заклинаний. Сниммает определенные типы отрицательных эффектов и оглушения при применении.\n\nТИП РАЗВЕИВАНИЯ: сильное"
+			"DOTA_Tooltip_ability_abaddon_aphotic_shield_Note0"													"Наносимый урон равен количеству недостающего барьера, когда он обновляется или уничтожается."
+			"DOTA_Tooltip_modifier_abaddon_aphotic_shield_buff"													"Aphotic Shield - Barrier"
+			"DOTA_Tooltip_modifier_abaddon_aphotic_shield_buff_Description"										"Блокирование полученного урона."
+			
+			"DOTA_Tooltip_ability_abaddon_frostmourne_Description"												"Атаки героя замедляют передвижение жертвы. Если атаковать врага %hit_count% раза, его окутают ледяные чары: они запрещают лечение, замедляют и снижают время перезарядки заклинаний, а все атакующие этого врага существа получают дополнительную скорость атаки."
+			"DOTA_Tooltip_ability_abaddon_frostmourne_shard_description" 										"Способности Абаддона накладывают Проклятие Авернуса. Получив Проклятие, Авернус мнгновенно и однократно атакует противника."
+			"DOTA_Tooltip_modifier_abaddon_curse_debuff"														"Curse of Avernus - Slow"
+			"DOTA_Tooltip_modifier_abaddon_curse_debuff_Description"											"Замедлен на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%. Лечение отключено. Замедление усиливается после нескольких атак."
+			"DOTA_Tooltip_modifier_abaddon_curse_curse"															"Curse of Avernus - Curse"
+			"DOTA_Tooltip_modifier_abaddon_curse_curse_Description"												"Скорость передвижения и скорость перезарядки уменьшены на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%. Лечение отключено."
+			"DOTA_Tooltip_modifier_abaddon_curse_buff"															"Curse of Avernus - Buff"
+			"DOTA_Tooltip_modifier_abaddon_curse_buff_Description"												"Скорость атаки увеличена на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%."
+			
+			"DOTA_Tooltip_ability_abaddon_borrowed_time_Description"								 			"При активации вы сжигаете свою жизненную силу, в результате чего вы и все враги в радиусе %immolate_aoe% от вас получают урон.\nКроме того, обращает весь получаемый вами урон в лечение. Применение снимает большинство отрицательных эффектов.\n\nЕсли способность готова, то она сработает автоматически, как только здоровье владельца упадёт ниже %hp_threshold% от максимального.\n\nТИП ПЕРЕЗАРЯДКИ: Когда истекает срок действия усиления\nТИП РАЗВЕИВАНИЯ: сильное"
+			"DOTA_Tooltip_ability_abaddon_borrowed_time_scepter_description"									"Увеличивает продолжительность. Пока действует «Заимствованное время», каждый раз, когда союзник получает в общей сложности более %ally_threshold_scepter%%% от своего максимального здоровья в качестве урона, находясь в пределах %redirect_range_scepter% от Абаддона, отдельная Mist Coil автоматически стреляет в этого союзника."
+			"DOTA_Tooltip_ability_abaddon_borrowed_time_immolate_damage"										"Урон от Сожжения в сек.:"
+			"DOTA_Tooltip_ability_abaddon_borrowed_time_hp_threshold"											""
+			"DOTA_Tooltip_modifier_abaddon_borrowed_time_active"												"Borrowed Time"
+			"DOTA_Tooltip_modifier_abaddon_borrowed_time_active_Description"									"Бессмертен."
+			
 			//Alchemist
 			"DOTA_Tooltip_ability_alchemist_goblins_greed_bounty_multiplier"                                    "%ДОП. ЗОЛОТО:"
 			"DOTA_Tooltip_ability_alchemist_goblins_greed_Description"                                          "Позволяет синтезировать больше золота из врагов и рун. Также способность умножает золото от рун богатства. \n\nНе складывается с Hand of Midas."
@@ -1793,6 +1820,7 @@
 			"DOTA_Tooltip_ability_special_bonus_strength_300"                                                   "+{s:value} к силе"
 			"DOTA_Tooltip_ability_special_bonus_strength_400"                                                   "+{s:value} к силе"
 			"DOTA_Tooltip_ability_special_bonus_strength_800"                                                   "+{s:value} к силе"
+			"DOTA_Tooltip_ability_special_bonus_unique_axe_helix"												"+{s:bonus_damage}% к урону от Counter Helix"
 			"DOTA_Tooltip_ability_special_bonus_unique_abaddon"                                                 "+{s:bonus_damage_absorb}% к здоровью барьера от Aphotic Shield"
 			"DOTA_Tooltip_ability_special_bonus_unique_abaddon_2"                                               "+{s:bonus_target_damage}% к урону/лечению от Mist Coil"
 			"DOTA_Tooltip_ability_special_bonus_unique_alchemist_2"                                             "+{s:bonus_max_damage}% к макс. урону от Unstable Concoction"
@@ -1890,7 +1918,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_omniknight_1"                                            "+{s:value}% к лечению/урону от Purification"
 			"DOTA_Tooltip_ability_special_bonus_unique_oracle_fortunes_end_damage"                              "+{s:bonus_damage}% к урону от Fortune's End"
 			"DOTA_Tooltip_ability_special_bonus_unique_pangolier_3"                                             "+{s:bonus_damage}% к урону за удар от Swashbuckle"
-			"DOTA_Tooltip_ability_special_bonus_unique_phantom_assassin_4"                                      "+{s:bonus_duration} сек. действия Phantom Strike"
+			"DOTA_Tooltip_ability_special_bonus_unique_phantom_assassin_4"                                      "+{s:bonus_duration}% к длительности действия Phantom Strike"
 			"DOTA_Tooltip_ability_special_bonus_unique_phantom_lancer_lance_damage"                             "+{s:bonus_lance_damage}% к урону от Spirit Lance"
 			"DOTA_Tooltip_ability_special_bonus_unique_phoenix_3"                                               "+{s:value}% к урону в секунду от Fire Spirits"
 			"DOTA_Tooltip_ability_special_bonus_unique_primal_beast_roar_dispells"                              "Невосприимчивость к магии во время Uproar"
@@ -2260,8 +2288,8 @@
 
 
 			"DOTA_Tooltip_ability_item_bloodstone_Description"                                                  "<h1>Активное: Bloodpact</h1> Увеличивает вампиризм заклинаниями от этого предмета в %lifesteal_multiplier% раза и преобразует %mana_steal%%% нанесенного урона в ману. Длительность: %buff_duration% сек. Активация стоит %hp_cost%%% от вашего текущего здоровья"
-			"DOTA_Tooltip_modifier_item_bloodstone_Утомление"													"Утомление"
-			"DOTA_Tooltip_modifier_item_bloodstone_drained_Description"                                         "На это существо не действует заклинание Bloodpact."
+			"DOTA_Tooltip_modifier_item_bloodstone_drained"														"Утомление"
+			"DOTA_Tooltip_modifier_item_bloodstone_drained_Description"											"На это существо не действует заклинание Bloodpact."
 			"DOTA_Tooltip_modifier_item_bloodstone_ebf_active"                                                  "Bloodpact"
 			"DOTA_Tooltip_modifier_item_bloodstone_ebf_active_Description"                                      "Вампиризм заклинаниями удвоен, также восстанавливает ману."
 
@@ -4176,8 +4204,8 @@
 			"DOTA_Tooltip_ability_item_zero_bonus_mana"                                                         "+$mana"
 			"DOTA_Tooltip_ability_item_zero_Description"                                                        "<h1>Аура: Sub-Zero</h1> Наносит %aura_damage% урона в секунду, снижает скорость передвижения на %aura_movespeed%%% и скорость атаки на %aura_attackspeed%, заставляет врагов промахиваться на %aura_miss_pct%%% своих атак и уменьшает все получаемое исцеление на %aura_heal_reduction%%.<br><br>Иллюзии наносят %aura_damage_illusions% урона.<br><br>Радиус: %aura_radius%"
 			"DOTA_Tooltip_ability_item_zero_Lore"                                                               "Любой, кто пострадал от этого оружия, заморожен навечно."
-			"DOTA_Tooltip_item_zero_debuff"                                                                     "Sub Zero Aura"
-			"DOTA_Tooltip_item_zero_debuff_Description"                                                         "Снижает скорость атаки и передвижения, наносит урон каждую секунду."
+			"DOTA_Tooltip_modifier_item_zero_burn"                                                        		"Burn Damage"
+			"DOTA_Tooltip_modifier_item_zero_burn_Description"                                            		"Получает урон каждую секунду и промахивается в %dMODIFIER_PROPERTY_MISS_PERCENTAGE%%% случаев."
 
 			"DOTA_Tooltip_ability_item_Zweihander"                                                              "Zweihander"
 			"DOTA_Tooltip_ability_item_zweihander_bonus_damage"                                                 "+$damage"

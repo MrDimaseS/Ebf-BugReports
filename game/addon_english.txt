@@ -1195,6 +1195,33 @@
 
 			// HERO ABILITIES ======================================================================================================
 
+			// Abaddon
+			"DOTA_Tooltip_ability_abaddon_death_coil_Description"												"Abaddon releases a coil of deathly mist that can damage an enemy unit or heal a friendly unit at the cost of some of Abaddon's health.\nAbaddon loses health equal to %self_damage%%% of the damage dealt by the ability, but takes %self_damage_ult%%% during Borrowed Time.\nThe damage dealt cannot be lethal to Abaddon and is not increased by spell amplification."
+			"DOTA_Tooltip_ability_abaddon_death_coil_target_damage"												"DAMAGE:"
+			"DOTA_Tooltip_ability_abaddon_death_coil_heal_amount"												"HEAL:"
+			"DOTA_Tooltip_ability_abaddon_death_coil_self_damage"												""
+			
+			"DOTA_Tooltip_ability_abaddon_aphotic_shield_Description"											"Summons dark energies around an ally unit, creating an all damage barrier that absorbs a set amount of damage before expiring.\nThe barrier is increased by your Spell Amplification.\n\nWhen the barrier is destroyed it will burst and deal damage equal to %absorbed_to_damage%%% of the amount it absorbed to an area around it. This damage is not amplified by Spell Amplification. Removes certain types of negative buffs and stuns on cast.\n\nDISPEL TYPE: Strong Dispel"
+			"DOTA_Tooltip_ability_abaddon_aphotic_shield_Note0"													"The damage dealt is equal to the amount of missing barrier when it gets refreshed or destroyed."
+			"DOTA_Tooltip_modifier_abaddon_aphotic_shield_buff"													"Aphotic Shield - Barrier"
+			"DOTA_Tooltip_modifier_abaddon_aphotic_shield_buff_Description"										"Blocking damage taken."
+			
+			"DOTA_Tooltip_ability_abaddon_frostmourne_Description"												"Abaddon strikes an enemy, slowing the target's movement speed.\nIf the target gets hit %hit_count% times, they become affected by a chilling curse causing them to be unable to heal, have their movement speed slowed and their cooldown rate reduced.\nLastly, all attacks against them gain an attack speed boost."
+			"DOTA_Tooltip_ability_abaddon_frostmourne_shard_description" 										"Abaddon's abilities apply Curse of Avernus. Upon getting Cursed, you apply one instant attack to the unit."
+			"DOTA_Tooltip_modifier_abaddon_curse_debuff"														"Curse of Avernus - Slow"
+			"DOTA_Tooltip_modifier_abaddon_curse_debuff_Description"											"Initially slowed by %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%. Healing disabled and stronger slow after getting attacked multiple times."
+			"DOTA_Tooltip_modifier_abaddon_curse_curse"															"Curse of Avernus - Curse"
+			"DOTA_Tooltip_modifier_abaddon_curse_curse_Description"												"Movement speed and cooldown rates reduced by %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%. Healing is disabled."
+			"DOTA_Tooltip_modifier_abaddon_curse_buff"															"Curse of Avernus - Buff"
+			"DOTA_Tooltip_modifier_abaddon_curse_buff_Description"												"Attack speed increased by %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%."
+			
+			"DOTA_Tooltip_ability_abaddon_borrowed_time_Description"								 			"When activated, you immolate your life force, causing you and all enemies within %immolate_aoe% units of you will take damage.\nAdditionally, all damage dealt to you will heal instead of harm. Most negative buffs will also be removed.\n\nIf the ability is not on cooldown, it will automatically activate if your health falls below %hp_threshold%%% of your maximum.\n\nCOOLDOWN TYPE: When Buff Expires\nDISPEL TYPE: Strong Dispel"
+			"DOTA_Tooltip_ability_abaddon_borrowed_time_scepter_description"									"Increases duration. While Borrowed Time is active, anytime an ally takes a total of more than %ally_threshold_scepter%%% of their maximum health as damage while within %redirect_range_scepter% range of Abaddon, an individual Mist Coil will automatically fire towards that ally."
+			"DOTA_Tooltip_ability_abaddon_borrowed_time_immolate_damage"										"IMMOLATION DPS:"
+			"DOTA_Tooltip_ability_abaddon_borrowed_time_hp_threshold"											""
+			"DOTA_Tooltip_modifier_abaddon_borrowed_time_active"												"Borrowed Time"
+			"DOTA_Tooltip_modifier_abaddon_borrowed_time_active_Description"									"Immortal."
+			
 			//Alchemist
 			"DOTA_Tooltip_ability_alchemist_goblins_greed_bounty_multiplier"                                    "%BONUS GOLD:"
 			"DOTA_Tooltip_ability_alchemist_goblins_greed_Description"                                          "Alchemist synthesizes additional gold. Every time he gains gold from any source, he gets bonus gold.\n\nDoes not stack with Hand of Midas."
@@ -1797,9 +1824,15 @@
 			"DOTA_Tooltip_ability_special_bonus_strength_240"                                                   "+{s:value} Strength"
 			"DOTA_Tooltip_ability_special_bonus_strength_300"                                                   "+{s:value} Strength"
 			"DOTA_Tooltip_ability_special_bonus_strength_400"                                                   "+{s:value} Strength"
+			"DOTA_Tooltip_ability_special_bonus_strength_450"                                                   "+{s:value} Strength"
 			"DOTA_Tooltip_ability_special_bonus_strength_800"                                                   "+{s:value} Strength"
+			"DOTA_Tooltip_ability_special_bonus_unique_axe_helix"												"+{s:bonus_damage}% Counter Helix Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_abaddon"                                                 "+{s:bonus_damage_absorb}% Aphotic Shield Barrier Amount"
 			"DOTA_Tooltip_ability_special_bonus_unique_abaddon_2"                                               "+{s:bonus_target_damage}% Mist Coil Heal/Damage"
+			"DOTA_Tooltip_ability_special_bonus_unique_abaddon_aphotic_shield_damage"							"+{s:bonus_absorbed_to_damage}% Apothic Shield Damage Absorbed to Damage Dealt"
+			"DOTA_Tooltip_ability_special_bonus_unique_abaddon_aphotic_shield_cd"								"-{s:bonus_AbilityCooldown} Aphotic Shield Cooldown"
+			"DOTA_Tooltip_ability_special_bonus_unique_abaddon_immolation"										"+{s:bonus_immolate_damage}% DPS/Radius Borrowed Time Immolation"
+			"DOTA_Tooltip_ability_special_bonus_unique_abaddon_immolation_Description"							""
 			"DOTA_Tooltip_ability_special_bonus_unique_alchemist_2"                                             "+{s:bonus_max_damage}% Unstable Concoction Max Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_2"                                    "+{s:bonus_damage}% Chilling Touch Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_ancient_apparition_3"                                    "-{s:bonus_AbilityCooldown}% Ice Vortex Cooldown"
@@ -4185,8 +4218,8 @@
 			"DOTA_Tooltip_ability_item_zero_bonus_mana"                                                         "+$mana"
 			"DOTA_Tooltip_ability_item_zero_Description"                                                        "<h1>Aura: Sub-Zero</h1> Deals %aura_damage% damage per second, slows movement speed by %aura_movespeed%%% and attack speed by %aura_attackspeed%, causes enemies to miss %aura_miss_pct%%% of their attacks and reduces all healing they receive by %aura_heal_reduction%%.<br><br>Illusions deal %aura_damage_illusions% damage instead.<br><br>Radius: %aura_radius%"
 			"DOTA_Tooltip_ability_item_zero_Lore"                                                               "Anyone hurt by this weapon is freezed for eternity."
-			"DOTA_Tooltip_item_zero_debuff"                                                                     "Sub Zero Aura"
-			"DOTA_Tooltip_item_zero_debuff_Description"                                                         "Reduces attack and movement speed, deals damage every second."
+			"DOTA_Tooltip_modifier_item_zero_burn"                                                        "Burn Damage"
+			"DOTA_Tooltip_modifier_item_zero_burn_Description"                                            "Taking damage every second, and missing %dMODIFIER_PROPERTY_MISS_PERCENTAGE%%% of attacks."
 			
 			"DOTA_Tooltip_ability_item_zweihander"                                                              "Zweihander"
 			"DOTA_Tooltip_ability_item_zweihander_bonus_damage"                                                 "+$damage"
