@@ -1346,6 +1346,9 @@
 
 
 			//Hoodwink
+			"DOTA_Tooltip_ability_hoodwink_scurry_Description"													"Герой имеет шанс избежать физических атак, находясь рядом с деревьями.\nПри активации эта способность ускоряет передвижение, даёт уклонение и позволяет проходить сквозь существ и деревья."
+			"DOTA_Tooltip_ability_hoodwink_scurry_bonus_active_evasion"											"АКТИВНОЕ УКЛОНЕНИЕ SCURRY:"
+			
 			"DOTA_Tooltip_ability_hoodwink_sharpshooter_AbilityCooldown"                                        "ПЕРЕЗАРЯДКА:"
 			"DOTA_Tooltip_ability_hoodwink_sharpshooter_Description"                                            "Герой готовит смертельный выстрел из своего арбалета. Он наносит вражескому герою огромный урон, замедляет его и накладывает истощение. Урон и длительность эффекта становятся максимальными спустя %max_charge_time% сек. подготовки, а выстрел происходит автоматически спустя %misfire_time% сек.\nОтдача отталкивает героя назад на расстояние в %recoil_distance%."
 			"DOTA_Tooltip_ability_hoodwink_sharpshooter_scepter_description"                                    "Перезарядка Sharpshooter уменьшена и пронзает всех юнитов, даже героев."
