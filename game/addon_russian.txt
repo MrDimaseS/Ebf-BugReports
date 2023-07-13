@@ -1357,6 +1357,10 @@
 			"DOTA_Tooltip_modifier_hoodwink_sharpshooter_ebf_debuff"                                            "Sharpshooter - Debuff"
 			"DOTA_Tooltip_modifier_hoodwink_sharpshooter_ebf_debuff_Description"                                "Пассивные способности отключены, передвижение замедлено на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%."
 
+			// Kunkka
+			"DOTA_Tooltip_ability_kunkka_tidebringer_shard_description"											"Перезарядка Tidebringer уменьшена вдвое, а его расстояние прорубания, начальная и конечная ширина удвоены."
+			"DOTA_Tooltip_ability_kunkka_tidebringer_AbilityCooldown"											"ПЕРЕЗАРЯДКА:"
+
 
 			//Legion Commander
 			"DOTA_Tooltip_ability_legion_commander_Duel"                                                        "Duel"
@@ -1654,13 +1658,17 @@
 
 
 			//Spectre
-			"DOTA_Tooltip_ability_spectre_ebf_haunt"                                                            "Trauma"
-			"DOTA_Tooltip_ability_spectre_ebf_haunt_armor_reduction_perstack"                                   "СНИЖЕНИЕ БРОНИ ЗА УДАР:"
-			"DOTA_Tooltip_ability_spectre_ebf_haunt_Description"                                                "Каждый удар снижает броню противника. Длится %duration% секунд."
-			"DOTA_Tooltip_ability_spectre_ebf_haunt_duration"                                                   "ДЛИТЕЛЬНОСТЬ:"
-			"DOTA_Tooltip_ability_spectre_ebf_haunt_lore"                                                       "Нападения Spectre навсегда запомнились ее жертвам."
-			"DOTA_Tooltip_modifier_spectre_dispersion_boost"													"Dispersion"
-			"DOTA_Tooltip_modifier_spectre_dispersion_boost_Description"										"Отражает 100% урона"
+			"DOTA_Tooltip_ability_spectre_desolate_Description"													"Каждая атака наносит дополнительный урон увеличенный на %lonely_multiplier%%%, если в радиусе %radius% от жертвы нет её союзников."
+
+			"DOTA_Tooltip_ability_spectre_haunt_Description"													"Вы взываете к своим экстрапланарным я. На время работы навыка - все вражеские герои атакованы.\nПока Haunt активен, Reality становится доступной, что позволяет вам телепортироваться к целевому герою. Кроме того, ваши атаки временно уменьшают броню, а Desolate всегда применяет свой множитель к наносимому урону."
+			"DOTA_Tooltip_ability_spectre_haunt_armor_reduction"												"СНИЖЕНИЕ БРОНИ HAUNT:"
+			"DOTA_Tooltip_modifier_spectre_haunt_active"														"Haunt - Buff"
+			"DOTA_Tooltip_modifier_spectre_haunt_active_Description"											"Атакует ближайшего врага, атаки снижают броню и Desolate наносит максимальный урон."
+			"DOTA_Tooltip_modifier_spectre_haunt_debuff"														"Haunt - Corruption"
+			"DOTA_Tooltip_modifier_spectre_haunt_debuff_Description"											"Броня снижена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%."
+			
+			"DOTA_Tooltip_ability_spectre_reality_Description"													"Spectre телепортируется к выбранному герою."
+			"DOTA_Tooltip_ability_spectre_haunt_single_Description"												"Позволяет Spectre телепортироваться к врагу или союзнику. Spectre также получает Haunt меньшей продолжительности."
 
 
 			//Spirit Breaker
@@ -1784,6 +1792,7 @@
 			"DOTA_Tooltip_ability_special_bonus_agility_300"                                                    "+{s:value} к ловкости"
 			"DOTA_Tooltip_ability_special_bonus_agility_500"                                                    "+{s:value} к ловкости"
 			"DOTA_Tooltip_ability_special_bonus_all_stats_100"                                                  "+{s:value} ко всем атрибутам"
+			"DOTA_Tooltip_ability_special_bonus_all_stats_200"                                                  "+{s:value} ко всем атрибутам"
 			"DOTA_Tooltip_ability_special_bonus_all_stats_1000"                                                 "+{s:value} ко всем атрибутам"
 			"DOTA_Tooltip_ability_special_bonus_all_stats_50"                                                   "+{s:value} ко всем атрибутам"
 			"DOTA_Tooltip_ability_special_bonus_all_stats_500"                                                  "+{s:value} ко всем атрибутам"
@@ -1883,6 +1892,8 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_jakiro_8"                                                "+{s:value}% к урону от Liquid Fire"
 			"DOTA_Tooltip_ability_special_bonus_unique_juggernaut_3"                                            "+{s:value}% к урону в секунду от Blade Fury"
 			"DOTA_Tooltip_ability_special_bonus_unique_keeper_of_the_light"                                     "+{s:bonus_total_damage}% к урону от Illuminate"
+			"DOTA_Tooltip_ability_special_bonus_unique_kunkka_7"												"+{s:bonus_stun_duration}% к урону и продолжительности Torrent"
+			"DOTA_Tooltip_ability_special_bonus_unique_kunkka_tidal_wave_damage"								"+{s:bonus_damage}% к урону Tidal Wave"
 			"DOTA_Tooltip_ability_special_bonus_unique_legion_commander"                                        "+{s:value}% к дополнительному урону от Duel"
 			"DOTA_Tooltip_ability_special_bonus_unique_legion_commander_4"                                      "+{s:bonus_damage_per_hero}% к урону за героя от Overwhelming Odds"
 			"DOTA_Tooltip_ability_special_bonus_unique_leshrac_3"                                               "+{s:value}% к урону от Pulse Nova"
@@ -1917,6 +1928,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_nyx"                                                     "Mana Burn по области радиусом {s:bonus_aoe}"
 			"DOTA_Tooltip_ability_special_bonus_unique_nyx_2"                                                   "+{s:value}% к урону от Impale"
 			"DOTA_Tooltip_ability_special_bonus_unique_nyx_5"                                                   "+{s:bonus_float_multiplier}% к множителю интеллекта у Mana Burn"
+			"DOTA_Tooltip_ability_special_bonus_unique_ogre_magi"                                   	        "+{s:value}% к скорости атаки Bloodlust"
 			"DOTA_Tooltip_ability_special_bonus_unique_ogre_magi_2"                                             "+{s:value}% к урону от Fireblast"
 			"DOTA_Tooltip_ability_special_bonus_unique_omniknight_1"                                            "+{s:value}% к лечению/урону от Purification"
 			"DOTA_Tooltip_ability_special_bonus_unique_oracle_fortunes_end_damage"                              "+{s:bonus_damage}% к урону от Fortune's End"
@@ -1957,9 +1969,9 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_snapfire_mortimer_kisses_impact_damage"                  "+{s:bonus_damage_per_impact}% к урону от шара у Mortimer Kisses"
 			"DOTA_Tooltip_ability_special_bonus_unique_sniper_1"                                                "+{s:value} к урону в секунду от Shrapnel"
 			"DOTA_Tooltip_ability_special_bonus_unique_sniper_headshot_damage"                                  "+{s:bonus_damage} к урону от Headshot"
-			"DOTA_Tooltip_ability_special_bonus_unique_spectre_2"                                               "+{s:value}% к урону от Desolate"
-			"DOTA_Tooltip_ability_special_bonus_unique_spectre_4"                                               "+{s:value} к снижению брони Trauma"
-			"DOTA_Tooltip_ability_special_bonus_unique_spectre_6"                                               "+{s:value}% к урону от Spectral Dagger"
+			"DOTA_Tooltip_ability_special_bonus_unique_spectre_2"                                               "+{s:bonus_bonus_damage}% к урону от Desolate"
+			"DOTA_Tooltip_ability_special_bonus_unique_spectre_4"                                               "+{s:bonus_armor_reduction} к снижению брони Trauma"
+			"DOTA_Tooltip_ability_special_bonus_unique_spectre_6"                                               "+{s:bonus_damage}% к урону от Spectral Dagger"
 			"DOTA_Tooltip_ability_special_bonus_unique_spirit_breaker_nether_strike_cd"                         "+{s:value}% перезарядки Nether Strike"
 			"DOTA_Tooltip_ability_special_bonus_unique_storm_spirit_5"                                          "+{s:value}% к урону от Static Remnant"
 			"DOTA_Tooltip_ability_special_bonus_unique_templar_assassin_refraction_damage"                      "+{s:bonus_bonus_damage}% к доп. урону от Refraction"
