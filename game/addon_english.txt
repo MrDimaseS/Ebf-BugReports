@@ -1723,6 +1723,17 @@
 			"DOTA_Tooltip_modifier_tinker_rearm_debuff"															"Rearm Sickness"
 			"DOTA_Tooltip_modifier_tinker_rearm_debuff_Description"												"The duration of your buffs and debuffs are reduced by %dMODIFIER_PROPERTY_TOOLTIP%%%."
 			
+			//Tiny
+			"DOTA_Tooltip_ability_tiny_toss_Description"														"Grabs the nearest unit in a %grab_radius% radius around Tiny, ally or enemy, and launches it at the target position to deal damage where they land.\nIf no unit is around to grab, throws a boulder instead."
+			"DOTA_Patch_7_33d_tiny_tiny_toss"																	"Toss doesn't need a unit to grab and can always target a position."
+			
+			"DOTA_Tooltip_ability_tiny_grow_Description"														"Tiny gains craggy mass, increasing his attack damage, and armor, and ability power while slowing his attack speed."
+			"DOTA_Tooltip_ability_tiny_grow_Lore"																"Watching a hill become a mountain is awe-inspiring - especially if the mountain begins laying waste to adversaries."
+			"DOTA_Tooltip_ability_tiny_grow_toss_bonus_damage"														""
+			"DOTA_Tooltip_ability_tiny_grow_spell_bonus_damage"													"%BONUS AVALANCHE AND TOSS DAMAGE:"
+			"DOTA_Tooltip_ability_tiny_grow_spell_bonus_range"													"%BONUS AVALANCHE AND TOSS RANGE:"
+			"DOTA_EBF_Difference_tiny_grow"																		"Grow increases both Avalanche and Toss's damage. Also increases their cast range and radius."
+			
 			
 			//Undying
 			"DOTA_Tooltip_ability_undying_decay"                                                                "Decay"
@@ -1755,7 +1766,7 @@
 			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_handle_Description"                                "Taking %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%% less damage from all sources"
 			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_passive"                                           "Gravekeeper's Cloak"
 			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_passive_Description"                               "Taking %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%% less damage from all sources"
-
+			"DOTA_Tooltip_ability_special_bonus_unique_visage_6"												"+{s:bonus_familiar_count} Familiars"
 			
 			//Void Spirit
 			"DOTA_Tooltip_ability_void_spirit_aether_remnant_shard_attack_rate_multiplier"                      "REMNANT ATTACK RATE MULTIPLIER."
@@ -1763,6 +1774,9 @@
 			"DOTA_Tooltip_modifier_void_spirit_resonant_pulse_shield"                                           "Resonant Pulse"
 			"DOTA_Tooltip_modifier_void_spirit_resonant_pulse_shield_Description"                               "Blocking %dMODIFIER_PROPERTY_TOOLTIP% physical damage."
 			
+			//Weaver
+			"DOTA_Tooltip_ability_weaver_geminate_attack_shard_description"										"Geminate Attack's cooldown is reduced."
+			"DOTA_Tooltip_ability_weaver_geminate_attack_AbilityCooldown"										"COOLDOWN:"
 			
 			//Wisp
 			"DOTA_Tooltip_ability_wisp_sacrifice"                                                               "Sacrifice"
@@ -1868,6 +1882,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_centaur_3"                                               "+{s:bonus_return_damage}% Retaliate Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_centaur_4"                                               "+{s:bonus_edge_damage}% Double Edge Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_clinkz_1"                                                "+{s:bonus_damage_bonus}% Tar Bomb Bonus Attack Damage"
+			"DOTA_Tooltip_ability_special_bonus_unique_clinkz_4"												"-{s:bonus_AbilityCooldown}% Strafe Cooldown"
 			"DOTA_Tooltip_ability_special_bonus_unique_clinkz_8"                                                "+{s:bonus_health_gain}% Death Pact Health"
 			"DOTA_Tooltip_ability_special_bonus_unique_clockwerk_3"                                             "+{s:bonus_damage}% Battery Assault Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_clockwerk_flare_damage"                                  "+{s:bonus_damage}% Rocket Flare Damage"
@@ -1875,6 +1890,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_3"                                        "+{s:bonus_damage}% Freezing Field Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_dark_willow_4"                                           "+{s:value}% Bedlam Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_dawnbreaker_fire_wreath_swipe"                           "+{s:bonus_swipe_damage}% Starbreaker Swipe/Smash Damage"
+			"DOTA_Tooltip_ability_special_bonus_unique_dazzle_3"												"+{s:bonus_damage}% Poison Touch DPS"
 			"DOTA_Tooltip_ability_special_bonus_unique_death_prophet_3"                                         "+{s:bonus_damage}% Spirit Siphon Damage/Heal"
 			"DOTA_Tooltip_ability_special_bonus_unique_disruptor_9"                                             "+{s:bonus_bonus_damage}% Glimpse Max Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_doom_4"                                                  "+{s:value}% Scorched Earth Damage"
@@ -1898,6 +1914,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_furion_7"                                                "Sprout Trees Create {s:value} Greater Treant"
 			"DOTA_Tooltip_ability_special_bonus_unique_furion_7_Description"                                    "The first 2 Sprout Trees that are destroyed create a Greater Treant in their place."
 			"DOTA_Tooltip_ability_special_bonus_unique_grimstroke_5"                                            "+{s:value}% Ink Swell Damage"
+			"DOTA_Tooltip_ability_special_bonus_unique_grimstroke_8"											"+{s:bonus_damage_per_second}% Phantom's Embrace DPS"
 			"DOTA_Tooltip_ability_special_bonus_unique_hoodwink_bushwhack_damage"                               "+{s:value}% Bushwhack Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_jakiro_7"                                                "+{s:value}% Macropyre Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_jakiro_8"                                                "+{s:value}% Liquid Fire Damage"
@@ -1949,6 +1966,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_phoenix_3"                                               "+{s:value}% Fire Spirits Damage Per Second"
 			"DOTA_Tooltip_ability_special_bonus_unique_primal_beast_roar_dispells"                              "Uproar Spell Immunity"
 			"DOTA_Tooltip_ability_special_bonus_unique_primal_beast_roar_dispells_Description"                  "Spell Immunity duration is equal to stacks on cast."
+			"DOTA_Tooltip_Ability_special_bonus_unique_primal_beast_onslaught_damage"							"+{s:bonus_knockback_damage}% Onslaught Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_puck_6"                                                  "+{s:bonus_damage}% Waning Rift Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_puck_coil_damage"                                        "+{s:bonus_coil_break_damage}% Initial/Break Dream Coil Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_puck_orb_damage"											"+{s:bonus_damage}% Illusory Orb Damage"
@@ -1981,7 +1999,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_sniper_1"                                                "+{s:value}% Shrapnel DPS"
 			"DOTA_Tooltip_ability_special_bonus_unique_sniper_headshot_damage"                                  "+{s:bonus_damage}% Headshot Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_spectre_2"                                               "+{s:bonus_bonus_damage}% Desolate Damage"
-			"DOTA_Tooltip_ability_special_bonus_unique_spectre_4"                                               "+{s:bonus_armor_reduction} Trauma Armor Reduction"
+			"DOTA_Tooltip_ability_special_bonus_unique_spectre_4"                                               "+{s:bonus_armor_reduction} Haunt Armor Reduction"
 			"DOTA_Tooltip_ability_special_bonus_unique_spectre_6"                                               "+{s:bonus_damage}% Spectral Dagger Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_spirit_breaker_nether_strike_cd"                         "+{s:value}% Nether Strike cooldown"
 			"DOTA_Tooltip_ability_special_bonus_unique_storm_spirit_5"                                          "+{s:value}% Static Remnant Damage"

@@ -1708,14 +1708,25 @@
 
 
 			//Tinker
-			"DOTA_Tooltip_ability_tinker_rearm"                                                          "Rearm"
-			"DOTA_Tooltip_ability_tinker_rearm_abilitychanneltime"                                       "ВРЕМЯ ПРИМЕНЕНИЯ:"
-			"DOTA_Tooltip_ability_tinker_rearm_abilitydraft_note"                                        "Для способностей с зарядами один заряд способности будет добавляться каждый раз, когда используется Rearm."
-			"DOTA_Tooltip_ability_tinker_rearm_Description"                                              "ПРЕРЫВАЕМАЯ — сбрасывает время перезарядки способностей и большинства предметов героя."
-			"DOTA_Tooltip_ability_tinker_rearm_Lore"                                                     "Новую батарею сюда, пару ракет туда — Боуш постоянно совершенствует и обновляет свои устройства."
-			"DOTA_Tooltip_ability_tinker_rearm_Note0"                                                    "Действует на все предметы за исключением Aeon Disk, Arcane Boots, Black King Bar, Hand of Midas, Helm of the Dominator, Helm of the Overlord, Linken's Sphere, Meteor Hammer, Pipe of Insight, Refresher Orb, пассивной способности Revenant's Brooch и всех нейтральных предметов."
-			"DOTA_Tooltip_modifier_tinker_rearm"                                                         "Rearm"
-			"DOTA_Tooltip_modifier_tinker_rearm_Description"                                             "Сбрасывает время перезарядки способностей."
+			"DOTA_Tooltip_ability_tinker_rearm"																	"Rearm"
+			"DOTA_Tooltip_ability_tinker_rearm_abilitychanneltime"												"ВРЕМЯ ПРИМЕНЕНИЯ:"
+			"DOTA_Tooltip_ability_tinker_rearm_abilitydraft_note"												"Для способностей с зарядами один заряд способности будет добавляться каждый раз, когда используется Rearm."
+			"DOTA_Tooltip_ability_tinker_rearm_Description"														"ПРЕРЫВАЕМАЯ — сбрасывает время перезарядки способностей и большинства предметов героя."
+			"DOTA_Tooltip_ability_tinker_rearm_Lore"															"Новую батарею сюда, пару ракет туда — Боуш постоянно совершенствует и обновляет свои устройства."
+			"DOTA_Tooltip_ability_tinker_rearm_Note0"															"Действует на все предметы за исключением Aeon Disk, Arcane Boots, Black King Bar, Hand of Midas, Helm of the Dominator, Helm of the Overlord, Linken's Sphere, Meteor Hammer, Pipe of Insight, Refresher Orb, пассивной способности Revenant's Brooch и всех нейтральных предметов."
+			"DOTA_Tooltip_modifier_tinker_rearm"																"Rearm"
+			"DOTA_Tooltip_modifier_tinker_rearm_Description"													"Сбрасывает время перезарядки способностей."
+
+			//Tiny
+			"DOTA_Tooltip_ability_tiny_toss_Description"														"Захватывает ближайшего юнита в радиусе %grab_radius% вокруг Tiny и запускает его в указанную позицию, нанося урон там, где он приземляется.\nЕсли вокруг нет юнита, которого можно было бы схватить, вместо этого бросает валун."
+			"DOTA_Patch_7_33d_tiny_tiny_toss"																	"Toss не нужен юнит для захвата, и он всегда может выбрать позицию."
+
+			"DOTA_Tooltip_ability_tiny_grow_Description"														"Герой обрастает камнями, увеличивая свой урон от атак и броню, а также усиливая способности, но теряя скорость атаки."
+			"DOTA_Tooltip_ability_tiny_grow_Lore"																"Наблюдать превращение холма в гору становится вдвойне интереснее, когда эта гора начинает сокрушать противников."
+			"DOTA_Tooltip_ability_tiny_grow_toss_bonus_damage"													""
+			"DOTA_Tooltip_ability_tiny_grow_spell_bonus_damage"													"%БОНУС К УРОНУ ОТ AVALANCE И TOSS:"
+			"DOTA_Tooltip_ability_tiny_grow_spell_bonus_range"													"%БОНУС К РАДИУСУ ОТ AVALANCE И TOSS:"
+			"DOTA_EBF_Difference_tiny_grow"																		"Grow увеличивает урон от Avalanche и Toss. Также увеличивает дальность и радиус их применения."
 
 
 			//Undying
@@ -1749,7 +1760,7 @@
 			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_handle_Description"                                "Получает на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%% меньше урона из всех источников"
 			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_passive"											"Gravekeeper's Cloak"
 			"DOTA_Tooltip_modifier_visage_gravekeepers_cloak_passive_Description"								"Получает на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%% меньше урона из всех источников"
-
+			"DOTA_Tooltip_ability_special_bonus_unique_visage_6"												"+{s:bonus_familiar_count} к числу гаргулий"
 
 			//Void Spirit
 			"DOTA_Tooltip_ability_void_spirit_aether_remnant_shard_attack_rate_multiplier"                      "МНОЖИТЕЛЬ СКОРОСТИ АТАКИ REMNANT"
@@ -1757,7 +1768,11 @@
 			"DOTA_Tooltip_modifier_void_spirit_resonant_pulse_shield"                                           "Resonant Pulse"
 			"DOTA_Tooltip_modifier_void_spirit_resonant_pulse_shield_Description"                               "Блокирует %dMODIFIER_PROPERTY_TOOLTIP% физического урона."
 
+			//Weaver
+			"DOTA_Tooltip_ability_weaver_geminate_attack_shard_description"										"Уменьшает время перезарядки Geminate Attack."
+			"DOTA_Tooltip_ability_weaver_geminate_attack_AbilityCooldown"										"ПЕРЕЗАРЯДКА:"
 
+			
 			//Wisp
 			"DOTA_Tooltip_ability_wisp_Sacrifice"                                                               "Sacrifice"
 			"DOTA_Tooltip_ability_wisp_sacrifice_Description"                                                   "Wisp жертвует своей жизненной силой, чтобы усилить своих союзников. Wisp привязывается ко всем своим союзников, теряя часть своего максимального здоровья и маны в течение продолжительности действия.\nНа время действия - союзники получают здоровье и ману, потерянные Wisp, увеличенные бонусом восстановления Tether. Если Wisp использует Overcharge во время Sacrifice, все союзники получают от этого преимущество."
@@ -1857,6 +1872,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_centaur_3"                                               "+{s:bonus_return_damage}% к урону от Retaliate"
 			"DOTA_Tooltip_ability_special_bonus_unique_centaur_4"                                               "+{s:bonus_edge_damage}% к урону Double Edge"
 			"DOTA_Tooltip_ability_special_bonus_unique_clinkz_1"                                                "+{s:bonus_damage_bonus}% к доп. урону от атак у Tar Bomb"
+			"DOTA_Tooltip_ability_special_bonus_unique_clinkz_4"												"–{s:bonus_AbilityCooldown}% перезарядки Strafe"
 			"DOTA_Tooltip_ability_special_bonus_unique_clinkz_8"                                                "+{s:bonus_health_gain}% к здоровью от Death Pact"
 			"DOTA_Tooltip_ability_special_bonus_unique_clockwerk_3"                                             "+{s:bonus_damage}% к урону от Battery Assault"
 			"DOTA_Tooltip_ability_special_bonus_unique_clockwerk_flare_damage"                                  "+{s:bonus_damage}% к урону от Rocket Flare"
@@ -1864,6 +1880,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_crystal_maiden_3"                                        "+{s:bonus_damage}% к урону от Freezing Field"
 			"DOTA_Tooltip_ability_special_bonus_unique_dark_willow_4"                                           "+{s:value}% к урону от Bedlam"
 			"DOTA_Tooltip_ability_special_bonus_unique_dawnbreaker_fire_wreath_swipe"                           "+{s:bonus_swipe_damage}% к доп. урону от взмахов и удара у Starbreaker"
+			"DOTA_Tooltip_ability_special_bonus_unique_dazzle_3"												"+{s:bonus_damage}% к урону в секунду от Poison Touch"
 			"DOTA_Tooltip_ability_special_bonus_unique_death_prophet_3"                                         "+{s:bonus_damage}% к урону/лечению от Spirit Siphon"
 			"DOTA_Tooltip_ability_special_bonus_unique_disruptor_9"                                             "+{s:bonus_bonus_damage}% к макс. урону от Glimpse"
 			"DOTA_Tooltip_ability_special_bonus_unique_doom_4"                                                  "+{s:value}% к урону от Scorched Earth"
@@ -1887,6 +1904,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_furion_7"                                                "Sprout создаёт {s:value} Greater Treant"
 			"DOTA_Tooltip_ability_special_bonus_unique_furion_7_Description"                                    "Первые 2 уничтоженых дерева Sprout создают на их месте Greater Treant."
 			"DOTA_Tooltip_ability_special_bonus_unique_grimstroke_5"                                            "+{s:value}% к максимальному урону от Ink Swell"
+			"DOTA_Tooltip_ability_special_bonus_unique_grimstroke_8"											"+{s:bonus_damage_per_second}% к урону в сек. от Phantom's Embrace"
 			"DOTA_Tooltip_ability_special_bonus_unique_hoodwink_bushwhack_damage"                               "+{s:value}% к урону от Bushwhack"
 			"DOTA_Tooltip_ability_special_bonus_unique_jakiro_7"                                                "+{s:value}% к урону от Macropyre"
 			"DOTA_Tooltip_ability_special_bonus_unique_jakiro_8"                                                "+{s:value}% к урону от Liquid Fire"
@@ -1938,6 +1956,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_phoenix_3"                                               "+{s:value}% к урону в секунду от Fire Spirits"
 			"DOTA_Tooltip_ability_special_bonus_unique_primal_beast_roar_dispells"                              "Невосприимчивость к магии во время Uproar"
 			"DOTA_Tooltip_ability_special_bonus_unique_primal_beast_roar_dispells_Description"                  "Продолжительность невосприимчивости к заклинаниям равна количеству стаков при применении."
+			"DOTA_Tooltip_Ability_special_bonus_unique_primal_beast_onslaught_damage"							"+{s:bonus_knockback_damage}% к урону от Onslaught"
 			"DOTA_Tooltip_ability_special_bonus_unique_puck_6"                                                  "+{s:bonus_damage}% к урону от Waning Rift"
 			"DOTA_Tooltip_ability_special_bonus_unique_puck_coil_damage"                                        "+{s:bonus_coil_break_damage}% ко всему урону от Dream Coil"
 			"DOTA_Tooltip_ability_special_bonus_unique_puck_orb_damage"											"+{s:bonus_damage}% к урону от Illusory Orb"
@@ -1970,7 +1989,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_sniper_1"                                                "+{s:value} к урону в секунду от Shrapnel"
 			"DOTA_Tooltip_ability_special_bonus_unique_sniper_headshot_damage"                                  "+{s:bonus_damage} к урону от Headshot"
 			"DOTA_Tooltip_ability_special_bonus_unique_spectre_2"                                               "+{s:bonus_bonus_damage}% к урону от Desolate"
-			"DOTA_Tooltip_ability_special_bonus_unique_spectre_4"                                               "+{s:bonus_armor_reduction} к снижению брони Trauma"
+			"DOTA_Tooltip_ability_special_bonus_unique_spectre_4"                                               "+{s:bonus_armor_reduction} к снижению брони Haunt"
 			"DOTA_Tooltip_ability_special_bonus_unique_spectre_6"                                               "+{s:bonus_damage}% к урону от Spectral Dagger"
 			"DOTA_Tooltip_ability_special_bonus_unique_spirit_breaker_nether_strike_cd"                         "+{s:value}% перезарядки Nether Strike"
 			"DOTA_Tooltip_ability_special_bonus_unique_storm_spirit_5"                                          "+{s:value}% к урону от Static Remnant"
