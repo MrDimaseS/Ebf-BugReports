@@ -1891,6 +1891,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_dark_willow_4"                                           "+{s:value}% Bedlam Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_dawnbreaker_fire_wreath_swipe"                           "+{s:bonus_swipe_damage}% Starbreaker Swipe/Smash Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_dazzle_3"												"+{s:bonus_damage}% Poison Touch DPS"
+			"DOTA_Tooltip_ability_special_bonus_unique_dark_seer"												"+{s:bonus_damage_per_second}% Ion Shell Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_death_prophet_3"                                         "+{s:bonus_damage}% Spirit Siphon Damage/Heal"
 			"DOTA_Tooltip_ability_special_bonus_unique_disruptor_9"                                             "+{s:bonus_bonus_damage}% Glimpse Max Damage"
 			"DOTA_Tooltip_ability_special_bonus_unique_doom_4"                                                  "+{s:value}% Scorched Earth Damage"

@@ -1881,6 +1881,7 @@
 			"DOTA_Tooltip_ability_special_bonus_unique_dark_willow_4"                                           "+{s:value}% к урону от Bedlam"
 			"DOTA_Tooltip_ability_special_bonus_unique_dawnbreaker_fire_wreath_swipe"                           "+{s:bonus_swipe_damage}% к доп. урону от взмахов и удара у Starbreaker"
 			"DOTA_Tooltip_ability_special_bonus_unique_dazzle_3"												"+{s:bonus_damage}% к урону в секунду от Poison Touch"
+			"DOTA_Tooltip_ability_special_bonus_unique_dark_seer"												"+{s:bonus_damage_per_second}% к урону от Ion Shell"
 			"DOTA_Tooltip_ability_special_bonus_unique_death_prophet_3"                                         "+{s:bonus_damage}% к урону/лечению от Spirit Siphon"
 			"DOTA_Tooltip_ability_special_bonus_unique_disruptor_9"                                             "+{s:bonus_bonus_damage}% к макс. урону от Glimpse"
 			"DOTA_Tooltip_ability_special_bonus_unique_doom_4"                                                  "+{s:value}% к урону от Scorched Earth"
