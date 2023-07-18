@@ -12,6 +12,7 @@
 	"wave_UI"				"Disable wave UI"
 	"minimap_hide"			"Hide the minimap"
 	"hide_top_UI"			"Hide the Top UI"
+	"rightsideui"			"Right side UI"
 	"options"				"Options"
 
 	//Profile

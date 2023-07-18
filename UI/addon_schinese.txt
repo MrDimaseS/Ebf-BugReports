@@ -12,6 +12,7 @@
 "wave_UI"					"禁用 wave UI"
 "minimap_hide"				"隐藏小地图"
 "hide_top_UI"				"隐藏顶部 UI"
+"rightsideui"			    "右侧用户界面"
 "options"					"选项"
 
 //轮廓

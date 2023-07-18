@@ -11,7 +11,8 @@
 	//Options
 	"wave_UI"				"Отключить показ волн"
 	"minimap_hide"			"Скрыть миникарту"
-	"hide_top_UI"			"Hide the Top UI"
+	"hide_top_UI"			"Спрятать верх UI"
+	"rightsideui"			"UI с правой стороны"
 	"options"				"Опции"
 
 	//Profile

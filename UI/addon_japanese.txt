@@ -12,6 +12,7 @@ addon
 	"wave_UI"				"ウェーブUIを非表示"
 	"minimap_hide"			"ミニマップを非表示"
 	"hide_top_UI"			"上部のUIを非表示"
+	"rightsideui"			"右側の UI"
 	"options"				"オプション"
 
 	//プロフィール
